@@ -1,0 +1,372 @@
+Ext Ryzeal --> Ice Ryzeal:
+	-Sword Ryzeal
+	-Mulcharmy Fuwalos
+	-Fabled Lurrie
+	-Node Ryzeal
+	-Effect Veiler
+	-Nibiru, the Primal Being
+	-Fiendsmith Engraver
+
+Ext Ryzeal --> Sword Ryzeal:
+	-Mulcharmy Fuwalos
+
+Ext Ryzeal --> Node Ryzeal:
+	-Mulcharmy Fuwalos
+
+Ext Ryzeal --> Fabled Lurrie:
+	-Artifact Lancea
+	-Nibiru, the Primal Being
+
+Ext Ryzeal --> Lacrima the Crimson Tears:
+	-Sword Ryzeal
+	-Mulcharmy Fuwalos
+	-Artifact Lancea
+	-Node Ryzeal
+	-Effect Veiler
+	-Nibiru, the Primal Being
+
+Ext Ryzeal --> Fiendsmith Engraver:
+	-Bystial Magnamhut
+	-Bystial Druiswurm
+	-Artifact Lancea
+	-Effect Veiler
+	-Nibiru, the Primal Being
+
+Ext Ryzeal --> Mulcharmy Fuwalos:
+	-Node Ryzeal
+	-Nibiru, the Primal Being
+	-Sword Ryzeal
+
+Ext Ryzeal --> Bystial Magnamhut:
+	-Fiendsmith Engraver
+
+Ext Ryzeal --> Bystial Druiswurm:
+	-Fiendsmith Engraver
+
+Ext Ryzeal --> Effect Veiler:
+	-Artifact Lancea
+	-Nibiru, the Primal Being
+	-Fiendsmith Engraver
+
+Ext Ryzeal --> Nibiru, the Primal Being:
+	-Mulcharmy Fuwalos
+	-Fabled Lurrie
+	-Artifact Lancea
+	-Effect Veiler
+	-Fiendsmith Engraver
+
+Ext Ryzeal --> Artifact Lancea:
+	-Fabled Lurrie
+	-Effect Veiler
+	-Nibiru, the Primal Being
+	-Fiendsmith Engraver
+
+Ext Ryzeal --> Droll & Lock Bird:
+	-Fabled Lurrie
+	-Mulcharmy Fuwalos
+
+Ice Ryzeal --> Sword Ryzeal:
+	-Mulcharmy Fuwalos
+
+Ice Ryzeal --> Node Ryzeal:
+	-Mulcharmy Fuwalos
+
+Ice Ryzeal --> Fabled Lurrie:
+	-Nibiru, the Primal Being
+
+Ice Ryzeal --> Lacrima the Crimson Tears:
+	-Sword Ryzeal
+	-Mulcharmy Fuwalos
+	-Node Ryzeal
+	-Nibiru, the Primal Being
+	-Effect Veiler
+
+Ice Ryzeal --> Fiendsmith Engraver:
+	-Effect Veiler
+	-Nibiru, the Primal Being
+
+Ice Ryzeal --> Mulcharmy Fuwalos:
+	-Node Ryzeal
+	-Nibiru, the Primal Being
+	-Sword Ryzeal
+
+Ice Ryzeal --> Bystial Magnamhut:
+	-Fiendsmith Engraver
+
+Ice Ryzeal --> Bystial Druiswurm:
+	-Fiendsmith Engraver
+
+Ice Ryzeal --> Effect Veiler:
+	-Nibiru, the Primal Being
+	-Fiendsmith Engraver
+
+Ice Ryzeal --> Nibiru, the Primal Being:
+	-Fabled Lurrie
+	-Mulcharmy Fuwalos
+	-Effect Veiler
+	-Fiendsmith Engraver
+
+Ice Ryzeal --> Artifact Lancea:
+	-Fabled Lurrie
+	-Effect Veiler
+	-Nibiru, the Primal Being
+	-Fiendsmith Engraver
+
+Ice Ryzeal --> Droll & Lock Bird:
+	-Fabled Lurrie
+	-Mulcharmy Fuwalos
+
+Sword Ryzeal --> Node Ryzeal:
+	-Ext Ryzeal
+	-Mulcharmy Fuwalos
+	-Lacrima the Crimson Tears
+	-Ice Ryzeal
+
+Sword Ryzeal --> Fabled Lurrie:
+	-Ext Ryzeal
+	-Ice Ryzeal
+
+Sword Ryzeal --> Lacrima the Crimson Tears:
+	-Mulcharmy Fuwalos
+
+Sword Ryzeal --> Fiendsmith Engraver:
+	-Ext Ryzeal
+	-Ice Ryzeal
+
+Sword Ryzeal --> Mulcharmy Fuwalos:
+	-Ext Ryzeal
+	-Lacrima the Crimson Tears
+	-Ice Ryzeal
+
+Sword Ryzeal --> Bystial Magnamhut:
+	-Ext Ryzeal
+
+Sword Ryzeal --> Bystial Druiswurm:
+	-Ext Ryzeal
+
+Sword Ryzeal --> Effect Veiler:
+	-Ext Ryzeal
+	-Lacrima the Crimson Tears
+	-Ice Ryzeal
+
+Sword Ryzeal --> Nibiru, the Primal Being:
+	-Ext Ryzeal
+	-Mulcharmy Fuwalos
+	-Lacrima the Crimson Tears
+	-Ice Ryzeal
+
+Sword Ryzeal --> Artifact Lancea:
+	-Ext Ryzeal
+	-Lacrima the Crimson Tears
+
+Sword Ryzeal --> Droll & Lock Bird:
+	-Mulcharmy Fuwalos
+
+Node Ryzeal --> Fabled Lurrie:
+	-Ext Ryzeal
+	-Ice Ryzeal
+
+Node Ryzeal --> Lacrima the Crimson Tears:
+	-Mulcharmy Fuwalos
+
+Node Ryzeal --> Fiendsmith Engraver:
+	-Ext Ryzeal
+	-Ice Ryzeal
+
+Node Ryzeal --> Mulcharmy Fuwalos:
+	-Ext Ryzeal
+	-Lacrima the Crimson Tears
+	-Ice Ryzeal
+
+Node Ryzeal --> Bystial Magnamhut:
+	-Ext Ryzeal
+
+Node Ryzeal --> Bystial Druiswurm:
+	-Ext Ryzeal
+
+Node Ryzeal --> Effect Veiler:
+	-Ext Ryzeal
+	-Lacrima the Crimson Tears
+	-Ice Ryzeal
+
+Node Ryzeal --> Nibiru, the Primal Being:
+	-Ext Ryzeal
+	-Mulcharmy Fuwalos
+	-Lacrima the Crimson Tears
+	-Ice Ryzeal
+
+Node Ryzeal --> Artifact Lancea:
+	-Ext Ryzeal
+	-Lacrima the Crimson Tears
+
+Node Ryzeal --> Droll & Lock Bird:
+	-Mulcharmy Fuwalos
+
+Fabled Lurrie --> Lacrima the Crimson Tears:
+	-Artifact Lancea
+	-Nibiru, the Primal Being
+
+Fabled Lurrie --> Fiendsmith Engraver:
+	-Ext Ryzeal
+	-Artifact Lancea
+	-Nibiru, the Primal Being
+	-Ice Ryzeal
+
+Fabled Lurrie --> Mulcharmy Fuwalos:
+	-Ext Ryzeal
+	-Droll & Lock Bird
+	-Nibiru, the Primal Being
+	-Ice Ryzeal
+
+Fabled Lurrie --> Bystial Magnamhut:
+	-Ext Ryzeal
+
+Fabled Lurrie --> Bystial Druiswurm:
+	-Ext Ryzeal
+
+Fabled Lurrie --> Effect Veiler:
+	-Ext Ryzeal
+	-Artifact Lancea
+	-Nibiru, the Primal Being
+	-Ice Ryzeal
+
+Fabled Lurrie --> Nibiru, the Primal Being:
+	-Ext Ryzeal
+	-Artifact Lancea
+	-Ice Ryzeal
+
+Fabled Lurrie --> Artifact Lancea:
+	-Ext Ryzeal
+	-Nibiru, the Primal Being
+
+Lacrima the Crimson Tears --> Fiendsmith Engraver:
+	-Artifact Lancea
+	-Effect Veiler
+	-Nibiru, the Primal Being
+
+Lacrima the Crimson Tears --> Mulcharmy Fuwalos:
+	-Node Ryzeal
+	-Nibiru, the Primal Being
+	-Sword Ryzeal
+
+Lacrima the Crimson Tears --> Effect Veiler:
+	-Artifact Lancea
+	-Nibiru, the Primal Being
+
+Lacrima the Crimson Tears --> Nibiru, the Primal Being:
+	-Artifact Lancea
+	-Mulcharmy Fuwalos
+	-Effect Veiler
+
+Lacrima the Crimson Tears --> Artifact Lancea:
+	-Effect Veiler
+	-Nibiru, the Primal Being
+
+Lacrima the Crimson Tears --> Droll & Lock Bird:
+	-Mulcharmy Fuwalos
+
+Fiendsmith Engraver --> Mulcharmy Fuwalos:
+	-Ext Ryzeal
+	-Nibiru, the Primal Being
+	-Ice Ryzeal
+
+Fiendsmith Engraver --> Bystial Magnamhut:
+	-Ext Ryzeal
+
+Fiendsmith Engraver --> Bystial Druiswurm:
+	-Ext Ryzeal
+
+Fiendsmith Engraver --> Effect Veiler:
+	-Ext Ryzeal
+	-Artifact Lancea
+	-Nibiru, the Primal Being
+	-Ice Ryzeal
+
+Fiendsmith Engraver --> Nibiru, the Primal Being:
+	-Ext Ryzeal
+	-Artifact Lancea
+	-Effect Veiler
+	-Ice Ryzeal
+
+Fiendsmith Engraver --> Artifact Lancea:
+	-Ext Ryzeal
+	-Effect Veiler
+	-Nibiru, the Primal Being
+
+Mulcharmy Fuwalos --> Bystial Magnamhut:
+	-Ext Ryzeal
+
+Mulcharmy Fuwalos --> Bystial Druiswurm:
+	-Ext Ryzeal
+
+Mulcharmy Fuwalos --> Effect Veiler:
+	-Ext Ryzeal
+	-Nibiru, the Primal Being
+	-Lacrima the Crimson Tears
+	-Ice Ryzeal
+
+Mulcharmy Fuwalos --> Nibiru, the Primal Being:
+	-Ext Ryzeal
+	-Lacrima the Crimson Tears
+	-Ice Ryzeal
+
+Mulcharmy Fuwalos --> Artifact Lancea:
+	-Ext Ryzeal
+	-Nibiru, the Primal Being
+	-Lacrima the Crimson Tears
+
+Bystial Magnamhut --> Bystial Druiswurm:
+	-Ext Ryzeal
+	-Fiendsmith Engraver
+
+Bystial Magnamhut --> Effect Veiler:
+	-Ext Ryzeal
+	-Fiendsmith Engraver
+
+Bystial Magnamhut --> Nibiru, the Primal Being:
+	-Ext Ryzeal
+	-Fiendsmith Engraver
+
+Bystial Magnamhut --> Artifact Lancea:
+	-Ext Ryzeal
+	-Fiendsmith Engraver
+
+Bystial Druiswurm --> Effect Veiler:
+	-Ext Ryzeal
+	-Fiendsmith Engraver
+
+Bystial Druiswurm --> Nibiru, the Primal Being:
+	-Ext Ryzeal
+	-Fiendsmith Engraver
+
+Bystial Druiswurm --> Artifact Lancea:
+	-Ext Ryzeal
+	-Fiendsmith Engraver
+
+Effect Veiler --> Nibiru, the Primal Being:
+	-Ext Ryzeal
+	-Ice Ryzeal
+	-Lacrima the Crimson Tears
+	-Artifact Lancea
+	-Fiendsmith Engraver
+
+Effect Veiler --> Artifact Lancea:
+	-Ext Ryzeal
+	-Nibiru, the Primal Being
+	-Fiendsmith Engraver
+	-Lacrima the Crimson Tears
+
+Nibiru, the Primal Being --> Artifact Lancea:
+	-Ext Ryzeal
+	-Lacrima the Crimson Tears
+	-Fabled Lurrie
+	-Effect Veiler
+	-Fiendsmith Engraver
+
+Nibiru, the Primal Being --> Droll & Lock Bird:
+	-Fabled Lurrie
+	-Mulcharmy Fuwalos
+
+Artifact Lancea --> Droll & Lock Bird:
+	-Fabled Lurrie
+

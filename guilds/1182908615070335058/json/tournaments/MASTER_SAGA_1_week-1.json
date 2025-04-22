@@ -1,0 +1,65 @@
+{
+    "title": "Tournament Bracket:",
+    "pairings": [
+        {
+            "round1": [
+                {
+                    "match1": "Victor vs Evan",
+                    "result": "Evan"
+                },
+                {
+                    "match2": "Mike vs Ben",
+                    "result": "Mike"
+                }
+            ]
+        },
+        {
+            "round2": [
+                {
+                    "match1": "Ben vs Victor",
+                    "result": "Victor"
+                },
+                {
+                    "match2": "Evan vs Svante",
+                    "result": "Evan"
+                }
+            ]
+        },
+        {
+            "round3": [
+                {
+                    "match1": "Svante vs Ben",
+                    "result": "Svante"
+                },
+                {
+                    "match2": "Victor vs Mike",
+                    "result": "Mike"
+                }
+            ]
+        },
+        {
+            "round4": [
+                {
+                    "match1": "Mike vs Svante",
+                    "result": "Svante"
+                },
+                {
+                    "match2": "Ben vs Evan",
+                    "result": "Evan"
+                }
+            ]
+        },
+        {
+            "round5": [
+                {
+                    "match1": "Evan vs Mike",
+                    "result": "Evan"
+                },
+                {
+                    "match2": "Svante vs Victor",
+                    "result": "Svante"
+                }
+            ]
+        }
+    ]
+}

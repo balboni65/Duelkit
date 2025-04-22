@@ -1,0 +1,3852 @@
+Targets for Number 101: Silent Honor ARK
+	-7 Colored Fish
+	-Abyss Soldier
+	-Abyss Warrior
+	-Abyssal Kingshark
+	-Adamancipator Crystal - Dragite
+	-Alien Hunter
+	-Alien Hypno
+	-Altergeist Fijialert
+	-Amazon of the Seas
+	-Amphibious Bugroth MK-3
+	-Ancient Warriors - Eccentric Lu Jing
+	-Ancient Warriors - Graceful Zhou Gong
+	-Ancient Warriors - Masterful Sun Mou
+	-Aqua Armor Ninja
+	-Aqua Madoor
+	-Aqua Spirit
+	-Aquarian Alessa
+	-Ariel, Priestess of the Nekroz
+	-Arma Knight
+	-Armed Sea Hunter
+	-Armored Starfish
+	-Armored White Bear
+	-Aromage Rosemary
+	-Artillery Catapult Turtle
+	-Atlantean Dragoons
+	-Aurora Wing
+	-Avance, Swordsman of the Nekroz
+	-Barrier Statue of the Torrent
+	-Beastking of the Swamps
+	-Behegon
+	-Blackeyes, the Plunder Patroll Seaguide
+	-Blizzard Dragon
+	-Blizzard Falcon
+	-Blizzard Thunderbird
+	-Bluebeard, the Plunder Patroll Shipwright
+	-Buzzsaw Shark
+	-Carrierroid
+	-Chocolate Magician Girl
+	-Cloudian - Acid Cloud
+	-Cloudian - Altus
+	-Cloudian - Cirrostratus
+	-Cloudian - Storm Dragon
+	-Cloudian - Turbulence
+	-Codarus
+	-Code Radiator
+	-Cold Enchanter
+	-Crazy Fish
+	-Crystron Rosenix
+	-Cure Mermaid
+	-Cyclamen the Rikka Fairy
+	-Dance Princess of the Ice Barrier
+	-Dance Princess of the Nekroz
+	-Deep Sweeper
+	-Dinomight Powerload, the Dracoslayer
+	-Dinomist Ankylos
+	-Dinomist Plesios
+	-Dinomist Pteran
+	-Dinomist Stegosaur
+	-Dipsea Fiend
+	-Doom Kraken
+	-Double Fin Shark
+	-Double Shark
+	-Drake Shark
+	-Electric Jellyfish
+	-Elemental HERO Bubbleman
+	-Elemental HERO Liquid Soldier
+	-Elemental HERO Neo Bubbleman
+	-Elemental HERO Ocean
+	-Emilia, Dance Priestess of the Nekroz
+	-Endymion, the Magistus of Mastery
+	-Escher the Frost Vassal
+	-Evil HERO Toxic Bubble
+	-Evilswarm Ketos
+	-Fairy of the Fountain
+	-Familiar-Possessed - Eria
+	-Fenrir
+	-Fiend Kraken
+	-Fire Kraken
+	-Fishborg Doctor
+	-Fishborg Harpooner
+	-Fluffal Dolphin
+	-Fluffal Penguin
+	-Flying Penguin
+	-Flying Red Carp
+	-Fortune Fairy Swee
+	-Fortune Lady Water
+	-Freezing Beast
+	-Gagagigo
+	-Gale Lizard
+	-Gem-Knight Iolite
+	-Gem-Knight Sapphire
+	-Gemini Lancer
+	-Gemini Summoner
+	-Gendo the Ascetic Monk
+	-Giant Red Seasnake
+	-Gishki Ariel
+	-Gishki Avance
+	-Gishki Beast
+	-Gishki Chain
+	-Gishki Emilia
+	-Gishki Marker
+	-Gishki Mollusk
+	-Gishki Natalia
+	-Gishki Noellia
+	-Gishki Psychelone
+	-Gishki Shadow
+	-Gizmek Arakami, the Hailbringer Hog
+	-Glacial Beast Blizzard Wolf
+	-Goldenhair, the Newest Plunder Patroll
+	-Gora Turtle of Illusion
+	-Granadora
+	-Grappler
+	-Great Sorcerer of the Nekroz
+	-Great White
+	-Guard Penguin
+	-Guardian Kay'est
+	-Gunkan Suship Ikura
+	-Gunkan Suship Shari
+	-Gunkan Suship Shari Red
+	-Gunkan Suship Shirauo
+	-Hammer Shark
+	-Hebo, Lord of the River
+	-Heraldic Beast Stad Whale
+	-High Tide Gyojin
+	-Hound of the Tistina
+	-Humanoid Slime
+	-Hydra Viper
+	-Hydrogeddon
+	-Hydrojet Shark
+	-Hyosube
+	-Ice Hand
+	-Ice Knight
+	-Icejade Acti
+	-Icejade Tinola
+	-Island Turtle
+	-Ixeep, Omen of the Ghoti
+	-Izanami
+	-Jar Turtle
+	-Jellyfish
+	-Jigabyte
+	-Judge of the Ice Barrier
+	-Kabazauls
+	-Koa'ki Meiru Ice
+	-Koa'ki Meiru Sea Panther
+	-Krokodilus
+	-Lantern Shark
+	-Lekunga
+	-Libromancer Magigirl
+	-Lifeless Leaffish
+	-Lion Alligator
+	-Lord Poison
+	-Magicalibra
+	-Maiden of the Aqua
+	-Marincess Basilalima
+	-Marincess Blue Tang
+	-Marincess Pascalus
+	-Marincess Springirl
+	-Megalosmasher X
+	-Mermaid Knight
+	-Mermail Abysslung
+	-Mermail Abyssmander
+	-Mermail Abyssnose
+	-Mermail Abysspike
+	-Mermail Abyssturge
+	-Metabo-Shark
+	-Minairuka
+	-Minimalian
+	-Mother Grizzly
+	-Mulcharmy Purulia
+	-Muscle Medic
+	-Myutant GB-88
+	-Naelshaddoll Ariel
+	-Nekroz of Unicore
+	-Night Lizard
+	-Night Sword Serpent
+	-Nightmare Penguin
+	-Numbing Grub in the Ice Barrier
+	-Pandaborg
+	-Performage Water Dancer
+	-Performapal Coin Dragon
+	-Performapal Skeeter Skimmer
+	-Performapal Stamp Turtle
+	-Phantom Dragonray Bronto
+	-Piercing Moray
+	-Pilgrim of the Ice Barrier
+	-Piwraithe the Ghost Pirate
+	-Powered Tuner
+	-Primula the Rikka Fairy
+	-R-Genex Undine
+	-Raging Eria
+	-Reactor Slime
+	-Red Archery Girl
+	-Redbeard, the Plunder Patroll Matey
+	-Reptilianne Gardna
+	-Revealer of the Ice Barrier
+	-Revival Jam
+	-Right-Hand Shark
+	-Rikka Princess
+	-Royal Swamp Eel
+	-Saber Shark
+	-Sacred Spirit of the Ice Barrier
+	-Saion the Vaylantz Archer
+	-Samurai of the Ice Barrier
+	-Sea Kamen
+	-Sea Serpent Warrior of Darkness
+	-Selettrice Vaalmonica
+	-Sentinel of the Seas
+	-Serpentine Princess
+	-Shocktopus
+	-Shore Knight
+	-Silent Angler
+	-Silent Sea Nettle
+	-Silent Wobby
+	-Skreech
+	-Skull Mariner
+	-Snow Dragon
+	-Snowman Creator
+	-Space Mambo
+	-Speaker for the Ice Barriers
+	-Spear Shark
+	-Spellbreaker of the Ice Barrier
+	-Spiritual Beast Pettlephin
+	-Strategist of the Ice Barrier
+	-Stream, Dragon Ruler of Droplets
+	-Submarineroid
+	-Supreme Sea Mare
+	-Surfacing Big Jaws
+	-Swordsoul of Mo Ye
+	-T.G. Screw Serpent
+	-Takriminos
+	-Tearlaments Reinoheart
+	-Tearlaments Scheiren
+	-Tenyi Spirit - Shthana
+	-The Dragon Dwelling in the Deep
+	-Tin Goldfish
+	-Tongyo
+	-Toon Alligator
+	-Toon Mermaid
+	-Tribe-Infecting Virus
+	-Tribe-Shocking Virus
+	-Trickstar Aqua Angel
+	-Turtle Tiger
+	-Uminotaurus
+	-Unshaven Angler
+	-Veiss Shark
+	-Violent Rain
+	-Warrior of Atlantis
+	-Water Girl
+	-Water Magician
+	-Water Omotics
+	-Weather Report
+	-White Stingray
+	-White Sunfish
+	-Whitebeard, the Plunder Patroll Helm
+	-Wind-Up Shark
+	-Wow Warrior
+	-Xyz Remora
+	-Xyz Slidolphin
+	-Yado Karu
+	-Yaksha
+	-Yorishiro of the Aqua
+	-Zefrasaber, Swordmaster of the Nekroz
+	-ZW - Ultimate Shield
+
+Targets for Number 102: Star Seraph Sentry
+	-A-Assault Core
+	-Absorbing Kid from the Sky
+	-Agido
+	-Agido the Ancient Sentinel
+	-Alexandrite Dragon
+	-Alien Kid
+	-Alien Stealthbuster
+	-Altergeist Marionetter
+	-Aluber the Jester of Despia
+	-Amazement Assistant Delia
+	-Amazement Attendant Comica
+	-Ancient Dragon
+	-Ancient Elf
+	-Angello Vaalmonica
+	-Apocatequil
+	-Arcana Force I - The Magician
+	-Arcana Force III - The Empress
+	-Arcana Force IV - The Emperor
+	-Arcana Force V - The Hierophant
+	-Arcana Force VI - The Lovers
+	-Arcana Force VII - The Chariot
+	-Aria the Melodious Diva
+	-Armor Exe
+	-Assault Wyvern
+	-Astraltopia
+	-Asura Priest
+	-Aurora Paragon
+	-B-Buster Drake
+	-Balancer Lord
+	-Barrier Statue of the Heavens
+	-Batteryman 9-Volt
+	-Batteryman AAA
+	-Batteryman Solar
+	-Beast-Warrior Puma
+	-Beginning Knight
+	-Biofalcon
+	-Blade Knight
+	-Blazing Cartesia, the Virtuous
+	-Blue Thunder T-45
+	-Bountiful Artemis
+	-Bright Star Dragon
+	-Brohunder
+	-Bujin Arasuda
+	-Bujin Hiruko
+	-Bujin Hirume
+	-Bujin Mahitotsu
+	-Bujin Mikazuchi
+	-Bujin Torifune
+	-Bujin Yamato
+	-Bujingi Boar
+	-Bujingi Centipede
+	-Bujingi Crane
+	-Bujingi Crow
+	-Bujingi Fox
+	-Bujingi Hare
+	-Bujingi Ibis
+	-Bujingi Ophidian
+	-Bujingi Pavo
+	-Bujingi Peacock
+	-Bujingi Quilin
+	-Bujingi Raven
+	-Bujingi Sinyou
+	-Bujingi Swallow
+	-Bujingi Turtle
+	-Bujingi Warg
+	-Bujingi Wolf
+	-Buster Gundil the Cubic Behemoth
+	-C-Crush Wyvern
+	-Cameraclops
+	-Canon the Melodious Diva
+	-Capricious Darklord
+	-Celestial Apparatus Tesea
+	-Centur-Ion Primera
+	-Chaos Grepher
+	-Chaos Mirage Dragon
+	-Chaos Valkyria
+	-Chronomaly Golden Jet
+	-Chronomaly Magella Globe
+	-Chronomaly Nebra Disk
+	-Cipher Mirror Knight
+	-Cipher Twin Raptor
+	-Cipher Wing
+	-Cloudian - Acid Cloud
+	-Cloudian - Altus
+	-Cloudian - Cirrostratus
+	-Cloudian - Storm Dragon
+	-Cloudian - Turbulence
+	-Colonel on C-String
+	-Condemned Maiden
+	-Condemned Witch
+	-Constellar Acubens
+	-Constellar Algiedi
+	-Constellar Caduceus
+	-Constellar Kaus
+	-Constellar Pollux
+	-Constellar Sombre
+	-Crusader of Endymion
+	-Crusadia Maximus
+	-Cu Chulainn the Awakened
+	-Cuben
+	-Cupid Dunk
+	-Cyber Dragon Drei
+	-Cyber Dragon Vier
+	-Cyber Dragon Zwei
+	-Cyberse Gadget
+	-Cyberse Wizard
+	-D.D. Unicorn Knight
+	-D.D. Warrior Lady
+	-Dancing Fairy
+	-Dark Honest
+	-Dark Valkyria
+	-Darklord Nurse Reficule
+	-Dawn Knight
+	-Daybreaker
+	-Defender, the Magical Knight
+	-Delta Tri
+	-Denko Sekka
+	-Diana the Light Spirit
+	-Dimensional Alchemist
+	-Dimonno Vaalmonica
+	-Disciple of the Forbidden Spell
+	-Divine Dragon Ragnarok
+	-Dogmatika Adin, the Enlightened
+	-Dogmatika Ecclesia, the Virtuous
+	-Dogmatika Theo, the Iron Punch
+	-Doitsu
+	-Doll Monster Miss Mädchen
+	-Dragodies, the Empowered Warrior
+	-Dragon Knight of Creation
+	-Dual Avatar Fists - Yuhi
+	-Dunames Dark Witch
+	-Duza the Meteor Cubic Vessel
+	-Dwarf Star Dragon Planeter
+	-Eclipse Wyvern
+	-Ehren, Lightsworn Monk
+	-Electromagnetic Turtle
+	-Element Dragon
+	-Element Magician
+	-Element Valkyrie
+	-Elemental HERO Captain Gold
+	-Elemental HERO Flash
+	-Elemental HERO Neos Alius
+	-Elemental HERO Prisma
+	-Elemental HERO Sparkman
+	-Elemental HERO Voltic
+	-Elementsaber Lapauila
+	-Emperor Sem
+	-Energy Bravery
+	-Evil HERO Adusted Gold
+	-Evil HERO Dead-End Prison
+	-Exosister Elis
+	-Exosister Irene
+	-Exosister Martha
+	-Exosister Sophia
+	-Exosister Stella
+	-Ext Ryzeal
+	-Fabled Ashenveil
+	-Fabled Gallabas
+	-Fabled Grimro
+	-Fabled Marcosia
+	-Fabled Urustos
+	-Fairy Tail - Luna
+	-Fairy Tail - Rella
+	-Fairy Tail - Rochka
+	-Fairy Tail - Sleeper
+	-Fairy Tail - Snow
+	-Fairy's Gift
+	-Falchion Beta
+	-Familiar-Possessed - Lyna
+	-FaSolfachord Fancia
+	-Felis, Lightsworn Archer
+	-Fiend Reflection #2
+	-Flash Knight
+	-Flint Lock
+	-Flogos, the Ogdoadic Boundless
+	-Fluffal Dog
+	-Fluffal Dolphin
+	-Fluffal Leo
+	-Fluffal Penguin
+	-Freed the Brave Wanderer
+	-Future Samurai
+	-Gaia, the Mid-Knight Sun
+	-Galaxy Cleric
+	-Galaxy Dragon
+	-Galaxy Summoner
+	-Galaxy War Drake
+	-Galaxy Wizard
+	-Ganbara Knight
+	-Garoth, Lightsworn Warrior
+	-Gellenduo
+	-Gem-Knight Nepyrim
+	-Gem-Knight Quartz
+	-Genex Neutron
+	-Gentlemander
+	-Ghostrick Siren
+	-Goddess with the Third Eye
+	-Gold Gadget
+	-Golden Dragon Summoner
+	-Golden Flying Fish
+	-Gradius
+	-Grid Sweeper
+	-Guardian of Felgrand
+	-Guardian of the Throne Room
+	-Guiding Ariadne
+	-Guiding Quem, the Virtuous
+	-Guldfaxe of the Nordic Beasts
+	-Harvest Angel of Doom
+	-Harvest Angel of Wisdom
+	-Healing Wave Generator
+	-Hecatrice
+	-Helios - The Primordial Sun
+	-Heliosphere Dragon
+	-Helping Robo for Combat
+	-Herald of Creation
+	-Heraldic Beast Unicorn
+	-Hieratic Dragon of Gebeb
+	-Hieratic Dragon of Nuit
+	-Homunculus the Alchemic Being
+	-Honest
+	-Hourglass of Courage
+	-Hunter of Black Feathers
+	-Hyper Synchron
+	-Hysteric Fairy
+	-I.A.S. -Invasive Alien Species-
+	-Ice Ryzeal
+	-Impcantation Candoll
+	-Imperial Bower
+	-Incredible Ecclesia, the Virtuous
+	-Indiora Doom Volt the Cubic Emperor
+	-Indulged Darklord
+	-Inspector Boarder
+	-Izanami
+	-Jade Knight
+	-Jain, Lightsworn Paladin
+	-Jenis, Lightsworn Mender
+	-Kaiser Sea Horse
+	-Kelbek
+	-Kelbek the Ancient Vanguard
+	-Keldo
+	-Keldo the Sacred Protector
+	-King's Knight
+	-Knight Day Grepher
+	-Kozmo Goodwitch
+	-Krishnerd Witch
+	-Lacrima the Crimson Tears
+	-Lady Debug
+	-Layard the Liberator
+	-Legendary Six Samurai - Enishi
+	-Libromancer Mystigirl
+	-Light Effigy
+	-Lightning Rod Lord
+	-Lightray Grepher
+	-Lightsworn Dragonling
+	-Lillybot
+	-Link Streamer
+	-Ljosalf of the Nordic Alfar
+	-Loptr, Shadow of the Generaider Bosses
+	-Lord British Space Fighter
+	-Lucky Pied Piper
+	-Luster Pendulum, the Dracoslayer
+	-Lyla, Lightsworn Sorceress
+	-Madolche Anjelly
+	-Madolche Petingcessoeur
+	-Magical Musketeer Calamity
+	-Magical Musketeer Starfire
+	-Magical Musketeer Wild
+	-Magician's Valkyria
+	-Magidog
+	-Maginificent Magikey Mafteal
+	-Maha Vailo
+	-Mahunder
+	-Maiden of the Millennium Moon
+	-Maiden of the Moonlight
+	-Majestic Mech - Senku
+	-Manju of the Ten Thousand Hands
+	-Mannadium Riumheart
+	-Master Pendulum, the Dracoslayer
+	-Mathmech Circular
+	-Mathmech Diameter
+	-Mathmech Sigma
+	-Mecha-Dog Marron
+	-Mei-Kou, Master of Barriers
+	-Mekk-Knight Avram
+	-Meklord Army Deployer Obbligato
+	-Meltiel, Sage of the Sky
+	-Metaphys Ragnarok
+	-Metrognome
+	-Milla the Temporal Magician
+	-Minerva, Scholar of the Sky
+	-Mirage Dragon
+	-Mirror Swordknight
+	-Moon Envoy
+	-Moon Gardna
+	-Moon Magician
+	-Moonlit Papillon
+	-Morphtronic Radion
+	-Morphtronic Videon
+	-Ms. Judge
+	-Mudora
+	-Mudora the Sword Oracle
+	-Mystical Elf
+	-Mystical Elf - White Lightning
+	-Mythical Beast Bashilisk
+	-Mythical Beast Cerberus
+	-Mythical Beast Garuda
+	-Mythical Beast Medusa
+	-Neo Kaiser Sea Horse
+	-Neo Space Connector
+	-Neo Space Pathfinder
+	-Neo the Magic Swordsman
+	-Nikitama
+	-Ninja Grandmaster Sasuke
+	-Noble Knight Artorigus
+	-Noble Knight Bedwyr
+	-Noble Knight Borz
+	-Noble Knight Brothers
+	-Noble Knight Custennin
+	-Noble Knight Drystan
+	-Noble Knight Gawayn
+	-Noble Knight Gwalchavad
+	-Noble Knight Iyvanne
+	-Noble Knight Joan
+	-Noble Knight Medraut
+	-Noble Knight Pellinore
+	-Noble Knight Peredur
+	-Noble Knight's Shield-Bearer
+	-Nova Summoner
+	-Numeral Hunter
+	-Nunu, the Ogdoadic Remnant
+	-Opera the Melodious Diva
+	-Orbital 7
+	-Otonari Thunder
+	-Overlay Sentinel
+	-Pahunder
+	-Paladin of Felgrand
+	-Paladin of Photon Dragon
+	-Paladin of Storm Dragon
+	-Paladin of the Cursed Dragon
+	-Paladin of White Dragon
+	-Performage Damage Juggler
+	-Performage Mirror Conductor
+	-Performage Trick Clown
+	-Performapal Duelist Extraordinaire
+	-Performapal Fireflux
+	-Performapal Gold Fang
+	-Performapal Turn Trooper
+	-Performapal Uni
+	-Phantasos, the Dream Mirror Friend
+	-Phantom Beast Cross-Wing
+	-Phantom Beast Thunder-Pegasus
+	-Photon Advancer
+	-Photon Chargeman
+	-Photon Circle
+	-Photon Crusher
+	-Photon Delta Wing
+	-Photon Jumper
+	-Photon Orbital
+	-Photon Thrasher
+	-Photon Vanisher
+	-Pikari @Ignister
+	-Pity
+	-Power Angel Valkyria
+	-Power Pro Knight Sisters
+	-Prediction Princess Arrowsylph
+	-Primal Dragon, the Primordial
+	-Princess Pikeru
+	-Prinzessin
+	-Proxy Horse
+	-Psychic Bounder
+	-Qardan the Clear-Sighted
+	-Queen's Knight
+	-Ra's Disciple
+	-Radiant Jeral
+	-Radiant Vouirescence
+	-Radius, the Half-Moon Dragon
+	-Rai-Jin
+	-Raiden, Hand of the Lightsworn
+	-RAM Clouder
+	-Rasetsu
+	-Re: EX
+	-Reflect Bounder
+	-Refrain the Melodious Songstress
+	-Regulus
+	-Regulus the Fairy Beast
+	-Reverse Buster
+	-Rilliona, the Magistus of Verre
+	-Road Synchron
+	-Rocket Warrior
+	-Rogue Doll
+	-Roulette Barrel
+	-Royal Magical Library
+	-Rucia of the White Forest
+	-Ruin, Angel of Oblivion
+	-S-Force Orrafist
+	-Sacred Crane
+	-Sage of Silence
+	-Sage of Stillness
+	-Sakitama
+	-Satellarknight Alsahm
+	-Satellarknight Altair
+	-Satellarknight Betelgeuse
+	-Satellarknight Capella
+	-Satellarknight Deneb
+	-Satellarknight Procyon
+	-Satellarknight Rigel
+	-Satellarknight Sirius
+	-Satellarknight Unukalhai
+	-Satellarknight Vega
+	-Satellarknight Zefrathuban
+	-Seed-Spitting Saplings
+	-Senju of the Thousand Hands
+	-Serenade the Melodious Diva
+	-Shining Abyss
+	-Shining Angel
+	-Shining Friendship
+	-Shining Piecephilia
+	-Shining Star Dragon
+	-Silent Magician
+	-Silent Magician LV4
+	-Silent Magician Zero
+	-Silent Paladin
+	-Silent Swordsman
+	-Silent Swordsman Zero
+	-Silpheed
+	-Silver Gadget
+	-Silvy of the White Forest
+	-Sishunder
+	-Skilled Blue Magician
+	-Skilled White Magician
+	-Sky Striker Ace - Roze
+	-Solitaire Magician
+	-Solo the Melodious Songstress
+	-Soprano the Melodious Songstress
+	-Spirit of the Fall Wind
+	-Spirit of the Harp
+	-Spirit Sculptor
+	-Spoon, the Seal of Magistus
+	-SPYRAL Double Agent
+	-Star Ryzeal
+	-Star Seraph Sage
+	-Star Seraph Scale
+	-Star Seraph Scepter
+	-Star Seraph Scout
+	-Star Seraph Sovereignty
+	-Star Seraph Sword
+	-Stardust Synchron
+	-Stardust Trail
+	-Starliege Seyfert
+	-Starry Knight Astel
+	-Starry Knight Ciel
+	-Starry Knight Flamel
+	-Starry Knight Orbitael
+	-Starry Knight Rayel
+	-Staysailor Romarin
+	-Stellarknight Zefraxciton
+	-Striping Partner
+	-Sunlight Unicorn
+	-Supreme King Dragon Lightwurm
+	-SZW - Fenrir Sword
+	-Tachyon Cloudragon
+	-Tamtam the Melodious Diva
+	-Tarai
+	-Tasuke Knight
+	-Tellarknight Altairan
+	-Tellarknight Lyran
+	-Tenyi Spirit - Suruya
+	-The Agent of Miracles - Jupiter
+	-The Agent of Wisdom - Mercury
+	-The Calibrator
+	-The Creator Incarnate
+	-The Fabled Kokkator
+	-The Fabled Rubyruda
+	-The Forgiving Maiden
+	-The Golden Swordsoul
+	-The Immortal of Thunder
+	-The Six Samurai - Zanji
+	-The Stern Mystic
+	-Theban Nightmare
+	-Thron the Disciplined Angel
+	-Thunder Hand
+	-Thunder King Rai-Oh
+	-Thunder Nyan Nyan
+	-Thunder Sea Horse
+	-Thunderclap Monk
+	-Toy Magician
+	-Toy Soldier
+	-Toy Tank
+	-Trickstar Aqua Angel
+	-Trickstar Candina
+	-Trickstar Narkissus
+	-Trickstar Rhodode
+	-Trident Warrior
+	-Tyr of the Nordic Champions
+	-Upstart Golden Ninja
+	-Utopic Onomatopoeia
+	-V-Tiger Jet
+	-Valkyrie Dritte
+	-Vanadis of the Nordic Ascendant
+	-Vernusylph of the Awakening Forests
+	-Vernusylph of the Flourishing Hills
+	-Vic Viper T301
+	-Victoria
+	-Victorica, Angel of Bravery
+	-Victory Viper XX03
+	-Visas Samsara
+	-Vivid Knight
+	-Voltic Kong
+	-Vylon Charger
+	-Vylon Hept
+	-Vylon Ohm
+	-Vylon Pentachloro
+	-Vylon Prism
+	-Vylon Soldier
+	-Vylon Stigma
+	-Vylon Tesseract
+	-Vylon Vanguard
+	-W-Wing Catapult
+	-Wattcobra
+	-Wattgiraffe
+	-Wattkinetic Puppeteer
+	-Wattpheasant
+	-Wattuna
+	-Ween, the Spirit of Treats
+	-Weiss, Lightsworn Archfiend
+	-Whirlwind Prodigy
+	-White Dragon Wyverburster
+	-White Ninja
+	-White Relic of Dogmatika
+	-Wind-Up Knight
+	-Wisdom-Eye Magician
+	-Wonko, Noble Knight of the Forest
+	-World Soul - Carbon
+	-Worm Cartaros
+	-Worm Dimikles
+	-Worm Gulse
+	-Worm Millidith
+	-Worm Rakuyeh
+	-Worm Solid
+	-Worm Tentacles
+	-Worm Xex
+	-Worm Yagan
+	-Wulf, Lightsworn Beast
+	-X-Cross Cannon
+	-X-Head Cannon
+	-Xiangsheng Magician
+	-Y-Dragon Head
+	-Y-Yare Head
+	-Yaksha
+	-Z-Metal Tank
+	-Z-Zillion Tank
+	-Zap Mustung
+	-Zeradias, Herald of Heaven
+	-Zolga
+	-Zolga the Prophet
+	-ZS - Armed Sage
+	-ZS - Ascended Sage
+	-ZW - Asura Strike
+	-ZW - Sleipnir Mail
+	-ZW - Sylphid Wing
+	-ZW - Unicorn Spear
+
+Targets for Number 103: Ragnazero
+	-7 Colored Fish
+	-Absorbing Kid from the Sky
+	-Abyss Soldier
+	-Abyss Warrior
+	-Abyssal Kingshark
+	-Adamancipator Crystal - Dragite
+	-Agido
+	-Agido the Ancient Sentinel
+	-Alien Hunter
+	-Alien Hypno
+	-Altergeist Fijialert
+	-Aluber the Jester of Despia
+	-Amazon of the Seas
+	-Amphibious Bugroth MK-3
+	-Ancient Warriors - Eccentric Lu Jing
+	-Ancient Warriors - Graceful Zhou Gong
+	-Ancient Warriors - Masterful Sun Mou
+	-Angello Vaalmonica
+	-Aqua Armor Ninja
+	-Aqua Madoor
+	-Aqua Spirit
+	-Aquarian Alessa
+	-Arcana Force I - The Magician
+	-Arcana Force III - The Empress
+	-Arcana Force IV - The Emperor
+	-Arcana Force V - The Hierophant
+	-Arcana Force VI - The Lovers
+	-Arcana Force VII - The Chariot
+	-Aria the Melodious Diva
+	-Ariel, Priestess of the Nekroz
+	-Arma Knight
+	-Armed Sea Hunter
+	-Armored Starfish
+	-Armored White Bear
+	-Aromage Rosemary
+	-Artillery Catapult Turtle
+	-Asura Priest
+	-Atlantean Dragoons
+	-Aurora Paragon
+	-Aurora Wing
+	-Avance, Swordsman of the Nekroz
+	-Barrier Statue of the Heavens
+	-Barrier Statue of the Torrent
+	-Beastking of the Swamps
+	-Behegon
+	-Blackeyes, the Plunder Patroll Seaguide
+	-Blizzard Dragon
+	-Blizzard Falcon
+	-Blizzard Thunderbird
+	-Bluebeard, the Plunder Patroll Shipwright
+	-Bountiful Artemis
+	-Buzzsaw Shark
+	-Canon the Melodious Diva
+	-Capricious Darklord
+	-Carrierroid
+	-Celestial Apparatus Tesea
+	-Chaos Valkyria
+	-Chocolate Magician Girl
+	-Cloudian - Acid Cloud
+	-Cloudian - Altus
+	-Cloudian - Cirrostratus
+	-Cloudian - Storm Dragon
+	-Cloudian - Turbulence
+	-Codarus
+	-Code Radiator
+	-Cold Enchanter
+	-Condemned Maiden
+	-Condemned Witch
+	-Constellar Sombre
+	-Crazy Fish
+	-Crystron Rosenix
+	-Cupid Dunk
+	-Cure Mermaid
+	-Cyclamen the Rikka Fairy
+	-Dance Princess of the Ice Barrier
+	-Dance Princess of the Nekroz
+	-Dancing Fairy
+	-Dark Honest
+	-Dark Valkyria
+	-Darklord Nurse Reficule
+	-Deep Sweeper
+	-Dimensional Alchemist
+	-Dinomight Powerload, the Dracoslayer
+	-Dinomist Ankylos
+	-Dinomist Plesios
+	-Dinomist Pteran
+	-Dinomist Stegosaur
+	-Dipsea Fiend
+	-Doitsu
+	-Doll Monster Miss Mädchen
+	-Doom Kraken
+	-Double Fin Shark
+	-Double Shark
+	-Drake Shark
+	-Dunames Dark Witch
+	-Electric Jellyfish
+	-Element Valkyrie
+	-Elemental HERO Bubbleman
+	-Elemental HERO Liquid Soldier
+	-Elemental HERO Neo Bubbleman
+	-Elemental HERO Ocean
+	-Emilia, Dance Priestess of the Nekroz
+	-Endymion, the Magistus of Mastery
+	-Escher the Frost Vassal
+	-Evil HERO Toxic Bubble
+	-Fairy of the Fountain
+	-Familiar-Possessed - Eria
+	-FaSolfachord Fancia
+	-Fenrir
+	-Fiend Kraken
+	-Fishborg Doctor
+	-Fishborg Harpooner
+	-Fluffal Dog
+	-Fluffal Dolphin
+	-Fluffal Leo
+	-Fluffal Penguin
+	-Flying Penguin
+	-Flying Red Carp
+	-Fortune Fairy Swee
+	-Fortune Lady Water
+	-Freezing Beast
+	-Gagagigo
+	-Gale Lizard
+	-Gellenduo
+	-Gem-Knight Nepyrim
+	-Gem-Knight Quartz
+	-Gemini Lancer
+	-Gemini Summoner
+	-Gendo the Ascetic Monk
+	-Ghostrick Siren
+	-Giant Red Seasnake
+	-Gishki Ariel
+	-Gishki Avance
+	-Gishki Beast
+	-Gishki Chain
+	-Gishki Emilia
+	-Gishki Marker
+	-Gishki Mollusk
+	-Gishki Natalia
+	-Gishki Noellia
+	-Gishki Psychelone
+	-Gishki Shadow
+	-Gizmek Arakami, the Hailbringer Hog
+	-Glacial Beast Blizzard Wolf
+	-Goddess with the Third Eye
+	-Goldenhair, the Newest Plunder Patroll
+	-Gora Turtle of Illusion
+	-Granadora
+	-Grappler
+	-Great Sorcerer of the Nekroz
+	-Great White
+	-Guard Penguin
+	-Guardian Kay'est
+	-Guiding Ariadne
+	-Hammer Shark
+	-Harvest Angel of Doom
+	-Harvest Angel of Wisdom
+	-Hebo, Lord of the River
+	-Hecatrice
+	-Heraldic Beast Stad Whale
+	-High Tide Gyojin
+	-Honest
+	-Hourglass of Courage
+	-Humanoid Slime
+	-Hydra Viper
+	-Hydrogeddon
+	-Hydrojet Shark
+	-Hyosube
+	-Hysteric Fairy
+	-Ice Hand
+	-Ice Knight
+	-Icejade Acti
+	-Icejade Tinola
+	-Indiora Doom Volt the Cubic Emperor
+	-Indulged Darklord
+	-Island Turtle
+	-Ixeep, Omen of the Ghoti
+	-Izanami
+	-Jar Turtle
+	-Jellyfish
+	-Jigabyte
+	-Judge of the Ice Barrier
+	-Kabazauls
+	-Kelbek
+	-Kelbek the Ancient Vanguard
+	-Keldo
+	-Keldo the Sacred Protector
+	-Koa'ki Meiru Ice
+	-Koa'ki Meiru Sea Panther
+	-Krokodilus
+	-Lantern Shark
+	-Layard the Liberator
+	-Lekunga
+	-Libromancer Magigirl
+	-Libromancer Mystigirl
+	-Lifeless Leaffish
+	-Light Effigy
+	-Lion Alligator
+	-Loptr, Shadow of the Generaider Bosses
+	-Lord Poison
+	-Lucky Pied Piper
+	-Madolche Anjelly
+	-Madolche Petingcessoeur
+	-Magicalibra
+	-Maiden of the Aqua
+	-Majestic Mech - Senku
+	-Manju of the Ten Thousand Hands
+	-Marincess Basilalima
+	-Marincess Blue Tang
+	-Marincess Pascalus
+	-Marincess Springirl
+	-Megalosmasher X
+	-Meltiel, Sage of the Sky
+	-Mermaid Knight
+	-Mermail Abysslung
+	-Mermail Abyssmander
+	-Mermail Abyssnose
+	-Mermail Abysspike
+	-Mermail Abyssturge
+	-Metabo-Shark
+	-Metrognome
+	-Minairuka
+	-Minerva, Scholar of the Sky
+	-Minimalian
+	-Mother Grizzly
+	-Mudora
+	-Mudora the Sword Oracle
+	-Mulcharmy Purulia
+	-Muscle Medic
+	-Myutant GB-88
+	-Naelshaddoll Ariel
+	-Nekroz of Unicore
+	-Night Lizard
+	-Night Sword Serpent
+	-Nightmare Penguin
+	-Nikitama
+	-Nova Summoner
+	-Numbing Grub in the Ice Barrier
+	-Opera the Melodious Diva
+	-Pandaborg
+	-Performage Water Dancer
+	-Performapal Coin Dragon
+	-Performapal Skeeter Skimmer
+	-Performapal Stamp Turtle
+	-Phantom Dragonray Bronto
+	-Piercing Moray
+	-Pilgrim of the Ice Barrier
+	-Piwraithe the Ghost Pirate
+	-Power Angel Valkyria
+	-Powered Tuner
+	-Prediction Princess Arrowsylph
+	-Primula the Rikka Fairy
+	-Prinzessin
+	-Qardan the Clear-Sighted
+	-R-Genex Undine
+	-Ra's Disciple
+	-Radiant Jeral
+	-Raging Eria
+	-Rasetsu
+	-Reactor Slime
+	-Red Archery Girl
+	-Redbeard, the Plunder Patroll Matey
+	-Refrain the Melodious Songstress
+	-Reptilianne Gardna
+	-Revealer of the Ice Barrier
+	-Revival Jam
+	-Right-Hand Shark
+	-Rikka Princess
+	-Royal Swamp Eel
+	-Ruin, Angel of Oblivion
+	-Saber Shark
+	-Sacred Spirit of the Ice Barrier
+	-Saion the Vaylantz Archer
+	-Sakitama
+	-Samurai of the Ice Barrier
+	-Sea Kamen
+	-Sea Serpent Warrior of Darkness
+	-Selettrice Vaalmonica
+	-Senju of the Thousand Hands
+	-Sentinel of the Seas
+	-Serenade the Melodious Diva
+	-Serpentine Princess
+	-Shining Abyss
+	-Shining Angel
+	-Shining Friendship
+	-Shocktopus
+	-Shore Knight
+	-Silent Angler
+	-Silent Paladin
+	-Silent Sea Nettle
+	-Silent Wobby
+	-Silpheed
+	-Skreech
+	-Skull Mariner
+	-Snow Dragon
+	-Snowman Creator
+	-Solo the Melodious Songstress
+	-Soprano the Melodious Songstress
+	-Space Mambo
+	-Speaker for the Ice Barriers
+	-Spear Shark
+	-Spellbreaker of the Ice Barrier
+	-Spirit of the Fall Wind
+	-Spirit of the Harp
+	-Spirit Sculptor
+	-Star Seraph Sage
+	-Star Seraph Scale
+	-Star Seraph Scepter
+	-Star Seraph Scout
+	-Star Seraph Sovereignty
+	-Star Seraph Sword
+	-Starry Knight Astel
+	-Starry Knight Ciel
+	-Starry Knight Flamel
+	-Starry Knight Orbitael
+	-Starry Knight Rayel
+	-Strategist of the Ice Barrier
+	-Stream, Dragon Ruler of Droplets
+	-Submarineroid
+	-Supreme Sea Mare
+	-Surfacing Big Jaws
+	-Swordsoul of Mo Ye
+	-T.G. Screw Serpent
+	-Takriminos
+	-Tamtam the Melodious Diva
+	-Tarai
+	-Tearlaments Reinoheart
+	-Tenyi Spirit - Shthana
+	-The Agent of Miracles - Jupiter
+	-The Agent of Wisdom - Mercury
+	-The Dragon Dwelling in the Deep
+	-The Forgiving Maiden
+	-Thron the Disciplined Angel
+	-Tin Goldfish
+	-Tongyo
+	-Toon Alligator
+	-Toon Mermaid
+	-Tribe-Infecting Virus
+	-Tribe-Shocking Virus
+	-Trickstar Aqua Angel
+	-Trickstar Candina
+	-Trickstar Narkissus
+	-Trickstar Rhodode
+	-Turtle Tiger
+	-Uminotaurus
+	-Unshaven Angler
+	-Valkyrie Dritte
+	-Vanadis of the Nordic Ascendant
+	-Veiss Shark
+	-Vernusylph of the Awakening Forests
+	-Vernusylph of the Flourishing Hills
+	-Victoria
+	-Victorica, Angel of Bravery
+	-Violent Rain
+	-Visas Samsara
+	-Vylon Charger
+	-Vylon Hept
+	-Vylon Ohm
+	-Vylon Soldier
+	-Vylon Stigma
+	-Vylon Vanguard
+	-Warrior of Atlantis
+	-Water Girl
+	-Water Magician
+	-Water Omotics
+	-Weather Report
+	-Whirlwind Prodigy
+	-White Stingray
+	-White Sunfish
+	-Whitebeard, the Plunder Patroll Helm
+	-Wind-Up Shark
+	-World Soul - Carbon
+	-Wow Warrior
+	-Xyz Remora
+	-Xyz Slidolphin
+	-Yado Karu
+	-Yaksha
+	-Yorishiro of the Aqua
+	-Zefrasaber, Swordmaster of the Nekroz
+	-Zeradias, Herald of Heaven
+	-Zolga
+	-Zolga the Prophet
+	-ZW - Asura Strike
+
+Targets for Number 104: Masquerade
+	-A Man with Wdjat
+	-A-Assault Core
+	-Absorbing Kid from the Sky
+	-Alchemist of Black Spells
+	-Aleister the Invoker
+	-Alexandrite Dragon
+	-Alien Kid
+	-Alien Stealthbuster
+	-Altergeist Fijialert
+	-Altergeist Marionetter
+	-Alviss of the Nordic Alfar
+	-Amazement Assistant Delia
+	-Amazement Attendant Comica
+	-Anarchist Monk Ranshin
+	-Ancient Dragon
+	-Ancient Elf
+	-Ancient Sorcerer
+	-Apocatequil
+	-Aqua Madoor
+	-Arcana Force I - The Magician
+	-Arcana Force III - The Empress
+	-Arcana Force IV - The Emperor
+	-Arcana Force V - The Hierophant
+	-Arcana Force VI - The Lovers
+	-Arcana Force VII - The Chariot
+	-Aria the Melodious Diva
+	-Armor Exe
+	-Arsenal Summoner
+	-Assault Wyvern
+	-Astraltopia
+	-Asura Priest
+	-Aurora Paragon
+	-Avalanching Aussa
+	-Avance, Swordsman of the Nekroz
+	-B-Buster Drake
+	-Balancer Lord
+	-Barrier Statue of the Heavens
+	-Batteryman 9-Volt
+	-Batteryman AAA
+	-Batteryman Solar
+	-Beast-Warrior Puma
+	-Beginning Knight
+	-Biofalcon
+	-Black Fang Magician
+	-Blade Knight
+	-Blast Magician
+	-Blazing Cartesia, the Virtuous
+	-Blazing Hiita
+	-Blue Dragon Summoner
+	-Blue Thunder T-45
+	-Bountiful Artemis
+	-Breaker the Magical Warrior
+	-Bright Star Dragon
+	-Brohunder
+	-Bujin Arasuda
+	-Bujin Hiruko
+	-Bujin Hirume
+	-Bujin Mahitotsu
+	-Bujin Mikazuchi
+	-Bujin Torifune
+	-Bujin Yamato
+	-Bujingi Boar
+	-Bujingi Centipede
+	-Bujingi Crane
+	-Bujingi Crow
+	-Bujingi Fox
+	-Bujingi Hare
+	-Bujingi Ibis
+	-Bujingi Ophidian
+	-Bujingi Pavo
+	-Bujingi Peacock
+	-Bujingi Quilin
+	-Bujingi Raven
+	-Bujingi Sinyou
+	-Bujingi Swallow
+	-Bujingi Turtle
+	-Bujingi Warg
+	-Bujingi Wolf
+	-Burgundy the Magic Elf
+	-Buster Gundil the Cubic Behemoth
+	-C-Crush Wyvern
+	-Cameraclops
+	-Canon the Melodious Diva
+	-Catoblepas and the Witch of Fate
+	-Centur-Ion Primera
+	-Chaos Grepher
+	-Chaos Mirage Dragon
+	-Chaos Valkyria
+	-Chaos Witch
+	-Charioteer of Prophecy
+	-Chocolate Magician Girl
+	-Chow Len the Prophet
+	-Chow Sai the Ghost Stopper
+	-Chronicle Sorceress
+	-Chronomaly Golden Jet
+	-Chronomaly Magella Globe
+	-Chronomaly Nebra Disk
+	-Cipher Mirror Knight
+	-Cipher Twin Raptor
+	-Cipher Wing
+	-Colonel on C-String
+	-Condemned Maiden
+	-Constellar Acubens
+	-Constellar Algiedi
+	-Constellar Caduceus
+	-Constellar Kaus
+	-Constellar Pollux
+	-Constellar Sombre
+	-Crowley, the Gifted of Magistus
+	-Crowley, the Magistus of Grimoires
+	-Crusader of Endymion
+	-Crusadia Maximus
+	-Cu Chulainn the Awakened
+	-Cuben
+	-Cupid Dunk
+	-Cyber Dragon Drei
+	-Cyber Dragon Vier
+	-Cyber Dragon Zwei
+	-Cyberse Gadget
+	-Cyberse Wizard
+	-Cyborg Doctor
+	-D.D. Unicorn Knight
+	-D.D. Warrior Lady
+	-Dance Princess of the Ice Barrier
+	-Dance Princess of the Nekroz
+	-Dark Doriado
+	-Dark Elf
+	-Dawn Knight
+	-Daybreaker
+	-Defender, the Magical Knight
+	-Delta Tri
+	-Denko Sekka
+	-Diana the Light Spirit
+	-Dictator of D.
+	-Dimensional Alchemist
+	-Dimonno Vaalmonica
+	-Disciple of the Forbidden Spell
+	-Divine Dragon Ragnarok
+	-Dogmatika Adin, the Enlightened
+	-Dogmatika Ecclesia, the Virtuous
+	-Dogmatika Theo, the Iron Punch
+	-Doll Monster Miss Mädchen
+	-Doomstar Magician
+	-Doriado
+	-Double Iris Magician
+	-Dragodies, the Empowered Warrior
+	-Dragon Knight of Creation
+	-Dragon Tail Lucias
+	-Dragonpulse Magician
+	-Dual Avatar Fists - Yuhi
+	-Dunames Dark Witch
+	-Duza the Meteor Cubic Vessel
+	-Dwarf Star Dragon Planeter
+	-Eclipse Wyvern
+	-Eda the Sun Magician
+	-Ehren, Lightsworn Monk
+	-Electromagnetic Turtle
+	-Element Dragon
+	-Element Magician
+	-Element Valkyrie
+	-Elemental HERO Captain Gold
+	-Elemental HERO Flash
+	-Elemental HERO Neos Alius
+	-Elemental HERO Prisma
+	-Elemental HERO Sparkman
+	-Elemental HERO Voltic
+	-Elementsaber Lapauila
+	-Emilia, Dance Priestess of the Nekroz
+	-Emperor Sem
+	-Endymion, the Magistus of Mastery
+	-Energy Bravery
+	-Engraver of the Mark
+	-Evil HERO Adusted Gold
+	-Evil HERO Dead-End Prison
+	-Evilswarm Kerykeion
+	-Exodia Necross
+	-Exosister Elis
+	-Exosister Irene
+	-Exosister Martha
+	-Exosister Sophia
+	-Exosister Stella
+	-Ext Ryzeal
+	-Fabled Ashenveil
+	-Fabled Gallabas
+	-Fabled Grimro
+	-Fabled Marcosia
+	-Fabled Urustos
+	-Fairy Tail - Luna
+	-Fairy Tail - Rella
+	-Fairy Tail - Rochka
+	-Fairy Tail - Sleeper
+	-Fairy Tail - Snow
+	-Fairy's Gift
+	-Falchion Beta
+	-Familiar-Possessed - Aussa
+	-Familiar-Possessed - Dharc
+	-Familiar-Possessed - Eria
+	-Familiar-Possessed - Hiita
+	-Familiar-Possessed - Lyna
+	-Familiar-Possessed - Wynn
+	-Felis, Lightsworn Archer
+	-Fiend Reflection #2
+	-Fire Sorcerer
+	-Flamvell Magician
+	-Flash Knight
+	-Flint Lock
+	-Flogos, the Ogdoadic Boundless
+	-Fortune Fairy Swee
+	-Fortune Lady Water
+	-Freed the Brave Wanderer
+	-Future Samurai
+	-Gagaga Magician
+	-Gagaga Mancer
+	-Gaia, the Mid-Knight Sun
+	-Galaxy Cleric
+	-Galaxy Dragon
+	-Galaxy Summoner
+	-Galaxy War Drake
+	-Galaxy Wizard
+	-Gambler of Legend
+	-Ganbara Knight
+	-Garoth, Lightsworn Warrior
+	-Gellenduo
+	-Gem-Knight Nepyrim
+	-Gemini Elf
+	-Gemini Summoner
+	-Gendo the Ascetic Monk
+	-Genex Blastfan
+	-Genex Neutron
+	-Gentlemander
+	-Gishki Ariel
+	-Gishki Avance
+	-Gishki Emilia
+	-Gishki Natalia
+	-Gishki Noellia
+	-Goddess with the Third Eye
+	-Gold Gadget
+	-Golden Dragon Summoner
+	-Golden Flying Fish
+	-Gradius
+	-Gravekeeper's Ambusher
+	-Gravekeeper's Assailant
+	-Gravekeeper's Cannonholder
+	-Gravekeeper's Commandant
+	-Gravekeeper's Descendant
+	-Gravekeeper's Guard
+	-Gravekeeper's Heretic
+	-Gravekeeper's Spear Soldier
+	-Gravekeeper's Spiritualist
+	-Gravekeeper's Spy
+	-Gravekeeper's Watcher
+	-Great Sorcerer of the Nekroz
+	-Grid Sweeper
+	-Guardian of Felgrand
+	-Guardian of the Throne Room
+	-Guiding Ariadne
+	-Guiding Quem, the Virtuous
+	-Guldfaxe of the Nordic Beasts
+	-Hannibal Necromancer
+	-Harmonizing Magician
+	-Harvest Angel of Wisdom
+	-Healing Wave Generator
+	-Hecatrice
+	-Helios - The Primordial Sun
+	-Heliosphere Dragon
+	-Helping Robo for Combat
+	-Herald of Creation
+	-Heraldic Beast Unicorn
+	-Hieratic Dragon of Gebeb
+	-Hieratic Dragon of Nuit
+	-Homunculus the Alchemic Being
+	-Honest
+	-Hourglass of Courage
+	-Hunter of Black Feathers
+	-Hyper Synchron
+	-Hysteric Fairy
+	-I.A.S. -Invasive Alien Species-
+	-Ice Ryzeal
+	-Impcantation Candoll
+	-Imperial Bower
+	-Incredible Ecclesia, the Virtuous
+	-Indiora Doom Volt the Cubic Emperor
+	-Inspector Boarder
+	-Jade Knight
+	-Jain, Lightsworn Paladin
+	-Jenis, Lightsworn Mender
+	-Kaiser Sea Horse
+	-King's Knight
+	-Knight Day Grepher
+	-Kozmo Goodwitch
+	-Krishnerd Witch
+	-Kycoo the Ghost Destroyer
+	-Lacrima the Crimson Tears
+	-Lady Debug
+	-Lady of D.
+	-Layard the Liberator
+	-Legendary Six Samurai - Enishi
+	-Legion the Fiend Jester
+	-Libromancer Magigirl
+	-Libromancer Mystigirl
+	-Light Effigy
+	-Lightning Rod Lord
+	-Lightray Grepher
+	-Lightsworn Dragonling
+	-Lillybot
+	-Link Streamer
+	-Ljosalf of the Nordic Alfar
+	-Lord British Space Fighter
+	-Lord of D.
+	-Luster Pendulum, the Dracoslayer
+	-Lyla, Lightsworn Sorceress
+	-Lyla, Twilightsworn Enchantress
+	-Madolche Butlerusk
+	-Madolche Magileine
+	-Madolche Marmalmaide
+	-Magic Hand
+	-Magical Abductor
+	-Magical Exemplar
+	-Magical Musketeer Calamity
+	-Magical Musketeer Starfire
+	-Magical Musketeer Wild
+	-Magical Something
+	-Magicalibra
+	-Magician's Valkyria
+	-Magidog
+	-Maginificent Magikey Mafteal
+	-Maha Vailo
+	-Mahunder
+	-Maiden of Macabre
+	-Maiden of the Millennium Moon
+	-Maiden of the Moonlight
+	-Majespecter Crow - Yata
+	-Majespecter Fox - Kyubi
+	-Majespecter Porcupine - Yamarashi
+	-Majespecter Toad - Ogama
+	-Majestic Mech - Senku
+	-Majesty Pegasus, the Dracoslayer
+	-Manju of the Ten Thousand Hands
+	-Mannadium Riumheart
+	-Masked Sorcerer
+	-Master Pendulum, the Dracoslayer
+	-Mathmech Circular
+	-Mathmech Diameter
+	-Mathmech Sigma
+	-Mecha-Dog Marron
+	-Mei-Kou, Master of Barriers
+	-Mekk-Knight Avram
+	-Meklord Army Deployer Obbligato
+	-Meltiel, Sage of the Sky
+	-Metaphys Ragnarok
+	-Milla the Temporal Magician
+	-Millennium Seeker
+	-Minerva, Scholar of the Sky
+	-Mirage Dragon
+	-Mirror Swordknight
+	-Mist Valley Watcher
+	-Moon Envoy
+	-Moon Gardna
+	-Moon Magician
+	-Moonlit Papillon
+	-Morphtronic Radion
+	-Morphtronic Videon
+	-Ms. Judge
+	-Mystical Elf
+	-Mystical Elf - White Lightning
+	-Mythical Beast Bashilisk
+	-Mythical Beast Cerberus
+	-Mythical Beast Garuda
+	-Mythical Beast Medusa
+	-Nekroz of Unicore
+	-Neo Kaiser Sea Horse
+	-Neo Space Connector
+	-Neo Space Pathfinder
+	-Neo the Magic Swordsman
+	-Nikitama
+	-Ninja Grandmaster Sasuke
+	-Noble Knight Artorigus
+	-Noble Knight Bedwyr
+	-Noble Knight Borz
+	-Noble Knight Brothers
+	-Noble Knight Custennin
+	-Noble Knight Drystan
+	-Noble Knight Gawayn
+	-Noble Knight Gwalchavad
+	-Noble Knight Iyvanne
+	-Noble Knight Joan
+	-Noble Knight Medraut
+	-Noble Knight Pellinore
+	-Noble Knight Peredur
+	-Noble Knight's Shield-Bearer
+	-Nova Summoner
+	-Numeral Hunter
+	-Nunu, the Ogdoadic Remnant
+	-Opera the Melodious Diva
+	-Orbital 7
+	-Otonari Thunder
+	-Overlay Sentinel
+	-Pahunder
+	-Paladin of Felgrand
+	-Paladin of Photon Dragon
+	-Paladin of Storm Dragon
+	-Paladin of the Cursed Dragon
+	-Paladin of White Dragon
+	-Performage Ball Balancer
+	-Performage Damage Juggler
+	-Performage Fire Dancer
+	-Performage Flame Eater
+	-Performage Hat Tricker
+	-Performage Mirror Conductor
+	-Performage Plushfire
+	-Performage Trick Clown
+	-Performage Water Dancer
+	-Performapal Celestial Magician
+	-Performapal Duelist Extraordinaire
+	-Performapal Fireflux
+	-Performapal Gold Fang
+	-Performapal Pendulum Sorcerer
+	-Performapal Skullcrobat Joker
+	-Performapal Turn Trooper
+	-Performapal Uni
+	-Phantasos, the Dream Mirror Friend
+	-Phantom Beast Cross-Wing
+	-Phantom Beast Thunder-Pegasus
+	-Photon Advancer
+	-Photon Chargeman
+	-Photon Circle
+	-Photon Crusher
+	-Photon Delta Wing
+	-Photon Jumper
+	-Photon Orbital
+	-Photon Thrasher
+	-Photon Vanisher
+	-Pikari @Ignister
+	-Pity
+	-Power Angel Valkyria
+	-Power Pro Knight Sisters
+	-Primal Dragon, the Primordial
+	-Princess Curran
+	-Princess Pikeru
+	-Prinzessin
+	-Proxy Horse
+	-Psychic Bounder
+	-Purple Poison Magician
+	-Queen's Knight
+	-Ra's Disciple
+	-Radiant Jeral
+	-Radiant Vouirescence
+	-Radius, the Half-Moon Dragon
+	-Raging Eria
+	-Rai-Jin
+	-Raiden, Hand of the Lightsworn
+	-RAM Clouder
+	-Rapid-Fire Magician
+	-Re: EX
+	-Red Sparrow Summoner
+	-Reflect Bounder
+	-Refrain the Melodious Songstress
+	-Regulus
+	-Regulus the Fairy Beast
+	-Revealer of the Ice Barrier
+	-Reverse Buster
+	-Rilliona, the Magistus of Verre
+	-Road Synchron
+	-Rocket Warrior
+	-Rogue Doll
+	-Roulette Barrel
+	-Royal Magical Library
+	-Rucia of the White Forest
+	-Ruin, Angel of Oblivion
+	-S-Force Orrafist
+	-Sacred Crane
+	-Sage of Silence
+	-Sage of Stillness
+	-Saion the Vaylantz Archer
+	-Sakitama
+	-Satellarknight Alsahm
+	-Satellarknight Altair
+	-Satellarknight Betelgeuse
+	-Satellarknight Capella
+	-Satellarknight Deneb
+	-Satellarknight Procyon
+	-Satellarknight Rigel
+	-Satellarknight Sirius
+	-Satellarknight Unukalhai
+	-Satellarknight Vega
+	-Satellarknight Zefrathuban
+	-Secret Sect Druid Dru
+	-Secret Sect Druid Wid
+	-Seed-Spitting Saplings
+	-Selettrice Vaalmonica
+	-Senju of the Thousand Hands
+	-Serenade the Melodious Diva
+	-Shaddoll Dragon
+	-Shaddoll Hound
+	-Shaddoll Squamata
+	-Shadowpriestess of Ohm
+	-Shining Abyss
+	-Shining Angel
+	-Shining Friendship
+	-Shining Piecephilia
+	-Shining Star Dragon
+	-Silent Magician
+	-Silent Magician LV4
+	-Silent Magician Zero
+	-Silent Paladin
+	-Silent Swordsman
+	-Silent Swordsman Zero
+	-Silver Gadget
+	-Silvy of the White Forest
+	-Sishunder
+	-Skilled Blue Magician
+	-Skilled Brown Magician
+	-Skilled Dark Magician
+	-Skilled Red Magician
+	-Skilled White Magician
+	-Sky Striker Ace - Roze
+	-Solitaire Magician
+	-Solo the Melodious Songstress
+	-Soprano the Melodious Songstress
+	-Sorcerer of the Doomed
+	-Speaker for the Ice Barriers
+	-Spellbreaker of the Ice Barrier
+	-Spirit of the Harp
+	-Spirit Sculptor
+	-Spoon, the Seal of Magistus
+	-SPYGAL Misty
+	-SPYRAL Double Agent
+	-Star Drawing
+	-Star Ryzeal
+	-Star Seraph Sage
+	-Star Seraph Scale
+	-Star Seraph Scepter
+	-Star Seraph Scout
+	-Star Seraph Sovereignty
+	-Star Seraph Sword
+	-Stardust Synchron
+	-Stardust Trail
+	-Starliege Seyfert
+	-Starry Knight Astel
+	-Starry Knight Ciel
+	-Starry Knight Flamel
+	-Starry Knight Orbitael
+	-Starry Knight Rayel
+	-Staysailor Romarin
+	-Stellarknight Zefraxciton
+	-Storming Wynn
+	-Strategist of the Ice Barrier
+	-Strength of Prophecy
+	-Striping Partner
+	-Summoner Monk
+	-Sunlight Unicorn
+	-Super Quantum Green Layer
+	-Supreme King Dragon Lightwurm
+	-SZW - Fenrir Sword
+	-Tachyon Cloudragon
+	-Tamtam the Melodious Diva
+	-Tasuke Knight
+	-Tellarknight Altairan
+	-Tellarknight Lyran
+	-Tenyi Spirit - Suruya
+	-The Agent of Miracles - Jupiter
+	-The Agent of Wisdom - Mercury
+	-The Calibrator
+	-The Creator Incarnate
+	-The Fabled Kokkator
+	-The Fabled Rubyruda
+	-The Forgiving Maiden
+	-The Golden Swordsoul
+	-The Illusory Gentleman
+	-The Immortal of Thunder
+	-The King of D.
+	-The Man with the Mark
+	-The Six Samurai - Zanji
+	-The Stern Mystic
+	-Theban Nightmare
+	-Thunder Hand
+	-Thunder King Rai-Oh
+	-Thunder Nyan Nyan
+	-Thunder Sea Horse
+	-Thunderclap Monk
+	-Toon Gemini Elf
+	-Toon Masked Sorcerer
+	-Toy Magician
+	-Toy Soldier
+	-Toy Tank
+	-Trickstar Candina
+	-Trickstar Narkissus
+	-Trickstar Rhodode
+	-Trident Warrior
+	-Tsukuyomi
+	-Tuned Magician
+	-Tyr of the Nordic Champions
+	-Upstart Golden Ninja
+	-Utopic Onomatopoeia
+	-V Salamander
+	-V-Tiger Jet
+	-Valkyrie Dritte
+	-Vic Viper T301
+	-Victoria
+	-Victorica, Angel of Bravery
+	-Victory Viper XX03
+	-Violet Witch
+	-Visas Samsara
+	-Vivid Knight
+	-Voltic Kong
+	-Vylon Charger
+	-Vylon Hept
+	-Vylon Ohm
+	-Vylon Pentachloro
+	-Vylon Prism
+	-Vylon Soldier
+	-Vylon Stigma
+	-Vylon Tesseract
+	-Vylon Vanguard
+	-W-Wing Catapult
+	-Wattcobra
+	-Wattgiraffe
+	-Wattkinetic Puppeteer
+	-Wattpheasant
+	-Wattuna
+	-Ween, the Spirit of Treats
+	-Weiss, Lightsworn Archfiend
+	-White Dragon Wyverburster
+	-White Ninja
+	-White Relic of Dogmatika
+	-White Wing Magician
+	-Wind-Up Knight
+	-Wind-Up Magician
+	-Windwitch - Glass Bell
+	-Wisdom-Eye Magician
+	-Witch Doctor of Sparta
+	-Witch of the Black Forest
+	-Witch of the Black Rose
+	-Witchcrafter Schmietta
+	-Wonko, Noble Knight of the Forest
+	-Worm Cartaros
+	-Worm Dimikles
+	-Worm Gulse
+	-Worm Millidith
+	-Worm Rakuyeh
+	-Worm Solid
+	-Worm Tentacles
+	-Worm Xex
+	-Worm Yagan
+	-Wulf, Lightsworn Beast
+	-X-Cross Cannon
+	-X-Head Cannon
+	-Xiangsheng Magician
+	-Y-Dragon Head
+	-Y-Yare Head
+	-Z-Metal Tank
+	-Z-Zillion Tank
+	-Zap Mustung
+	-Zefrasaber, Swordmaster of the Nekroz
+	-Zeradias, Herald of Heaven
+	-Zoroa, the Magistus of Flame
+	-ZS - Armed Sage
+	-ZS - Ascended Sage
+	-ZW - Sleipnir Mail
+	-ZW - Sylphid Wing
+	-ZW - Unicorn Spear
+
+Targets for Number 105: Battlin' Boxer Star Cestus
+	-Abaki
+	-Absolute Crusader
+	-Adamancipator Crystal - Leonite
+	-Agnimal Candle
+	-Air Armor Ninja
+	-Aiza the Dragoness of Deranged Devotion
+	-Alien Telepath
+	-Altitude Knight
+	-Amazoness Archer
+	-Amazoness Chain Master
+	-Amazoness Fighter
+	-Amazoness Paladin
+	-Amazoness Sage
+	-Amazoness Swords Woman
+	-Amazoness Trainee
+	-Ancient Warriors - Deceptive Jia Wen
+	-Aqua Armor Ninja
+	-Argostars - Fierce Parthe
+	-Argostars - Glorious Adra
+	-Armageddon Knight
+	-Armed Samurai - Ben Kei
+	-Arnis, the Empowered Warrior
+	-Assault Mercenary
+	-Astraltopia
+	-Axe Raider
+	-Barrier Statue of the Inferno
+	-Battle Footballer
+	-Battle Survivor
+	-Battlin' Boxer Chief Second
+	-Battlin' Boxer Glassjaw
+	-Battlin' Boxer Headgeared
+	-Battlin' Boxer Promoter
+	-Battlin' Boxer Shadow
+	-Battlin' Boxer Sparrer
+	-Battlin' Boxer Switchitter
+	-Battlin' Boxer Uppercutter
+	-Battlin' Boxer Veil
+	-Beautiful Headhuntress
+	-Beckoned by the World Chalice
+	-Beginning Knight
+	-Big Belly Knight
+	-Big Shield Gardna
+	-Blade Bounzer
+	-Blade Knight
+	-Blade Skater
+	-Blast Magician
+	-Blazewing Butterfly
+	-Blazing Hiita
+	-Blazing Inpachi
+	-Blindly Loyal Goblin
+	-Blue Flame Swordsman
+	-Blue Mountain Butterspy
+	-BOXer
+	-Bravedrive
+	-Bravo, Fighter Fur Hire
+	-Brotherhood of the Fire Fist - Bear
+	-Brotherhood of the Fire Fist - Boar
+	-Brotherhood of the Fire Fist - Buffalo
+	-Brotherhood of the Fire Fist - Caribou
+	-Brotherhood of the Fire Fist - Dragon
+	-Brotherhood of the Fire Fist - Elephant
+	-Brotherhood of the Fire Fist - Gorilla
+	-Brotherhood of the Fire Fist - Rhino
+	-Brotherhood of the Fire Fist - Snake
+	-Brushfire Knight
+	-Bull Blader
+	-Burning Beast
+	-Cameraclops
+	-Celtic Guard of Noble Arms
+	-Celtic Guardian
+	-Chain Thrasher
+	-Chaos Grepher
+	-Chaosrider Gustaph
+	-Chow Len the Prophet
+	-Chthonian Soldier
+	-Cipher Mirror Knight
+	-Clavkiys, the Magikey Skyblaster
+	-Coach Soldier Wolfbark
+	-Codebreaker Zero Day
+	-Colonel on C-String
+	-Combo Fighter
+	-Command Knight
+	-Constellar Pollux
+	-Crimson Sentry
+	-Crystal Keeper
+	-Cu Chulainn the Awakened
+	-Cyber Esper
+	-Cyber Gymnast
+	-Cyber Phoenix
+	-D. Human
+	-D.D. Assailant
+	-D.D. Destroyer
+	-D.D. Guide
+	-D.D. Survivor
+	-D.D. Unicorn Knight
+	-D.D. Warrior
+	-D.D. Warrior Lady
+	-Dark Blade
+	-Dark Blade the Captain of the Evil World
+	-Dark Crusader
+	-Dark Grepher
+	-Dark Scorpion - Meanae the Thorn
+	-Dark Scorpion Burglars
+	-Darkfire Soldier #1
+	-Darkfire Soldier #2
+	-Daruma Dropper
+	-Dawn Knight
+	-Daybreaker
+	-Destiny HERO - Celestial
+	-Destiny HERO - Decider
+	-Destiny HERO - Defender
+	-Destiny HERO - Diamond Dude
+	-Destiny HERO - Drawhand
+	-Destiny HERO - Drilldark
+	-Destiny HERO - Dunker
+	-Destiny HERO - Fear Monger
+	-Dicelops
+	-Disc Fighter
+	-Disciple of the Forbidden Spell
+	-Dododo Driver
+	-Dododo Witch
+	-Doggy Diver
+	-Don Zaloog
+	-Dracoon Lamp
+	-Dragodies, the Empowered Warrior
+	-Dragonic Guard
+	-Dragonox, the Empowered Warrior
+	-Dragoons of Draconia
+	-Dual Avatar Fists - Yuhi
+	-Dust Knight
+	-Ehren, Lightsworn Monk
+	-Eka the Flame Buddy
+	-Electro Blaster
+	-Elemental HERO Blazeman
+	-Elemental HERO Bubbleman
+	-Elemental HERO Captain Gold
+	-Elemental HERO Clayman
+	-Elemental HERO Flash
+	-Elemental HERO Heat
+	-Elemental HERO Lady Heat
+	-Elemental HERO Liquid Soldier
+	-Elemental HERO Neo Bubbleman
+	-Elemental HERO Neos Alius
+	-Elemental HERO Ocean
+	-Elemental HERO Prisma
+	-Elemental HERO Shadow Mist
+	-Elemental HERO Solid Soldier
+	-Elemental HERO Sparkman
+	-Elemental HERO Stratos
+	-Elemental HERO Wildheart
+	-Elemental HERO Woodsman
+	-Elementsaber Lapauila
+	-Elementsaber Molehu
+	-Energy Bravery
+	-Envoy of Chaos
+	-Etoile Cyber
+	-Evening Twilight Knight
+	-Evilswarm Castor
+	-Evocator Chevalier
+	-Evocator Eveque
+	-Evolsaur Cerato
+	-Evolsaur Diplo
+	-Evolsaur Lios
+	-Evolsaur Pelta
+	-Evolsaur Vulcano
+	-Exiled Force
+	-Familiar-Possessed - Hiita
+	-FaSolfachord Fancia
+	-Fencing Fire Ferret
+	-Field-Commander Rahz
+	-Fiend Sword
+	-Fighting Flame Swordsman
+	-Fire Cracker
+	-Fire Hand
+	-Fire King Avatar Arvata
+	-Fire King Avatar Barong
+	-Fire King Avatar Rangbali
+	-Fire King Avatar Yaksha
+	-Fire King Courtier Ulcanix
+	-Fire Kraken
+	-Fire Princess
+	-Fire Sorcerer
+	-Firebird
+	-Fireyarou
+	-Flame Armor Ninja
+	-Flame Ruler
+	-Flame Spirit Ignis
+	-Flame Tiger
+	-Flamvell Firedog
+	-Flamvell Grunika
+	-Flamvell Magician
+	-Flash Knight
+	-Foie Glasya de Nouvelles
+	-Freed the Brave Wanderer
+	-Fushi No Tori
+	-Future Samurai
+	-G.B. Hunter
+	-Gagaga Gardna
+	-Gaia Soul the Combustible Collective
+	-Gaia the Fierce Knight Origin
+	-Gaia, the Mid-Knight Sun
+	-Gaia, the Polar Knight
+	-Ganbara Knight
+	-Garoth, Lightsworn Warrior
+	-Gearfried the Iron Knight
+	-Gearfried the Red-Eyes Iron Knight
+	-Gemini Scorpion
+	-Geminize Lord Golknight
+	-Getsu Fuhma
+	-Ghost Gardna
+	-Giga-Tech Wolf
+	-Gladiator Beast Laquari
+	-Goblin Attack Force
+	-Goblin Decoy Squad
+	-Goblin Freefall Squad
+	-Goblin Pothole Squad
+	-Goblin Recon Squad
+	-Goblindbergh
+	-Goe Goe the Gallant Ninja
+	-Gouki Suprex
+	-Great Angus
+	-Guardian Ceal
+	-Guardian of Felgrand
+	-Guardian of the Labyrinth
+	-Guerilla Kite
+	-Gundari
+	-Gunkan Suship Ikura
+	-Gunkan Suship Shari
+	-Gunkan Suship Shari Red
+	-Gunkan Suship Shirauo
+	-Heavy Knight of the Flame
+	-Heroic Challenger - Assault Halberd
+	-Heroic Challenger - Double Lance
+	-Heroic Challenger - Extra Sword
+	-Heroic Challenger - Morning Star
+	-Heroic Challenger - Night Watchman
+	-Heroic Challenger - Spartan
+	-Heroic Challenger - Swordshield
+	-Heroic Challenger - Thousand Blades
+	-Hibikime
+	-Hinezumi Hanabi
+	-Horus the Black Flame Dragon LV4
+	-Igknight Paladin
+	-Igknight Templar
+	-Ignis Phoenix, the Dracoslayer
+	-Imperial Bower
+	-Inari Fire
+	-Infernalqueen Archfiend
+	-Inferno
+	-Infernoble Knight Maugis
+	-Infernoble Knight Ogier
+	-Infernoble Knight Oliver
+	-Infernoble Knight Turpin
+	-Infernoid Patrulea
+	-Invader of the Throne
+	-Iron Chain Repairman
+	-Iron Hans
+	-Iron Knight
+	-Jain, Lightsworn Paladin
+	-Jain, Twilightsworn General
+	-Judge of the Ice Barrier
+	-Junk Blader
+	-Junk Breaker
+	-Junk Servant
+	-Jurrac Guaiba
+	-Jurrac Iguanon
+	-Jurrac Protops
+	-Jurrac Stigo
+	-Jurrac Velo
+	-Justice Bringer
+	-Kagero the Cannon Ninja
+	-Kanan the Swordmistress
+	-Kashtira Riseheart
+	-King's Knight
+	-Knight Day Grepher
+	-Koa'ki Meiru Bergzak
+	-Koa'ki Meiru Gravirose
+	-Koa'ki Meiru War Arms
+	-Kojikocy
+	-Kunoichi
+	-Lady Assailant of Flames
+	-Lava Dragon
+	-Laval Archer
+	-Laval Blaster
+	-Laval Cannon
+	-Laval Magma Cannoneer
+	-Laval Phlogis
+	-Laval Warrior
+	-Legacy Hunter
+	-Legendary Secret of the Six Samurai
+	-Legendary Six Samurai - Enishi
+	-Legendary Six Samurai - Kizan
+	-Libromancer Fire
+	-Lightray Grepher
+	-Little-Winguard
+	-Loptr, Shadow of the Generaider Bosses
+	-Madolche Chouxvalier
+	-Madolche Messengelato
+	-Magicore Warrior of the Relics
+	-Magma Dragon
+	-Makyura the Destructor
+	-Mannadium Riumheart
+	-Masaki the Legendary Swordsman
+	-Masked Ninja Ebisu
+	-Master of the Flaming Dragonswords
+	-Mathmech Addition
+	-Mathmech Subtraction
+	-Max Warrior
+	-Mementotlan Dark Blade
+	-Metalfoes Goldriver
+	-Mid Shield Gardna
+	-Mild Turkey
+	-Miscellaneousaurus
+	-Missing Force
+	-Molten Zombie
+	-Moon Envoy
+	-Morpho Butterspy
+	-Muscle Medic
+	-Mysterious Puppeteer
+	-Mystic Swordsman LV4
+	-Neo Flamvell Lady
+	-Neo Flamvell Sabre
+	-Neo Space Connector
+	-Neo Space Pathfinder
+	-Ninja Grandmaster Hanzo
+	-Ninja Grandmaster Sasuke
+	-Noble Knight Artorigus
+	-Noble Knight Bedwyr
+	-Noble Knight Borz
+	-Noble Knight Brothers
+	-Noble Knight Custennin
+	-Noble Knight Drystan
+	-Noble Knight Gawayn
+	-Noble Knight Gwalchavad
+	-Noble Knight Iyvanne
+	-Noble Knight Joan
+	-Noble Knight Medraut
+	-Noble Knight Pellinore
+	-Noble Knight Peredur
+	-Noble Knight's Shield-Bearer
+	-Node Ryzeal
+	-Nomadic Force
+	-Nordic Smith Ivaldi
+	-Numeral Hunter
+	-Obnoxious Celtic Guard
+	-Overlay Sentinel
+	-Paladin of Felgrand
+	-Paladin of Photon Dragon
+	-Palm Ryzeal
+	-Performage Fire Dancer
+	-Performage Flame Eater
+	-Performage Plushfire
+	-Performapal Helpprincess
+	-Performapal Turn Trooper
+	-Photon Advancer
+	-Photon Chargeman
+	-Photon Crusher
+	-Photon Jumper
+	-Photon Thrasher
+	-Photon Vanisher
+	-Pilgrim of the Ice Barrier
+	-Power Breaker
+	-Power Pro Knight Sisters
+	-Prominence Hand
+	-Prominence, Molten Swordsman
+	-Protector of the Throne
+	-Puppet Rook
+	-Queen's Bodyguard
+	-Queen's Knight
+	-Raiden, Hand of the Lightsworn
+	-Rapid Warrior
+	-Rasetsu
+	-Red Gardna
+	-Red Sparrow Summoner
+	-Red Sprinter
+	-Rescue Warrior
+	-Rescue-ACE Air Lifter
+	-Rescue-ACE Monitor
+	-Rhaimundos of the Red Sword
+	-Rhinotaurus
+	-Robotic Knight
+	-Rocket Warrior
+	-Rose Paladin
+	-Rose Shaman
+	-Rose, Warrior of Revenge
+	-Royal Firestorm Guards
+	-Salamangreat Falco
+	-Salamangreat Fowl
+	-Salamangreat Jack Jaguar
+	-Salamangreat Wolvie
+	-Salamangreat Zebroid X
+	-Samurai of the Ice Barrier
+	-Samurai Sword Baron
+	-Sasuke Samurai #4
+	-Satellarknight Alsahm
+	-Satellarknight Altair
+	-Satellarknight Betelgeuse
+	-Satellarknight Capella
+	-Satellarknight Deneb
+	-Satellarknight Procyon
+	-Satellarknight Rigel
+	-Satellarknight Sirius
+	-Satellarknight Unukalhai
+	-Satellarknight Vega
+	-Satellarknight Zefrathuban
+	-Scareclaw Reichheart
+	-Search Striker
+	-Secret Six Samurai - Doji
+	-Secret Six Samurai - Kizaru
+	-Sergeant Electro
+	-Shien's Advisor
+	-Shien's Daredevil
+	-Shiranui Samurai
+	-Shiranui Smith
+	-Shiranui Solitaire
+	-Shiranui Spiritmaster
+	-Shiranui Squire
+	-Shore Knight
+	-Silent Swordsman
+	-Silent Swordsman Zero
+	-Silver Sentinel
+	-Skull Mariner
+	-Sky Striker Ace - Raye
+	-Sky Striker Ace - Roze
+	-Solar Flare Dragon
+	-Spell Strider
+	-Spirit of Flames
+	-Springans Brothers
+	-Springans Pedor
+	-Springans Rockey
+	-SPYRAL Super Agent
+	-SPYRAL Tough
+	-Steam Knight - BULLauncher
+	-Strength of Prophecy
+	-Strike Ninja
+	-Stronghold Guardian
+	-Suanni, Fire of the Yang Zing
+	-Subterror Nemesis Warrior
+	-Supply
+	-Swallowtail Butterspy
+	-Sword Ryzeal
+	-Tasuke Knight
+	-Tatakawa Knight
+	-Tearlaments Reinoheart
+	-Tellarknight Altairan
+	-Tellarknight Lyran
+	-Tenkabito Shien
+	-Tenpai Dragon Chundra
+	-Tenyi Spirit - Mapura
+	-Terratiger, the Empowered Warrior
+	-The Creator Incarnate
+	-The Phantom Knights of Cloven Helm
+	-The Phantom Knights of Fragile Armor
+	-The Six Samurai - Irou
+	-The Six Samurai - Nisashi
+	-The Six Samurai - Zanji
+	-The Thing in the Crater
+	-The Unfriendly Amazon
+	-Throwstone Unit
+	-Toon Goblin Attack Force
+	-Toy Soldier
+	-Tri-Brigade Fraktall
+	-Trident Warrior
+	-Twilight Ninja Shingetsu
+	-Twin-Shield Defender
+	-Twin-Sword Marauder
+	-Tyr of the Nordic Champions
+	-U.A. Libero Spiker
+	-U.A. Midfielder
+	-UFO Turtle
+	-Ultimate Baseball Homerun King
+	-Upstart Golden Ninja
+	-Utopic Onomatopoeia
+	-V Salamander
+	-Valkyrian Knight
+	-Vampire Hunter
+	-Vanquish Soul Razen
+	-Vaylantz Voltage Viscount
+	-Vision HERO Gravito
+	-Vision HERO Vyon
+	-Volcanic Rocket
+	-Volcanic Slicer
+	-War Rock Fortia
+	-War Rock Gactos
+	-War Rock Wento
+	-Warrior Dai Grepher
+	-Warrior Lady of the Wasteland
+	-Warrior of Zera
+	-White Ninja
+	-Wind-Up Knight
+	-Wind-Up Magician
+	-Wind-Up Soldier
+	-Wind-Up Warrior
+	-Witchcrafter Schmietta
+	-X-Saber Anu Piranha
+	-X-Saber Galahad
+	-Xyz-Raypierce
+	-Yellow Ninja
+	-Zalamander Catalyzer
+	-Zero Gardna
+	-Zombyra the Dark
+	-Zoroa, the Magistus of Flame
+	-ZS - Armed Sage
+	-ZS - Ascended Sage
+	-Zubababancho Gagagacoat
+	-ZW - Asura Strike
+
+Targets for Number 106: Giant Hand
+	-Abare Ushioni
+	-Absolute Crusader
+	-Adamancipator Analyzer
+	-Adamancipator Crystal - Dragite
+	-Adamancipator Crystal - Leonite
+	-Adamancipator Crystal - Raptite
+	-Advanced Crystal Beast Amber Mammoth
+	-Advanced Crystal Beast Topaz Tiger
+	-Agido
+	-Agido the Ancient Sentinel
+	-Alien Shocktrooper
+	-Alien Warrior
+	-Alligator's Sword
+	-Alpha The Magnet Warrior
+	-Amano-Iwato
+	-Amazoness Archer
+	-Amazoness Chain Master
+	-Amazoness Fighter
+	-Amazoness Paladin
+	-Amazoness Sage
+	-Amazoness Swords Woman
+	-Amazoness Tiger
+	-Amazoness Trainee
+	-Amorphage Envy
+	-Amorphage Greed
+	-Amorphage Pride
+	-Amorphage Wrath
+	-Anarchist Monk Ranshin
+	-Ancient Gear Box
+	-Ancient Gear Commander
+	-Ancient Gear Frame
+	-Ancient Gear Gadget
+	-Ancient Gear Knight
+	-Ancient Gear Soldier
+	-Ancient Gear Tanker
+	-Ancient Gear Wyvern
+	-Ancient Lizard Warrior
+	-Angel Trumpeter
+	-Antialian
+	-Argostars - Fierce Parthe
+	-Argostars - Glorious Adra
+	-Armor Exe
+	-Armored Lizard
+	-Assault Beast
+	-Assault Dog
+	-Assault Mercenary
+	-Assault Sentinel
+	-Avalanching Aussa
+	-Axe Raider
+	-Aye-Iron
+	-Aztekipede, the Worm Warrior
+	-Balloon Lizard
+	-Barrel Rock
+	-Barrier Statue of the Drought
+	-Battle Ox
+	-Battle Survivor
+	-Bazoo the Soul-Eater
+	-Bean Soldier
+	-Beast Striker
+	-Beatraptor
+	-Beautiful Headhuntress
+	-Beaver Warrior
+	-Beckoned by the World Chalice
+	-Beetrooper Assault Roller
+	-Berserk Gorilla
+	-Beta The Magnet Warrior
+	-Big Belly Knight
+	-Big Insect
+	-Big Shield Gardna
+	-Bitrooper
+	-Black Brachios
+	-Black Stego
+	-Black Veloci
+	-Blade Bounzer
+	-Blade Skater
+	-Blindly Loyal Goblin
+	-Blockman
+	-Boar Soldier
+	-Bone Crusher
+	-Boot-Up Corporal - Command Dynamo
+	-Boot-Up Soldier - Dread Dynamo
+	-Botanical Lion
+	-BOXer
+	-Boycotton
+	-Bri Synchron
+	-Bull Blader
+	-Cactus Bouncer
+	-Cactus Fighter
+	-Catoblepas and the Witch of Fate
+	-Cattycorn
+	-Celestial Apparatus Tesea
+	-Celtic Guard of Noble Arms
+	-Celtic Guardian
+	-Chain Dog
+	-Chainsaw Insect
+	-Chiron the Mage
+	-Chronomaly Aztec Mask Golem
+	-Chronomaly Cabrera Trebuchet
+	-Chronomaly Colossal Head
+	-Chronomaly Mud Golem
+	-Chronomaly Tuspa Rocket
+	-Clear Rage Golem
+	-Coach Goblin
+	-Commander Covington
+	-Crawling Dragon #2
+	-Crow Tengu
+	-Crystal Beast Amber Mammoth
+	-Crystal Beast Topaz Tiger
+	-Cyber Gymnast
+	-Cybernetic Cyclopean
+	-Cyborg Doctor
+	-D. Human
+	-D.D. Assailant
+	-D.D. Destroyer
+	-D.D. Warrior
+	-Dark Catapulter
+	-Dark Lucius LV4
+	-Dark Zebra
+	-Daruma Dropper
+	-Decayed Commander
+	-Delta The Magnet Warrior
+	-Des Dendle
+	-Desert Protector
+	-Deskbot 004
+	-Desmanian Devil
+	-Destroyer Golem
+	-Destroyersaurus
+	-Destructotron
+	-Dino-Sewing
+	-Dinowrestler Capoeiraptor
+	-Dinowrestler Systegosaur
+	-Disc Fighter
+	-Dododo Bot
+	-Dododo Driver
+	-Dododo Witch
+	-Dodododwarf Gogogoglove
+	-Dogu
+	-Doitsu
+	-Doriado
+	-Dragon Dowser
+	-Dragon Tail Lucias
+	-Dragong
+	-Dragonpulse Magician
+	-Drillroid
+	-Dust Knight
+	-Dyna Base
+	-Earth Effigy
+	-Earthbound Spirit
+	-Eco, Mystical Spirit of the Forest
+	-Eda the Sun Magician
+	-Elemental HERO Clayman
+	-Elemental HERO Solid Soldier
+	-Elemental HERO Wildheart
+	-Elemental HERO Woodsman
+	-Enraged Battle Ox
+	-Epsilon The Magnet Warrior
+	-Etoile Cyber
+	-Evil HERO Dead-End Prison
+	-Evil HERO Infernal Gainer
+	-Evilswarm Heliotrope
+	-Exiled Force
+	-Express Train Trolley Olley
+	-Expressroid
+	-Familiar-Possessed - Aussa
+	-Field-Commander Rahz
+	-Fierce Tiger Monghu
+	-Flowerdino
+	-Fluffal Dog
+	-Fluffal Leo
+	-Flying Pegasus Railroad Stampede
+	-Fossil Dyna Pachycephalo
+	-Fossil Tusker
+	-Frenzied Panda
+	-Frontline Observer
+	-G.B. Hunter
+	-Gadget Trio
+	-Gagaga Gardna
+	-Gaia the Fierce Knight Origin
+	-Gamma the Magnet Warrior
+	-Gate Blocker
+	-Gazelle the King of Mythical Beasts
+	-Gazelle the King of Mythical Claws
+	-Gear Golem the Moving Fortress
+	-Gearfried the Iron Knight
+	-Geargiaccelerator
+	-Geargianchor
+	-Geargiarmor
+	-Geargiarsenal
+	-Geargiattacker
+	-Geargiauger
+	-Gem-Armadillo
+	-Gem-Knight Alexandrite
+	-Gem-Knight Amber
+	-Gem-Knight Emerald
+	-Gem-Knight Garnet
+	-Gem-Knight Iolite
+	-Gem-Knight Quartz
+	-Gem-Knight Sapphire
+	-Gem-Knight Sardonyx
+	-Gem-Knight Tourmaline
+	-Gem-Turtle
+	-Gemini Elf
+	-Gemini Scorpion
+	-Geminize Lord Golknight
+	-Gene-Warped Warwolf
+	-Genex Searcher
+	-Genex Turbine
+	-Giant Flea
+	-Giant Rat
+	-Giant Rex
+	-Gigantes
+	-Gigantic Cephalotus
+	-Gimmick Puppet Egg Head
+	-Gladiator Beast Andal
+	-Gladiator Beast Attorix
+	-Gladiator Beast Darius
+	-Gladiator Beast Dimacari
+	-Gladiator Beast Hoplomus
+	-Gladiator Beast Tygerius
+	-Goblin Attack Force
+	-Goblin Elite Attack Force
+	-Goblin Marauding Squad
+	-Goblin of Greed
+	-Goblin Pothole Squad
+	-Goblindbergh
+	-Goggle Golem
+	-Gogogo Aristera & Dexia
+	-Gogogo Giant
+	-Gogogo Gigas
+	-Gogogo Golem
+	-Gogogo Golem - Golden Form
+	-Gogogo Goram
+	-Gokibore
+	-Golem Dragon
+	-Golem Sentry
+	-Golgoil
+	-Gouki Suprex
+	-Gozuki
+	-Grandram
+	-Grapple Blocker
+	-Grave Ohja
+	-Gravekeeper's Commandant
+	-Great Bill
+	-Great Spirit
+	-Green Gadget
+	-Griffore
+	-Ground Attacker Bugroth
+	-Ground Spider
+	-Guardian of the Labyrinth
+	-Guardian Statue
+	-Hardened Armed Dragon
+	-Headless Knight
+	-Heraldic Beast Basilisk
+	-Heraldic Beast Eale
+	-Heraldic Beast Leo
+	-Heroic Challenger - Assault Halberd
+	-Heroic Challenger - Double Lance
+	-Heroic Challenger - Extra Sword
+	-Heroic Challenger - Morning Star
+	-Heroic Challenger - Night Watchman
+	-Heroic Challenger - Spartan
+	-Heroic Challenger - Swordshield
+	-Heroic Challenger - Thousand Blades
+	-Hibikime
+	-Hitotsu-Me Giant
+	-Hound of the Tistina
+	-Hyper Hammerhead
+	-Ibicella Lutea
+	-Immortal Ruler
+	-Indomitable Fighter Lei Lei
+	-Infinitrack Anchor Drill
+	-Informer Spider
+	-Inpachi
+	-Insect Knight
+	-Invader of the Throne
+	-Iron Chain Repairman
+	-Iron Hans
+	-Iron Knight
+	-Jirai Gumo
+	-Jumbo Drill
+	-Junk Blader
+	-Junk Breaker
+	-Junk Servant
+	-Justice Bringer
+	-Kamakiriman
+	-Kanan the Swordmistress
+	-Kangaroo Champ
+	-Karakuri Bushi mdl 6318 "Muzanichiha"
+	-Karakuri Muso mdl 818 "Haipa"
+	-Karakuri Ninja mdl 919 "Kuick"
+	-Karakuri Soldier mdl 236 "Nisamu"
+	-Karakuri Watchdog mdl 313 "Saizan"
+	-Kelbek
+	-Kelbek the Ancient Vanguard
+	-Keldo
+	-Keldo the Sacred Protector
+	-King Tiger Wanghu
+	-Koa'ki Meiru Beetle
+	-Koa'ki Meiru Bergzak
+	-Koa'ki Meiru Boulder
+	-Koa'ki Meiru Crusader
+	-Koa'ki Meiru Guardian
+	-Koa'ki Meiru Overload
+	-Koa'ki Meiru Powerhand
+	-Koa'ki Meiru Prototype
+	-Koa'ki Meiru Sandman
+	-Koa'ki Meiru Supplier
+	-Koa'ki Meiru Urnight
+	-Koa'ki Meiru Wall
+	-Koa'ki Meiru War Arms
+	-Kojikocy
+	-Kuwagata α
+	-Lady Panther
+	-Landrobe the Rock Vassal
+	-Launcher Commander
+	-Legacy Hunter
+	-Legendary Six Samurai - Kizan
+	-Leotaur
+	-Leotron
+	-Lindbloom
+	-Lionhearted Locomotive
+	-Lisark
+	-Lost Guardian
+	-Machina Defender
+	-Machina Gearframe
+	-Machina Sniper
+	-Machina Soldier
+	-Machine Lord Ur
+	-Mad Sword Beast
+	-Madolche Anjelly
+	-Madolche Butlerusk
+	-Madolche Chouxvalier
+	-Madolche Magileine
+	-Madolche Marmalmaide
+	-Madolche Messengelato
+	-Madolche Petingcessoeur
+	-Magical Abductor
+	-Magical Cavalry of Cxulub
+	-Magical Exemplar
+	-Maharaghi
+	-Maji-Gire Panda
+	-Man-Thro' Tro'
+	-Masaki the Legendary Swordsman
+	-Masked Chameleon
+	-Master & Expert
+	-Master Kyonshee
+	-Mathmech Division
+	-Mathmech Multiplication
+	-Medium Piece Golem
+	-Megalith Hagith
+	-Megalith Och
+	-Megalith Ophiel
+	-Meklord Army of Granel
+	-Meowseclick
+	-Metrognome
+	-Mezuki
+	-Mid Shield Gardna
+	-Mighty Guard
+	-Mimicking Man-Eater Bug
+	-Mimighoul Master
+	-Minefieldriller
+	-Minomushi Warrior
+	-Miracle Jurassic Egg
+	-Moai Interceptor Cannons
+	-Mon Larvas
+	-Monster Express
+	-Mormolith
+	-Morphtronic Boomboxen
+	-Morphtronic Staplen
+	-Mudora
+	-Mudora the Sword Oracle
+	-Mulcharmy Meowls
+	-Mysterious Puppeteer
+	-Mystic Horseman
+	-Mystic Swordsman LV4
+	-Mythic Tree Dragon
+	-Nanobreaker
+	-Naturia Beetle
+	-Naturia Camellia
+	-Naturia Cliff
+	-Naturia Dragonfly
+	-Naturia Guardian
+	-Naturia Horneedle
+	-Naturia Mantis
+	-Naturia Pumpkin
+	-Naturia Spiderfang
+	-Naturia Strawberry
+	-Naturia White Oak
+	-Nefarious Archfiend Eater of Nefariousness
+	-Nehshaddoll Genius
+	-Neo Bug
+	-Nordic Smith Ivaldi
+	-Obnoxious Celtic Guard
+	-Obsessive Uvualoop
+	-Obsidian Dragon
+	-Ogre of the Black Shadow
+	-One Who Hunts Souls
+	-Oni Tank T-34
+	-Onmoraki
+	-Overdrive
+	-Pale Beast
+	-Panther Warrior
+	-Papa-Corn
+	-Patroid
+	-Performage Ball Balancer
+	-Performage Hat Tricker
+	-Performapal Bot-Eyes Lizard
+	-Performapal Bowhopper
+	-Performapal Camelump
+	-Performapal Handsamuraiger
+	-Performapal Longphone Bull
+	-Performapal Pendulum Sorcerer
+	-Performapal Radish Horse
+	-Performapal Salutiger
+	-Performapal Secondonkey
+	-Performapal Swincobra
+	-Performapal Teeter Totter Hopper
+	-Performapal Whip Snake
+	-Phantom Beast Wild-Horn
+	-Pinch Hopper
+	-Planet Pathfinder
+	-Poison Mummy
+	-Power Breaker
+	-Power Injector
+	-Prank-Kids Rocksies
+	-Prevent Rat
+	-Prickle Fairy
+	-Primite Dragon Ether Beryl
+	-Protector of the Sanctuary
+	-Protector of the Throne
+	-Psychic Snail
+	-Puppet Rook
+	-Pyramid Turtle
+	-Qardan the Clear-Sighted
+	-Queen's Bodyguard
+	-R-Genex Ultimum
+	-Ragnaraika Wicked Butterfly
+	-Reactan, Dragon Ruler of Pebbles
+	-Red Gadget
+	-Reinforced Human Psychic Borg
+	-Rescue Cat
+	-Rescue Ferret
+	-Rescue Hamster
+	-Rescue Hedgehog
+	-Rescue Rabbit
+	-Rescue Warrior
+	-Resonance Insect
+	-Retaliating "C"
+	-Revival Golem
+	-Rhaimundos of the Red Sword
+	-Rock Band Xenoguitar
+	-Rockstone Warrior
+	-Rose Paladin
+	-Rose Shaman
+	-Rose Witch
+	-Royal Keeper
+	-Ruffian Railcar
+	-Sabersaurus
+	-Samurai Cavalry of Reptier
+	-Samurai Sword Baron
+	-Sand Moth
+	-Scrap Beast
+	-Scrap Chimera
+	-Scrap Kong
+	-Scrap Orthros
+	-Scrap Raptor
+	-Scrap Shark
+	-Scrounging Goblin
+	-Secret Six Samurai - Kizaru
+	-Shaddoll Zefracore
+	-Shell Knight
+	-Shield Worm
+	-Shien's Advisor
+	-Shien's Daredevil
+	-Shining Piecephilia
+	-Shiny Black "C" Squadder
+	-Shreddder
+	-Shutendoji
+	-Silent Psychic Wizard
+	-Silver Sentinel
+	-Skull Dog Marron
+	-Skull-Mark Ladybug
+	-Sleeping Lion
+	-Snakeyashi
+	-Soul Tiger
+	-Souleater
+	-Spell Strider
+	-Spyder Spider
+	-SPYRAL GEAR - Last Resort
+	-SPYRAL Super Agent
+	-Star Drawing
+	-Steamroid
+	-Steel Cavalry of Dinon
+	-Stone Ghost
+	-Stone Statue of the Aztecs
+	-Stronghold Guardian
+	-Subterror Guru
+	-Subterror Nemesis Warrior
+	-Super Defense Robot Lio
+	-Super-Nimble Mega Hamster
+	-Superheavy Samurai Blue Brawler
+	-Superheavy Samurai Kabuto
+	-Superheavy Samurai Magnet
+	-Superheavy Samurai Scales
+	-Superheavy Samurai Security
+	-Superheavy Samurai Soulgaia Booster
+	-Superheavy Samurai Soulpiercer
+	-Superheavy Samurai Wagon
+	-Supply
+	-Susa Soldier
+	-Sylvan Bladefender
+	-Sylvan Flowerknight
+	-T.G. Rush Rhino
+	-Tackle Crusader
+	-Tarai
+	-Tatakawa Knight
+	-Telekinetic Shocker
+	-Terratiger, the Empowered Warrior
+	-Test Bear
+	-The Man with the Mark
+	-The Portrait's Secret
+	-The Rock Spirit
+	-The Statue of Easter Island
+	-The Thing That Hides in the Mud
+	-The Trojan Horse
+	-The Unfriendly Amazon
+	-Thousand Needles
+	-Thron the Disciplined Angel
+	-Throwstone Unit
+	-Tiger Axe
+	-Token Collector
+	-Toon Gemini Elf
+	-Toon Goblin Attack Force
+	-Toy Knight
+	-Traptrix Arachnocampa
+	-Traptrix Atrax
+	-Traptrix Dionaea
+	-Traptrix Genlisea
+	-Traptrix Mantis
+	-Traptrix Myrmeleo
+	-Traptrix Nepenthes
+	-Traptrix Pudica
+	-Traptrix Vesiculo
+	-Treasure Panda
+	-Triamid Master
+	-Tripwire Beast
+	-Truckroid
+	-Twin-Shield Defender
+	-Two-Headed King Rex
+	-Tyranno Infinity
+	-U.A. Libero Spiker
+	-U.A. Midfielder
+	-Uraby
+	-Vampiric Koala
+	-Vampiric Orchis
+	-Vanguard of the Dragon
+	-Vanquish Soul Pantera
+	-Venom Cobra
+	-Vernusylph of the Awakening Forests
+	-Vernusylph of the Flourishing Hills
+	-Wandering Mummy
+	-War Rock Fortia
+	-War Rock Gactos
+	-War Rock Wento
+	-Warrior Dai Grepher
+	-Warrior Lady of the Wasteland
+	-Warrior of Zera
+	-Weathering Soldier
+	-Wilmee
+	-Wind-Up Soldier
+	-Wind-Up Warrior
+	-Witch Doctor of Sparta
+	-Wolf Axwielder
+	-World Soul - Carbon
+	-Worm Drake
+	-X-Saber Anu Piranha
+	-X-Saber Galahad
+	-X-Saber Uruz
+	-XX-Saber Boggart Knight
+	-XX-Saber Garsem
+	-Yellow Gadget
+	-Yosenju Shinchu L
+	-Yosenju Shinchu R
+	-Zero Gardna
+	-Zolga
+	-Zolga the Prophet
+	-Zombie Mammoth
+	-Zombina
+	-Zombino
+	-Zoodiac Bunnyblast
+	-Zoodiac Kataroost
+	-Zoodiac Ramram
+	-Zoodiac Ratpier
+	-Zoodiac Thoroughblade
+	-Zoodiac Whiptail
+	-Zubababancho Gagagacoat
+	-ZW - Ultimate Shield
+
+Targets for Number 107: Galaxy-Eyes Tachyon Dragon
+	-Albion the Shrouded Dragon
+	-Amorphactor Pain, the Imagination Dracoverlord
+	-Amorphage Goliath
+	-Anotherverse Dragon
+	-Antihuman Intelligence ME-PSY-YA
+	-Arcana Force XXI - The World
+	-Archlord Kristya
+	-Archlord Zerato
+	-Armed Protector Dragon
+	-Aron, the Ogdoadic King
+	-B.E.S. Big Core MK-3
+	-Batteryman Industrial Strength
+	-Big Inflate Dragon
+	-Black Luster Soldier - Envoy of the Beginning
+	-Black Luster Soldier - Sacred Soldier
+	-Blue-Eyes Abyss Dragon
+	-Blue-Eyes Alternative White Dragon
+	-Blue-Eyes Chaos Dragon
+	-Blue-Eyes Chaos MAX Dragon
+	-Blue-Eyes Jet Dragon
+	-Blue-Eyes Solid Dragon
+	-Blue-Eyes Toon Dragon
+	-Blue-Eyes White Dragon
+	-Borreload Riot Dragon
+	-Burning Dragon
+	-Centur-Ion Gargoyle II
+	-Chaos Dragon Levianeer
+	-Chaos Emperor Dragon - Envoy of the End
+	-Chaos Emperor, the Dragon of Armageddon
+	-Clear Vice Dragon
+	-Crystal Beast Rainbow Dragon
+	-Cyber Angel Dakini
+	-Cyber Angel Izana
+	-Dark End Evaporation Dragon
+	-Dark Hole Dragon
+	-Dark Horus
+	-Darkest Diabolos, Lord of the Lair
+	-Darkstorm Dragon
+	-Diabellze the White Witch
+	-Divine Dragon Lord Felgrand
+	-Dogmatika Ashiyan
+	-Dogmatika Fleurdelis, the Knighted
+	-Dogmatika Maximus
+	-Double Disruptor Dragon
+	-Dragolithia Kunzite
+	-Dragon Core Hexer
+	-Dragon of Pride and Soul
+	-Dragon Spirit of White
+	-Dragonmaid Lorpar
+	-Dragonmaid Tinkhec
+	-Dragunity Arma Leyvaten
+	-Ehther the Heavenly Monarch
+	-Emperor of Lightning
+	-Fabled Dianaira
+	-Felgrand Dragon
+	-Festiballoon
+	-Galactic Spiral Dragon
+	-Galaxy Brave
+	-Galaxy Knight
+	-Galaxy Tyranno
+	-Galaxy-Eyes Afterglow Dragon
+	-Galaxy-Eyes Photon Dragon
+	-Galaxy-Eyes Tachyon Primal
+	-Gandora the Dragon of Destruction
+	-Gandora-G the Dragon of Destruction
+	-Gandora-X the Dragon of Demolition
+	-Gigarays Gandora the Dragon of Destruction
+	-Gilford the Lightning
+	-Grandtusk Dragon
+	-Guardian of Order
+	-Heart of the Blue-Eyes
+	-Helios Trice Megistus
+	-Hieratic Dragon of Sutekh
+	-Hieratic Seal of the Sun Dragon Overlord
+	-Horus the Black Flame Deity
+	-Horus the Black Flame Dragon LV8
+	-Jormungardr the Nordic Serpent
+	-Judgment Dragon
+	-Keurse, the Ogdoadic Light
+	-Koa'ki Meiru Maximus
+	-Legendary Knight Critias
+	-Legendary Knight Hermos
+	-Legendary Knight Timaeus
+	-Light and Darkness Dragon
+	-Light End Sublimation Dragon
+	-Lightray Gearfried
+	-Lord of the Red
+	-Magical Musket Mastermind Zakiel
+	-Magicians of Bonds and Unity
+	-Maha Vailo, Light of the Heavens
+	-Majestic Mech - Goryu
+	-Malefic Blue-Eyes White Dragon
+	-Malefic Stardust Dragon
+	-Master Hyperion
+	-Master Peace, the True Dracoslayer
+	-Master Peace, the True Dracoslaying King
+	-Mekk-Knight Indigo Eclipse
+	-Mekk-Knight Purple Nightfall
+	-Mementotlan-Horned Dragon
+	-Metaphys Nephthys
+	-Metaphys Tyrant Dragon
+	-Mirage Knight
+	-Montage Dragon
+	-Morpheus, the Dream Mirror White Knight
+	-Mozarta the Melodious Maestra
+	-Mythic Water Dragon
+	-Mythical Beast Master Cerberus
+	-Nebula Dragon
+	-Noh-P.U.N.K. Foxy Tune
+	-Odd-Eyes Advance Dragon
+	-Odd-Eyes Lancer Dragon
+	-Odd-Eyes Phantasma Dragon
+	-Orphebull the Harmonious Bullfighter Bard
+	-Outburst Dragon
+	-Parsec, the Interstellar Dragon
+	-Performapal Laugh Maker
+	-Performapal Smile Sorcerer
+	-Phantom Dragon
+	-Phosphorage the Elemental Lord
+	-Photon Caesar
+	-Photon Emperor
+	-Poly-Chemicritter Hydragon
+	-Punishment Dragon
+	-Queen of Fate - Eternia
+	-Rabidragon
+	-Rafale, Champion Fur Hire
+	-Regenesis Dragon Vayikra
+	-Reshef the Dark Being
+	-Ruin, Queen of Oblivion
+	-Ryu Okami
+	-Schwarzschild Infinity Dragon
+	-Schwarzschild Limit Dragon
+	-Shinato, King of a Higher Plane
+	-Silent Magician LV8
+	-Sky Scourge Enrise
+	-Snake-Eyes Flamberge Dragon
+	-Snowdust Dragon
+	-Soul Drain Dragon
+	-Splendid Venus
+	-SPYRAL Sleeper
+	-Super Anti-Kaiju War Machine Mecha-Dogoran
+	-Super Conductor Tyranno
+	-Supreme King Dragon Odd-Eyes
+	-Swordsman of Revealing Light
+	-The Bystial Lubellion
+	-The Creator
+	-The Despair Uranus
+	-The Iris Swordsoul
+	-Therion "Duke" Yul
+	-Timaeus the United Dragon
+	-Time Reloader
+	-Tri-Horned Dragon
+	-Tualatin
+	-Tyrant Dragon
+	-Valkyrie Erda
+	-Van'Dalgyon the Dark Dragon Lord
+	-Vanity's Ruler
+	-Vanquish Soul Caesar Valius
+	-Vennu, Bright Bird of Divinity
+	-Victory Dragon
+	-Voltanis the Adjudicator
+	-White Knight of Dogmatika
+	-White Night Dragon
+	-Witchcrafter Golem Aruru
+	-Witchcrafter Madame Verre
+	-Worm King
+	-Worm Queen
+	-Yakusa, Lord of the Eight Thunders
+	-Zaborg the Mega Monarch
+
+Targets for Number C101: Silent Honor DARK
+	-30,000-Year White Turtle
+	-Abyss Shark
+	-Adularia of the June Moon
+	-Akihiron
+	-Amphibious Bugroth MK-11
+	-Awakening of the Possessed - Gagigobyte
+	-B.E.S. Crystal Core
+	-Blue Dragon Ninja
+	-Bolt Escargot
+	-Bottom Dweller
+	-Catapult Turtle
+	-Cloudian - Nimbusman
+	-Crystal Shark
+	-Crystron Sulfador
+	-Crystron Sulfefnir
+	-Cutter Shark
+	-Cyber Shark
+	-Deepsea Warrior
+	-Depth Shark
+	-Des Frog
+	-Dinomist Brachion
+	-Dinomist Ceratops
+	-Dinomist Rex
+	-Dinomist Spinos
+	-Divine Dragon Aquabizarre
+	-Dragon Ice
+	-Dragon Tail Fymena
+	-Dream Shark
+	-Duoterion
+	-Eagle Shark
+	-Emperor of the Land and Sea
+	-Eria the Water Channeler
+	-Exa, Enforcer of the Nekroz
+	-Gazer Shark
+	-General Wayne of the Ice Barrier
+	-Giant Turtle Who Feeds on Flames
+	-Giga Gagagigo
+	-Graydle Slime
+	-Gunkan Suship Uni
+	-Icejade Tremora
+	-Infernalqueen Salmon
+	-K9 - 66a Jokull
+	-Kairyu-Shin
+	-Lappis Dragon
+	-Loud Cloud the Storm Serpent
+	-Majioshaleon
+	-Marincess Crown Tail
+	-Marincess Sleepy Maiden
+	-Mech Bass
+	-Mecha Sea Dragon Plesion
+	-Mementotlan Akihiron
+	-Metal Fish
+	-Misairuzame
+	-Nekroz of Catastor
+	-Numen erat Testudo
+	-Ocean Dragon Lord - Kairyu-Shin
+	-Octoberser
+	-Orca Mega-Fortress of Darkness
+	-Panther Shark
+	-Penguin Squire
+	-Performapal Sellshell Crab
+	-Prediction Princess Crystaldine
+	-Rage of the Deep Sea
+	-Rainbow Marine Mermaid
+	-Rock Scales
+	-Royal Knight of the Ice Barrier
+	-Salvage Warrior
+	-Scrypton
+	-Sea Lancer
+	-Shark Cruiser
+	-Sirenorca
+	-SolSolfachord Gracia
+	-Spawn Alligator
+	-Spike Seadra
+	-Sylvan Lotuswain
+	-Tainted of the Tistina
+	-Terrorking Salmon
+	-The Great Emperor Penguin
+	-The Legendary Fisherman
+	-The Legendary Fisherman II
+	-Thousand-Eyes Jellyfish
+	-Zereort Migrator
+
+Targets for Number C102: Archfiend Seraph
+	-Airknight Parshath
+	-Aitsu
+	-Anchamoufrite
+	-Artifact Achilleshield
+	-Artifact Aegis
+	-Artifact Beagalltach
+	-Artifact Caduceus
+	-Artifact Chakram
+	-Artifact Failnaught
+	-Artifact Labrys
+	-Artifact Lancea
+	-Artifact Mjollnir
+	-Artifact Moralltach
+	-Artifact Scythe
+	-Artifact Vajra
+	-Batteryman Charger
+	-Boot Staggered
+	-Capacitor Stalker
+	-Celestia, Lightsworn Angel
+	-Cloudian - Nimbusman
+	-Constellar Virgo
+	-Constellar Zubeneschamali
+	-Couplet the Melodious Songstress
+	-Cyber Angel Natasha
+	-Cyber Dragon
+	-Cyber Jormungandr
+	-D.D.M. - Different Dimension Master
+	-Dark Angel
+	-Dark Witch
+	-Darklord Edeh Arae
+	-Darknight Parshath
+	-Different Dimension Dragon
+	-Disablaster the Negation Fortress
+	-Disenchanter
+	-Divine Dragon - Excelion
+	-Doma The Angel of Silence
+	-E Stranger Big Bang
+	-Elegy the Melodious Diva
+	-Flying Saucer Muusik'i
+	-Galaxy Soldier
+	-Ganbara Lancer
+	-Ghost Ship
+	-Giltia the D. Knight - Soul Spear
+	-Gizmek Yata, the Gleaming Vanguard
+	-Guardian Tryce
+	-Hieratic Dragon of Eset
+	-Hieratic Dragon of Nebthet
+	-Ill Witch
+	-Jack's Knight
+	-Joker's Knight
+	-Junk Collector
+	-Kaiki the Unity Star
+	-Kozmo Sliprider
+	-LaMoon
+	-Luminous Soldier
+	-Madolche Puddingcess
+	-Magician of Faithfulness
+	-Mahaama the Fairy Dragon
+	-Mekk-Knight Blue Sky
+	-Metal Shooter
+	-Ocubeam
+	-Oracle of the Sun
+	-Orion the Battle King
+	-Overlay Booster
+	-Paralyzing Mushroom
+	-Performage Cup Tricker
+	-Performapal Odd-Eyes Light Phoenix
+	-Photon Slasher
+	-Prediction Princess Crystaldine
+	-S-Force Dog Tag
+	-S-Force Gravitino
+	-Satellite Cannon
+	-Silent Swordsman LV5
+	-Solar Wind Jammer
+	-SolSolfachord Gracia
+	-Super-Electromagnetic Voltech Dragon
+	-Tenma the Sky Star
+	-Tethys, Goddess of Light
+	-Teva
+	-The Agent of Entropy - Uranus
+	-Thunder Dragon
+	-Toon Cyber Dragon
+	-Trickstar Corobane
+	-Union Driver
+	-Union Pilot
+	-Valkyrie Zweite
+	-Wheel Synchron
+	-Winged Egg of New Life
+	-Witchcrafter Edel
+	-Worm Illidan
+	-Zaborg the Thunder Monarch
+	-ZW - Lightning Blade
+	-ZW - Pegasus Twin Saber
+
+Targets for Number C103: Ragnafinity
+	-30,000-Year White Turtle
+	-Abyss Shark
+	-Adularia of the June Moon
+	-Airknight Parshath
+	-Aitsu
+	-Akihiron
+	-Amphibious Bugroth MK-11
+	-Artifact Achilleshield
+	-Artifact Aegis
+	-Artifact Beagalltach
+	-Artifact Caduceus
+	-Artifact Chakram
+	-Artifact Failnaught
+	-Artifact Labrys
+	-Artifact Lancea
+	-Artifact Mjollnir
+	-Artifact Moralltach
+	-Artifact Scythe
+	-Artifact Vajra
+	-Awakening of the Possessed - Gagigobyte
+	-B.E.S. Crystal Core
+	-Blue Dragon Ninja
+	-Bolt Escargot
+	-Bottom Dweller
+	-Catapult Turtle
+	-Celestia, Lightsworn Angel
+	-Cloudian - Nimbusman
+	-Constellar Virgo
+	-Couplet the Melodious Songstress
+	-Crystal Shark
+	-Crystron Sulfador
+	-Crystron Sulfefnir
+	-Cutter Shark
+	-Cyber Angel Natasha
+	-Cyber Shark
+	-Dark Angel
+	-Dark Witch
+	-Darklord Edeh Arae
+	-Darknight Parshath
+	-Deepsea Warrior
+	-Depth Shark
+	-Des Frog
+	-Dinomist Brachion
+	-Dinomist Ceratops
+	-Dinomist Rex
+	-Dinomist Spinos
+	-Divine Dragon Aquabizarre
+	-Doma The Angel of Silence
+	-Dragon Ice
+	-Dragon Tail Fymena
+	-Dream Shark
+	-Duoterion
+	-Eagle Shark
+	-Elegy the Melodious Diva
+	-Emperor of the Land and Sea
+	-Eria the Water Channeler
+	-Exa, Enforcer of the Nekroz
+	-Gazer Shark
+	-General Wayne of the Ice Barrier
+	-Giant Turtle Who Feeds on Flames
+	-Giga Gagagigo
+	-Graydle Slime
+	-Icejade Tremora
+	-Infernalqueen Salmon
+	-Kairyu-Shin
+	-Lappis Dragon
+	-Loud Cloud the Storm Serpent
+	-Madolche Puddingcess
+	-Majioshaleon
+	-Marincess Crown Tail
+	-Marincess Sleepy Maiden
+	-Mech Bass
+	-Mecha Sea Dragon Plesion
+	-Mementotlan Akihiron
+	-Metal Fish
+	-Misairuzame
+	-Nekroz of Catastor
+	-Numen erat Testudo
+	-Ocean Dragon Lord - Kairyu-Shin
+	-Octoberser
+	-Ocubeam
+	-Orca Mega-Fortress of Darkness
+	-Orion the Battle King
+	-Panther Shark
+	-Penguin Squire
+	-Performapal Sellshell Crab
+	-Prediction Princess Crystaldine
+	-Rage of the Deep Sea
+	-Rainbow Marine Mermaid
+	-Rock Scales
+	-Royal Knight of the Ice Barrier
+	-Salvage Warrior
+	-Scrypton
+	-Sea Lancer
+	-Shark Cruiser
+	-Sirenorca
+	-SolSolfachord Gracia
+	-Spawn Alligator
+	-Spike Seadra
+	-Sylvan Lotuswain
+	-Terrorking Salmon
+	-Tethys, Goddess of Light
+	-The Agent of Entropy - Uranus
+	-The Great Emperor Penguin
+	-The Legendary Fisherman
+	-The Legendary Fisherman II
+	-Thousand-Eyes Jellyfish
+	-Trickstar Corobane
+	-Valkyrie Zweite
+	-Winged Egg of New Life
+	-Zereort Migrator
+
+Targets for Number C104: Umbral Horror Masquerade
+	-Acrobatic Magician
+	-Adularia of the June Moon
+	-Allure Queen LV5
+	-Ally Mind
+	-Ally of Justice Omni-Weapon
+	-Ally of Justice Rudra
+	-Altergeist Kunquery
+	-Anchamoufrite
+	-Ancient Tool
+	-Aromage Marjoram
+	-Ascator, Dawnwalker
+	-Assault Blackwing - Kunai the Drizzle
+	-Aussa the Earth Channeler
+	-Background Dragon
+	-Balameuniere de Nouvelles
+	-Berfomet
+	-Big-Winged Berfomet
+	-Blackwing - Boreas the Sharp
+	-Blackwing - Brisote the Tailwind
+	-Blackwing - Gofu the Vague Shadow
+	-Blackwing - Hillen the Tengu-wind
+	-Blackwing - Sirocco the Dawn
+	-Byser Shock
+	-Curse of Dragon
+	-Curse of Dragon, the Cursed Dragon
+	-Curse of Dragonfire
+	-Cyber Soldier
+	-Cyberdark Wurm
+	-D.D.M. - Different Dimension Master
+	-D/D Extra Surveyor
+	-D/D Pandora
+	-D/D Proud Chevalier
+	-Dark Angel
+	-Dark Chimera
+	-Dark General Freed
+	-Dark Scorpion - Gorg the Strong
+	-Dark Summoning Beast
+	-Darkflare Dragon
+	-Darklord Edeh Arae
+	-Darklord Marie
+	-Darknight Parshath
+	-Destiny HERO - Dynatag
+	-Diabound Kernel
+	-Disenchanter
+	-Doma The Angel of Silence
+	-Dragon Tail Fymena
+	-Earthbound Prisoner Stone Sweeper
+	-Elemental HERO Necroshade
+	-Emperor of Prophecy
+	-Endless Decay
+	-Eria the Water Channeler
+	-Evil HERO Sinister Necrom
+	-Evilswarm Golem
+	-Firewall Phantom
+	-Fortune Fairy Ann
+	-Fortune Lady Dark
+	-Foucault's Cannon
+	-Garbage Lord
+	-Gatekeeper
+	-Genex Ally Reliever
+	-Ghost Lancer, the Underworld Spearman
+	-Giganto
+	-Gladiator Beast Noxious
+	-Goldd, Wu-Lord of Dark World
+	-Gravekeeper's Chief
+	-Great Long Nose
+	-Helpoemer
+	-Hiita the Fire Channeler
+	-Ignoble Knight of Black Laundsallyn
+	-Ill Witch
+	-Illusionist Faceless Mage
+	-Illusionist Faceless Magician
+	-Impcantation Bookstone
+	-Interplanetarypurplythorny Beast
+	-Interplanetarypurplythorny Dragon
+	-Invitation to a Dark Sleep
+	-Inzektor Giga-Cricket
+	-K9 - 66a Jokull
+	-K9 - 66b Lantern
+	-Kaiser Vorse Raider
+	-King of Yamimakai
+	-Kiryu
+	-Kiwi Magician Girl
+	-Kozmo Delta Shuttle
+	-Kozmoll Dark Lady
+	-Kuribabylon
+	-LaMoon
+	-Leo Wizard
+	-Lesser Fiend
+	-Mabarrel
+	-Magical Marionette
+	-Magician of Faithfulness
+	-Master's Diploman
+	-Mefist the Infernal General
+	-Megasonic Eye
+	-Memory Crush King
+	-Metal Guardian
+	-Mist Archfiend
+	-Morinphen
+	-Mother Spider Splitter
+	-Motor Kaiser
+	-Mystrick Hulder
+	-Needle Burrower
+	-Noble Knight Eachtar
+	-Odd-Eyes Persona Dragon
+	-Oracle of the Sun
+	-Patrician of Darkness
+	-Performage Cup Tricker
+	-Performage Wind Drainer
+	-Performapal Odd-Eyes Butler
+	-Performapal Sky Magician Girl
+	-Power Invader
+	-Predaplant Drosophyllum Hydra
+	-Reaper of the Cards
+	-Rock Spirit
+	-Shaddoll Beast
+	-Shadow Ghoul
+	-Shadow Ghoul of the Labyrinth
+	-Shadow Vampire
+	-Shapesnatch
+	-Sillva, Warlord of Dark World
+	-SIMM Tablir
+	-Sphere of Chaos
+	-Spikebot
+	-Spirit of the Mountain
+	-Spirit of the Winds
+	-Stargazer Magician
+	-Steelswarm Mantis
+	-Succubus Knight
+	-Summon Reactor SK
+	-Supay, Duskwalker
+	-Svartalf of the Nordic Alfar
+	-Swarm of Crows
+	-Sword Slasher
+	-Tainted of the Tistina
+	-Taotie, Shadow of the Yang Zing
+	-Tenmataitei
+	-The Agent of Entropy - Uranus
+	-The Earl of Demise
+	-The Tricky
+	-Thunder Dragondark
+	-Tindangle Base Gardna
+	-Tindangle Dholes
+	-Tlakalel, His Malevolent Majesty
+	-Urubonus, the Avatar of Malice
+	-Vampire Dragon
+	-Vampire Duke
+	-Vampire Fraulein
+	-Vampire Grimson
+	-Vampire Lord
+	-Vendread Chimera
+	-Vice Dragon
+	-Vision HERO Faris
+	-Windwitch - Blizzard Bell
+	-Witchcrafter Edel
+	-World Legacy - "World Chalice"
+	-Wynn the Wind Channeler
+	-Yajiro Invader
+	-Yasha, the Skeletal Mayakashi
+
+Targets for Number C105: Battlin' Boxer Comet Cestus
+	-Aitsu
+	-Amazoness Golden Whip Master
+	-Amazoness War Chief
+	-Ansatsu
+	-Awakening of the Possessed - Greater Inari Fire
+	-Backup Warrior
+	-Beautiful Beast Trainer
+	-Brotherhood of the Fire Fist - Coyote
+	-Brotherhood of the Fire Fist - Panda
+	-Brotherhood of the Fire Fist - Swallow
+	-Combo Master
+	-Cyber Tutubon
+	-Dark General Freed
+	-Dark Scorpion - Gorg the Strong
+	-Deepsea Warrior
+	-Destiny HERO - Dynatag
+	-E Stranger Big Bang
+	-Earth Armor Ninja
+	-Elemental HERO Necroshade
+	-Evolsaur Darwino
+	-Flame Champion
+	-Flamvell Fiend
+	-Freed the Matchless General
+	-Ganbara Lancer
+	-Garoozis
+	-General Wayne of the Ice Barrier
+	-Genex Furnace
+	-Giltia the D. Knight - Soul Spear
+	-Gouki Riscorpio
+	-Gouki Tagpartner
+	-Grandmaster of the Six Samurai
+	-Gunkan Suship Uni
+	-Han-Shi Kyudo Spirit
+	-Hayate the Earth Star
+	-Hiita the Fire Channeler
+	-Igknight Cavalier
+	-Igknight Margrave
+	-Ignis Heat, the True Dracowarrior
+	-Ignoble Knight of Black Laundsallyn
+	-Infernoid Piaty
+	-Jack's Knight
+	-Joker's Knight
+	-Junk Collector
+	-K9 - 17 Izuna
+	-Kai-Den Kendo Spirit
+	-Kaiki the Unity Star
+	-Kaiza the Hidden Star
+	-King Pyron
+	-Kuro-Obi Karate Spirit
+	-Lava Battleguard
+	-Laval Burner
+	-Luminous Soldier
+	-Millennium Shield
+	-Molten Behemoth
+	-Monster Tamer
+	-Mr. Volcano
+	-Noble Knight Eachtar
+	-Noh-P.U.N.K. Deer Note
+	-Overlay Booster
+	-Performapal Dag Daggerman
+	-Photon Slasher
+	-Pyrite Knight
+	-Royal Knight of the Ice Barrier
+	-Sage of Strength - Akash
+	-Salamangreat Parro
+	-Salamangreat Tiger
+	-Salvage Warrior
+	-Scrap Soldier
+	-Shield of the Millennium Dynasty
+	-Silent Swordsman LV5
+	-Succubus Knight
+	-Super Quantum Red Layer
+	-Swamp Battleguard
+	-Tenma the Sky Star
+	-Tenmataitei
+	-Teva
+	-The Legendary Fisherman
+	-The Legendary Fisherman II
+	-Turret Warrior
+	-U.A. Mighty Slugger
+	-U.A. Perfect Ace
+	-Vanquish Soul Jiaolong
+	-Ventdra, the Empowered Warrior
+	-Vision HERO Faris
+	-Volcanic Hammerer
+	-War Rock Mammud
+	-War Rock Orpis
+	-Woodborg Inpachi
+	-Yamadron
+	-Yoko-Zuna Sumo Spirit
+	-Zanki
+	-Zefraxa, Flame Beast of the Nekroz
+
+Targets for Number C106: Giant Red Hand
+	-Altergeist Kunquery
+	-Amazoness Golden Whip Master
+	-Amazoness War Chief
+	-Ancient Gear Dragon
+	-Ancient Gear Engineer
+	-Ansatsu
+	-Anteatereatingant
+	-Ascator, Dawnwalker
+	-Astra Ghouls
+	-Aussa the Earth Channeler
+	-Awakening of the Possessed - Nefariouser Archfiend
+	-Backup Warrior
+	-Battle Steer
+	-Beautiful Beast Trainer
+	-Big Piece Golem
+	-Big-Tusked Mammoth
+	-Bio-Insect Armor
+	-Cannon Soldier MK-2
+	-Chronomaly Acambaro Figures
+	-Chronomaly Moai
+	-Chronomaly Moai Carrier
+	-Chronomaly Tula Guardian
+	-Chronomaly Winged Sphinx
+	-Confronting the "C"
+	-Crawling Dragon
+	-Cyber Ogre
+	-Cyber Tutubon
+	-Deskbot 005
+	-Dice Armadillo
+	-Dinowrestler Martial Anga
+	-Dinowrestler Rambrachio
+	-Doodle Beast - Stego
+	-Dungeon Worm
+	-Earth Armor Ninja
+	-Earthquake Giant
+	-Egotistical Ape
+	-Enraged Muka Muka
+	-Evilswarm Golem
+	-Final Psychic Ogre
+	-Freed the Matchless General
+	-Ghost Knight of Jackal
+	-Giant Axe Mummy
+	-Gigastone Omega
+	-Gladiator Beast Spartacus
+	-Gold Pride - Eliminator
+	-Gold Pride - Roller Baller
+	-Gouki Riscorpio
+	-Gouki Tagpartner
+	-Grandmaster of the Six Samurai
+	-Grasschopper
+	-Guardian Grarl
+	-Guardian Sphinx
+	-Hade-Hane
+	-Hayate the Earth Star
+	-Hercules Beetle
+	-Hunter Spider
+	-Infinitrack Brutal Dozer
+	-Infinitrack Crab Crane
+	-Infinitrack Drag Shovel
+	-Infinitrack Road Roller
+	-Infinitrack Trencher
+	-Infinitrack Tunneller
+	-Junk Dragonlet
+	-K9 - 17 Izuna
+	-K9 - ØØ Lupus
+	-Kaiza the Hidden Star
+	-Karakuri Bonze mdl 9763 "Kunamzan"
+	-Karakuri Ninja mdl 7749 "Nanashick"
+	-Koa'ki Meiru Ghoulungulate
+	-Labyrinth Wall
+	-Lava Battleguard
+	-Legendary Dueling Field
+	-Leo Wizard
+	-Leogun
+	-Linkslayer
+	-Machine Attacker
+	-Madolche Puddingcess
+	-Mandragon
+	-Master Monk
+	-Mementotlan Tatsunootoshigo
+	-Millennium Scorpion
+	-Millennium Shield
+	-Monster Tamer
+	-Naturia Bamboo Shoot
+	-Naturia Hydrangea
+	-Nobleman-Eater Bug
+	-Noh-P.U.N.K. Deer Note
+	-Performapal Dag Daggerman
+	-Performapal Drummerilla
+	-Performapal Gumgumouton
+	-Performapal Partnaga
+	-Pyrite Knight
+	-Qliphort Monolith
+	-Qliphort Scout
+	-Queen of Autumn Leaves
+	-Rock Spirit
+	-Rude Kaiser
+	-Sage of Wisdom - Himmel
+	-Sand Stone
+	-Scrap Golem
+	-Scrap Soldier
+	-Shield of the Millennium Dynasty
+	-Spirit of the Mountain
+	-Steel Ogre Grotto #1
+	-Stone Ogre Grotto
+	-Subterror Behemoth Stygokraken
+	-Supay, Duskwalker
+	-Superheavy Samurai Big Waraji
+	-Superheavy Samurai Transporter
+	-Supply Soldier of the Indestructible Insects
+	-Swamp Battleguard
+	-Tatsunootoshigo
+	-Togex
+	-Trent
+	-Turret Warrior
+	-Two Thousand Needles
+	-U.A. Mighty Slugger
+	-U.A. Perfect Ace
+	-Venom Boa
+	-War Rock Mammud
+	-War Rock Orpis
+	-XX-Saber Gardestrike
+	-Zanki
+
+Targets for Number C107: Neo Galaxy-Eyes Tachyon Dragon
+	-Amaterasu
+	-Arahime the Manifested Mikanko
+	-Arcanite Magician/Assault Mode
+	-Arcjet Lightcraft
+	-Chimaera, the Master of Beasts
+	-Deep-Space Cruiser IX
+	-Dragonmaid Stern
+	-Elemental Grace Doriado
+	-Mardel, Generaider Boss of Light
+	-Metaltron XII, the True Dracombatant
+	-Moisture Creature
+	-Nekroz of Metaltron
+	-Prediction Princess Tarotrei
+	-Raging Storm Dragon - Beaufort IX
+	-Red-Eyes Darkness Dragon
+	-Sacred Arch-Airknight Parshath
+	-Super Anti-Kaiju War Machine Mecha-Thunder-King
+	-Thunder Dragonlord
+	-Thunder King, the Lightningstrike Kaiju
+	-Trias Hierarchia
+	-Utgarda, Generaider Boss of Delusion
+	-Valkyrie Sigrun
+	-Winged Kuriboh LV9
+	-World Legacy Guardragon Mardark
+	-World of Prophecy
+

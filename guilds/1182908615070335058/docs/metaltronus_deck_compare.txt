@@ -1,0 +1,149 @@
+Targets for: Ext Ryzeal
+	-Ice Ryzeal
+	-Ryzeal Detonator
+
+Targets for: Ice Ryzeal
+	-Ext Ryzeal
+	-Ryzeal Detonator
+	-Artifact Lancea
+
+Targets for: Sword Ryzeal
+	-Node Ryzeal
+	-Ryzeal Duo Drive
+
+Targets for: Node Ryzeal
+	-Sword Ryzeal
+	-Ryzeal Duo Drive
+
+Targets for: Fabled Lurrie
+	-Lacrima the Crimson Tears
+	-Fiendsmith Engraver
+	-Evilswarm Exciton Knight
+	-Moon of the Closed Heaven
+	-Fiendsmith's Requiem
+	-Fiendsmith's Sequence
+	-Fiendsmith's Agnumday
+	-Fiendsmith's Desirae
+
+Targets for: Lacrima the Crimson Tears
+	-Fabled Lurrie
+	-Fiendsmith Engraver
+	-Evilswarm Exciton Knight
+	-Moon of the Closed Heaven
+	-Fiendsmith's Requiem
+	-Fiendsmith's Sequence
+	-Fiendsmith's Agnumday
+	-Fiendsmith's Desirae
+
+Targets for: Fiendsmith Engraver
+	-Fabled Lurrie
+	-Lacrima the Crimson Tears
+	-Evilswarm Exciton Knight
+	-Moon of the Closed Heaven
+	-Fiendsmith's Requiem
+	-Fiendsmith's Sequence
+	-Fiendsmith's Agnumday
+	-Fiendsmith's Desirae
+
+Targets for: Bystial Magnamhut
+	-Bystial Druiswurm
+
+Targets for: Bystial Druiswurm
+	-Bystial Magnamhut
+
+Targets for: Effect Veiler
+	-Droll & Lock Bird
+
+Targets for: Nibiru, the Primal Being
+	-Ryzeal Detonator
+
+Targets for: Ryzeal Detonator
+	-Ext Ryzeal
+	-Ice Ryzeal
+	-Nibiru, the Primal Being
+
+Targets for: Ryzeal Duo Drive
+	-Sword Ryzeal
+	-Node Ryzeal
+
+Targets for: Evilswarm Exciton Knight
+	-Fabled Lurrie
+	-Lacrima the Crimson Tears
+	-Fiendsmith Engraver
+	-Moon of the Closed Heaven
+	-Fiendsmith's Requiem
+	-Fiendsmith's Sequence
+	-Fiendsmith's Agnumday
+	-Fiendsmith's Desirae
+
+Targets for: D/D/D Wave High King Caesar
+	-Fiendsmith's Desirae
+
+Targets for: Moon of the Closed Heaven
+	-Fabled Lurrie
+	-Lacrima the Crimson Tears
+	-Fiendsmith Engraver
+	-Evilswarm Exciton Knight
+	-Fiendsmith's Requiem
+	-Fiendsmith's Sequence
+	-Fiendsmith's Agnumday
+	-Fiendsmith's Desirae
+
+Targets for: Fiendsmith's Requiem
+	-Fabled Lurrie
+	-Lacrima the Crimson Tears
+	-Fiendsmith Engraver
+	-Evilswarm Exciton Knight
+	-Moon of the Closed Heaven
+	-Fiendsmith's Sequence
+	-Fiendsmith's Agnumday
+	-Fiendsmith's Desirae
+
+Targets for: Fiendsmith's Sequence
+	-Fabled Lurrie
+	-Lacrima the Crimson Tears
+	-Fiendsmith Engraver
+	-Evilswarm Exciton Knight
+	-Moon of the Closed Heaven
+	-Fiendsmith's Requiem
+	-Fiendsmith's Agnumday
+	-Fiendsmith's Desirae
+
+Targets for: Fiendsmith's Agnumday
+	-Fabled Lurrie
+	-Lacrima the Crimson Tears
+	-Fiendsmith Engraver
+	-Evilswarm Exciton Knight
+	-Moon of the Closed Heaven
+	-Fiendsmith's Requiem
+	-Fiendsmith's Sequence
+	-Fiendsmith's Desirae
+
+Targets for: Fiendsmith's Desirae
+	-Fabled Lurrie
+	-Lacrima the Crimson Tears
+	-Fiendsmith Engraver
+	-Evilswarm Exciton Knight
+	-D/D/D Wave High King Caesar
+	-Moon of the Closed Heaven
+	-Fiendsmith's Requiem
+	-Fiendsmith's Sequence
+	-Fiendsmith's Agnumday
+
+Targets for: Necroquip Princess
+	-Chaos Angel
+
+Targets for: Chaos Angel
+	-Necroquip Princess
+
+Targets for: Artifact Lancea
+	-Ice Ryzeal
+
+Targets for: Droll & Lock Bird
+	-Effect Veiler
+
+There are no unfortunately no targets for:
+	Mulcharmy Fuwalos
+	Eclipse Twins
+	Mereologic Aggregator
+	Abyss Dweller

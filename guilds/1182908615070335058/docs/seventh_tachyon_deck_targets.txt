@@ -1,0 +1,20 @@
+Targets for Number 102: Star Seraph Sentry
+	-Ext Ryzeal
+	-Ice Ryzeal
+	-Lacrima the Crimson Tears
+
+Targets for Number 104: Masquerade
+	-Ext Ryzeal
+	-Ice Ryzeal
+	-Lacrima the Crimson Tears
+
+Targets for Number 105: Battlin' Boxer Star Cestus
+	-Sword Ryzeal
+	-Node Ryzeal
+
+Targets for Number C102: Archfiend Seraph
+	-Artifact Lancea
+
+Targets for Number C103: Ragnafinity
+	-Artifact Lancea
+

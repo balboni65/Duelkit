@@ -1,0 +1,144 @@
+{
+    "data": [
+        {
+            "id": 48739166,
+            "name": "Number 101: Silent Honor ARK",
+            "type": "XYZ Monster",
+            "race": "Aqua",
+            "level": 4,
+            "atk": 2100,
+            "def": 1000,
+            "attribute": "WATER"
+        },
+        {
+            "id": 49678559,
+            "name": "Number 102: Star Seraph Sentry",
+            "type": "XYZ Monster",
+            "race": "Fairy",
+            "level": 4,
+            "atk": 2500,
+            "def": 2000,
+            "attribute": "LIGHT"
+        },
+        {
+            "id": 94380860,
+            "name": "Number 103: Ragnazero",
+            "type": "XYZ Monster",
+            "race": "Fairy",
+            "level": 4,
+            "atk": 2400,
+            "def": 1200,
+            "attribute": "WATER"
+        },
+        {
+            "id": 2061963,
+            "name": "Number 104: Masquerade",
+            "type": "XYZ Monster",
+            "race": "Spellcaster",
+            "level": 4,
+            "atk": 2700,
+            "def": 1200,
+            "attribute": "LIGHT"
+        },
+        {
+            "id": 59627393,
+            "name": "Number 105: Battlin' Boxer Star Cestus",
+            "type": "XYZ Monster",
+            "race": "Warrior",
+            "level": 4,
+            "atk": 2500,
+            "def": 1600,
+            "attribute": "FIRE"
+        },
+        {
+            "id": 63746411,
+            "name": "Number 106: Giant Hand",
+            "type": "XYZ Monster",
+            "race": "Rock",
+            "level": 4,
+            "atk": 2000,
+            "def": 2000,
+            "attribute": "EARTH"
+        },
+        {
+            "id": 88177324,
+            "name": "Number 107: Galaxy-Eyes Tachyon Dragon",
+            "type": "XYZ Monster",
+            "race": "Dragon",
+            "level": 8,
+            "atk": 3000,
+            "def": 2500,
+            "attribute": "LIGHT"
+        },
+        {
+            "id": 12744567,
+            "name": "Number C101: Silent Honor DARK",
+            "type": "XYZ Monster",
+            "race": "Aqua",
+            "level": 5,
+            "atk": 2800,
+            "def": 1500,
+            "attribute": "WATER"
+        },
+        {
+            "id": 67173574,
+            "name": "Number C102: Archfiend Seraph",
+            "type": "XYZ Monster",
+            "race": "Fairy",
+            "level": 5,
+            "atk": 2900,
+            "def": 2400,
+            "attribute": "LIGHT"
+        },
+        {
+            "id": 20785975,
+            "name": "Number C103: Ragnafinity",
+            "type": "XYZ Monster",
+            "race": "Fairy",
+            "level": 5,
+            "atk": 2800,
+            "def": 2400,
+            "attribute": "WATER"
+        },
+        {
+            "id": 49456901,
+            "name": "Number C104: Umbral Horror Masquerade",
+            "type": "XYZ Monster",
+            "race": "Spellcaster",
+            "level": 5,
+            "atk": 3000,
+            "def": 1500,
+            "attribute": "DARK"
+        },
+        {
+            "id": 85121942,
+            "name": "Number C105: Battlin' Boxer Comet Cestus",
+            "type": "XYZ Monster",
+            "race": "Warrior",
+            "level": 5,
+            "atk": 2800,
+            "def": 2000,
+            "attribute": "FIRE"
+        },
+        {
+            "id": 55888045,
+            "name": "Number C106: Giant Red Hand",
+            "type": "XYZ Monster",
+            "race": "Rock",
+            "level": 5,
+            "atk": 2600,
+            "def": 2000,
+            "attribute": "EARTH"
+        },
+        {
+            "id": 68396121,
+            "name": "Number C107: Neo Galaxy-Eyes Tachyon Dragon",
+            "type": "XYZ Monster",
+            "race": "Dragon",
+            "level": 9,
+            "atk": 4500,
+            "def": 3000,
+            "attribute": "LIGHT"
+        }
+    ]
+}
