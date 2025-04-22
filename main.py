@@ -18,8 +18,8 @@ intents.message_content = True
 global_command_cooldown_rate = 2  # In seconds
 list_of_users_on_cooldown = {}
 update_lock = asyncio.Lock() # Lock to prevent multiple instances of the /update command from running at the same time
-guild_id_as_int = 1182908615070335058  # Unique server ID for slash commands to speed up build time
-GUILD_ID = discord.Object(id=1182908615070335058)  # Unique server ID for slash commands to speed up build time
+guild_id_as_int = os.getenv("TEST_SERVER_ID")  # Unique server ID for slash commands to speed up build time
+GUILD_ID = discord.Object(id=guild_id_as_int)  # Unique server ID for slash commands to speed up build time
 
 class Client(commands.Bot):
     async def on_ready(self):
