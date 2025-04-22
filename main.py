@@ -3,7 +3,7 @@
 
 import discord
 from discord.ext import commands
-from scripts import (round_robin, formatter, metaltronus, saga, seventh_tachyon, small_world, standings, top_archetype_breakdown, tournament, top_archetypes, top_cards, card_price_scraper, feedback, security_token)
+from scripts import (round_robin, formatter, metaltronus, saga, seventh_tachyon, small_world, standings, top_archetype_breakdown, tournament, top_archetypes, top_cards, card_price_scraper, feedback)
 from dotenv import load_dotenv
 import os
 import time
