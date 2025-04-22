@@ -1,2 +1,4 @@
 .env
 guilds/
+scripts/__pycache__/
+__pycache__/
