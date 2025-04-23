@@ -1,8 +1,7 @@
 import discord
 import json
 import math
-from scripts import formatter
-from collections import Counter, defaultdict
+from collections import Counter
 
 
 class PaginationView(discord.ui.View):

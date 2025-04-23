@@ -3,7 +3,7 @@
 
 import discord
 from discord.ext import commands
-from scripts import (round_robin, formatter, metaltronus, saga, seventh_tachyon, small_world, standings, top_archetype_breakdown, tournament, top_archetypes, top_cards, card_price_scraper, feedback)
+from scripts import (help_pagination, round_robin, formatter, metaltronus, saga, seventh_tachyon, small_world, standings, top_archetype_breakdown, tournament, top_archetypes, top_cards, card_price_scraper, feedback)
 from dotenv import load_dotenv
 import os
 import time
@@ -261,10 +261,19 @@ async def card_price_helper(interaction: discord.Interaction, card_name: str):
 async def card_price_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return formatter.card_name_autocomplete(current_input)
 
-# ===== Feedback =====
+# ===== FEEDBACK =====
 @client.tree.command(name="feedback", description="Send the creator of Duelkit a message!", guild=GUILD_ID)
 async def feedback_helper(interaction: discord.Interaction, input: str):
     if not await is_on_cooldown(interaction) and not await feedback.is_on_feedback_cooldown(interaction):
         await feedback.send_feedback(interaction, input)
+
+# ===== HELP =====
+@client.tree.command(name="help", description="Learn more about the list of available commands", guild=GUILD_ID)
+async def help_helper(interaction: discord.Interaction):
+    if not await is_on_cooldown(interaction):
+        # Defer the response so multiple processes can use its webhook
+        await interaction.response.defer(thinking=True)
+
+        await help_pagination.show_help_pagination(interaction)
 
 client.run(os.getenv("BOT_TOKEN"))
