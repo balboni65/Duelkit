@@ -36,7 +36,7 @@ def small_world_pair(guild_id_as_int, first_card: str, second_card: str):
         for card in list_of_matches:
             file.write(f"{card}")
 
-    return "These are all the Small World bridges for:"
+    return f"Here's all the Small World bridges for:\n**{formatter.smart_capitalize(first_card)} -> {formatter.smart_capitalize(second_card)}**"
 
 # Creates a list of all the Small World bridges in a decklist
 def small_world_decklist(guild_id_as_int, decklist: str):
@@ -81,7 +81,7 @@ def small_world_decklist(guild_id_as_int, decklist: str):
                         file.write(f"{card}")
                     file.write("\n")
 
-    return "Here are all the Small World bridges for your decklist"
+    return "Here's all the Small World bridges for your decklist:"
 
 # Converts a list of card objects to a matrix of valid Small World targets
 def share_one_feature(cards_as_json, valid_bridges_matrix, database):

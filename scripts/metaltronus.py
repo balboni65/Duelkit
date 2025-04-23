@@ -46,10 +46,11 @@ def metaltronus_single(guild_id_as_int, input: str):
 
     # Create the file with the results
     with open(f"guilds/{guild_id_as_int}/docs/metaltronus_single.txt", "w", encoding="utf-8") as file:
+        file.write(f"Metaltronus Targets for {formatter.smart_capitalize(chosen_card['name'])}:\n")
         for card in metaltronus_targets:
-            file.write(f"{card}\n")
+            file.write(f"\t-{card}\n")
     
-    return f"Here are all your matches for: \n```{chosen_card['name']}```"
+    return f"Here are all your matches for:\n**{formatter.smart_capitalize(chosen_card['name'])}**"
 
 # Creates a list of all the Metaltronus targets between 2 given decklists
 def metaltronus_decklist(guild_id_as_int, decklist_to_search: str, decklist_as_targets: str):    
@@ -86,7 +87,7 @@ def metaltronus_decklist(guild_id_as_int, decklist_to_search: str, decklist_as_t
 def metaltronus_list_from_two_decklists(cards_to_search, cards_as_targets, metaltronus_final_results):
     matching_characteristics = 0
     current_card_results = "Targets for: "
-    no_card_results = "There are no unfortunately no targets for:\n"
+    no_card_results = "There are unfortunately no targets for:\n"
 
     # For every card in the first decklist
     for searched_card in cards_to_search:
@@ -113,7 +114,7 @@ def metaltronus_list_from_two_decklists(cards_to_search, cards_as_targets, metal
         # After searching through every card in the second decklist, check if you did not find any targets
         if current_card_results == f"Targets for: {searched_card['name']}\n":
             # Add to no results found section
-            no_card_results += f"\t{searched_card['name']}\n"
+            no_card_results += f"\t-{searched_card['name']}\n"
         else:
             # Add to valid targets list
             current_card_results += "\n"

@@ -90,14 +90,14 @@ async def metaltronus_autocomplete_handler(interaction: discord.Interaction, cur
     return metaltronus.metaltronus_autocomplete(current_input)
 
 # ===== METALTRONUS DECKLISTS =====
-@client.tree.command(name="metaltronus_decklist", description="Lists all the Metaltronus targets your deck has against another deck", guild=GUILD_ID)
-async def metaltronus_decklist(interaction: discord.Interaction, decklist_to_search: str, decklist_as_targets: str):
+@client.tree.command(name="metaltronus_decklist", description="Lists all the Metaltronus targets your deck has against an opponent's deck", guild=GUILD_ID)
+async def metaltronus_decklist(interaction: discord.Interaction, opponents_decklist: str, your_decklist: str):
     if not await is_on_cooldown(interaction):
         # Defer the rersponse and show the user that the bot is working on it
         await interaction.response.defer(thinking=True)
 
         # Create the response for the metaltronus output
-        response = metaltronus.metaltronus_decklist(guild_id_as_int, decklist_to_search, decklist_as_targets)
+        response = metaltronus.metaltronus_decklist(guild_id_as_int, opponents_decklist, your_decklist)
         file_path = f"guilds/{guild_id_as_int}/docs/metaltronus_deck_compare.txt"
         with open(file_path, "rb") as file:
             await interaction.followup.send(response, file=discord.File(file_path))

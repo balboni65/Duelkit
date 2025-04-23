@@ -184,12 +184,12 @@ def format_breakpoints(remaining_spots, current_players):
 
         if remaining_spots == 1:
             return "**1** player"
-        elif remaining_spots == current_players:
+        elif abs(remaining_spots - current_players) < 0.01:
             return f"**All** players"
         else:
             return f"**{int(remaining_spots)}** players"
     else:
-        if math.floor(remaining_spots) == math.floor(current_players and math.ceil(remaining_spots) == math.ceil(current_players)):
+        if (math.floor(remaining_spots) == math.floor(current_players)) and (math.ceil(remaining_spots) == math.ceil(current_players)):
             return f"**All** players"
         else:
             return f"**{math.floor(remaining_spots)}-{math.ceil(remaining_spots)}** players"
@@ -211,7 +211,7 @@ def format_players(remaining_spots, players):
             return f"out of the **{int(players)}** "
     # If its a float, its interpreted as a range of numbers
     else:
-        if math.floor(remaining_spots) == math.floor(players and math.ceil(remaining_spots) == math.ceil(players)):
+        if (math.floor(remaining_spots) == math.floor(players)) and (math.ceil(remaining_spots) == math.ceil(players)):
             return ""
         # If there are more spots remaining than players
         elif remaining_spots >= players:

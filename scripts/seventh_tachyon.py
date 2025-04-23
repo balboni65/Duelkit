@@ -18,7 +18,7 @@ def seventh_tachyon_list(guild_id_as_int):
     with open(f"guilds/{guild_id_as_int}/docs/seventh_tachyon_targets.txt", "w", encoding="utf-8") as file:
         for card in valid_targets:
             file.write(f"{card}")
-    return "List of all current Seventh Tachyon targets:"
+    return "Here's all the current Seventh Tachyon targets in the game:"
 
 # Creates a list of all the Seventh Tachyon targets in a given decklist
 def seventh_tachyon_decklist(guild_id_as_int, decklist: str):

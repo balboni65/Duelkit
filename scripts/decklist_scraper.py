@@ -57,7 +57,7 @@ async def pull_data_from_ygo_pro(message):
 
     
     # Inform the user that the driver has started
-    await message.edit(content="Launching Selenium Web Driver For YGO Pro")  # Edit the message sent earlier
+    await message.edit(content="Launching Selenium Web Driver For YGO Pro...")  # Edit the message sent earlier
 
     # Create the Driver
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
@@ -78,7 +78,7 @@ async def pull_data_from_ygo_pro(message):
 
     try:
         # Inform the user that we are now searching for all archetypes
-        await message.edit(content="Driver Launched, Obtaining list of Topping Archetypes")
+        await message.edit(content="Driver Launched, Obtaining list of Topping Archetypes...")
 
         # Get all the archetypes on the page
         archetype_html_elements = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "arch-item")))
