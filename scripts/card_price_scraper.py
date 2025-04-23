@@ -95,7 +95,7 @@ async def pull_data_from_tcg_player(guild_id_as_int: int, message, card_name: st
 
         # Gets all the links for each individual printing of the card
         printings_links = []
-        printings_links = await get_all_printings(driver, wait, card_name)
+        printings_links = await get_all_printings(driver, wait, card_name, message)
 
         # Used for the total value of the progress bar
         num_printings = len(printings_links)
@@ -108,7 +108,7 @@ async def pull_data_from_tcg_player(guild_id_as_int: int, message, card_name: st
             progress_bar_message = progress_bar(listing_number, num_printings)
 
             # Retreive listings
-            listing_data = await get_printing_information(driver, wait, printing_url, card_name)
+            listing_data = await get_printing_information(driver, wait, printing_url, card_name, message)
             all_listings.append(listing_data)
 
             # Increment the iterator for the Progress Bar function
@@ -118,7 +118,7 @@ async def pull_data_from_tcg_player(guild_id_as_int: int, message, card_name: st
             printing_name = next(iter(listing_data))
 
             # Update the message with the progress bar and current printing
-            await message.edit(content=f"Visiting listings for: **{formatter.smart_capitalize(printing_name)}**\n\n{progress_bar_message}")
+            await message.edit(content=f"Visiting listings for: \n\n\t**{formatter.smart_capitalize(printing_name)}**\n\n{progress_bar_message}")
 
         # Exit the Web Driver
         driver.quit()
@@ -142,7 +142,10 @@ async def search_for_card(driver, wait, card_name, message):
 
     # click the input box
     input_box = wait.until(EC.element_to_be_clickable((By.CLASS_NAME, "input")))
-    click_element(driver, wait, input_box, True)
+    if input_box:
+        click_element(driver, wait, input_box, True)
+    else:
+        await message.edit(content="Failed to find the input box for card search")
 
     # Type the card name
     input_box.clear()
@@ -153,7 +156,10 @@ async def search_for_card(driver, wait, card_name, message):
 async def filter_By_YuGiOh(driver, wait, message):
     # Find and click the dropdown
     dropdown = wait.until(EC.element_to_be_clickable((By.CLASS_NAME, "dropdown-container")))
-    click_element(driver, wait, dropdown, True)
+    if dropdown:
+        click_element(driver, wait, dropdown, True)
+    else:
+        await message.edit(content="Failed to find the dropdown box for filtering by franchise")
 
     # Find and save the container for list elements, then get the individual elements
     options_container = wait.until(EC.presence_of_element_located((By.ID, "drop-down-menu")))
@@ -174,10 +180,10 @@ async def filter_By_YuGiOh(driver, wait, message):
     if target_option:
         click_element(driver, wait, target_option, True)
     else:
-        await message.edit(content="Failed to filter by YuGiOh")
+        await message.edit(content="Failed to find the filter for YuGiOh")
 
 # Gets all the valid urls for each printings of the card
-async def get_all_printings(driver, wait, card_name):
+async def get_all_printings(driver, wait, card_name, message):
     all_links = []
     card_name_lower = card_name.lower()
 
@@ -213,16 +219,23 @@ async def get_all_printings(driver, wait, card_name):
                 # Find the next page icon within the button
                 next_button = driver.find_element(By.CLASS_NAME, "fa-chevron-right")
 
-                # Get the button element containing the icon
-                next_button_parent = next_button.find_element(By.XPATH, "./ancestor::a")
+                if next_button:
+                    # Get the button element containing the icon
+                    next_button_parent = next_button.find_element(By.XPATH, "./ancestor::a")
+                else:
+                    await message.edit(content="Failed to find the next button chevron for the results page")
+
 
                 # Check if the button is disabled (on last page)
                 if "disabled" in next_button_parent.get_attribute("class"):
                     # Stop looking for pages
                     break 
 
-                # If it's not disabled, move to the next page
-                click_element(driver, wait, next_button_parent, True)
+                if next_button_parent:
+                    # If it's not disabled, move to the next page
+                    click_element(driver, wait, next_button_parent, True)
+                else:
+                    await message.edit(content="Failed to find the next button for the results page")
 
                 # Wait for the page to reload and the results to update
                 wait.until(EC.staleness_of(result_elements[0]))
@@ -241,7 +254,7 @@ async def get_all_printings(driver, wait, card_name):
     return all_links
 
 # Gets the addtional information for that printing, as well as listing information
-async def get_printing_information(driver, wait, printing_url, card_name):
+async def get_printing_information(driver, wait, printing_url, card_name, message):
     # Go to the printing url and wait for the page to load
     driver.get(printing_url)
     time.sleep(1)
@@ -284,7 +297,7 @@ async def get_printing_information(driver, wait, printing_url, card_name):
     }
 
     # Get 2 html elements, 1 for each edition of printing
-    edition_filters = await initial_listing_filter(driver, wait)
+    edition_filters = await initial_listing_filter(driver, wait, message)
     unlimited = edition_filters.get("unlimited")
     first_edition = edition_filters.get("first_edition")
     limited = edition_filters.get("limited")
@@ -308,15 +321,19 @@ async def get_printing_information(driver, wait, printing_url, card_name):
             click_element(driver, wait, unlimited, False)
 
         # Save and exit the filter
-        await save_filter(driver, wait)
+        await save_filter(driver, wait, message)
 
         # Set the listings for unlimited printings
-        results[printing_name][current_edition] = await get_listing_information(driver, wait, printing_url, all_listings)
+        results[printing_name][current_edition] = await get_listing_information(driver, wait, all_listings, message)
         all_listings = []
 
         # Reset the filter again to first edition
         filter_button = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "horizontal-filters-bar__filters__filters-button")))
-        click_element(driver, wait, filter_button, False)
+        if filter_button:
+            click_element(driver, wait, filter_button, False)
+        else:
+            await message.edit(content="Failed to find the filter button after finding the first 5 unlimited listings")
+
 
         # Make sure "Unlimited" is unselected, and "First Edition" is
         click_element(driver, wait, unlimited, False)
@@ -327,13 +344,11 @@ async def get_printing_information(driver, wait, printing_url, card_name):
         current_edition = "first_edition"
 
         # Save and exit the filter
-        await save_filter(driver, wait)
+        await save_filter(driver, wait, message)
         driver.execute_script("window.scrollTo(0, 0);")
 
-
-
         # Set the listings for first edition printings
-        results[printing_name][current_edition] = await get_listing_information(driver, wait, printing_url, all_listings)
+        results[printing_name][current_edition] = await get_listing_information(driver, wait, all_listings, message)
         
         # Return the complete printing information and listings
         return results
@@ -354,26 +369,36 @@ async def get_printing_information(driver, wait, printing_url, card_name):
             click_element(driver, wait, limited, False)
 
         # Save and exit the filter
-        await save_filter(driver, wait)
+        await save_filter(driver, wait, message)
 
         # Set the listings for the current edition printing
-        results[printing_name][current_edition] = await get_listing_information(driver, wait, printing_url, all_listings)
+        results[printing_name][current_edition] = await get_listing_information(driver, wait, all_listings, message)
 
         # Return the complete printing information and listings
         return results
 
 # Set the initial filter, and return the printing edition elements
-async def initial_listing_filter(driver, wait):
+async def initial_listing_filter(driver, wait, message):
     # Find and click the "All filters" button
     filter_button = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "horizontal-filters-bar__filters__filters-button")))
-    click_element(driver, wait, filter_button, False)
+    if filter_button:
+        click_element(driver, wait, filter_button, False)
+    else:
+        await message.edit(content="Failed to find the dropdown box for filtering by franchise")
     
     # Find and click the "verified sellers" check box
     verified_sellers_check_box = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '[data-testid="verified-seller-filter"]')))
-    verified_sellers_check_box_classes = verified_sellers_check_box.get_attribute("class")
 
-    if "is-checked" not in verified_sellers_check_box_classes:
-        click_element(driver, wait, verified_sellers_check_box, True)
+    if verified_sellers_check_box:
+        verified_sellers_check_box_classes = verified_sellers_check_box.get_attribute("class")
+    else:
+        await message.edit(content="Failed to find the verified sellers check box container")
+
+    if verified_sellers_check_box_classes:
+        if "is-checked" not in verified_sellers_check_box_classes:
+            click_element(driver, wait, verified_sellers_check_box, True)
+    else:
+        await message.edit(content="Failed to find the verified sellers check box")
 
     # Find the printing edition elements
     printing_edition_container = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "search-filter__facets__container")))
@@ -411,15 +436,19 @@ async def initial_listing_filter(driver, wait):
     return edition_filters
 
 # Save and exit the filter
-async def save_filter(driver, wait):
+async def save_filter(driver, wait, message):
     save_button = wait.until(EC.presence_of_element_located((
         By.CSS_SELECTOR, 
         ".tcg-button.tcg-button--md.tcg-standard-button.tcg-standard-button--priority.filter-drawer-footer__button-save"
     )))
-    click_element(driver, wait, save_button, False)
+    if save_button:
+        click_element(driver, wait, save_button, False)
+    else:
+        await message.edit(content="Failed to find the save button for the filters")
+
 
 # Gets the individual listing information for the edition
-async def get_listing_information(driver, wait, printing_url, all_listings):
+async def get_listing_information(driver, wait, all_listings, message):
     # For the listings
     while True:
         try:
@@ -475,14 +504,21 @@ async def get_listing_information(driver, wait, printing_url, all_listings):
         if len(all_listings) < 5:
             # Try to find the next page button
             next_button = driver.find_element(By.CLASS_NAME, "fa-chevron-right")
-            next_button_parent = next_button.find_element(By.XPATH, "./ancestor::a")  # Get the <a> ancestor
+            if next_button:
+                next_button_parent = next_button.find_element(By.XPATH, "./ancestor::a")  # Get the <a> ancestor
+            else:
+                await message.edit(content="Failed to find the next button chevron for listings")
 
-            # Check if the button is disabled
-            if "disabled" in next_button_parent.get_attribute("class"):
-                return all_listings
+            if next_button_parent:
+                # Check if the button is disabled
+                if "disabled" in next_button_parent.get_attribute("class"):
+                    return all_listings
 
-            # If it's not disabled, scroll and click to go to the next page
-            click_element(driver, wait, next_button_parent, True)
+                # If it's not disabled, scroll and click to go to the next page
+                click_element(driver, wait, next_button_parent, True)
+            else:
+                await message.edit(content="Failed to find the next button for listings")
+
 
             # Wait for the page to reload and continue on the next page
             wait.until(EC.staleness_of(listing_elements[0]))
