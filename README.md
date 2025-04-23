@@ -29,8 +29,20 @@ List of Commands
 ## /update
 Updates all the databases found within the bot
 
+<img src="./global/images/help_gifs/duelkit-update.gif" width="50%" height="50%"/>
+
+- more info!
+- more info!
+- more info!
+
 ## /metaltronus_single
 Lists all the Metaltronus targets for a specific card
+
+<img src="./global/images/help_gifs/duelkit-metaltronus_single.gif" width="50%" height="50%"/>
+
+- more info!
+- more info!
+- more info!
 
 ## /metaltronus_decklist
 Lists all the Metaltronus targets your deck has against another deck
