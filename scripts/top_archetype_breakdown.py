@@ -110,7 +110,7 @@ class PaginationView(discord.ui.View):
 async def create_single_card_pagination(interaction: discord.Interaction, archetype: str):
     card_data, total_decks = count_card_occurrences(archetype)
     if total_decks == 0:
-        await interaction.response.send_message(f"There are no topping decklists for {formatter.smart_capitalize(archetype)} in the current format") 
+        await interaction.response.send_message(f"There are no topping decklists for `{formatter.smart_capitalize(archetype)}` in the current format") 
         return
 
     pagination_view = PaginationView(total_decks=total_decks, archetype=archetype)

@@ -95,12 +95,25 @@ async def metaltronus_autocomplete_handler(interaction: discord.Interaction, cur
 
 # ===== METALTRONUS DECKLISTS =====
 @client.tree.command(name="metaltronus_decklist", description="Lists all the Metaltronus targets your deck has against an opponent's deck", guild=GUILD_ID)
-async def metaltronus_decklist(interaction: discord.Interaction, opponents_decklist: str, your_decklist: str):
+async def metaltronus_decklist(
+    interaction: discord.Interaction,
+    opponents_clipboard_ydk: str = None,
+    your_clipboard_ydk: str = None,
+    opponents_ydk_file: discord.Attachment = None,
+    your_ydk_file: discord.Attachment = None
+):
     if not await is_on_cooldown(interaction):
         # Defer the rersponse and show the user that the bot is working on it
         await interaction.response.defer(thinking=True)
 
-        # Create the response for the metaltronus output
+        # Get 2 decklists from the varrious imput methods
+        opponents_decklist, your_decklist = await formatter.format_two_decklist_inputs(interaction, opponents_clipboard_ydk, your_clipboard_ydk, opponents_ydk_file, your_ydk_file)
+
+        # If a value is None, validation failed and message was already sent
+        if opponents_decklist is None or your_decklist is None:
+            return
+
+        # Generate and send response
         response = metaltronus.metaltronus_decklist(guild_id_as_int, opponents_decklist, your_decklist)
         file_path = f"guilds/{guild_id_as_int}/docs/metaltronus_deck_compare.txt"
         with open(file_path, "rb") as file:
@@ -121,10 +134,17 @@ async def seventh_tachyon_list(interaction: discord.Interaction):
 
 # ===== SEVENTH TACHYON DECKLIST =====
 @client.tree.command(name="seventh_tachyon_decklist", description="Lists all the Seventh Tachyon targets in your decklist", guild=GUILD_ID)
-async def seventh_tachyon_decklist(interaction: discord.Interaction, decklist: str):
+async def seventh_tachyon_decklist(interaction: discord.Interaction, clipboard_ydk: str = None, ydk_file: discord.Attachment = None,):
     if not await is_on_cooldown(interaction):
         # Defer the rersponse and show the user that the bot is working on it
         await interaction.response.defer(thinking=True)
+
+        # Get 2 decklists from the varrious imput methods
+        decklist = await formatter.format_one_decklist_input(interaction, clipboard_ydk, ydk_file)
+        
+        # If decklist is None, validation failed and message was already sent
+        if decklist is None:
+            return
 
         # Create the response for the metaltronus output
         response = seventh_tachyon.seventh_tachyon_decklist(guild_id_as_int, decklist)
@@ -152,10 +172,17 @@ async def small_world_autocomplete_handler(interaction: discord.Interaction, cur
 
 # ===== SMALL WORLD DECKLIST =====
 @client.tree.command(name="small_world_decklist", description="Find all the valid Small World bridges within a decklist", guild=GUILD_ID)
-async def small_world_decklist(interaction: discord.Interaction, decklist: str):
+async def small_world_decklist(interaction: discord.Interaction, clipboard_ydk: str = None, ydk_file: discord.Attachment = None,):
     if not await is_on_cooldown(interaction):
         # Defer the rersponse and show the user that the bot is working on it
         await interaction.response.defer(thinking=True)
+
+        # Get 2 decklists from the varrious imput methods
+        decklist = await formatter.format_one_decklist_input(interaction, clipboard_ydk, ydk_file)
+        
+        # If decklist is None, validation failed and message was already sent
+        if decklist is None:
+            return
 
         # Create the response for the metaltronus output
         response = small_world.small_world_decklist(guild_id_as_int, decklist)

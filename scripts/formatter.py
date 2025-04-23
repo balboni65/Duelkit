@@ -276,3 +276,49 @@ def check_valid_card_name(card_name):
         if card_name.lower() in name.lower():
             return True
     return False
+
+async def format_two_decklist_inputs(interaction: discord.Interaction,
+                                opponents_clipboard_ydk: str = None,
+                                your_clipboard_ydk: str = None,
+                                opponents_ydk_file: discord.Attachment = None,
+                                your_ydk_file: discord.Attachment = None):
+
+    # Validation: Make sure there is input, then at least one source is provided for each
+    if not (opponents_clipboard_ydk or your_clipboard_ydk or opponents_ydk_file or your_ydk_file):
+        await interaction.followup.send("❌ You must provide either a `copied ydk` or a `.ydk file` for both the `opponent's decklist` and `your decklist`.")
+        return None, None
+    if not opponents_clipboard_ydk and not opponents_ydk_file:
+        await interaction.followup.send("❌ You must provide either a `copied ydk` or a `.ydk file` for the `opponent's decklist`.")
+        return None, None
+    if not your_clipboard_ydk and not your_ydk_file:
+        await interaction.followup.send("❌ You must provide either a `copied ydk` or a `.ydk file` for `your decklist`.")
+        return None, None
+    
+    # Default to copied input
+    opponents_decklist = opponents_clipboard_ydk
+    your_decklist = your_clipboard_ydk
+
+    # Read uploaded files (if any)
+    if opponents_ydk_file is not None:
+        opponents_decklist = (await opponents_ydk_file.read()).decode("utf-8")
+    if your_ydk_file is not None:
+        your_decklist = (await your_ydk_file.read()).decode("utf-8")
+    
+    return opponents_decklist, your_decklist
+
+async def format_one_decklist_input(interaction: discord.Interaction,
+                                decklist_clipboard_ydk: str = None,
+                                decklist_ydk_file: discord.Attachment = None):
+    # Validation: Make sure at least one source is provided for each
+    if not decklist_clipboard_ydk and not decklist_ydk_file:
+        await interaction.followup.send("❌ You must provide either a `copied ydk` or a `.ydk file`.")
+        return None
+    
+    # Default to copied input
+    decklist = decklist_clipboard_ydk
+
+    # Read uploaded files (if any)
+    if decklist_ydk_file is not None:
+        decklist = (await decklist_ydk_file.read()).decode("utf-8")
+
+    return decklist

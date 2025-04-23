@@ -2,6 +2,7 @@ import discord
 import json
 import math
 from collections import Counter
+from scripts import formatter
 
 
 class PaginationView(discord.ui.View):
@@ -41,7 +42,7 @@ class PaginationView(discord.ui.View):
                 sections.append(f"```Side Deck:\n{format_counts(usage_data['side'])}```")
 
             embed.add_field(
-                name=f"**{archetype}** - *{usage_data['deck_percentage']}*",
+                name=f"**{archetype}** - *{usage_data['deck_percentage']} of decks*",
                 value="".join(sections) if sections else "No data available",
                 inline=False
             )
@@ -108,7 +109,7 @@ class PaginationView(discord.ui.View):
 async def create_card_usage_pagination(interaction: discord.Interaction, card_name: str):
     card_usage_data, total_decks_per_archetype = count_card_usage_in_all_archetypes(card_name)
     if not card_usage_data:
-        await interaction.response.send_message(f"No topping decks include {card_name} in the current format.")
+        await interaction.response.send_message(f"No topping decks include `{formatter.smart_capitalize(card_name)}` in the current format.")
         return
 
     pagination_view = PaginationView(total_decks_per_archetype, card_name)
