@@ -42,7 +42,7 @@ class PaginationView(discord.ui.View):
                 sections.append(f"```Side Deck:\n{format_counts(usage_data['side'])}```")
 
             embed.add_field(
-                name=f"**{card_name}** - {usage_data['deck_percentage']}",
+                name=f"**{card_name}** - *{usage_data['deck_percentage']}*",
                 value="".join(sections) if sections else "No data available",
                 inline=False
             )

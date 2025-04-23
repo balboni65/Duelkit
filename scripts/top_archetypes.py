@@ -12,10 +12,9 @@ class PaginationView(discord.ui.View):
 
     # Sends the pagination view
     async def send(self, interaction: discord.Interaction):
-        # TODO:
         # First sends a message, this cannot be edited
         # Then sends a followup, which can be edited
-        await interaction.response.send_message("Here are the top Archetypes:")
+        await interaction.response.send_message("Here are the top Archetypes of the current format:")
 
         self.message = await interaction.followup.send(view=self)
         
@@ -68,7 +67,7 @@ class PaginationView(discord.ui.View):
                 cost_text = ""
 
             # Add the field to the embed
-            embed.add_field(name=f"{name} ({percentage})", value=f"{count_text}{win_text}{cost_text}{deck_names_text}", inline=False)
+            embed.add_field(name=f"> **{name}** (*{percentage}*)", value=f"{count_text}{win_text}{cost_text}{deck_names_text}", inline=False)
 
         return embed
 
