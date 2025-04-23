@@ -3,80 +3,85 @@ Welcome to Duelkit!
 
 List of Commands
 -----
-
-* [/update](#update)
-* [/metaltronus_single](#metaltronus_single)
-* [/metaltronus_decklist](#metaltronus_decklist)
-* [/seventh_tachyon](#seventh_tachyon)
-* [/seventh_tachyon_decklist](#seventh_tachyon_decklist)
-* [/small_world](#usmall_worldpdate)
-* [/small_world_decklist](#small_world_decklist)
-* [/tournamentinfo](#tournamentinfo)
-* [/spin](#spin)
-* [/masterpack](#masterpack)
-* [/secretpack_archetype](#secretpack_archetype)
-* [/secretpack_title](#secretpack_title)
-* [/roundrobin](#roundrobin)
-* [/report](#report)
-* [/standings](#standings)
-* [/top_archetypes](#top_archetypes)
-* [/top_archetype_breakdown](#top_archetype_breakdown)
-* [/top_cards](#top_cards)
-* [/card_price](#card_price)
-* [/feedback](#feedback)
-
+| Command | Description |
+|:------|:------|
+| [/update](#update) | Updates all the databases found within the bot (takes a while to run)|
+| [/metaltronus_single](#metaltronus_single) | Lists all the Metaltronus targets for a specific card | 
+| [/metaltronus_decklist](#metaltronus_decklist) | Lists all the Metaltronus targets your deck has against another deck |
+| [/seventh_tachyon](#seventh_tachyon) | Create list of all the current Seventh Tachyon targets in the game |
+| [/seventh_tachyon_decklist](#seventh_tachyon_decklist) | Lists all the Metaltronus targets your deck has against another deck | 
+| [/tournamentinfo](#tournamentinfo) | Find out what record is needed to receive an Invite or make Top Cut, for a given number of players |
+| [/spin](#spin) | Spin 5 random Secret Packs! |
+| [/masterpack](#masterpack) | Posts the link to open Master Packs |
+| [/secretpack_archetype](#secretpack_archetype) | Search for a specific Secret Pack by archetype |
+| [/secretpack_title](#secretpack_title) | Search for a specific Secret Pack by its title |
+| [/roundrobin](#roundrobin) | Create a 3-8 player Round Robin tournament, please enter names with spaces inbetween
+| [/report](#report) | Report a game's result |
+| [/standings](#standings) | See current season standings |
+| [/top_archetypes](#top_archetypes) | View the top archetypes for the current format | 
+| [/top_archetype_breakdown](#top_archetype_breakdown) | View a card-by-card breakdown of a top archetype for the current format |
+| [/top_cards](#top_cards) | View a card's usage across all topping archetypes |
+| [/card_price](#card_price) | View a card's pricing from TCG Player |
+| [/feedback](#feedback) | Send the creator of Duelkit a message! |
 
 
-# /update
 
-# /metaltronus_single
+## /update
+Updates all the databases found within the bot
 
-# /metaltronus_decklist
+## /metaltronus_single
+Lists all the Metaltronus targets for a specific card
 
-# /seventh_tachyon
+## /metaltronus_decklist
+Lists all the Metaltronus targets your deck has against another deck
 
-# /seventh_tachyon_decklist
+## /seventh_tachyon
+Create list of all the current Seventh Tachyon targets in the game
 
-# /small_world
+## /seventh_tachyon_decklist
+Lists all the Seventh Tachyon targets in your decklist
 
-# /small_world_decklist
+## /small_world
+Find all the valid Small World bridges between 2 cards
 
-# /tournamentinfo
+## /small_world_decklist
+Find all the valid Small World bridges within a decklist
 
-# /spin
+## /tournamentinfo
+Find out what record is needed to receive an Invite or make Top Cut, for a given number of players
 
-# /masterpack
+## /spin
+Spin 5 random Secret Packs!
 
-# /secretpack_archetype
+## /masterpack
+Posts the link to open Master Packs
 
-# /secretpack_title
+## /secretpack_archetype
+Search for a specific Secret Pack by archetype
 
-# /roundrobin
+## /secretpack_title
+Search for a specific Secret Pack by its title
 
-# /report
+## /roundrobin
+Create a 3-8 player Round Robin tournament, please enter names with spaces inbetween
 
-# /standings
+## /report
+Report a game's result
 
-# /top_archetypes
+## /standings
+See current season standings
 
-# /top_archetype_breakdown
+## /top_archetypes
+View the top archetypes for the current format
 
-# /top_cards
+## /top_archetype_breakdown
+View a card-by-card breakdown of a top archetype for the current format
 
-# /card_price
+## /top_cards
+View a card's usage across all topping archetypes
 
-# /feedback
+## /card_price
+View a card's pricing from TCG Player
 
-testing readme
-## Testing readme
-### testing readme
-> testing readme
-- testing readme
-- testing
-- testing
-
-1. testing readme
-2. testing readme
-3. testing readme
-1. testing readme
-
+## /feedback
+Send the creator of Duelkit a message!

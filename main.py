@@ -182,7 +182,6 @@ async def master_packs(interaction: discord.Interaction):
 async def search_by_archetype(interaction: discord.Interaction, input: str):
     if not await is_on_cooldown(interaction):
         await saga.search_by_archetype(interaction, input)
-#Adds autocomplete functionality to archetype function above
 @search_by_archetype.autocomplete("input")
 async def search_by_archetype_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return saga.search_by_archetype_autocomplete(current_input)
@@ -192,7 +191,6 @@ async def search_by_archetype_autocomplete_handler(interaction: discord.Interact
 async def search_by_title(interaction: discord.Interaction, input: str):
     if not await is_on_cooldown(interaction):
         await saga.search_by_title(interaction, input)
-#Adds autocomplete functionality to title function above
 @search_by_title.autocomplete("input")
 async def search_by_title_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return saga.search_by_title_autocomplete(current_input)
@@ -212,7 +210,6 @@ async def round_robin_bracket(interaction: discord.Interaction, players: str):
 async def report(interaction: discord.Interaction, result: str, ):
     if not await is_on_cooldown(interaction):
         await round_robin.report(interaction, result)
-# Adds autocomplete functionality to report function above
 @report.autocomplete("result")
 async def report_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return await round_robin.report_autocomplete(interaction, current_input)
@@ -224,23 +221,22 @@ async def season_standings(interaction: discord.Interaction):
         await standings.graph_season_standings(interaction)
 
 # ===== TOP ARCHETYPES =====
-@client.tree.command(name="top_archetypes", description="View top archetypes", guild=GUILD_ID)
+@client.tree.command(name="top_archetypes", description="View the top archetypes for the current format", guild=GUILD_ID)
 async def archetypes(interaction: discord.Interaction):
     if not await is_on_cooldown(interaction):
         await top_archetypes.get_top_archetypes(interaction)
 
 # ===== TOP ARCHETYPE BREAKDOWN =====
-@client.tree.command(name="top_archetype_breakdown", description="View top cards", guild=GUILD_ID)
+@client.tree.command(name="top_archetype_breakdown", description="View a card-by-card breakdown of a top archetype for the current format", guild=GUILD_ID)
 async def top_archetype_breakdown_helper(interaction: discord.Interaction, archetype: str):
     if not await is_on_cooldown(interaction):
         await top_archetype_breakdown.create_single_card_pagination(interaction, archetype)
-# Adds autocomplete functionality to top_cards function above
 @top_archetype_breakdown_helper.autocomplete("archetype")
 async def archetype_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return await top_archetype_breakdown.archetype_autocomplete(current_input)
 
 # ===== TOP CARDS =====
-@client.tree.command(name="top_cards", description="View a card's usage across all archetypes", guild=GUILD_ID)
+@client.tree.command(name="top_cards", description="View a card's usage across all topping archetypes", guild=GUILD_ID)
 async def top_cards_helper(interaction: discord.Interaction, card_name: str):
     if not await is_on_cooldown(interaction):
         await top_cards.create_card_usage_pagination(interaction, card_name)
@@ -262,7 +258,7 @@ async def card_price_autocomplete_handler(interaction: discord.Interaction, curr
     return formatter.card_name_autocomplete(current_input)
 
 # ===== Feedback =====
-@client.tree.command(name="feedback", description="Send the creator of Duelkit an email!", guild=GUILD_ID)
+@client.tree.command(name="feedback", description="Send the creator of Duelkit a message!", guild=GUILD_ID)
 async def feedback_helper(interaction: discord.Interaction, input: str):
     if not await is_on_cooldown(interaction):
         await feedback.send_feedback(interaction, input)
