@@ -1,12 +1,12 @@
 # Welcome to Duelkit!
-========================
 
-## List of Commands
+## List of Commands:
 
 | Command | Description |
 |:------|:------|
 | [/card_price](#card_price) | View a card's pricing from TCG Player |
 | [/feedback](#feedback) | Send the creator of Duelkit a message! |
+| [/help](#help) | Learn more about the list of available commands, with previews! |
 | [/masterpack](#masterpack) | Posts the link to open Master Packs |
 | [/metaltronus_decklist](#metaltronus_decklist) | Lists all the Metaltronus targets your deck has against another deck |
 | [/metaltronus_single](#metaltronus_single) | Lists all the Metaltronus targets for a specific card |
@@ -33,6 +33,11 @@ View a card's pricing from TCG Player
 
 ## /feedback
 Send the creator of Duelkit a message!
+
+---
+
+## /help
+Learn more about the list of available commands, with previews!
 
 ---
 
