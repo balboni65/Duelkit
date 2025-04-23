@@ -46,9 +46,11 @@ async def is_on_cooldown(interaction: discord.Interaction):
     if user_id in list_of_users_on_cooldown and current_time - list_of_users_on_cooldown[user_id] < global_command_cooldown_rate:
         # Get how much time they have left
         current_cooldown = round(global_command_cooldown_rate - (current_time - list_of_users_on_cooldown[user_id]), 2)
+        cooldown_end_timestamp = int(current_time + current_cooldown)
+        cooldown_message = f"You're on cooldown! Please Try again <t:{cooldown_end_timestamp}:R>."
 
         # Respond with how long they have until the cooldown is over, then delete the messages once the cooldown is over
-        await interaction.response.send_message(f"You're on cooldown! Try again in {current_cooldown} seconds.", ephemeral=True)
+        await interaction.response.send_message(cooldown_message, ephemeral=True)
         await asyncio.sleep(current_cooldown)
         await interaction.delete_original_response()
 
@@ -59,6 +61,8 @@ async def is_on_cooldown(interaction: discord.Interaction):
     list_of_users_on_cooldown[user_id] = current_time
 
     return False
+
+
 
 # ===== UPDATE DATABASES =====
 @client.tree.command(name="update", description="NOTE: TAKES UP TO 15 MINUTES, Updates all databases", guild=GUILD_ID)
@@ -260,7 +264,7 @@ async def card_price_autocomplete_handler(interaction: discord.Interaction, curr
 # ===== Feedback =====
 @client.tree.command(name="feedback", description="Send the creator of Duelkit a message!", guild=GUILD_ID)
 async def feedback_helper(interaction: discord.Interaction, input: str):
-    if not await is_on_cooldown(interaction):
+    if not await is_on_cooldown(interaction) and not await feedback.is_on_feedback_cooldown(interaction):
         await feedback.send_feedback(interaction, input)
 
 client.run(os.getenv("BOT_TOKEN"))

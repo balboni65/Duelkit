@@ -1,6 +1,11 @@
 import discord
 from dotenv import load_dotenv
 import os
+import time
+import asyncio
+
+feedback_command_cooldown_rate = 1800  # In seconds (30 minutes)
+list_of_users_on_feedback_cooldown = {}
 
 # Directly pms ... me!
 async def send_feedback(interaction: discord.Interaction, message_text: str):
@@ -25,3 +30,27 @@ async def send_feedback(interaction: discord.Interaction, message_text: str):
         await interaction.response.send_message("❌ I can't DM the developer (probably DMs are disabled).", ephemeral=True)
     except Exception as e:
         await interaction.response.send_message(f"❌ Error sending DM: `{e}`", ephemeral=True)
+
+async def is_on_feedback_cooldown(interaction: discord.Interaction):
+    current_time = time.time()
+    user_id = interaction.user.id
+
+    # If the user is already in the cooldowns list
+    if user_id in list_of_users_on_feedback_cooldown and current_time - list_of_users_on_feedback_cooldown[user_id] < feedback_command_cooldown_rate:
+        # Get how much time they have left
+        current_cooldown = round(feedback_command_cooldown_rate - (current_time - list_of_users_on_feedback_cooldown[user_id]), 2)
+        cooldown_end_timestamp = int(current_time + current_cooldown)
+        cooldown_message = f"You're on cooldown! Thank you for your previous feedback and please Try again <t:{cooldown_end_timestamp}:R>."
+
+        # Respond with how long they have until the cooldown is over, then delete the messages once the cooldown is over
+        await interaction.response.send_message(cooldown_message, ephemeral=True)
+        await asyncio.sleep(current_cooldown)
+        await interaction.delete_original_response()
+
+        # Return a boolean so calling this function returns a usable variable
+        return True
+    
+    # Adds the user to the cooldown array
+    list_of_users_on_feedback_cooldown[user_id] = current_time
+
+    return False
