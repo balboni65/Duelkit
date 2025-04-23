@@ -3,7 +3,7 @@
 
 import discord
 from discord.ext import commands
-from scripts import (round_robin, formatter, metaltronus, saga, seventh_tachyon, small_world, standings, top_archetype_breakdown, tournament, top_archetypes, top_cards, card_price_scraper, feedback)
+from scripts import (round_robin, formatter, metaltronus, saga, seventh_tachyon, small_world, standings, temporary_downloader, top_archetype_breakdown, tournament, top_archetypes, top_cards, card_price_scraper, feedback)
 from dotenv import load_dotenv
 import os
 import time
@@ -262,5 +262,11 @@ async def card_price_autocomplete_handler(interaction: discord.Interaction, curr
 async def feedback_helper(interaction: discord.Interaction, input: str):
     if not await is_on_cooldown(interaction):
         await feedback.send_feedback(interaction, input)
+
+# ===== Temporary download command =====
+@client.tree.command(name="download_images", description="download images", guild=GUILD_ID)
+async def download_image_helper(interaction: discord.Interaction):
+    if not await is_on_cooldown(interaction):
+        await temporary_downloader.download_images()
 
 client.run(os.getenv("BOT_TOKEN"))
