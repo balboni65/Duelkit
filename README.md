@@ -29,7 +29,7 @@ List of Commands
 ## /update
 Updates all the databases found within the bot
 
-<img src="./global/images/help_gifs/duelkit-update.gif" width="50%" height="50%"/>
+<img src="./global/images/help_gifs/duelkit-update.gif" width="75%" height="75%"/>
 
 - more info!
 - more info!
@@ -38,7 +38,7 @@ Updates all the databases found within the bot
 ## /metaltronus_single
 Lists all the Metaltronus targets for a specific card
 
-<img src="./global/images/help_gifs/duelkit-metaltronus_single.gif" width="50%" height="50%"/>
+<img src="./global/images/help_gifs/duelkit-metaltronus_single.gif" width="100%" height="100%"/>
 
 - more info!
 - more info!
