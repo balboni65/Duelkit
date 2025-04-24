@@ -48,7 +48,7 @@ Learn more about the list of available commands, with previews!
 ## /masterpack
 Posts the link to open Master Packs
 
-<img src="./global/images/help_gifs/duelkit-masterpack.gif" width="46%" height="46%">
+<img src="./global/images/help_gifs/duelkit-masterpack.gif">
 
 ---
 
