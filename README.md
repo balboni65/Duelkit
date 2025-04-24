@@ -55,6 +55,8 @@ Posts the link to open Master Packs
 ## /metaltronus_decklist
 Lists all the Metaltronus targets your deck has against another deck
 
+<img src="./global/images/help_gifs/duelkit-metaltronus_decklist.gif"/>
+
 ---
 
 ## /metaltronus_single
