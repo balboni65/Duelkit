@@ -125,10 +125,14 @@ View the top archetypes for the current format
 ## /top_cards
 View a card's usage across all topping archetypes
 
+<img src="./global/images/help_gifs/duelkit-top_cards.gif"/>
+
 ---
 
 ## /tournamentinfo
 Find out what record is needed to receive an Invite or make Top Cut, for a given number of players
+
+<img src="./global/images/help_gifs/duelkit-tournamentinfo.gif"/>
 
 ---
 

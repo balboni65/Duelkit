@@ -32,11 +32,13 @@ class PaginationView(discord.ui.View):
             {"command": "/update", "description": "Updates all the databases found within the bot (takes a while to run)"}
         ]
 
-
     # Starts the pagination system and sends the initial message
     async def start(self, interaction: discord.Interaction):
         embed, file = self.create_embed()
-        self.message = await interaction.followup.send(embed=embed, view=self, file=file)
+        if file:
+            self.message = await interaction.followup.send(embed=embed, view=self, file=file)
+        else:
+            self.message = await interaction.followup.send(embed=embed, view=self)
 
     # Updates the message and buttons
     async def send(self):
@@ -51,7 +53,10 @@ class PaginationView(discord.ui.View):
         # Delete old message
         if self.message:
             await self.message.delete()
-            self.message = await self.message.channel.send(embed=embed, view=self, file=file)
+            if file:
+                self.message = await self.message.channel.send(embed=embed, view=self, file=file)
+            else:
+                self.message = await self.message.channel.send(embed=embed, view=self)
 
     # Creates the embed
     def create_embed(self):
@@ -60,6 +65,7 @@ class PaginationView(discord.ui.View):
         command = command_info["command"]
         description = command_info["description"]
         file_name = f"duelkit-{command.replace('/', '')}.gif"
+        file_path = f"global/images/help_gifs/{file_name}"
 
         # Create the embed
         embed = discord.Embed(
@@ -69,10 +75,14 @@ class PaginationView(discord.ui.View):
 
         # Add the description field
         embed.add_field(name="Description:", value=f"> {description}", inline=True)
-        file = discord.File(f"global/images/help_gifs/{file_name}", filename=file_name)
-        embed.set_image(url=f"attachment://{file_name}")
 
-        return embed, file
+        # Try to attach the GIF if it exists
+        try:
+            file = discord.File(file_path, filename=file_name)
+            embed.set_image(url=f"attachment://{file_name}")
+            return embed, file
+        except FileNotFoundError:
+            return embed, None
 
     # Update the button logic
     def update_buttons(self):
@@ -112,7 +122,6 @@ class PaginationView(discord.ui.View):
         if self.current_page < max_pages:
             self.current_page += 1
             await self.update_message()
-
 
 # Creates a pagination view of card prices
 async def show_help_pagination(interaction: discord.Interaction):

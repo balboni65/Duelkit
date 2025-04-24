@@ -55,15 +55,11 @@ class PaginationView(discord.ui.View):
         self.page_number_button.disabled = True
         self.page_number_button.label = f"{self.current_page}/{max_pages}"
 
-        self.first_page_button.disabled = self.current_page == 1
         self.prev_button.disabled = self.current_page == 1
         self.next_button.disabled = self.current_page == max_pages
-        self.last_page_button.disabled = self.current_page == max_pages
 
-        self.first_page_button.style = discord.ButtonStyle.gray if self.first_page_button.disabled else discord.ButtonStyle.green
         self.prev_button.style = discord.ButtonStyle.gray if self.prev_button.disabled else discord.ButtonStyle.primary
         self.next_button.style = discord.ButtonStyle.gray if self.next_button.disabled else discord.ButtonStyle.primary
-        self.last_page_button.style = discord.ButtonStyle.gray if self.last_page_button.disabled else discord.ButtonStyle.green
 
     def get_current_page(self):
         max_pages = math.ceil(len(self.data) / self.entries_per_page)
@@ -72,12 +68,6 @@ class PaginationView(discord.ui.View):
         start = (self.current_page - 1) * self.entries_per_page
         end = start + self.entries_per_page
         return self.data[start:end]
-
-    @discord.ui.button(label="|<", style=discord.ButtonStyle.green)
-    async def first_page_button(self, interaction: discord.Interaction, button: discord.ui.Button):
-        await interaction.response.defer()
-        self.current_page = 1
-        await self.update_message(self.get_current_page())
 
     @discord.ui.button(label="<", style=discord.ButtonStyle.primary)
     async def prev_button(self, interaction: discord.Interaction, button: discord.ui.Button):
@@ -97,12 +87,6 @@ class PaginationView(discord.ui.View):
         max_pages = math.ceil(len(self.data) / self.entries_per_page)
         if self.current_page < max_pages:
             self.current_page += 1
-        await self.update_message(self.get_current_page())
-
-    @discord.ui.button(label=">|", style=discord.ButtonStyle.green)
-    async def last_page_button(self, interaction: discord.Interaction, button: discord.ui.Button):
-        await interaction.response.defer()
-        self.current_page = math.ceil(len(self.data) / self.entries_per_page)
         await self.update_message(self.get_current_page())
 
 
