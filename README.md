@@ -104,6 +104,8 @@ Create list of all the current Seventh Tachyon targets in the game
 ## /seventh_tachyon_decklist
 Lists all the Seventh Tachyon targets in your decklist
 
+<img src="./global/images/help_gifs/duelkit-seventh_tachyon_decklist.gif"/>
+
 ---
 
 ## /small_world
@@ -115,6 +117,8 @@ Find all the valid Small World bridges between 2 cards
 
 ## /small_world_decklist
 Find all the valid Small World bridges within a decklist
+
+<img src="./global/images/help_gifs/duelkit-small_world_decklist.gif"/>
 
 ---
 
