@@ -87,6 +87,8 @@ Search for a specific Secret Pack by its title
 ## /seventh_tachyon
 Create list of all the current Seventh Tachyon targets in the game
 
+<img src="./global/images/help_gifs/duelkit-seventh_tachyon.gif"/>
+
 ---
 
 ## /seventh_tachyon_decklist
@@ -96,6 +98,8 @@ Lists all the Seventh Tachyon targets in your decklist
 
 ## /small_world
 Find all the valid Small World bridges between 2 cards
+
+<img src="./global/images/help_gifs/duelkit-small_world.gif"/>
 
 ---
 
@@ -107,15 +111,21 @@ Find all the valid Small World bridges within a decklist
 ## /spin
 Spin 5 random Secret Packs!
 
+<img src="./global/images/help_gifs/duelkit-spin.gif"/>
+
 ---
 
 ## /standings
 See current season standings
 
+<img src="./global/images/help_gifs/duelkit-standings.gif"/>
+
 ---
 
 ## /top_archetype_breakdown
 View a card-by-card breakdown of a top archetype for the current format
+
+<img src="./global/images/help_gifs/duelkit-top_archetype_breakdown.gif"/>
 
 ---
 
