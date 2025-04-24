@@ -6,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from scripts import formatter
+from datetime import datetime
 
 # Writes data to a file
 def save_progress(archetype_data):

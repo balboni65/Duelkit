@@ -122,6 +122,8 @@ View a card-by-card breakdown of a top archetype for the current format
 ## /top_archetypes
 View the top archetypes for the current format
 
+<img src="./global/images/help_gifs/duelkit-top_archetypes.gif"/>
+
 ---
 
 ## /top_cards
