@@ -36,6 +36,8 @@ View a card's pricing from TCG Player
 ## /feedback
 Send the creator of Duelkit a message!
 
+<img src="./global/images/help_gifs/duelkit-feedback.gif"/>
+
 ---
 
 ## /help
@@ -45,6 +47,8 @@ Learn more about the list of available commands, with previews!
 
 ## /masterpack
 Posts the link to open Master Packs
+
+<img src="./global/images/help_gifs/duelkit-masterpack.gif" width="46%" height="46%">
 
 ---
 
