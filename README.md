@@ -60,10 +60,14 @@ Lists all the Metaltronus targets your deck has against another deck
 ## /metaltronus_single
 Lists all the Metaltronus targets for a specific card
 
+<img src="./global/images/help_gifs/duelkit-metaltronus_single.gif"/>
+
 ---
 
 ## /report
 Report a game's result
+
+<img src="./global/images/help_gifs/duelkit-report.gif"/>
 
 ---
 
@@ -77,10 +81,14 @@ Create a 3-8 player Round Robin tournament, please enter names with spaces inbet
 ## /secretpack_archetype
 Search for a specific Secret Pack by archetype
 
+<img src="./global/images/help_gifs/duelkit-secretpack_archetype.gif"/>
+
 ---
 
 ## /secretpack_title
 Search for a specific Secret Pack by its title
+
+<img src="./global/images/help_gifs/duelkit-secretpack_title.gif"/>
 
 ---
 

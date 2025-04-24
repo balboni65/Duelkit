@@ -247,11 +247,11 @@ class View(discord.ui.View):
         # Check if player data was passed, if not, it was the cancel button
         if winner and loser:
             await interaction.response.send_message(f"**{winner}** has defeated {loser}!")
+
+            # Save the results to the tournament file
+            write_result(self.tournament_name, self.pairing, winner, interaction)
         else:
             await interaction.response.send_message("👍")
-
-        # Save the results to the tournament file
-        write_result(self.tournament_name, self.pairing, winner, interaction)
 
         guild_id = interaction.guild.id
         # Read the current bracket standings
