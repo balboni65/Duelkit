@@ -12,25 +12,26 @@ class PaginationView(discord.ui.View):
 
         # List of all commands and their descriptions
         self.commands_info = [
-            {"command": "/update", "description": "Updates all the databases found within the bot (takes a while to run)"},
-            {"command": "/metaltronus_single", "description": "Lists all the Metaltronus targets for a specific card"},
-            {"command": "/metaltronus_decklist", "description": "Lists all the Metaltronus targets your deck has against another deck"},
-            {"command": "/seventh_tachyon", "description": "Create list of all the current Seventh Tachyon targets in the game"},
-            {"command": "/seventh_tachyon_decklist", "description": "Lists all the Metaltronus targets your deck has against another deck"},
-            {"command": "/tournamentinfo", "description": "Find out what record is needed to receive an Invite or make Top Cut, for a given number of players"},
-            {"command": "/spin", "description": "Spin 5 random Secret Packs!"},
+            {"command": "/card_price", "description": "View a card's pricing from TCG Player"},
+            {"command": "/feedback", "description": "Send the creator of Duelkit a message!"},
             {"command": "/masterpack", "description": "Posts the link to open Master Packs"},
+            {"command": "/metaltronus_decklist", "description": "Lists all the Metaltronus targets your deck has against another deck"},
+            {"command": "/metaltronus_single", "description": "Lists all the Metaltronus targets for a specific card"},
+            {"command": "/report", "description": "Report a game's result"},
+            {"command": "/roundrobin", "description": "Create a 3-8 player Round Robin tournament, please enter names with spaces inbetween"},
             {"command": "/secretpack_archetype", "description": "Search for a specific Secret Pack by archetype"},
             {"command": "/secretpack_title", "description": "Search for a specific Secret Pack by its title"},
-            {"command": "/roundrobin", "description": "Create a 3-8 player Round Robin tournament, please enter names with spaces inbetween"},
-            {"command": "/report", "description": "Report a game's result"},
+            {"command": "/seventh_tachyon", "description": "Create list of all the current Seventh Tachyon targets in the game"},
+            {"command": "/seventh_tachyon_decklist", "description": "Lists all the Metaltronus targets your deck has against another deck"},
+            {"command": "/spin", "description": "Spin 5 random Secret Packs!"},
             {"command": "/standings", "description": "See current season standings"},
-            {"command": "/top_archetypes", "description": "View the top archetypes for the current format"},
             {"command": "/top_archetype_breakdown", "description": "View a card-by-card breakdown of a top archetype for the current format"},
+            {"command": "/top_archetypes", "description": "View the top archetypes for the current format"},
             {"command": "/top_cards", "description": "View a card's usage across all topping archetypes"},
-            {"command": "/card_price", "description": "View a card's pricing from TCG Player"},
-            {"command": "/feedback", "description": "Send the creator of Duelkit a message!"}
+            {"command": "/tournamentinfo", "description": "Find out what record is needed to receive an Invite or make Top Cut, for a given number of players"},
+            {"command": "/update", "description": "Updates all the databases found within the bot (takes a while to run)"}
         ]
+
 
     # Starts the pagination system and sends the initial message
     async def start(self, interaction: discord.Interaction):
@@ -67,7 +68,7 @@ class PaginationView(discord.ui.View):
         )
 
         # Add the description field
-        embed.add_field(name="Description:", value=description, inline=True)
+        embed.add_field(name="Description:", value=f"> {description}", inline=True)
         file = discord.File(f"global/images/help_gifs/{file_name}", filename=file_name)
         embed.set_image(url=f"attachment://{file_name}")
 

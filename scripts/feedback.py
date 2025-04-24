@@ -40,7 +40,7 @@ async def is_on_feedback_cooldown(interaction: discord.Interaction):
         # Get how much time they have left
         current_cooldown = round(feedback_command_cooldown_rate - (current_time - list_of_users_on_feedback_cooldown[user_id]), 2)
         cooldown_end_timestamp = int(current_time + current_cooldown)
-        cooldown_message = f"You're on cooldown! Thank you for your previous feedback and please Try again <t:{cooldown_end_timestamp}:R>."
+        cooldown_message = f"You're on cooldown! Thank you for your previous feedback and please try again <t:{cooldown_end_timestamp}:R>."
 
         # Respond with how long they have until the cooldown is over, then delete the messages once the cooldown is over
         await interaction.response.send_message(cooldown_message, ephemeral=True)

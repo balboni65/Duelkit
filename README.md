@@ -29,6 +29,8 @@
 ## /card_price
 View a card's pricing from TCG Player
 
+<img src="./global/images/help_gifs/duelkit-card_price.gif"/>
+
 ---
 
 ## /feedback
