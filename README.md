@@ -70,6 +70,8 @@ Report a game's result
 ## /roundrobin
 Create a 3-8 player Round Robin tournament, please enter names with spaces inbetween
 
+<img src="./global/images/help_gifs/duelkit-roundrobin.gif"/>
+
 ---
 
 ## /secretpack_archetype
