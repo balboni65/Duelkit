@@ -30,7 +30,7 @@
 
 <img src="./global/images/help_gifs/duelkit-card_price.gif"/>
 
-<section>
+<details>
 <summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
@@ -55,13 +55,16 @@ Returns the 5 lowest priced listings for every printing of a Yu-Gi-Oh! card
 ### Notes:
 - This feature depends on [https://www.tcgplayer.com](https://www.tcgplayer.com) being online
 
-</section>
+</details>
 
 ---
 
 ## /feedback
 
 <img src="./global/images/help_gifs/duelkit-feedback.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Sends the creator of **Duelkit** (*@balboni*) your message through Discord
@@ -100,11 +103,16 @@ Shows a pagination view of all available commands with basic descriptions and pr
 - Automatically launched when the bot is first invited to a server
 - Due to Discord's embed system, the message must delete and re-send to update gifs on each page
 
+</details>
+
 ---
 
 ## /masterpack
 
 <img src="./global/images/help_gifs/duelkit-masterpack.gif">
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Posts the link to open Master Packs on [https://ygoprodeck.com/](https://ygoprodeck.com/)
@@ -120,11 +128,16 @@ Posts the link to open Master Packs on [https://ygoprodeck.com/](https://ygoprod
 ### Notes:
 - Remember to swap the `Product` to `Master Duel` within YGOPRODeck's pack simulator
 
+</details>
+
 ---
 
 ## /metaltronus_decklist
 
 <img src="./global/images/help_gifs/duelkit-metaltronus_decklist.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Returns every monster in your opponents deck that is a valid Metaltronus target for your deck, 
@@ -158,11 +171,16 @@ Returns every monster in your opponents deck that is a valid Metaltronus target 
 - Monsters in your opponent's deck that do not have a target are listed at the bottom of the file
 - Identical monsters in your opponent's deck and your deck are not listed
 
+</details>
+
 ---
 
 ## /metaltronus_single
 
 <img src="./global/images/help_gifs/duelkit-metaltronus_single.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Returns every monster in in the game that is a valid Metaltronus target for the entered monster
@@ -185,11 +203,16 @@ Returns every monster in in the game that is a valid Metaltronus target for the 
 ### Notes:
 - The searched monster is excluded from the list of results
 
+</details>
+
 ---
 
 ## /report
 
 <img src="./global/images/help_gifs/duelkit-report.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Reports a game's result in **the same channel** a tournament has been created in
@@ -218,11 +241,16 @@ Reports a game's result in **the same channel** a tournament has been created in
 ### Notes:
 - The .xslx file created when the full tournament finishes is available by request
 
+</details>
+
 ---
 
 ## /roundrobin
 
 <img src="./global/images/help_gifs/duelkit-roundrobin.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Creates a 3-8 person round robin tournament
@@ -250,11 +278,16 @@ Creates a 3-8 person round robin tournament
 ### Notes:
 - This command is used along side the `/report` command to report game results.
 
+</details>
+
 ---
 
 ## /secretpack_archetype
 
 <img src="./global/images/help_gifs/duelkit-secretpack_archetype.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Returns a list of Master Duel Secret Packs that contain the searched archetype
@@ -276,11 +309,16 @@ Returns a list of Master Duel Secret Packs that contain the searched archetype
 - You can find a complete list of secret packs and their archetypes here: [List of Secret Packs](https://yugipedia.com/wiki/Secret_Pack)
 - Remember to swap the `Product` to `Master Duel` within YGOPRODeck's pack simulator
 
+</details>
+
 ---
 
 ## /secretpack_title
 
 <img src="./global/images/help_gifs/duelkit-secretpack_title.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Returns a list of Master Duel Secret Packs that contain the searched title
@@ -302,11 +340,16 @@ Returns a list of Master Duel Secret Packs that contain the searched title
 - You can find a complete list of secret packs and their titles here: [List of Secret Packs](https://yugipedia.com/wiki/Secret_Pack)
 - Remember to swap the `Product` to `Master Duel` within YGOPRODeck's pack simulator
 
+</details>
+
 ---
 
 ## /seventh_tachyon
 
 <img src="./global/images/help_gifs/duelkit-seventh_tachyon.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Returns every main deck monster in in the game that is a valid Seventh Tachyon target
@@ -319,11 +362,16 @@ Returns every main deck monster in in the game that is a valid Seventh Tachyon t
 ### Run time:
 - `2s`
 
+</details>
+
 ---
 
 ## /seventh_tachyon_decklist
 
 <img src="./global/images/help_gifs/duelkit-seventh_tachyon_decklist.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Returns every monster in your deck that is a valid Seventh Tachyon target for any of the initial xyz monsters,
@@ -353,11 +401,16 @@ Returns every monster in your deck that is a valid Seventh Tachyon target for an
 ### Notes:
 - Monsters that do not have a target are not listed
 
+</details>
+
 ---
 
 ## /small_world
 
 <img src="./global/images/help_gifs/duelkit-small_world.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Returns a list of all the monsters that are a valid bridge between 2 entered monster names
@@ -376,11 +429,16 @@ Returns a list of all the monsters that are a valid bridge between 2 entered mon
 ### Run time:
 - `2s`
 
+</details>
+
 ---
 
 ## /small_world_decklist
 
 <img src="./global/images/help_gifs/duelkit-small_world_decklist.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Returns every monster in your deck that is a valid bridge between any other 2 monsters in your deck,
@@ -411,11 +469,16 @@ Returns every monster in your deck that is a valid bridge between any other 2 mo
 - Pairings that do not have a valid bridge are not listed
 - Given the number of possibilites, the file is usually quite large
 
+</details>
+
 ---
 
 ## /spin
 
 <img src="./global/images/help_gifs/duelkit-spin.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Returns 5 random Master Duel Secret Packs with a preview of each
@@ -432,11 +495,16 @@ Returns 5 random Master Duel Secret Packs with a preview of each
 - You can find a complete list of secret packs here: [List of Secret Packs](https://yugipedia.com/wiki/Secret_Pack)
 - Remember to swap the `Product` to `Master Duel` within YGOPRODeck's pack simulator
 
+</details>
+
 ---
 
 ## /standings
 
 <img src="./global/images/help_gifs/duelkit-standings.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Creates 2 gifs (*1 line graph, 1 bar graph*) representing the accumulated scores across all tournaments within the category
@@ -453,11 +521,16 @@ Creates 2 gifs (*1 line graph, 1 bar graph*) representing the accumulated scores
 ### Notes:
 - This command is used along side the `/report` command and various other tournament creation commands to administer season-long tournaments
 
+</details>
+
 ---
 
 ## /top_archetype_breakdown
 
 <img src="./global/images/help_gifs/duelkit-top_archetype_breakdown.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Creates a pagination view for the selected archetype, displaying every card that has appeared in a topping decklist from that archetype
@@ -487,11 +560,16 @@ Creates a pagination view for the selected archetype, displaying every card that
 - Overall data is pulled from [https://ygoprodeck.com/](https://ygoprodeck.com/) using all public topping decklists for the current format
 - Data is updated automatically every 24 hours
 
+</details>
+
 ---
 
 ## /top_archetypes
 
 <img src="./global/images/help_gifs/duelkit-top_archetypes.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Creates a pagination view of all the topping archetypes in the current format, displaying every variant of the decklists, their quanitity, and if they won an event
@@ -515,11 +593,16 @@ Creates a pagination view of all the topping archetypes in the current format, d
 - Overall data is pulled from [https://ygoprodeck.com/](https://ygoprodeck.com/) using all public topping decklists for the current format
 - Data is updated automatically every 24 hours
 
+</details>
+
 ---
 
 ## /top_cards
 
 <img src="./global/images/help_gifs/duelkit-top_cards.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Creates a pagination view for the selected card, displaying every location (*Main, Extra, Side*) it has appeared in, the number of occurances, sorted by archetype
@@ -549,13 +632,16 @@ Creates a pagination view for the selected card, displaying every location (*Mai
 - Overall data is pulled from [https://ygoprodeck.com/](https://ygoprodeck.com/) using all public topping decklists for the current format
 - Data is updated automatically every 24 hours
 
----
+</details>
 
 ---
 
 ## /tournamentinfo
 
 <img src="./global/images/help_gifs/duelkit-tournamentinfo.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Outputs information on what record you need to make a certain top cut breakpoint or invite breakpoint, for a given tournament size
@@ -593,12 +679,17 @@ Example: 64 person tournament with 6 rounds
   - P4 = (64/2^6)((6)*(5/2)*(4/3)*(3/4)) = 15
   - and so on...
 
+</details>
+
 ---
 
 ## /update
 Updates all the databases found within the bot
 
 <img src="./global/images/help_gifs/duelkit-update.gif"/>
+
+<details>
+<summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
 Updates all the full card database from the Konami API, then updates all derivative databases within the bot, finally collects and saves all topping decklists from [https://ygoprodeck.com/tournaments/top-archetypes/](https://ygoprodeck.com/tournaments/top-archetypes/)
