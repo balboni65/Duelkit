@@ -8,7 +8,7 @@ Duelkit is a custom-built Discord bot created to assist the entire Yu-Gi-Oh! com
 - Support for alternate formats, including Master Duel
 - and much much more!
 
-I created Duelkit as a passion project and i'm always taking feedback and suggestions to improve the experience for everyone
+I created Duelkit as a passion project and i'm always taking feedback and suggestions to improve the experience for everyone. Please don't hesitate to reach out!
 
 ## How to Add Duelkit to Your Server:
 
