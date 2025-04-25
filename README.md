@@ -44,6 +44,8 @@ Click on any command to preview of its functionality, you will also find more in
 | [/tournamentinfo](#tournamentinfo) | Find out what record is needed to receive an Invite or make Top Cut |
 | [/update](#update) | Updates all the databases found within the bot (takes a while to run) |
 
+<div>
+
 ## /card_price
 
 <img src="./global/images/help_gifs/duelkit-card_price.gif"/>
@@ -74,6 +76,7 @@ Returns the 5 lowest priced listings for every printing of a Yu-Gi-Oh! card
 - This feature depends on [https://www.tcgplayer.com](https://www.tcgplayer.com) being online
 
 </details>
+</div>
 
 ---
 
