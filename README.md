@@ -9,6 +9,7 @@
 - and much much more!
 
 I created **Duelkit** as a passion project and i'm always taking feedback and suggestions to improve the experience for everyone. Please don't hesitate to reach out! 
+
 (*PS: You can reach out through the bot itself with the /feedback command!*)
 
 ## How to Add Duelkit to Your Server:
@@ -16,6 +17,8 @@ I created **Duelkit** as a passion project and i'm always taking feedback and su
 Simply invite **Duelkit** to your server by clicking this link: [Click to Invite Duelkit to Your Server!](https://discord.com/oauth2/authorize?client_id=1341916562734583852&scope=bot&permissions=8192)
 
 ## List of Commands:
+
+Click on any command to preview of its functionality, you will also find more information below the animation
 
 | Command | Description |
 |:------|:------|
