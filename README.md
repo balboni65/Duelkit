@@ -26,8 +26,7 @@
 | [/tournamentinfo](#tournamentinfo) | Find out what record is needed to receive an Invite or make Top Cut, for a given number of players |
 | [/update](#update) | Updates all the databases found within the bot (takes a while to run) |
 
-## /card_price
-View a card's pricing from TCG Player
+## **/card_price** - View a card's pricing from TCG Player
 
 <img src="./global/images/help_gifs/duelkit-card_price.gif"/>
 
