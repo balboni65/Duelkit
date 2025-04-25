@@ -44,7 +44,7 @@ Click on any command to preview of its functionality, you will also find more in
 | [/tournamentinfo](#tournamentinfo) | Find out what record is needed to receive an Invite or make Top Cut |
 | [/update](#update) | Updates all the databases found within the bot (takes a while to run) |
 
-<h2>/card_price</h2>
+<strong>/card_price</strong>
 
 <img src="./global/images/help_gifs/duelkit-card_price.gif"/>
 
