@@ -30,9 +30,12 @@
 
 <img src="./global/images/help_gifs/duelkit-card_price.gif"/>
 
+<details>
+<summary>More Info</summary>
+
 ### Function:
 Returns the 5 lowest priced listings for every printing of a Yu-Gi-Oh! card
-- Returns multiple lists if there are multiple editions of that printing. (*1st Edition, Unlimited, Limited*)
+- Returns multiple lists if there are multiple editions of that printing (*1st Edition, Unlimited, Limited*)
 - Filters out OCG listings (*Korean, Japanese, Chinese, OCG, etc.*)
 - Uses only verified sellers
 - Filters out closely named cards (*Dark Hole -> ❌Dark Hole Dragon*)
@@ -42,9 +45,9 @@ Returns the 5 lowest priced listings for every printing of a Yu-Gi-Oh! card
 - `card_name` (**Required**): Any Yu-Gi-Oh! card name. (*Partial names work as well*)
 
 ### Examples:
-- `/metaltronus_single <Dark Hole>`
-- `/metaltronus_single <ash blossom>`
-- `/metaltronus_single <infinite imperm>`
+- `/card_price <Dark Hole>`
+- `/card_price <ash blossom>`
+- `/card_price <infinite imperm>`
 
 ### Run time:
 - `20s` to `4min` depending on number of printings
@@ -59,16 +62,16 @@ Returns the 5 lowest priced listings for every printing of a Yu-Gi-Oh! card
 <img src="./global/images/help_gifs/duelkit-feedback.gif"/>
 
 ### Function:
-Sends the creator of Duelkit (@balboni) your message through Discord
+Sends the creator of **Duelkit** (*@balboni*) your message through Discord
 
 ### Usage: `/feedback <input>`
 - `input` (**Required**): The message you want to send
 
 ### Examples:
 - `/feedback <This bot is the best thing i've ever seen in my life!>`
-- `/feedback <This command broke for me: ...>`
-- `/feedback <It would be great if this feature could also do this: ...>`
-- `/feedback <Could you add this feature? I have this use case for it: ...>`
+- `/feedback <This command broke for me... >`
+- `/feedback <It would be great if this feature could also do this... >`
+- `/feedback <Could you add this feature? I have this use case for it... >`
 
 ### Run time:
 - `instant`
@@ -81,7 +84,7 @@ Sends the creator of Duelkit (@balboni) your message through Discord
 ## /help
 
 ### Function:
-Shows a pagination view of all commands with basic descriptions and previews
+Shows a pagination view of all available commands with basic descriptions and previews
 - You can go to a different page by clicking `>` and `<`
 - The current page is displayed at the bottom
 
@@ -124,15 +127,15 @@ Posts the link to open Master Packs on [https://ygoprodeck.com/](https://ygoprod
 ### Function:
 Returns every monster in your opponents deck that is a valid Metaltronus target for your deck, 
     followed by the list of monsters from your deck that can be summoned off that target.
-- Output is a .txt file you can preview and download from the message
-- Monster results are in order of appearance found in the Opponent's decklist
+- Output is a `.txt file` you can preview and download from the message
+- Monster results are in order of appearance found in the opponent's decklist
 - Takes into account all Extra Deck, Main Deck and Side Deck monsters
 - Filters out all spell and trap cards in both lists
 - Filters out any text (*Created by, main deck, etc.*)
 - Only accepts a list of ids (*✅89631139, 89631139...*) not text (*❌3 Blue-Eyes White Dragon*)
 
 ### Usage: `/metaltronus_decklist <opponents_clipboard_ydk> <your_clipboard_deck> <opponents_ydk_file> <your_ydk_file>`
-- **NOTE:** You can choose to upload a **file** or a **clipboard ydk** for either decklist, but atleast 1 for each "player" is required
+- **NOTE:** You can choose to upload a `file` or a `clipboard ydk` for either decklist, but atleast 1 for each "player" is required
 - `opponents_clipboard_ydk` (*Optional*):
 - `your_clipboard_deck` (*Optional*): 
   - Paste the output into these options when exporting a deck and choosing the `To clipboard` option
@@ -161,7 +164,7 @@ Returns every monster in your opponents deck that is a valid Metaltronus target 
 
 ### Function:
 Returns every monster in in the game that is a valid Metaltronus target for the entered monster
-- Output is a .txt file you can preview and download from the message
+- Output is a `.txt file` you can preview and download from the message
 - Results are in alphabetical order
 - Takes into account all Extra Deck and Main Deck monsters in its search
 
@@ -269,6 +272,7 @@ Returns a list of Master Duel Secret Packs that contain the searched archetype
 
 ### Notes:
 - You can find a complete list of secret packs and their archetypes here: [List of Secret Packs](https://yugipedia.com/wiki/Secret_Pack)
+- Remember to swap the `Product` to `Master Duel` within YGOPRODeck's pack simulator
 
 ---
 
@@ -294,6 +298,7 @@ Returns a list of Master Duel Secret Packs that contain the searched title
 
 ### Notes:
 - You can find a complete list of secret packs and their titles here: [List of Secret Packs](https://yugipedia.com/wiki/Secret_Pack)
+- Remember to swap the `Product` to `Master Duel` within YGOPRODeck's pack simulator
 
 ---
 
@@ -303,7 +308,7 @@ Returns a list of Master Duel Secret Packs that contain the searched title
 
 ### Function:
 Returns every main deck monster in in the game that is a valid Seventh Tachyon target
-- Output is a .txt file you can preview and download from the message
+- Output is a `.txt file` you can preview and download from the message
 - Results are in alphabetical order and categorized by the initial xyz monster target
 - Takes into account all Main Deck monsters in its search
 
@@ -320,7 +325,7 @@ Returns every main deck monster in in the game that is a valid Seventh Tachyon t
 
 ### Function:
 Returns every monster in your deck that is a valid Seventh Tachyon target for any of the initial xyz monsters,
-- Output is a .txt file you can preview and download from the message
+- Output is a `.txt file` you can preview and download from the message
 - Results are categorized by the initial xyz monster target
 - It is not required to put the initial xyz monsters into your decklist
 - Takes into account all Main Deck and Side Deck monsters in its search
@@ -329,7 +334,7 @@ Returns every monster in your deck that is a valid Seventh Tachyon target for an
 - Only accepts a list of ids (*✅89631139, 89631139...*) not text (*❌3 Blue-Eyes White Dragon*)
 
 ### Usage: `/seventh_tachyon_decklist <clipboard_ydk> <ydk_file>`
-- **NOTE:** You can choose to upload a **file** or a **clipboard ydk** for the decklist, but atleast 1 option is required
+- **NOTE:** You can choose to upload a `file` or a `clipboard ydk` for the decklist, but atleast 1 option is required
 - `clipboard_ydk` (*Optional*):
   - Paste the output into this option when exporting a deck and choosing the `To clipboard` option
 - `ydk_file` (*Optional*): 
@@ -354,7 +359,7 @@ Returns every monster in your deck that is a valid Seventh Tachyon target for an
 
 ### Function:
 Returns a list of all the monsters that are a valid bridge between 2 entered monster names
-- Output is a .txt file you can preview and download from the message
+- Output is a `.txt file` you can preview and download from the message
 - Results are in alphabetical order
 - Takes into account all Main Deck monsters in its search
 
@@ -377,7 +382,7 @@ Returns a list of all the monsters that are a valid bridge between 2 entered mon
 
 ### Function:
 Returns every monster in your deck that is a valid bridge between any other 2 monsters in your deck,
-- Output is a .txt file you can preview and download from the message
+- Output is a `.txt file` you can preview and download from the message
 - Results are categorized by the bridge between 2 monsters
 - Sorted by order of monsters found in the Main Deck
 - Takes into account all Main Deck and Side Deck monsters in its search
@@ -386,7 +391,7 @@ Returns every monster in your deck that is a valid bridge between any other 2 mo
 - Only accepts a list of ids (*✅89631139, 89631139...*) not text (*❌3 Blue-Eyes White Dragon*)
 
 ### Usage: `/small_world_decklist <clipboard_ydk> <ydk_file>`
-- **NOTE:** You can choose to upload a **file** or a **clipboard ydk** for the decklist, but atleast 1 option is required
+- **NOTE:** You can choose to upload a `file` or a `clipboard ydk` for the decklist, but atleast 1 option is required
 - `clipboard_ydk` (*Optional*):
   - Paste the output into this option when exporting a deck and choosing the `To clipboard` option
 - `ydk_file` (*Optional*): 
@@ -423,6 +428,7 @@ Returns 5 random Master Duel Secret Packs with a preview of each
 
 ### Notes:
 - You can find a complete list of secret packs here: [List of Secret Packs](https://yugipedia.com/wiki/Secret_Pack)
+- Remember to swap the `Product` to `Master Duel` within YGOPRODeck's pack simulator
 
 ---
 
