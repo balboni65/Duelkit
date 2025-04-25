@@ -31,9 +31,9 @@
 <img src="./global/images/help_gifs/duelkit-card_price.gif"/>
 
 ### Function:
-- Returns the 5 lowest priced listings for every printing of the card
-- Returns multiple lists if there are multiple editions of that printing. (*1st Edition, Unlimited, Limited*)
-- Filters out OCG listings (*Korean, Japanese, Chinese, OCG, etc.*)
+Returns the 5 lowest priced listings for every printing of a Yu-Gi-Oh! card.
+* Returns multiple lists if there are multiple editions of that printing. (*1st Edition, Unlimited, Limited*)
++ Filters out OCG listings (*Korean, Japanese, Chinese, OCG, etc.*)
 - Uses only verified sellers
 - Filters out closely named cards (*Dark Hole -> ❌Dark Hole Dragon*)
 - Checks for rarities in the card name. (*✅Dark Hole (UR)*)
