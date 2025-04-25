@@ -18,10 +18,10 @@ class PaginationView(discord.ui.View):
             {"command": "/metaltronus_decklist", "description": "Lists all the Metaltronus targets your deck has against another deck"},
             {"command": "/metaltronus_single", "description": "Lists all the Metaltronus targets for a specific card"},
             {"command": "/report", "description": "Report a game's result"},
-            {"command": "/roundrobin", "description": "Create a 3-8 player Round Robin tournament, please enter names with spaces inbetween"},
+            {"command": "/roundrobin", "description": "Creates a 3-8 player Round Robin tournament, please enter names with spaces inbetween"},
             {"command": "/secretpack_archetype", "description": "Search for a specific Secret Pack by archetype"},
             {"command": "/secretpack_title", "description": "Search for a specific Secret Pack by its title"},
-            {"command": "/seventh_tachyon", "description": "Create list of all the current Seventh Tachyon targets in the game"},
+            {"command": "/seventh_tachyon", "description": "Create's a list of all the current Seventh Tachyon targets in the game"},
             {"command": "/seventh_tachyon_decklist", "description": "Lists all the Metaltronus targets your deck has against another deck"},
             {"command": "/spin", "description": "Spin 5 random Secret Packs!"},
             {"command": "/standings", "description": "See current season standings"},
@@ -64,7 +64,7 @@ class PaginationView(discord.ui.View):
         if self.current_page == 1:
             embed = discord.Embed(
                 title="Welcome to Duelkit! :wave:",
-                description="I am a program written to provide a variety of commands to help with analysis, alternate game modes, tournaments, deck building and more!\n\n	Please page through this view to get an overview of my available commands.",
+                description="I am a program written to provide a variety of commands to help with analysis, alternate game modes, tournaments, deck building and more!\n\n	Please page through this view to get an overview of my available commands.\n\nYou may also view this documentation on my github's home page, found [here](https://github.com/balboni65/Duelkit)",
                 color=discord.Color.dark_gold()
             )
             embed.set_footer(text="Note: Animations may take a moment to load.")

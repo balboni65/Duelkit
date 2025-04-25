@@ -136,16 +136,16 @@ async def metaltronus_single(interaction: discord.Interaction, monster_name: str
         with open(file_path, "rb") as file:
             await interaction.followup.send(response, file=discord.File(file_path))
 # Adds autocomplete functionality to metaltronus function above
-@metaltronus_single.autocomplete("input")
+@metaltronus_single.autocomplete("monster_name")
 async def metaltronus_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return metaltronus.metaltronus_autocomplete(current_input)
 
 # ===== REPORT TOURNAMENT =====
 @client.tree.command(name="report", description="Report a game's result", guild=GUILD_ID)
-async def report(interaction: discord.Interaction, result: str, ):
+async def report(interaction: discord.Interaction, pairing: str, ):
     if not await is_on_cooldown(interaction):
-        await round_robin.report(interaction, result)
-@report.autocomplete("result")
+        await round_robin.report(interaction, pairing)
+@report.autocomplete("pairing")
 async def report_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return await round_robin.report_autocomplete(interaction, current_input)
 
@@ -161,19 +161,19 @@ async def round_robin_bracket(interaction: discord.Interaction, players: str):
 
 # ===== EARCH PACK BY ARCHETYPE =====
 @client.tree.command(name="secretpack_archetype", description="Search for a specific Secret Pack by archetype", guild=GUILD_ID)
-async def search_by_archetype(interaction: discord.Interaction, input: str):
+async def search_by_archetype(interaction: discord.Interaction, archetype_name: str):
     if not await is_on_cooldown(interaction):
-        await saga.search_by_archetype(interaction, input)
-@search_by_archetype.autocomplete("input")
+        await saga.search_by_archetype(interaction, archetype_name)
+@search_by_archetype.autocomplete("archetype_name")
 async def search_by_archetype_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return saga.search_by_archetype_autocomplete(current_input)
 
 # ===== SEARCH PACK BY TITLE =====
 @client.tree.command(name="secretpack_title", description="Search for a specific Secret Pack by its title", guild=GUILD_ID)
-async def search_by_title(interaction: discord.Interaction, input: str):
+async def search_by_title(interaction: discord.Interaction, title: str):
     if not await is_on_cooldown(interaction):
-        await saga.search_by_title(interaction, input)
-@search_by_title.autocomplete("input")
+        await saga.search_by_title(interaction, title)
+@search_by_title.autocomplete("title")
 async def search_by_title_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return saga.search_by_title_autocomplete(current_input)
 
@@ -287,9 +287,9 @@ async def top_cards_autocomplete_handler(interaction: discord.Interaction, curre
 
 # ===== TOURNAMENT INFO =====
 @client.tree.command(name="tournamentinfo", description="Find out what record is needed to receive an Invite or make Top Cut, for a given number of players", guild=GUILD_ID)
-async def tournament_info(interaction: discord.Interaction, players: int):
+async def tournament_info(interaction: discord.Interaction, number_of_players: int):
     if not await is_on_cooldown(interaction):
-        await tournament.tournament_info(interaction, players)
+        await tournament.tournament_info(interaction, number_of_players)
 
 # ===== UPDATE DATABASES =====
 @client.tree.command(name="update", description="NOTE: TAKES UP TO 15 MINUTES, Updates all databases", guild=GUILD_ID)
