@@ -92,13 +92,13 @@ async def help_helper(interaction: discord.Interaction):
         await help_pagination.show_help_pagination(interaction)
 
 # ===== MASTER PACK INFO =====
-@client.tree.command(name="masterpack", description="Posts the link to open Master Packs", guild=GUILD_ID)
+@client.tree.command(name="masterpack", description="Posts the links to view and open Master Packs", guild=GUILD_ID)
 async def master_packs(interaction: discord.Interaction):
     if not await is_on_cooldown(interaction):
         await interaction.response.send_message(embed=saga.master_packs())
 
 # ===== METALTRONUS DECKLISTS =====
-@client.tree.command(name="metaltronus_decklist", description="Lists all the Metaltronus targets your deck has against an opponent's deck", guild=GUILD_ID)
+@client.tree.command(name="metaltronus_decklist", description="Lists all the Metaltronus targets your deck has against another deck", guild=GUILD_ID)
 async def metaltronus_decklist(
     interaction: discord.Interaction,
     opponents_clipboard_ydk: str = None,
@@ -124,7 +124,7 @@ async def metaltronus_decklist(
             await interaction.followup.send(response, file=discord.File(file_path))
 
 # ===== METALTRONUS SINGLE =====
-@client.tree.command(name="metaltronus_single", description="Lists all the Metaltronus targets for a specific card", guild=GUILD_ID)
+@client.tree.command(name="metaltronus_single", description="Lists all the Metaltronus targets in the game for a specific card", guild=GUILD_ID)
 async def metaltronus_single(interaction: discord.Interaction, monster_name: str):
     if not await is_on_cooldown(interaction) and guild_id_as_int:
         # Defer the rersponse and show the user that the bot is working on it
@@ -150,7 +150,7 @@ async def report_autocomplete_handler(interaction: discord.Interaction, current_
     return await round_robin.report_autocomplete(interaction, current_input)
 
 # ===== ROUND ROBIN TOURNAMENT =====
-@client.tree.command(name="roundrobin", description="Create a 3-8 player Round Robin tournament, please enter names with spaces inbetween", guild=GUILD_ID)
+@client.tree.command(name="roundrobin", description="Creates a 3-8 player Round Robin tournament, enter names with spaces inbetween", guild=GUILD_ID)
 async def round_robin_bracket(interaction: discord.Interaction, players: str):
     if not await is_on_cooldown(interaction):
         # Defer the rersponse and show the user that the bot is working on it
@@ -160,7 +160,7 @@ async def round_robin_bracket(interaction: discord.Interaction, players: str):
         await round_robin.round_robin_bracket(interaction, players, guild_id_as_int)
 
 # ===== EARCH PACK BY ARCHETYPE =====
-@client.tree.command(name="secretpack_archetype", description="Search for a specific Secret Pack by archetype", guild=GUILD_ID)
+@client.tree.command(name="secretpack_archetype", description="Search for a specific Secret Pack by its contained archetypes", guild=GUILD_ID)
 async def search_by_archetype(interaction: discord.Interaction, archetype_name: str):
     if not await is_on_cooldown(interaction):
         await saga.search_by_archetype(interaction, archetype_name)
@@ -178,7 +178,7 @@ async def search_by_title_autocomplete_handler(interaction: discord.Interaction,
     return saga.search_by_title_autocomplete(current_input)
 
 # ===== SEVENTH TACHYON =====
-@client.tree.command(name="seventh_tachyon", description="Create list of all the current Seventh Tachyon targets in the game", guild=GUILD_ID)
+@client.tree.command(name="seventh_tachyon", description="Create's a list of all the current Seventh Tachyon targets in the game", guild=GUILD_ID)
 async def seventh_tachyon_list(interaction: discord.Interaction):
     if not await is_on_cooldown(interaction):
         # Defer the rersponse and show the user that the bot is working on it
@@ -271,7 +271,7 @@ async def archetype_autocomplete_handler(interaction: discord.Interaction, curre
     return await top_archetype_breakdown.archetype_autocomplete(current_input)
 
 # ===== TOP ARCHETYPES =====
-@client.tree.command(name="top_archetypes", description="View the top archetypes for the current format", guild=GUILD_ID)
+@client.tree.command(name="top_archetypes", description="View the top archetypes for the current format and their deck variants", guild=GUILD_ID)
 async def archetypes(interaction: discord.Interaction):
     if not await is_on_cooldown(interaction):
         await top_archetypes.get_top_archetypes(interaction)
@@ -286,13 +286,13 @@ async def top_cards_autocomplete_handler(interaction: discord.Interaction, curre
     return await top_cards.card_autocomplete(current_input)
 
 # ===== TOURNAMENT INFO =====
-@client.tree.command(name="tournamentinfo", description="Find out what record is needed to receive an Invite or make Top Cut, for a given number of players", guild=GUILD_ID)
+@client.tree.command(name="tournamentinfo", description="Find out what record is needed to receive an Invite or make Top Cut", guild=GUILD_ID)
 async def tournament_info(interaction: discord.Interaction, number_of_players: int):
     if not await is_on_cooldown(interaction):
         await tournament.tournament_info(interaction, number_of_players)
 
 # ===== UPDATE DATABASES =====
-@client.tree.command(name="update", description="NOTE: TAKES UP TO 15 MINUTES, Updates all databases", guild=GUILD_ID)
+@client.tree.command(name="update", description="Updates all the databases found within the bot (takes a while to run)", guild=GUILD_ID)
 async def update_database(interaction: discord.Interaction):
     if not await is_on_cooldown(interaction):
         if update_lock.locked():

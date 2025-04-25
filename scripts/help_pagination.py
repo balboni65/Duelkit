@@ -14,21 +14,21 @@ class PaginationView(discord.ui.View):
         self.commands_info = [
             {"command": "/card_price", "description": "View a card's pricing from TCG Player"},
             {"command": "/feedback", "description": "Send the creator of Duelkit a message!"},
-            {"command": "/masterpack", "description": "Posts the link to open Master Packs"},
+            {"command": "/masterpack", "description": "Posts the links to view and open Master Packs"},
             {"command": "/metaltronus_decklist", "description": "Lists all the Metaltronus targets your deck has against another deck"},
-            {"command": "/metaltronus_single", "description": "Lists all the Metaltronus targets for a specific card"},
+            {"command": "/metaltronus_single", "description": "Lists all the Metaltronus targets in the game for a specific card"},
             {"command": "/report", "description": "Report a game's result"},
-            {"command": "/roundrobin", "description": "Creates a 3-8 player Round Robin tournament, please enter names with spaces inbetween"},
-            {"command": "/secretpack_archetype", "description": "Search for a specific Secret Pack by archetype"},
+            {"command": "/roundrobin", "description": "Creates a 3-8 player Round Robin tournament, enter names with spaces inbetween"},
+            {"command": "/secretpack_archetype", "description": "Search for a specific Secret Pack by its contained archetypes"},
             {"command": "/secretpack_title", "description": "Search for a specific Secret Pack by its title"},
             {"command": "/seventh_tachyon", "description": "Create's a list of all the current Seventh Tachyon targets in the game"},
             {"command": "/seventh_tachyon_decklist", "description": "Lists all the Metaltronus targets your deck has against another deck"},
             {"command": "/spin", "description": "Spin 5 random Secret Packs!"},
             {"command": "/standings", "description": "See current season standings"},
             {"command": "/top_archetype_breakdown", "description": "View a card-by-card breakdown of a top archetype for the current format"},
-            {"command": "/top_archetypes", "description": "View the top archetypes for the current format"},
+            {"command": "/top_archetypes", "description": "View the top archetypes for the current format and their deck variants"},
             {"command": "/top_cards", "description": "View a card's usage across all topping archetypes"},
-            {"command": "/tournamentinfo", "description": "Find out what record is needed to receive an Invite or make Top Cut, for a given number of players"},
+            {"command": "/tournamentinfo", "description": "Find out what record is needed to receive an Invite or make Top Cut"},
             {"command": "/update", "description": "Updates all the databases found within the bot (takes a while to run)"}
         ]
 
