@@ -30,7 +30,7 @@
 
 <img src="./global/images/help_gifs/duelkit-card_price.gif"/>
 
-<details>
+<section>
 <summary><h3> 📌 Click For More Info on this command</a></h3></summary>
 
 ### Function:
@@ -55,7 +55,7 @@ Returns the 5 lowest priced listings for every printing of a Yu-Gi-Oh! card
 ### Notes:
 - This feature depends on [https://www.tcgplayer.com](https://www.tcgplayer.com) being online
 
-</details>
+</section>
 
 ---
 
