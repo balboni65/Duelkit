@@ -60,8 +60,17 @@ class PaginationView(discord.ui.View):
 
     # Creates the embed
     def create_embed(self):
+        # If on the first page, show a special welcome/help message
+        if self.current_page == 1:
+            embed = discord.Embed(
+                title="Welcome to Duelkit! :wave:",
+                description="I am a program written to provide a variety of commands to help with analysis, alternate game modes, tournaments, deck building and more!\n\n	Please page through this view to get an overview of my available commands.",
+                color=discord.Color.dark_gold()
+            )
+            embed.set_footer(text="Note: Animations may take a moment to load.")
+            return embed, None
         # Get the command name and description
-        command_info = self.commands_info[self.current_page - 1]
+        command_info = self.commands_info[self.current_page - 2]
         command = command_info["command"]
         description = command_info["description"]
         file_name = f"duelkit-{command.replace('/', '')}.gif"
@@ -86,7 +95,7 @@ class PaginationView(discord.ui.View):
 
     # Update the button logic
     def update_buttons(self):
-        max_pages = math.ceil(len(self.commands_info) / self.entries_per_page)
+        max_pages = 1 + math.ceil(len(self.commands_info) / self.entries_per_page)
 
         self.page_number_button.disabled = True
         self.page_number_button.label = f"{self.current_page}/{max_pages}"
@@ -98,10 +107,21 @@ class PaginationView(discord.ui.View):
         self.next_button.style = discord.ButtonStyle.gray if self.next_button.disabled else discord.ButtonStyle.primary
 
     # Get the current page
+    # Version that caues it to load the next page smoothly, but the gif is in the middle idk
     def get_current_page(self):
-        max_pages = math.ceil(len(self.commands_info) / self.entries_per_page)
-        self.current_page = max(1, min(self.current_page, max_pages))
-        return self.commands_info[self.current_page - 1]["command"]
+        if self.current_page == 1:
+            return None
+        else: 
+            max_pages = 1 + math.ceil(len(self.commands_info) / self.entries_per_page)
+            self.current_page = max(1, min(self.current_page, max_pages))
+            return self.commands_info[self.current_page - 1]["command"]
+
+    # Version that causes it to delete the embed and resent
+    # def get_current_page(self):
+    #     if self.current_page == 1:
+    #         return None
+    #     index = self.current_page - 2
+    #     return self.commands_info[index]["command"] if 0 <= index < len(self.commands_info) else None
 
     @discord.ui.button(label="<", style=discord.ButtonStyle.primary)
     async def prev_button(self, interaction: discord.Interaction, button: discord.ui.Button):
