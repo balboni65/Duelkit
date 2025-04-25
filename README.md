@@ -1,7 +1,5 @@
 # Welcome to Duelkit!
 
-## About
-
 Duelkit is a custom-built Discord bot created to assist the entire Yu-Gi-Oh! community. It offers a features not found anywhere else such as:
 - Accurate and up-to-date card prices
 - In-depth meta analaysis for archetypes and individual cards
