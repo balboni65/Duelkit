@@ -125,7 +125,7 @@ async def metaltronus_decklist(
 
 # ===== METALTRONUS SINGLE =====
 @client.tree.command(name="metaltronus_single", description="Lists all the Metaltronus targets for a specific card", guild=GUILD_ID)
-async def metaltronus_single(interaction: discord.Interaction, input: str):
+async def metaltronus_single(interaction: discord.Interaction, monster_name: str):
     if not await is_on_cooldown(interaction) and guild_id_as_int:
         # Defer the rersponse and show the user that the bot is working on it
         await interaction.response.defer(thinking=True)
