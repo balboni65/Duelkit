@@ -44,7 +44,7 @@ Click on any command to preview of its functionality, you will also find more in
 | [/tournamentinfo](#tournamentinfo) | Find out what record is needed to receive an Invite or make Top Cut |
 | [/update](#update) | Updates all the databases found within the bot (takes a while to run) |
 
-<strong>/card_price</strong>
+## /card_price
 
 <img src="./global/images/help_gifs/duelkit-card_price.gif"/>
 
@@ -75,7 +75,7 @@ Returns the 5 lowest priced listings for every printing of a Yu-Gi-Oh! card
 
 </details>
 
----
+
 
 ## /feedback
 
@@ -102,7 +102,7 @@ Sends the creator of **Duelkit** (*@balboni*) your message through Discord
 ### Notes:
 - `30min` cooldown between uses
 
----
+
 
 ## /help
 
@@ -123,7 +123,7 @@ Shows a pagination view of all available commands with basic descriptions and pr
 
 </details>
 
----
+
 
 ## /masterpack
 
@@ -148,7 +148,7 @@ Posts the link to open Master Packs on [https://ygoprodeck.com/](https://ygoprod
 
 </details>
 
----
+
 
 ## /metaltronus_decklist
 
@@ -191,7 +191,7 @@ Returns every monster in your opponents deck that is a valid Metaltronus target 
 
 </details>
 
----
+
 
 ## /metaltronus_single
 
@@ -223,7 +223,7 @@ Returns every monster in in the game that is a valid Metaltronus target for the 
 
 </details>
 
----
+
 
 ## /report
 
@@ -261,7 +261,7 @@ Reports a game's result in **the same channel** a tournament has been created in
 
 </details>
 
----
+
 
 ## /roundrobin
 
@@ -298,7 +298,7 @@ Creates a 3-8 person round robin tournament
 
 </details>
 
----
+
 
 ## /secretpack_archetype
 
@@ -329,7 +329,7 @@ Returns a list of Master Duel Secret Packs that contain the searched archetype
 
 </details>
 
----
+
 
 ## /secretpack_title
 
@@ -360,7 +360,7 @@ Returns a list of Master Duel Secret Packs that contain the searched title
 
 </details>
 
----
+
 
 ## /seventh_tachyon
 
@@ -382,7 +382,7 @@ Returns every main deck monster in in the game that is a valid Seventh Tachyon t
 
 </details>
 
----
+
 
 ## /seventh_tachyon_decklist
 
@@ -421,7 +421,7 @@ Returns every monster in your deck that is a valid Seventh Tachyon target for an
 
 </details>
 
----
+
 
 ## /small_world
 
@@ -449,7 +449,7 @@ Returns a list of all the monsters that are a valid bridge between 2 entered mon
 
 </details>
 
----
+
 
 ## /small_world_decklist
 
@@ -489,7 +489,7 @@ Returns every monster in your deck that is a valid bridge between any other 2 mo
 
 </details>
 
----
+
 
 ## /spin
 
@@ -515,7 +515,7 @@ Returns 5 random Master Duel Secret Packs with a preview of each
 
 </details>
 
----
+
 
 ## /standings
 
@@ -541,7 +541,7 @@ Creates 2 gifs (*1 line graph, 1 bar graph*) representing the accumulated scores
 
 </details>
 
----
+
 
 ## /top_archetype_breakdown
 
@@ -580,7 +580,7 @@ Creates a pagination view for the selected archetype, displaying every card that
 
 </details>
 
----
+
 
 ## /top_archetypes
 
@@ -613,7 +613,7 @@ Creates a pagination view of all the topping archetypes in the current format, d
 
 </details>
 
----
+
 
 ## /top_cards
 
@@ -652,7 +652,7 @@ Creates a pagination view for the selected card, displaying every location (*Mai
 
 </details>
 
----
+
 
 ## /tournamentinfo
 
@@ -699,7 +699,7 @@ Example: 64 person tournament with 6 rounds
 
 </details>
 
----
+
 
 ## /update
 Updates all the databases found within the bot
@@ -724,4 +724,4 @@ Updates all the full card database from the Konami API, then updates all derivat
 ### Notes:
 - This command is disabled for the public and exists for developer purposes
 
----
+
