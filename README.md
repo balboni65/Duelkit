@@ -31,7 +31,7 @@
 <img src="./global/images/help_gifs/duelkit-card_price.gif"/>
 
 <details>
-<summary><h3><a href="#">More Info</a></h3></summary>
+<summary><h2>Click For More Info</a></h2></summary>
 
 ### Function:
 Returns the 5 lowest priced listings for every printing of a Yu-Gi-Oh! card
