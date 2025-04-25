@@ -36,15 +36,15 @@ View a card's pricing from TCG Player
 - Returns multiple lists if there are multiple editions of that printing. (*1st Edition, Unlimited, Limited*)
 - Filters out OCG listings (*Korean, Japanese, Chinese, OCG, etc.*)
 - Uses only verified sellers
-- Filters out closely named cards (*Dark Hole -> Dark Hole Dragon*)
-- Checks for rarities in the card name. (:white_check_mark: *Dark Hole (UR)*)
+- Filters out closely named cards (*Dark Hole -> ❌Dark Hole Dragon*)
+- Checks for rarities in the card name. (*✅Dark Hole (UR)*)
 
-### Usage: ```/card_price <card_name>```
-- card_name (**Required**): Any Yu-Gi-Oh! card name. (Partial names work as well)
+### Usage: `/card_price <card_name>`
+- `card_name` (**Required**): Any Yu-Gi-Oh! card name. (*Partial names work as well*)
 
 ### Examples:
-- ```/card_price <ash blossom>```
-- ```/card_price <dark hole>```
+- `/card_price <ash blossom>`
+- `/card_price <Dark Hole>`
 
 ---
 
