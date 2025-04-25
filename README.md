@@ -1,6 +1,6 @@
 # Welcome to Duelkit!
 
-Duelkit is a custom-built Discord bot created to assist the entire Yu-Gi-Oh! community. It offers a features not found anywhere else such as:
+**Duelkit** is a custom-built Discord bot created to assist the entire Yu-Gi-Oh! community. It offers a features not found anywhere else such as:
 - Accurate and up-to-date card prices
 - In-depth meta analaysis for archetypes and individual cards
 - Information on what record you need  to make top cut or secure your invite
@@ -8,11 +8,11 @@ Duelkit is a custom-built Discord bot created to assist the entire Yu-Gi-Oh! com
 - Support for alternate formats, including Master Duel
 - and much much more!
 
-I created Duelkit as a passion project and i'm always taking feedback and suggestions to improve the experience for everyone. Please don't hesitate to reach out!
+I created **Duelkit** as a passion project and i'm always taking feedback and suggestions to improve the experience for everyone. Please don't hesitate to reach out!
 
 ## How to Add Duelkit to Your Server:
 
-Simply invite Duelkit to your server by clicking this link: [Click to Invite Duelkit to Your Server!](https://discord.com/oauth2/authorize?client_id=1341916562734583852&scope=bot&permissions=8192)
+Simply invite **Duelkit** to your server by clicking this link: [Click to Invite Duelkit to Your Server!](https://discord.com/oauth2/authorize?client_id=1341916562734583852&scope=bot&permissions=8192)
 
 ## List of Commands:
 
