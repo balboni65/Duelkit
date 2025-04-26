@@ -14,7 +14,8 @@ I created **Duelkit** as a passion project and i'm always taking feedback and su
 
 ## How to Add Duelkit to Your Server:
 
-Simply invite **Duelkit** to your server by clicking this link: [Click to Invite Duelkit to Your Server!](https://discord.com/oauth2/authorize?client_id=1341916562734583852&scope=bot&permissions=8192)
+Simply invite **Duelkit** to your server by clicking this link: [Click to Invite Duelkit to Your Server!]()
+*Disabled until ready*
 
 ## List of Commands:
 
