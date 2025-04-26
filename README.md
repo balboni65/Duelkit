@@ -48,10 +48,7 @@ Click on any command to preview of its functionality, you will also find more in
 
 ## /card_price
 
-<img src="./global/images/help_gifs/duelkit-card_price.gif"/>test
-test
-<details>
-<summary><h3> 📌 Click for more info on this command</a></h3></summary>
+<img src="./global/images/help_gifs/duelkit-card_price.gif"/><details><summary><h3> 📌 Click for more info on this command</a></h3></summary>
 
 ### Function:
 Returns the 5 lowest priced listings for every printing of a Yu-Gi-Oh! card
