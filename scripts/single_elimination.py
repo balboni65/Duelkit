@@ -1,7 +1,7 @@
 import discord
 import random
 import json
-from scripts import round_robin_bracket
+from scripts import tournament_helper, elimination_bracket
 import pandas
 import asyncio
 import os
@@ -10,29 +10,27 @@ import os
 copy = "```"
 
 # Creates a round robin tournament
-async def create_round_robin_bracket(interaction: discord.Interaction, players: str, guild_id: int):
-    # Store a string of players as individuals in an array
-    player_list = players.split()
+async def create_single_elimination_bracket(interaction: discord.Interaction, players: str, guild_id: int):
+    # Initial setup
+    tournament_name, player_list = await tournament_helper.setup_tournament(interaction, players)
 
-    if interaction.channel.category == None:
-        await interaction.followup.send("Please create a **category** for this channel before creating a tournament, so they can be grouped by seasons.", ephemeral=True)
-        return
+    response_embed = discord.Embed(title=f"Elimination Bracket For {str(len(player_list))} Players:", color=discord.Color.dark_gold())
 
-    # Get the tournament name from the category name + channel name
-    tournament_name = (f"{interaction.channel.category.name}_{interaction.channel.name}").replace(" ", "_")
+    elimination_bracket.elimination_bracket_builder(tournament_name, player_list, guild_id)
 
-    # Randomize the order of players
-    random.shuffle(player_list)
+    response_embed = create_tournament_embed(tournament_name, player_list, guild_id)
 
-    # Build the bracket for our competitors
-    round_robin_bracket.round_robin_bracket_builder(tournament_name, player_list, guild_id)
+    bracket_message = await interaction.followup.send(embed=response_embed)
+
+
+    return
 
     # Read the bracket results
     with open(f'guilds/{guild_id}/json/tournaments/{tournament_name}.json', 'r', encoding="utf-8") as file:
         bracket = json.load(file)
 
     # Define the Discord embed to notify players
-    response_embed = discord.Embed(title=f"Round Robin Bracket For {str(len(player_list))} Players:", color=discord.Color.dark_gold())
+    response_embed = discord.Embed(title=f"Elimination Bracket For {str(len(player_list))} Players:", color=discord.Color.dark_gold())
 
     # Populate the Discord embed with tournament information
     response_embed = create_tournament_embed(bracket, response_embed)
@@ -41,27 +39,21 @@ async def create_round_robin_bracket(interaction: discord.Interaction, players: 
     bracket_message = await interaction.followup.send(embed=response_embed)
     
     # Take the sent message and update the bracket file with the message ID to edit later
-    round_robin_bracket.attach_message_to_bracket(bracket_message, interaction, tournament_name)
+    elimination_bracket.attach_message_to_bracket(bracket_message, interaction, tournament_name)
 
 # Creates the embed message displaying the pairings
-def create_tournament_embed(bracket, embed):
-    # For every index of the pairings array, get the JSON object
-    for round in bracket["pairings"]:
-        # Get the key-value pair of the round JSON object, e.g., the key (round1) and the value (JSON object of match/results info)
-        for round_name, round_info in round.items():
-            # Format the round name for later
-            round_text = f"**{round_name.replace('round', 'Round ')}:**"
-            # Create the match text that will appear in the embed
-            match_text = ""
-            # For every index of the round array, get the JSON object
-            for match in round_info:
-                # Get the key-value pair of the match/results JSON string, e.g., the key (match1/result) and the value (p v p/"")
-                for match_name, match_value in match.items():
-                    # We want to filter to just the match values
-                    if "match" in match_name:
-                        match_text += f"{copy}{match_value}{copy}\n"
-            # Populate the embed with round info            
-            embed.add_field(name=round_text, value=match_text, inline=True)
+def create_tournament_embed(tournament_name, player_list, guild_id):
+    #─ ├ ┤ └ ┘ ┌ ┐ ┴ ┬ ┼ │
+
+    # Build the bracket text
+    embed_text = elimination_bracket.elimination_bracket_builder(tournament_name, player_list, guild_id)
+
+
+    embed = discord.Embed(
+        title="Bracket",
+        description=embed_text,
+        color=discord.Color.green()
+    )
 
     return embed
 

@@ -2,21 +2,38 @@ import json
 import os
 import discord
 from scripts import formatter
+import math
 
 # Creates a tournament bracket for a given list of players
-def bracket_builder(tournamentName, playerList, guild_id):
+def elimination_bracket_builder(tournamentName, player_list, guild_id):
     # Define the base of the bracket json object
     bracket = {
-        "title": "Tournament Bracket:",
+        "title": "Elimination Bracket:",
         "pairings": []
         }
     
+    # If the number of players is odd, add a bye
+    if len(player_list) % 2 != 0:
+        player_list.append("**\*\*BYE\*\***")
+    
+    # Pairs up players in the form of a tuple
+    pairings = []
+    for i in range(0, len(player_list), 2):
+        pairings.append((player_list[i], player_list[i+1]))
+
+    # TODO: Prints pairings, DELETE
+    for match_num, (p1, p2) in enumerate(pairings, start=1):
+        print(f"Match {match_num}: {p1} vs {p2}")
+
+    
+
+
     # Number of rounds per tournament
-    rounds_per_bracket = roundsPerBracket(playerList)
+    rounds_per_bracket = math.ceil(math.log2(len(player_list)))
     # Number of matches per round
-    matches_per_round = matchesPerRound(playerList)
+    matches_per_round = player_list / 2
     # Which preset of pairings to use stored as a matrix see pairingsMatrix()
-    pairings_matrix = pairingsMatrix(playerList)
+    pairings_matrix = pairingsMatrix(player_list)
    
     # For every round in the tournament
     for round_number in range(1, rounds_per_bracket + 1):
@@ -35,13 +52,13 @@ def bracket_builder(tournamentName, playerList, guild_id):
 
             if matches_per_round == 1:
                 # First gets an index number from the pairing matrix based on the current round # and match #: "0", "1", etc; Then gets the player for that index: "mike", etc.
-                player_1 = playerList[pairings_matrix[round_number-1][0]]
-                player_2 = playerList[pairings_matrix[round_number-1][1]]
+                player_1 = player_list[pairings_matrix[round_number-1][0]]
+                player_2 = player_list[pairings_matrix[round_number-1][1]]
 
             elif matches_per_round > 1:
                 # First gets an index number from the pairing matrix based on the current round # and match #: "0", "1", etc; Then gets the player for that index: "mike", etc.
-                player_1 = playerList[pairings_matrix[round_number-1][match_number-1][0]]
-                player_2 = playerList[pairings_matrix[round_number-1][match_number-1][1]]
+                player_1 = player_list[pairings_matrix[round_number-1][match_number-1][0]]
+                player_2 = player_list[pairings_matrix[round_number-1][match_number-1][1]]
 
             # Sets the text for which players are in that match
             match_pairing = f"{formatter.smart_capitalize(player_1)} vs {formatter.smart_capitalize(player_2)}"
@@ -66,7 +83,100 @@ def bracket_builder(tournamentName, playerList, guild_id):
         json.dump(bracket, file, indent=4, ensure_ascii=False)
 
 
-def attatch_message_to_bracket(bracket_message: discord.Message, interaction: discord.Interaction, tournament_name: str):
+
+
+
+
+
+
+
+
+
+    embed_text = create_tournament_text(pairings)
+
+    return embed_text
+
+
+def create_tournament_text(pairings):
+    #─ ├ ┤ └ ┘ ┌ ┐ ┴ ┬ ┼ │
+    description="```"
+    "Alice ─┐\n"
+    "       ├─ Winner 1 ─┐\n"
+    "Bob ───┘            │\n"
+    "                    ├─ Champion\n"
+    "Charlie ─┐          │\n"
+    "         ├─ Winner 2 ─┘\n"
+    "Dana ────┘\n"
+    "```"
+
+    # Find the longest name in the pairings tuple
+    longest_name = max(len(name) for match in pairings for name in match)
+
+    number_of_matches = len(pairings)
+
+    print(f"Longest name length: {longest_name}")
+
+    embed_text = "```"
+
+    # Calculate the number of spaces needed for padding
+    name_on_top = True
+
+    # 2 Pairings
+    if number_of_matches == 2:
+        for match in pairings:
+            for player in match:
+                dashes_needed = longest_name - len(player)
+                end_of_line = ""
+                # Determine what ascii text to add to the end of the line, then flip which to use
+                if name_on_top:
+                    end_of_line = "┐\n"
+                    end_of_line += f"{len(player) * ' '}{(dashes_needed + 2) * ' '}├─ \n"
+                    name_on_top = False
+                else:
+                    end_of_line = "┘\n\n"
+                    name_on_top = True
+                # Add the player name to the description with padding
+                player = f"{player} {'─' * (dashes_needed + 1)}"
+                embed_text += f"{player}{end_of_line}"
+        embed_text += "```"
+
+
+
+
+    # 3 or 4 Pairings
+    elif number_of_matches == 3 or number_of_matches == 4:
+        for match in pairings:
+            for player in match:
+                dashes_needed = longest_name - len(player)
+                end_of_line = ""
+                # Determine what ascii text to add to the end of the line, then flip which to use
+                if name_on_top:
+                    end_of_line = "┐\n"
+                    end_of_line += f"{len(player) * ' '}{(dashes_needed + 2) * ' '}├─ \n"
+                    name_on_top = False
+                else:
+                    end_of_line = "┘\n\n"
+                    name_on_top = True
+                # Add the player name to the description with padding
+                player = f"{player} {'─' * (dashes_needed + 1)}"
+                embed_text += f"{player}{end_of_line}"
+
+        embed_text += "```"
+
+    return embed_text
+
+
+
+
+
+
+
+
+
+
+
+
+def attach_message_to_bracket(bracket_message: discord.Message, interaction: discord.Interaction, tournament_name: str):
     guild_id = interaction.guild.id
     category_id = interaction.channel.category.id
     channel_id = interaction.channel.id

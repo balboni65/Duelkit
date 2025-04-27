@@ -3,7 +3,7 @@
 
 import discord
 from discord.ext import commands
-from scripts import (help_pagination, round_robin, formatter, metaltronus, saga, seventh_tachyon, small_world, standings, top_archetype_breakdown, tournament, top_archetypes, top_cards, card_price_scraper, feedback)
+from scripts import (help_pagination, round_robin, formatter, metaltronus, saga, seventh_tachyon, single_elimination, small_world, standings, top_archetype_breakdown, tournament, top_archetypes, top_cards, card_price_scraper, feedback)
 from dotenv import load_dotenv
 import os
 import time
@@ -157,7 +157,7 @@ async def round_robin_bracket(interaction: discord.Interaction, players: str):
         await interaction.response.defer(thinking=True)
 
         # Create the bracket and notify the players
-        await round_robin.round_robin_bracket(interaction, players, guild_id_as_int)
+        await round_robin.create_round_robin_bracket(interaction, players, guild_id_as_int)
 
 # ===== EARCH PACK BY ARCHETYPE =====
 @client.tree.command(name="secretpack_archetype", description="Search for a specific Secret Pack by its contained archetypes", guild=GUILD_ID)
@@ -302,5 +302,16 @@ async def update_database(interaction: discord.Interaction):
                 await formatter.update(interaction)
             except Exception as e:
                 await interaction.response.send_message(f"Something went wrong during update:\n```{e}```", ephemeral=True)
+
+#TODO: Should have logic to just display a list of pairings if there are too many people. Once it gets to 32 it shows an embed, make sure its numbered
+# ===== SINGLE ELIMINATION TOURNAMENT =====
+@client.tree.command(name="tournamment_single_elimination", description="Creates a single elim bracket, enter names with spaces inbetween", guild=GUILD_ID)
+async def single_elimination_helper(interaction: discord.Interaction, players: str):
+    if not await is_on_cooldown(interaction):
+        # Defer the rersponse and show the user that the bot is working on it
+        await interaction.response.defer(thinking=True)
+
+        # Create the bracket and notify the players
+        await single_elimination.create_single_elimination_bracket(interaction, players, guild_id_as_int)
 
 client.run(os.getenv("BOT_TOKEN"))
