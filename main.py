@@ -16,6 +16,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 update_lock = asyncio.Lock() # Lock to prevent multiple instances of the /update command from running at the same time
 guild_id_as_int = os.getenv("TEST_SERVER_ID")  # Unique server ID for slash commands to speed up build time
+permissions_int = os.getenv("PERMISSIONS")  # Unique server permissions for slash commands to speed up build time
 GUILD_ID = discord.Object(id=guild_id_as_int)  # Unique server ID for slash commands to speed up build time
 
 class Client(commands.Bot):
@@ -27,6 +28,8 @@ class Client(commands.Bot):
         try:
             guild = GUILD_ID
             synced = await self.tree.sync(guild=guild)
+            # TODO: Swap to this for when you move to multiple guilds
+            # synced = await self.tree.sync()
             print(f'Synced {len(synced)} commands to guild {guild.id}')
         except Exception as e:
             print(f'Error syncing commands: {e}')
@@ -103,7 +106,7 @@ async def metaltronus_single(interaction: discord.Interaction, monster_name: str
     await interaction.response.defer(thinking=True)
 
     # Create the response for the metaltronus output
-    response = metaltronus.metaltronus_single(guild_id_as_int, input)
+    response = metaltronus.metaltronus_single(guild_id_as_int, monster_name)
     file_path = f"guilds/{guild_id_as_int}/docs/metaltronus_single.txt"
     with open(file_path, "rb") as file:
         await interaction.followup.send(response, file=discord.File(file_path))
