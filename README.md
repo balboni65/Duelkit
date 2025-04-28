@@ -2,7 +2,7 @@
 
 **Duelkit** is a custom-built Discord bot created to assist the entire Yu-Gi-Oh! community. It offers features not found anywhere else such as:
 - Accurate and up-to-date card prices
-- In-depth meta analaysis for archetypes and individual cards
+- In-depth meta analysis for archetypes and individual cards
 - Information on what record you need  to make top cut or secure your invite
 - Server tournament and season standing functionality
 - Support for alternate formats, including Master Duel
