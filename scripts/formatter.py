@@ -25,7 +25,7 @@ async def update(interaction: discord.Interaction):
     await message.edit(content="Beginning to update all topping decklists...")
     await decklist_scraper.pull_data_from_ygo_pro(message)
 
-# Retreives the full card database from Konami's API
+# retrieves the full card database from Konami's API
 async def retrieve_full_database(message):
     # Konami card database API URL
     url = "https://db.ygoprodeck.com/api/v7/cardinfo.php"

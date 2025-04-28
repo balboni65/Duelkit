@@ -41,7 +41,7 @@ client = Client(command_prefix="!", intents=intents)
 @client.tree.command(name="card_price", description="View a card's pricing from TCG Player", guild=GUILD_ID)
 async def card_price_helper(interaction: discord.Interaction, card_name: str):
     if update_lock.locked():
-        await interaction.response.send_message("The bot is already in the process of retreiving another card's information.\nThis may have been triggered in another channel.\nPlease wait a short while untill it finishes and try again", ephemeral=True)
+        await interaction.response.send_message("The bot is already in the process of retreiving another card's information.\nThis may have been triggered in another channel.\nPlease wait a short while until it finishes and try again", ephemeral=True)
     async with update_lock:
         try:
             await interaction.response.defer(thinking=True)
@@ -83,10 +83,10 @@ async def metaltronus_decklist(
     opponents_ydk_file: discord.Attachment = None,
     your_ydk_file: discord.Attachment = None
 ):
-    # Defer the rersponse and show the user that the bot is working on it
+    # Defer the response and show the user that the bot is working on it
     await interaction.response.defer(thinking=True)
 
-    # Get 2 decklists from the varrious imput methods
+    # Get 2 decklists from the various input methods
     opponents_decklist, your_decklist = await formatter.format_two_decklist_inputs(interaction, opponents_clipboard_ydk, your_clipboard_ydk, opponents_ydk_file, your_ydk_file)
 
     # If a value is None, validation failed and message was already sent
@@ -102,7 +102,7 @@ async def metaltronus_decklist(
 # ===== METALTRONUS SINGLE =====
 @client.tree.command(name="metaltronus_single", description="Lists all the Metaltronus targets in the game for a specific card", guild=GUILD_ID)
 async def metaltronus_single(interaction: discord.Interaction, monster_name: str):
-    # Defer the rersponse and show the user that the bot is working on it
+    # Defer the response and show the user that the bot is working on it
     await interaction.response.defer(thinking=True)
 
     # Create the response for the metaltronus output
@@ -124,9 +124,9 @@ async def report_autocomplete_handler(interaction: discord.Interaction, current_
     return await round_robin.report_autocomplete(interaction, current_input)
 
 # ===== ROUND ROBIN TOURNAMENT =====
-@client.tree.command(name="roundrobin", description="Creates a 3-8 player Round Robin tournament, enter names with spaces inbetween", guild=GUILD_ID)
+@client.tree.command(name="roundrobin", description="Creates a 3-8 player Round Robin tournament, enter names with spaces in between", guild=GUILD_ID)
 async def round_robin_bracket(interaction: discord.Interaction, players: str):
-    # Defer the rersponse and show the user that the bot is working on it
+    # Defer the response and show the user that the bot is working on it
     await interaction.response.defer(thinking=True)
 
     # Create the bracket and notify the players
@@ -149,9 +149,9 @@ async def search_by_title_autocomplete_handler(interaction: discord.Interaction,
     return saga.search_by_title_autocomplete(current_input)
 
 # ===== SEVENTH TACHYON =====
-@client.tree.command(name="seventh_tachyon", description="Create's a list of all the current Seventh Tachyon targets in the game", guild=GUILD_ID)
+@client.tree.command(name="seventh_tachyon", description="Creates a list of all the current Seventh Tachyon targets in the game", guild=GUILD_ID)
 async def seventh_tachyon_list(interaction: discord.Interaction):
-    # Defer the rersponse and show the user that the bot is working on it
+    # Defer the response and show the user that the bot is working on it
     await interaction.response.defer(thinking=True)
 
     # Create the response for the metaltronus output
@@ -163,10 +163,10 @@ async def seventh_tachyon_list(interaction: discord.Interaction):
 # ===== SEVENTH TACHYON DECKLIST =====
 @client.tree.command(name="seventh_tachyon_decklist", description="Lists all the Seventh Tachyon targets in your decklist", guild=GUILD_ID)
 async def seventh_tachyon_decklist(interaction: discord.Interaction, clipboard_ydk: str = None, ydk_file: discord.Attachment = None,):
-    # Defer the rersponse and show the user that the bot is working on it
+    # Defer the response and show the user that the bot is working on it
     await interaction.response.defer(thinking=True)
 
-    # Get 2 decklists from the varrious imput methods
+    # Get 2 decklists from the various input methods
     decklist = await formatter.format_one_decklist_input(interaction, clipboard_ydk, ydk_file)
     
     # If decklist is None, validation failed and message was already sent
@@ -182,7 +182,7 @@ async def seventh_tachyon_decklist(interaction: discord.Interaction, clipboard_y
 # ===== SMALL WORLD =====
 @client.tree.command(name="small_world", description="Find all the valid Small World bridges between 2 cards", guild=GUILD_ID)
 async def small_world_pair(interaction: discord.Interaction, first_card: str, second_card: str):
-    # Defer the rersponse and show the user that the bot is working on it
+    # Defer the response and show the user that the bot is working on it
     await interaction.response.defer(thinking=True)
 
     # Create the response for the metaltronus output
@@ -198,10 +198,10 @@ async def small_world_autocomplete_handler(interaction: discord.Interaction, cur
 # ===== SMALL WORLD DECKLIST =====
 @client.tree.command(name="small_world_decklist", description="Find all the valid Small World bridges within a decklist", guild=GUILD_ID)
 async def small_world_decklist(interaction: discord.Interaction, clipboard_ydk: str = None, ydk_file: discord.Attachment = None,):
-    # Defer the rersponse and show the user that the bot is working on it
+    # Defer the response and show the user that the bot is working on it
     await interaction.response.defer(thinking=True)
 
-    # Get 2 decklists from the varrious imput methods
+    # Get 2 decklists from the various input methods
     decklist = await formatter.format_one_decklist_input(interaction, clipboard_ydk, ydk_file)
     
     # If decklist is None, validation failed and message was already sent

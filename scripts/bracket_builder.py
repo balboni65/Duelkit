@@ -66,7 +66,7 @@ def bracket_builder(tournamentName, playerList, guild_id):
         json.dump(bracket, file, indent=4, ensure_ascii=False)
 
 
-def attatch_message_to_bracket(bracket_message: discord.Message, interaction: discord.Interaction, tournament_name: str):
+def attach_message_to_bracket(bracket_message: discord.Message, interaction: discord.Interaction, tournament_name: str):
     guild_id = interaction.guild.id
     category_id = interaction.channel.category.id
     channel_id = interaction.channel.id
@@ -116,7 +116,7 @@ def matchesPerRound(playerList):
 
 # Creates a matrix of pairings based on player count
 def pairingsMatrix(playerList):
-    # The pairing matrix exists to avoid someone sitting out for multiple rounds in a row, or missing match-ups
+    # The pairing matrix exists to avoid someone sitting out for multiple rounds in a row, or missing matchups
     # By defining pairing patterns, it avoids errors and minimizes player downtime between matches
     pairings_matrix = []
     # Format:

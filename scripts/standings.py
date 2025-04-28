@@ -12,10 +12,10 @@ async def graph_season_standings(interaction: discord.Interaction):
     # Creates the file path if it doesn't exist
     os.makedirs(f"guilds/{guild_id}/images", exist_ok=True)   
 
-    # Files take too long to generate, so it needs to wait longer than 3 seconds
+    # Files take too long to generate, so it needs to wait longer than 3 seconds before proceeding
     await interaction.response.defer(thinking=True)
     
-    #If the channel does not belong to a category
+    # If the channel does not belong to a category
     if interaction.channel.category is None:
         await interaction.followup.send("You must run this command from within a category")
     else:
@@ -25,7 +25,7 @@ async def graph_season_standings(interaction: discord.Interaction):
         # Check if a tournament file exists for this category
         tournament_exists = False
 
-        # For every file
+        # For each file
         for filename in os.listdir(f"guilds/{guild_id}/json/tournaments"):
             # If the category name is in the file name
             if category_name in filename:
@@ -33,13 +33,13 @@ async def graph_season_standings(interaction: discord.Interaction):
                 tournament_exists = True
                 break
         
-        # If a tournament exists, generate the graphs
+        # If a tournament exists, generate the corresponding graphs
         if tournament_exists:
             # Generate embeds
             embed_line = graph_season_standings_line(category_name, guild_id)
             embed_bar = graph_season_standings_bar(category_name, guild_id)
 
-            # Retreive the generated files
+            # Retrieve the generated files
             file_line = discord.File(f"guilds/{guild_id}/images/{category_name}_standings_line.gif", f"{category_name}_standings_line.gif")
             file_bar = discord.File(f"guilds/{guild_id}/images/{category_name}_standings_bar.gif", f"{category_name}_standings_bar.gif")
 

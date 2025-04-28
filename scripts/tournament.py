@@ -144,7 +144,7 @@ def regional_prizing(players: int, rounds: int, top_cut_breakpoint: int, message
     # Define the text for how many points a player would have to be above a given record (10-12 points for above x-1 etc.)
     point_ranges = get_point_ranges(rounds)
 
-    # This funciton uses the total top cut, rather than a variable number
+    # This function uses the total top cut, rather than a variable number
     initial_top_cut = top_cut_breakpoint
 
     # For every record,
@@ -171,7 +171,7 @@ def regional_prizing(players: int, rounds: int, top_cut_breakpoint: int, message
 
     return message_response
 
-# Checks if a float is a whole number, or has a decimal value. Used for punctuation and plurilization purposes
+# Checks if a float is a whole number, or has a decimal value. Used for punctuation and pluralization purposes
 def is_whole_number(value):
     return math.floor(value) == math.ceil(value)
 

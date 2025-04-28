@@ -51,7 +51,7 @@ async def pull_data_from_ygo_pro(message):
     options.add_argument("--window-size=1920,1080")  # Set a standard window size
     options.add_argument("--no-sandbox")  # Useful for running in some environments
     options.add_argument("--disable-dev-shm-usage")  # Helps prevent crashes
-    options.add_argument("--use-gl=swiftshader") # Addresses "fallback to swftware WebGL depricated" errors
+    options.add_argument("--use-gl=swiftshader") # Addresses "fallback to software WebGL deprecated" errors
     options.add_argument("--ignore-certificate-errors") # Addresses "handshake failed" errors
     options.add_argument("--disable-features=SSLVersionMin") # Addresses "handshake failed" errors
 

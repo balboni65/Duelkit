@@ -41,7 +41,7 @@ async def round_robin_bracket(interaction: discord.Interaction, players: str, gu
     bracket_message = await interaction.followup.send(embed=response_embed)
     
     # Take the sent message and update the bracket file with the message ID to edit later
-    bracket_builder.attatch_message_to_bracket(bracket_message, interaction, tournament_name)
+    bracket_builder.attach_message_to_bracket(bracket_message, interaction, tournament_name)
 
 # Creates the embed message displaying the pairings
 def create_tournament_embed(bracket, embed):
@@ -188,13 +188,13 @@ async def save_tournament(tournament_name, interaction: discord.Interaction):
     # Create the xlsx file
     dataframe.to_excel(f"guilds/{guild_id}/xlsx/tournaments/{tournament_name}.xlsx", index=False)
 
-    # Attatch the xlsx file to the message
+    # attach the xlsx file to the message
     file_path = f"guilds/{guild_id}/xlsx/tournaments/{tournament_name}.xlsx"
-    xslx_file = discord.File(file_path, filename=f"{tournament_name}.xlsx")
+    xlsx_file = discord.File(file_path, filename=f"{tournament_name}.xlsx")
 
     message = "Tournament Finished! Use **/standings** to see the season scores!\n\nAlso, here is an excel file of this weeks results for your own record keeping."
 
-    await interaction.followup.send(content=message, file=xslx_file)
+    await interaction.followup.send(content=message, file=xlsx_file)
 
 # Populates the player names into the buttons
 def generate_view(interaction: discord.Interaction, result):
@@ -258,7 +258,7 @@ class View(discord.ui.View):
         with open(f'guilds/{guild_id}/json/tournaments/{tournament_name}.json', 'r', encoding="utf-8") as file:
             bracket = json.load(file)
 
-        # Retreive the message for the tournament
+        # Retrieve the message for the tournament
         channel_id = bracket["message_info"]["channel_id"]
         channel = interaction.client.get_channel(channel_id)
         message_id = bracket["message_info"]["message_id"]

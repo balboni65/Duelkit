@@ -8,7 +8,7 @@
 - Support for alternate formats, including Master Duel
 - and much much more!
 
-I created **Duelkit** as a passion project and i'm always taking feedback and suggestions to improve the experience for everyone. Please don't hesitate to reach out! 
+I created **Duelkit** as a passion project and I'm always taking feedback and suggestions to improve the experience for everyone. Please don't hesitate to reach out! 
 
 (*PS: You can reach out through the bot itself with the* `/feedback` *command!*)
 
@@ -31,10 +31,10 @@ Click on any command to preview of its functionality, you will also find more in
 | [/metaltronus_decklist](#metaltronus_decklist) | Lists all the Metaltronus targets your deck has against another deck |
 | [/metaltronus_single](#metaltronus_single) | Lists all the Metaltronus targets in the game for a specific card |
 | [/report](#report) | Report a game's result |
-| [/roundrobin](#roundrobin) | Creates a 3-8 player Round Robin tournament, enter names with spaces inbetween |
+| [/roundrobin](#roundrobin) | Creates a 3-8 player Round Robin tournament, enter names with spaces in between |
 | [/secretpack_archetype](#secretpack_archetype) | Search for a specific Secret Pack by its contained archetypes |
 | [/secretpack_title](#secretpack_title) | Search for a specific Secret Pack by its title |
-| [/seventh_tachyon](#seventh_tachyon) | Create's a list of all the current Seventh Tachyon targets in the game |
+| [/seventh_tachyon](#seventh_tachyon) | Creates a list of all the current Seventh Tachyon targets in the game |
 | [/seventh_tachyon_decklist](#seventh_tachyon_decklist) | Lists all the Seventh Tachyon targets in your decklist |
 | [/small_world](#small_world) | Find all the valid Small World bridges between 2 cards |
 | [/small_world_decklist](#small_world_decklist) | Find all the valid Small World bridges within a decklist |
@@ -169,7 +169,7 @@ Returns every monster in your opponents deck that is a valid Metaltronus target 
 - Only accepts a list of ids (*✅89631139, 89631139...*) not text (*❌3 Blue-Eyes White Dragon*)
 
 ### Usage: `/metaltronus_decklist <opponents_clipboard_ydk> <your_clipboard_deck> <opponents_ydk_file> <your_ydk_file>`
-- **NOTE:** You can choose to upload a `file` or a `clipboard ydk` for either decklist, but atleast 1 for each "player" is required
+- **NOTE:** You can choose to upload a `file` or a `clipboard ydk` for either decklist, but at least 1 for each "player" is required
 - `opponents_clipboard_ydk` (*Optional*):
 - `your_clipboard_deck` (*Optional*): 
   - Paste the output into these options when exporting a deck and choosing the `To clipboard` option
@@ -403,7 +403,7 @@ Returns every monster in your deck that is a valid Seventh Tachyon target for an
 - Only accepts a list of ids (*✅89631139, 89631139...*) not text (*❌3 Blue-Eyes White Dragon*)
 
 ### Usage: `/seventh_tachyon_decklist <clipboard_ydk> <ydk_file>`
-- **NOTE:** You can choose to upload a `file` or a `clipboard ydk` for the decklist, but atleast 1 option is required
+- **NOTE:** You can choose to upload a `file` or a `clipboard ydk` for the decklist, but at least 1 option is required
 - `clipboard_ydk` (*Optional*):
   - Paste the output into this option when exporting a deck and choosing the `To clipboard` option
 - `ydk_file` (*Optional*): 
@@ -470,7 +470,7 @@ Returns every monster in your deck that is a valid bridge between any other 2 mo
 - Only accepts a list of ids (*✅89631139, 89631139...*) not text (*❌3 Blue-Eyes White Dragon*)
 
 ### Usage: `/small_world_decklist <clipboard_ydk> <ydk_file>`
-- **NOTE:** You can choose to upload a `file` or a `clipboard ydk` for the decklist, but atleast 1 option is required
+- **NOTE:** You can choose to upload a `file` or a `clipboard ydk` for the decklist, but at least 1 option is required
 - `clipboard_ydk` (*Optional*):
   - Paste the output into this option when exporting a deck and choosing the `To clipboard` option
 - `ydk_file` (*Optional*): 
@@ -665,12 +665,12 @@ Creates a pagination view for the selected card, displaying every location (*Mai
 ### Function:
 Outputs information on what record you need to make a certain top cut breakpoint or invite breakpoint, for a given tournament size
 - The results of this function are an **estimation** using a formula, and **cannot account for tie breakers**
-  - (*An extreme example: its possible that every player ties every round of the tournament*)
+  - (*An extreme example: it's possible that every player ties every round of the tournament*)
 - It is possible that in the final round of a tournament, the undefeated player will play someone with 1 loss
   - Since the undefeated player can still lose that round, it is possible to have no players better than 1 loss
   - When this happens, results are displayed as a range of numbers (*0-1, 22-23*)
   - Remember that this is an estimation and it is possible to have a few more, or a few less players in each section of the results when players have tied a round
-- When the results state something like: `better than 7-1 (22-24 points)`,
+- When the results show something like: `better than 7-1 (22-24 points)`,
   - this means you must have more points than that record (*in this case more than 21 points*), the accepted range is listed in parenthesis
 - In Yu-Gi-Oh!, A **win** is worth `3 points`, A **draw** is worth `1 point`, and a **loss** is worth `no points`
 - Breakpoints for top cut and the number of rounds are taken from the **Konami rulebook**

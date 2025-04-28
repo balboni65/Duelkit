@@ -149,7 +149,7 @@ def count_cards_in_deck(deck, card_counts, card_deck_appearances, deck_id):
 def count_card_occurrences(archetype: str):
     ryzeal_decks = load_decklists(archetype)
     card_counts = initialize_card_counters()
-    card_deck_appearances = defaultdict(set)  # Track in how many decks each card appeared
+    card_deck_appearances = defaultdict(set)  # Track how many decks each card appeared in
 
     for deck_id, deck in ryzeal_decks.items():
         count_cards_in_deck(deck, card_counts, card_deck_appearances, deck_id)
@@ -162,7 +162,7 @@ def count_card_occurrences(archetype: str):
                 "main": card_counts["main"][card_name],
                 "extra": card_counts["extra"][card_name],
                 "side": card_counts["side"][card_name],
-                "deck_percentage": f"{(len(card_deck_appearances[card_name]) / total_decks) * 100:.1f}%"  # Convert to percentage
+                "deck_percentage": f"{(len(card_deck_appearances[card_name]) / total_decks) * 100:.1f}%"  # Convert to a percentage
             }
             for card_name in sorted(set(card_counts["main"]) | set(card_counts["extra"]) | set(card_counts["side"]))  # Sort alphabetically
         },

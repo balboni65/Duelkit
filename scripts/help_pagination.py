@@ -18,10 +18,10 @@ class PaginationView(discord.ui.View):
             {"command": "/metaltronus_decklist", "description": "Lists all the Metaltronus targets your deck has against another deck"},
             {"command": "/metaltronus_single", "description": "Lists all the Metaltronus targets in the game for a specific card"},
             {"command": "/report", "description": "Report a game's result"},
-            {"command": "/roundrobin", "description": "Creates a 3-8 player Round Robin tournament, enter names with spaces inbetween"},
+            {"command": "/roundrobin", "description": "Creates a 3-8 player Round Robin tournament, enter names with spaces in between"},
             {"command": "/secretpack_archetype", "description": "Search for a specific Secret Pack by its contained archetypes"},
             {"command": "/secretpack_title", "description": "Search for a specific Secret Pack by its title"},
-            {"command": "/seventh_tachyon", "description": "Create's a list of all the current Seventh Tachyon targets in the game"},
+            {"command": "/seventh_tachyon", "description": "Creates a list of all the current Seventh Tachyon targets in the game"},
             {"command": "/seventh_tachyon_decklist", "description": "Lists all the Metaltronus targets your deck has against another deck"},
             {"command": "/spin", "description": "Spin 5 random Secret Packs!"},
             {"command": "/standings", "description": "See current season standings"},
@@ -107,7 +107,7 @@ class PaginationView(discord.ui.View):
         self.next_button.style = discord.ButtonStyle.gray if self.next_button.disabled else discord.ButtonStyle.primary
 
     # Get the current page
-    # Version that caues it to load the next page smoothly, but the gif is in the middle idk
+    # Version that causes it to load the next page smoothly, but the gif is in the middle idk
     def get_current_page(self):
         if self.current_page == 1:
             return None
@@ -116,7 +116,7 @@ class PaginationView(discord.ui.View):
             self.current_page = max(1, min(self.current_page, max_pages))
             return self.commands_info[self.current_page - 1]["command"]
 
-    # Version that causes it to delete the embed and resent
+    # Version that causes it to delete the embed and resend
     # def get_current_page(self):
     #     if self.current_page == 1:
     #         return None

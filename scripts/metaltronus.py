@@ -24,7 +24,7 @@ def metaltronus_single(guild_id_as_int, input: str):
             }
             break  # Exit the loop after the first match
 
-    # Exits if it couldn't validate the search
+    # Exits if the card search could not be validated
     if chosen_card == {}:
         return "I could not validate the card you're searching for"
 
@@ -77,7 +77,7 @@ def metaltronus_decklist(guild_id_as_int, opponents_decklist: str, your_decklist
     # Creates the file path if it doesn't exist
     os.makedirs(f"guilds/{guild_id_as_int}/docs", exist_ok=True)
 
-    # Write the findings to a file
+    # Writes the findings to a file
     with open(f"guilds/{guild_id_as_int}/docs/metaltronus_deck_compare.txt", "w", encoding="utf-8") as file:
         for card in metaltronus_final_results:
             file.write(f"{card}")
@@ -122,7 +122,7 @@ def metaltronus_list_from_two_decklists(cards_to_search, cards_as_targets, metal
         # Reset current card text
         current_card_results = "Targets for: "
     
-    # After we've finished searching for every card in the first decklist, append the cards we didn't find
+    # After searching all cards in the first decklist, append the cards we didn't find
     metaltronus_final_results.append(no_card_results)
     return
 

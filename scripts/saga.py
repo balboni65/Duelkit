@@ -8,7 +8,7 @@ async def secret_packs(interaction: discord.Interaction):
     with open('global/json/master_data.json', 'r', encoding="utf-8") as file:
         master_data = json.load(file)
 
-    embed_list = []
+    embeds_list = []
     num_spins = 5
 
     # For every spin, populate the embed data
@@ -17,11 +17,11 @@ async def secret_packs(interaction: discord.Interaction):
         secret_pack = random.choice(master_data["packs"])
 
         # Create the secret pack embed
-        embed_list.append(create_secret_pack_embed(secret_pack))
+        embeds_list.append(create_secret_pack_embed(secret_pack))
 
         # If all the secret pack embeds have been generated
-        if (len(embed_list) == num_spins):
-            await interaction.response.send_message(embeds=embed_list)
+        if (len(embeds_list) == num_spins):
+            await interaction.response.send_message(embeds=embeds_list)
     return
 
 # Creates the master pack embed
@@ -38,7 +38,7 @@ async def search_by_archetype(interaction: discord.Interaction, input: str):
     with open('global/json/master_data.json', 'r', encoding="utf-8") as file:
         master_data = json.load(file)
         
-    embed_list = []
+    embeds_list = []
 
     # List of packs that match the query
     matching_packs = find_matching_packs(master_data["packs"], input)
@@ -46,11 +46,11 @@ async def search_by_archetype(interaction: discord.Interaction, input: str):
     # For every pack with that archetype
     for pack in matching_packs:
         # Create the secret pack embed
-        embed_list.append(create_secret_pack_embed(pack))
+        embeds_list.append(create_secret_pack_embed(pack))
 
         # If all the secret pack embeds have been generated
-        if (len(embed_list) == len(matching_packs)):
-            await interaction.response.send_message(embeds=embed_list) 
+        if (len(embeds_list) == len(matching_packs)):
+            await interaction.response.send_message(embeds=embeds_list) 
 
 # Returns a list of secret packs that contain the given archetype
 def find_matching_packs(packs, search_input):
@@ -66,7 +66,7 @@ async def search_by_title(interaction: discord.Interaction, input: str):
         master_data = json.load(file)
         
     # Embedded list for multiple results
-    embed_list = []
+    embeds_list = []
 
     # List of packs that match the query
     matching_packs = find_matching_packs_by_title(master_data["packs"], input)
@@ -74,11 +74,11 @@ async def search_by_title(interaction: discord.Interaction, input: str):
     # For every pack with that title
     for pack in matching_packs:
         # Create the secret pack embed
-        embed_list.append(create_secret_pack_embed(pack))
+        embeds_list.append(create_secret_pack_embed(pack))
 
         # If all the secret pack embeds have been generated
-        if (len(embed_list) == len(matching_packs)):
-            await interaction.response.send_message(embeds=embed_list) 
+        if (len(embeds_list) == len(matching_packs)):
+            await interaction.response.send_message(embeds=embeds_list) 
 
 # Returns a list of secret packs that contain the given title
 def find_matching_packs_by_title(packs, search_input):

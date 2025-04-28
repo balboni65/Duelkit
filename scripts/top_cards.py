@@ -43,7 +43,7 @@ class PaginationView(discord.ui.View):
 
             embed.add_field(
                 name=f"**{archetype}** - *{usage_data['deck_percentage']} of decks*",
-                value="".join(sections) if sections else "No data available",
+                value="".join(sections) if sections else "No Data Available",
                 inline=False
             )
 

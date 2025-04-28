@@ -63,7 +63,7 @@ async def pull_data_from_tcg_player(guild_id_as_int: int, message, card_name: st
     options.add_argument("--window-size=1920,1080")  # Set a standard window size
     options.add_argument("--no-sandbox")  # Useful for running in some environments
     options.add_argument("--disable-dev-shm-usage")  # Helps prevent crashes
-    options.add_argument("--use-gl=swiftshader") # Addresses "fallback to swftware WebGL depricated" errors
+    options.add_argument("--use-gl=swiftshader") # Addresses "fallback to software WebGL deprecated" errors
     options.add_argument("--ignore-certificate-errors") # Addresses "handshake failed" errors
     options.add_argument("--disable-features=SSLVersionMin") # Addresses "handshake failed" errors
     options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -107,7 +107,7 @@ async def pull_data_from_tcg_player(guild_id_as_int: int, message, card_name: st
             # Update the progress bar and Inform the user which archetype we are looking at
             progress_bar_message = progress_bar(listing_number, num_printings)
 
-            # Retreive listings
+            # retrieve listings
             listing_data = await get_printing_information(driver, wait, printing_url, card_name, message)
             all_listings.append(listing_data)
 
@@ -253,7 +253,7 @@ async def get_all_printings(driver, wait, card_name, message):
     # Return the urls of all relevant printings
     return all_links
 
-# Gets the addtional information for that printing, as well as listing information
+# Gets the additional information for that printing, as well as listing information
 async def get_printing_information(driver, wait, printing_url, card_name, message):
     # Go to the printing url and wait for the page to load
     driver.get(printing_url)
