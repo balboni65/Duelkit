@@ -40,8 +40,9 @@ class Client(commands.Bot):
         guild_id_as_int = self.guilds[0].id
         # Try to sync commands
         try:
-            synced = await self.tree.sync()
-            print(f'Synced {len(synced)} commands to guild {GUILD_ID.id}')
+            for guild in self.guilds:
+                synced = await self.tree.sync()
+                print(f'Synced {len(synced)} commands to guild {GUILD_ID.id}')
         except Exception as e:
             print(f'Error syncing commands: {e}')
 
