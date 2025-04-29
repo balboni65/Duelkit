@@ -13,24 +13,35 @@ load_dotenv()
 
 # Variables
 intents = discord.Intents.default()
+intents.guilds = True
 intents.message_content = True
 update_lock = asyncio.Lock() # Lock to prevent multiple instances of the /update command from running at the same time
-guild_id_as_int = os.getenv("TEST_SERVER_ID")  # Unique server ID for slash commands to speed up build time
+# guild_id_as_int = os.getenv("TEST_SERVER_ID")  # Unique server ID for slash commands to speed up build time
 permissions_int = os.getenv("PERMISSIONS")  # Unique server permissions for slash commands to speed up build time
-GUILD_ID = discord.Object(id=guild_id_as_int)  # Unique server ID for slash commands to speed up build time
+GUILD_ID = None
+guild_id_as_int = None
 
 class Client(commands.Bot):
     async def on_ready(self):
-        # Logged in successfully
-        print(f'Logged on as {self.user}!')
+        print(f'Logged on as {self.user} (ID: {self.user.id})')
 
-        # Try to sync commands to server
+        if not self.guilds:
+            print("Bot is not in any guilds.")
+            return
+
+        for guild in self.guilds:
+            print(f"Connected to guild: {guild.name} (ID: {guild.id})")
+
+        # Optionally set a default guild for syncing
+        global GUILD_ID
+        GUILD_ID = discord.Object(id=self.guilds[0].id)  # Use first guild for testing/dev
+        
+        global guild_id_as_int
+        guild_id_as_int = self.guilds[0].id
+        # Try to sync commands
         try:
-            guild = GUILD_ID
-            synced = await self.tree.sync(guild=guild)
-            # TODO: Swap to this for when you move to multiple guilds
-            # synced = await self.tree.sync()
-            print(f'Synced {len(synced)} commands to guild {guild.id}')
+            synced = await self.tree.sync(guild=GUILD_ID)
+            print(f'Synced {len(synced)} commands to guild {GUILD_ID.id}')
         except Exception as e:
             print(f'Error syncing commands: {e}')
 
