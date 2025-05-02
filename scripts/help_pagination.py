@@ -139,6 +139,9 @@ class HelpPaginationView(discord.ui.View):
         self.current_page -= 1
         await self.update_message()
 
+        # Prevent buttons from auto-clicking a second time
+        await interaction.response.defer()
+
     # Current page button (No funcitonality)
     @discord.ui.button(label="/", style=discord.ButtonStyle.gray, custom_id="current_page_button")
     async def page_number_button(self, interaction: discord.Interaction, button: discord.ui.Button):
@@ -150,6 +153,9 @@ class HelpPaginationView(discord.ui.View):
         # Update current page, then update message
         self.current_page += 1
         await self.update_message()
+
+        # Prevent buttons from auto-clicking a second time
+        await interaction.response.defer()
 
 # Creates a pagination view of command previews
 async def show_help_pagination(interaction: discord.Interaction):

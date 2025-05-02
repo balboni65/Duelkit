@@ -4,6 +4,7 @@ import discord
 import aiohttp
 import os
 from scripts import decklist_scraper
+from datetime import datetime
 
 # Calls all functions in the file to update all json files
 async def update(interaction: discord.Interaction):
@@ -375,3 +376,7 @@ async def format_one_decklist_input(interaction: discord.Interaction,
 def sanitize_card_name(card_name: str):
     sanitized_name = re.sub(r'[^a-zA-Z0-9\s-]', ' ', card_name)
     return sanitized_name.lower()
+
+def get_current_date():
+    current_date_str = datetime.now().strftime("%B %d, %Y")
+    return current_date_str

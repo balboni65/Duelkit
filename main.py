@@ -234,6 +234,8 @@ async def season_standings(interaction: discord.Interaction):
 # ===== TOP ARCHETYPE BREAKDOWN =====
 @client.tree.command(name="top_archetype_breakdown", description="View a card-by-card breakdown of a top archetype for the current format")
 async def top_archetype_breakdown_helper(interaction: discord.Interaction, archetype: str):
+    # Defer the response so multiple processes can use its webhook
+    await interaction.response.defer(thinking=True)
     await top_archetype_breakdown.create_single_card_pagination(interaction, archetype)
 @top_archetype_breakdown_helper.autocomplete("archetype")
 async def archetype_autocomplete_handler(interaction: discord.Interaction, current_input: str):
@@ -242,11 +244,15 @@ async def archetype_autocomplete_handler(interaction: discord.Interaction, curre
 # ===== TOP ARCHETYPES =====
 @client.tree.command(name="top_archetypes", description="View the top archetypes for the current format and their deck variants")
 async def archetypes(interaction: discord.Interaction):
+    # Defer the response so multiple processes can use its webhook
+    await interaction.response.defer(thinking=True)
     await top_archetypes.get_top_archetypes(interaction)
 
 # ===== TOP CARDS =====
 @client.tree.command(name="top_cards", description="View a card's usage across all topping archetypes")
 async def top_cards_helper(interaction: discord.Interaction, card_name: str):
+    # Defer the response so multiple processes can use its webhook
+    await interaction.response.defer(thinking=True)
     await top_cards.create_card_usage_pagination(interaction, card_name)
 @top_cards_helper.autocomplete("card_name")
 async def top_cards_autocomplete_handler(interaction: discord.Interaction, current_input: str):

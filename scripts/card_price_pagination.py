@@ -1,11 +1,10 @@
 import discord
 import json
 import math
+from scripts import formatter
 
 
 class CardPricePaginationView(discord.ui.View):
-    current_page: int = 1
-
     def __init__(self, printing_data, message):
         # Prevent Timeout
         super().__init__(timeout=None)
@@ -68,6 +67,7 @@ class CardPricePaginationView(discord.ui.View):
         # Add the model code and rarity fields
         embed.add_field(name="Code", value=info.get("printing_code", "N/A"), inline=True)
         embed.add_field(name="Rarity", value=info.get("printing_rarity", "N/A"), inline=True)
+        embed.set_footer(text=f"As of: {formatter.get_current_date()}")
 
         # Add the listings section
         for edition_type in ["first_edition", "unlimited", "limited"]:
