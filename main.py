@@ -31,7 +31,7 @@ class Client(commands.Bot):
         # Try to sync commands
         try:
             synced = await self.tree.sync()
-            print("Synced commands")
+            print(f'Globally synced {len(synced)} commands')
         except Exception as e:
             print(f'Error syncing commands: {e}')
 
