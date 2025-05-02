@@ -71,7 +71,6 @@ class TopArchetypeBreakdownPaginationView(discord.ui.View):
                 value="".join(sections) if sections else "No data available",
                 inline=False
             )
-        embed.set_footer(text=f"As of: {formatter.get_current_date()}")
 
         return embed
 
