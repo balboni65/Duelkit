@@ -3,34 +3,51 @@ import json
 import math
 
 
-class PaginationView(discord.ui.View):
+class CardPricePaginationView(discord.ui.View):
     current_page: int = 1
-    entries_per_page: int = 1  # One entry per page
 
-    def __init__(self, printing_data):
+    def __init__(self, printing_data, message):
+        # Prevent Timeout
         super().__init__(timeout=None)
-        # Save the printing data in context
+
+        # Save the printing data
         self.printing_data = printing_data
         self.current_page = 1
         self.data = []
+
+        # Save the message
+        self.message = message
 
         # Flatten the list of dicts into a list of (name, data) tuples
         for entry in printing_data:
             for name, data in entry.items():
                 self.data.append((name, data))
+        
+        # Set the max number of pages based on the number of commands above
+        
+        self.max_pages = math.ceil(len(self.data))
 
-    # Updates the message and buttons
-    async def send(self, message):
-        self.message = await message.edit(view=self)
+    # Starts the pagination system and sends the initial message
+    async def start(self):
+        # Set page on startup
+        self.current_page = 1
 
-        if self.message:
-            self.update_buttons()
-            await self.update_message()
+        # Disabled the page number button
+        self.page_number_button.disabled = True
 
-    # Updates the message
+        # Create the initial message
+        await self.update_message()
+
+    # Updates the button states, and sends the message
     async def update_message(self):
+        # Updates button states
         self.update_buttons()
-        await self.message.edit(embed=self.create_embed(), view=self)
+
+        # Creates a new embed
+        embed = self.create_embed()
+
+        # Edit previous message, and send the new embed
+        await self.message.edit(embed=embed, view=self)
 
     # Creates the embed
     def create_embed(self):
@@ -68,61 +85,70 @@ class PaginationView(discord.ui.View):
 
         return embed
 
-    # Update the button logic
+    # Update the button states
     def update_buttons(self):
-        max_pages = math.ceil(len(self.data) / self.entries_per_page)
+        # Set current page number
+        self.page_number_button.label = f"{self.current_page}/{self.max_pages}"
 
-        self.page_number_button.disabled = True
-        self.page_number_button.label = f"{self.current_page}/{max_pages}"
-
+        # Disable the "previous" button if its the first page
         self.prev_button.disabled = self.current_page == 1
-        self.next_button.disabled = self.current_page == max_pages
 
-        self.prev_button.style = discord.ButtonStyle.gray if self.prev_button.disabled else discord.ButtonStyle.primary
-        self.next_button.style = discord.ButtonStyle.gray if self.next_button.disabled else discord.ButtonStyle.primary
+        # Disabled the "next" button if its the last page
+        self.next_button.disabled = self.current_page == self.max_pages
 
-    # Get the current page
-    def get_current_page(self):
-        max_pages = math.ceil(len(self.data) / self.entries_per_page)
-        self.current_page = max(1, min(self.current_page, max_pages))
-        return self.data[self.current_page - 1]
+        # Set the "previous" button color
+        if self.prev_button.disabled:
+            self.prev_button.style = discord.ButtonStyle.gray
+        else:
+            self.prev_button.style = discord.ButtonStyle.primary
+        
+        # Set the "next" button color
+        if self.next_button.disabled:
+            self.next_button.style = discord.ButtonStyle.gray
+        else:
+            self.next_button.style = discord.ButtonStyle.primary
 
+    # Previous page button
     @discord.ui.button(label="<", style=discord.ButtonStyle.primary)
     async def prev_button(self, interaction: discord.Interaction, button: discord.ui.Button):
-        await interaction.response.defer()
-        if self.current_page > 1:
-            self.current_page -= 1
-            await self.update_message()
-
-    @discord.ui.button(label="/", style=discord.ButtonStyle.gray)
-    async def page_number_button(self, interaction: discord.Interaction, button: discord.ui.Button):
-        await interaction.response.defer()
+        # Update current page, then update message
+        self.current_page -= 1
         await self.update_message()
 
-    @discord.ui.button(label=">", style=discord.ButtonStyle.primary)
-    async def next_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        # Prevent buttons from auto-clicking a second time
         await interaction.response.defer()
-        max_pages = math.ceil(len(self.data) / self.entries_per_page)
-        if self.current_page < max_pages:
-            self.current_page += 1
-            await self.update_message()
+
+    # Current page button (No funcitonality)
+    @discord.ui.button(label="/", style=discord.ButtonStyle.gray)
+    async def page_number_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        pass
+
+    # Next page button
+    @discord.ui.button(label=">", style=discord.ButtonStyle.primary, custom_id="next_page_button")
+    async def next_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        # Update current page, then update message
+        self.current_page += 1
+        await self.update_message()
+
+        # Prevent buttons from auto-clicking a second time
+        await interaction.response.defer()
 
 
 # Creates a pagination view of card prices
 async def show_card_listings(message: discord.Message, guild_id_as_int: int):
+    # Try and get the printing data
     try:
-        # Get printing data
         with open(f"guilds/{guild_id_as_int}/json/card_price.json", "r", encoding="utf-8") as f:
             printing_data = json.load(f)
 
         # If there isn't any data found
         if not printing_data:
-            await message.edit(content="No listings in saved data.")
+            await message.edit(content="Error: No listings in saved data.")
             return
 
         # Generate the view
-        view = PaginationView(printing_data)
-        await view.send(message)
+        view = CardPricePaginationView(printing_data, message)
+        await view.start()
 
     # If the file itself isn't found
     except FileNotFoundError:

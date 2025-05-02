@@ -1,6 +1,3 @@
-#TODO: possible get guild id locally rather than passed
-
-
 import discord
 from discord.ext import commands
 from scripts import (help_pagination, round_robin, formatter, metaltronus, saga, seventh_tachyon, small_world, standings, top_archetype_breakdown, tournament, top_archetypes, top_cards, card_price_scraper, feedback)
