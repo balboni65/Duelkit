@@ -161,6 +161,16 @@
             "attribute": "DARK"
         },
         {
+            "id": 80073414,
+            "name": "Absolute Axon Kicker",
+            "type": "Fusion Monster",
+            "race": "Psychic",
+            "level": 11,
+            "atk": 3400,
+            "def": 2200,
+            "attribute": "LIGHT"
+        },
+        {
             "id": 70832512,
             "name": "Absolute Crusader",
             "type": "Effect Monster",
@@ -3141,6 +3151,16 @@
             "attribute": "WATER"
         },
         {
+            "id": 28306253,
+            "name": "Angry Burger",
+            "type": "Ritual Effect Monster",
+            "race": "Warrior",
+            "level": 6,
+            "atk": 2800,
+            "def": 1850,
+            "attribute": "DARK"
+        },
+        {
             "id": 98022050,
             "name": "Animadorned Archosaur",
             "type": "Effect Monster",
@@ -4071,6 +4091,16 @@
             "attribute": "LIGHT"
         },
         {
+            "id": 40706444,
+            "name": "Argostars - Courageous Arion",
+            "type": "XYZ Monster",
+            "race": "Warrior",
+            "level": 4,
+            "atk": 2200,
+            "def": 2200,
+            "attribute": "DARK"
+        },
+        {
             "id": 21050476,
             "name": "Argostars - Fierce Parthe",
             "type": "Effect Monster",
@@ -4921,6 +4951,46 @@
             "attribute": "WATER"
         },
         {
+            "id": 27184601,
+            "name": "Artmegia Diaktoros",
+            "type": "Fusion Monster",
+            "race": "Fairy",
+            "level": 8,
+            "atk": 2800,
+            "def": 2500,
+            "attribute": "LIGHT"
+        },
+        {
+            "id": 34541940,
+            "name": "Artmegia Finemelt",
+            "type": "Effect Monster",
+            "race": "Warrior",
+            "level": 7,
+            "atk": 2400,
+            "def": 1500,
+            "attribute": "LIGHT"
+        },
+        {
+            "id": 60946049,
+            "name": "Artmegia Graphlare",
+            "type": "Effect Monster",
+            "race": "Dragon",
+            "level": 5,
+            "atk": 2100,
+            "def": 1500,
+            "attribute": "LIGHT"
+        },
+        {
+            "id": 97434754,
+            "name": "Artmegia Litera",
+            "type": "Effect Monster",
+            "race": "Spellcaster",
+            "level": 3,
+            "atk": 400,
+            "def": 1800,
+            "attribute": "LIGHT"
+        },
+        {
             "id": 21223277,
             "name": "Artorigus, King of the Noble Knights",
             "type": "XYZ Monster",
@@ -4988,6 +5058,16 @@
             "level": 8,
             "atk": 2700,
             "def": 0,
+            "attribute": "WATER"
+        },
+        {
+            "id": 12888461,
+            "name": "Aspischool",
+            "type": "Effect Monster",
+            "race": "Fish",
+            "level": 4,
+            "atk": 300,
+            "def": 300,
             "attribute": "WATER"
         },
         {
@@ -11701,6 +11781,16 @@
             "attribute": "WIND"
         },
         {
+            "id": 29251488,
+            "name": "Chef de Nouvelles",
+            "type": "Pendulum Effect Monster",
+            "race": "Fiend",
+            "level": 3,
+            "atk": 1000,
+            "def": 1850,
+            "attribute": "LIGHT"
+        },
+        {
             "id": 81599449,
             "name": "Chemicritter Carbo Crab",
             "type": "Gemini Monster",
@@ -17061,6 +17151,16 @@
             "attribute": "DARK"
         },
         {
+            "id": 94979322,
+            "name": "Dark Flare Swordsman",
+            "type": "Effect Monster",
+            "race": "Warrior",
+            "level": 6,
+            "atk": 2200,
+            "def": 800,
+            "attribute": "FIRE"
+        },
+        {
             "id": 67904682,
             "name": "Dark Flattop",
             "type": "Synchro Monster",
@@ -18059,6 +18159,16 @@
             "atk": 0,
             "def": 0,
             "attribute": "DARK"
+        },
+        {
+            "id": 12500059,
+            "name": "Dawn Angel Kambi",
+            "type": "Effect Monster",
+            "race": "Fairy",
+            "level": 1,
+            "atk": 500,
+            "def": 1800,
+            "attribute": "LIGHT"
         },
         {
             "id": 6351548,
@@ -20481,6 +20591,16 @@
             "attribute": "EARTH"
         },
         {
+            "id": 62880279,
+            "name": "Dodododo Warrior",
+            "type": "Effect Monster",
+            "race": "Warrior",
+            "level": 6,
+            "atk": 2300,
+            "def": 900,
+            "attribute": "EARTH"
+        },
+        {
             "id": 59724555,
             "name": "Dodododwarf Gogogoglove",
             "type": "Effect Monster",
@@ -21332,7 +21452,7 @@
         },
         {
             "id": 58931850,
-            "name": "Dragon Master Lord",
+            "name": "Dragon Master Lords",
             "type": "XYZ Monster",
             "race": "Dragon",
             "level": 12,
@@ -23159,6 +23279,16 @@
             "atk": 2800,
             "def": 1000,
             "attribute": "LIGHT"
+        },
+        {
+            "id": 31596518,
+            "name": "Eidos the Underworld Monarch",
+            "type": "Effect Monster",
+            "race": "Spellcaster",
+            "level": 6,
+            "atk": 2400,
+            "def": 1000,
+            "attribute": "DARK"
         },
         {
             "id": 59463312,
@@ -27421,6 +27551,16 @@
             "attribute": "FIRE"
         },
         {
+            "id": 53466722,
+            "name": "First of the Dragonlords",
+            "type": "Fusion Monster",
+            "race": "Dragon",
+            "level": 11,
+            "atk": 3700,
+            "def": 3000,
+            "attribute": "DARK"
+        },
+        {
             "id": 10817524,
             "name": "First of the Dragons",
             "type": "Fusion Monster",
@@ -29401,6 +29541,16 @@
             "attribute": "EARTH"
         },
         {
+            "id": 9491461,
+            "name": "Gagaga Ganbara Knight",
+            "type": "Effect Monster",
+            "race": "Warrior",
+            "level": 4,
+            "atk": 0,
+            "def": 1800,
+            "attribute": "LIGHT"
+        },
+        {
             "id": 12423762,
             "name": "Gagaga Gardna",
             "type": "Effect Monster",
@@ -29468,6 +29618,16 @@
             "level": 2,
             "atk": 200,
             "def": 800,
+            "attribute": "DARK"
+        },
+        {
+            "id": 88917691,
+            "name": "Gagagaga Girl",
+            "type": "XYZ Monster",
+            "race": "Spellcaster",
+            "level": 4,
+            "atk": 1500,
+            "def": 1800,
             "attribute": "DARK"
         },
         {
@@ -29589,6 +29749,16 @@
             "atk": 2000,
             "def": 0,
             "attribute": "FIRE"
+        },
+        {
+            "id": 13289758,
+            "name": "Gaia Stream, the Graceful Force",
+            "type": "XYZ Monster",
+            "race": "Aqua",
+            "level": 6,
+            "atk": 0,
+            "def": 0,
+            "attribute": "WATER"
         },
         {
             "id": 66889139,
@@ -33591,6 +33761,16 @@
             "attribute": "EARTH"
         },
         {
+            "id": 35886170,
+            "name": "Gogogo Goblindbergh",
+            "type": "Effect Monster",
+            "race": "Warrior",
+            "level": 4,
+            "atk": 1400,
+            "def": 0,
+            "attribute": "EARTH"
+        },
+        {
             "id": 62476815,
             "name": "Gogogo Golem",
             "type": "Effect Monster",
@@ -37151,6 +37331,16 @@
             "attribute": "EARTH"
         },
         {
+            "id": 14301396,
+            "name": "Heroic Champion - Magnum Excalibur",
+            "type": "XYZ Monster",
+            "race": "Warrior",
+            "level": 4,
+            "atk": 2000,
+            "def": 2000,
+            "attribute": "LIGHT"
+        },
+        {
             "id": 70703416,
             "name": "Hexa Spirit of the Ice Barrier",
             "type": "Tuner Monster",
@@ -37871,6 +38061,16 @@
             "attribute": "WIND"
         },
         {
+            "id": 49904658,
+            "name": "Hrimnir the Divine Follower",
+            "type": "Effect Monster",
+            "race": "Fairy",
+            "level": 9,
+            "atk": 2200,
+            "def": 2200,
+            "attribute": "LIGHT"
+        },
+        {
             "id": 15028680,
             "name": "HTS Psyhemuth",
             "type": "Synchro Monster",
@@ -38043,6 +38243,16 @@
         {
             "id": 25343017,
             "name": "Hushed Psychic Cleric",
+            "type": "Effect Monster",
+            "race": "Psychic",
+            "level": 3,
+            "atk": 0,
+            "def": 2100,
+            "attribute": "EARTH"
+        },
+        {
+            "id": 36218106,
+            "name": "Hushed Psychic Minister",
             "type": "Effect Monster",
             "race": "Psychic",
             "level": 3,
@@ -38878,6 +39088,16 @@
             "level": 10,
             "atk": 4000,
             "def": 4000,
+            "attribute": "EARTH"
+        },
+        {
+            "id": 23829452,
+            "name": "Imprisoned Deity Beast of Artmegia",
+            "type": "Effect Monster",
+            "race": "Illusion",
+            "level": 1,
+            "atk": 300,
+            "def": 200,
             "attribute": "EARTH"
         },
         {
@@ -44091,6 +44311,16 @@
             "attribute": "EARTH"
         },
         {
+            "id": 67768675,
+            "name": "Legend of Justice Kaibaman",
+            "type": "Tuner Monster",
+            "race": "Warrior",
+            "level": 1,
+            "atk": 200,
+            "def": 700,
+            "attribute": "LIGHT"
+        },
+        {
             "id": 28754338,
             "name": "Legendary Atlantean Tridon",
             "type": "Effect Monster",
@@ -44349,6 +44579,16 @@
             "atk": 1350,
             "def": 1200,
             "attribute": "EARTH"
+        },
+        {
+            "id": 55423549,
+            "name": "Leo Wizard, the Dark Mage",
+            "type": "Effect Monster",
+            "race": "Spellcaster",
+            "level": 4,
+            "atk": 1350,
+            "def": 1200,
+            "attribute": "DARK"
         },
         {
             "id": 8561192,
@@ -45041,6 +45281,16 @@
             "attribute": "EARTH"
         },
         {
+            "id": 61168637,
+            "name": "Linkslayer @Ignister",
+            "type": "Effect Monster",
+            "race": "Cyberse",
+            "level": 5,
+            "atk": 2000,
+            "def": 600,
+            "attribute": "DARK"
+        },
+        {
             "id": 41999284,
             "name": "Linkuriboh",
             "type": "Link Monster",
@@ -45611,6 +45861,16 @@
             "attribute": "DARK"
         },
         {
+            "id": 8379983,
+            "name": "Lunalight Gold Leo",
+            "type": "Effect Monster",
+            "race": "Beast-Warrior",
+            "level": 4,
+            "atk": 600,
+            "def": 1600,
+            "attribute": "DARK"
+        },
+        {
             "id": 35618217,
             "name": "Lunalight Kaleido Chick",
             "type": "Effect Monster",
@@ -45631,6 +45891,16 @@
             "attribute": "DARK"
         },
         {
+            "id": 54701958,
+            "name": "Lunalight Liger Dancer",
+            "type": "Fusion Monster",
+            "race": "Beast-Warrior",
+            "level": 12,
+            "atk": 3800,
+            "def": 3500,
+            "attribute": "DARK"
+        },
+        {
             "id": 97165977,
             "name": "Lunalight Panther Dancer",
             "type": "Fusion Monster",
@@ -45638,6 +45908,16 @@
             "level": 8,
             "atk": 2800,
             "def": 2500,
+            "attribute": "DARK"
+        },
+        {
+            "id": 81196066,
+            "name": "Lunalight Perfume Dancer",
+            "type": "Fusion Monster",
+            "race": "Beast-Warrior",
+            "level": 6,
+            "atk": 2000,
+            "def": 1500,
             "attribute": "DARK"
         },
         {
@@ -45658,6 +45938,16 @@
             "level": 9,
             "atk": 3000,
             "def": 2600,
+            "attribute": "DARK"
+        },
+        {
+            "id": 35763582,
+            "name": "Lunalight Silver Hound",
+            "type": "Effect Monster",
+            "race": "Beast-Warrior",
+            "level": 3,
+            "atk": 1400,
+            "def": 400,
             "attribute": "DARK"
         },
         {
@@ -49131,6 +49421,16 @@
             "attribute": "EARTH"
         },
         {
+            "id": 97556336,
+            "name": "Medius the Innocent",
+            "type": "Effect Monster",
+            "race": "Fairy",
+            "level": 4,
+            "atk": 1800,
+            "def": 1800,
+            "attribute": "DARK"
+        },
+        {
             "id": 2694423,
             "name": "Medusa Worm",
             "type": "Effect Monster",
@@ -50571,6 +50871,16 @@
             "attribute": "EARTH"
         },
         {
+            "id": 30373970,
+            "name": "Miasma Dragon Tistina",
+            "type": "Effect Monster",
+            "race": "Aqua",
+            "level": 10,
+            "atk": 2000,
+            "def": 0,
+            "attribute": "DARK"
+        },
+        {
             "id": 4779823,
             "name": "Michael, the Arch-Lightsworn",
             "type": "Synchro Monster",
@@ -50929,6 +51239,16 @@
             "atk": 1000,
             "def": 1600,
             "attribute": "DARK"
+        },
+        {
+            "id": 62606805,
+            "name": "Mind Procedure",
+            "type": "Tuner Monster",
+            "race": "Psychic",
+            "level": 3,
+            "atk": 1100,
+            "def": 1100,
+            "attribute": "LIGHT"
         },
         {
             "id": 85060248,
@@ -51771,6 +52091,16 @@
             "attribute": "DARK"
         },
         {
+            "id": 29439831,
+            "name": "Morgana the Witch of Eyes",
+            "type": "Effect Monster",
+            "race": "Spellcaster",
+            "level": 4,
+            "atk": 1500,
+            "def": 2100,
+            "attribute": "DARK"
+        },
+        {
             "id": 55784832,
             "name": "Morinphen",
             "type": "Normal Monster",
@@ -52489,16 +52819,6 @@
             "atk": 500,
             "def": 1000,
             "attribute": "EARTH"
-        },
-        {
-            "id": 5800323,
-            "name": "Mystic Mystery of the White Forest",
-            "type": "Synchro Tuner Monster",
-            "race": "Illusion",
-            "level": 4,
-            "atk": 700,
-            "def": 2000,
-            "attribute": "LIGHT"
         },
         {
             "id": 14198496,
@@ -54049,6 +54369,16 @@
             "atk": 800,
             "def": 0,
             "attribute": "WATER"
+        },
+        {
+            "id": 53589300,
+            "name": "Nerva the Imprisoned Deity of Creation",
+            "type": "Fusion Monster",
+            "race": "Illusion",
+            "level": 10,
+            "atk": 3300,
+            "def": 3300,
+            "attribute": "EARTH"
         },
         {
             "id": 19505896,
@@ -56313,6 +56643,16 @@
         {
             "id": 43490025,
             "name": "Number F0: Utopic Future Slash",
+            "type": "XYZ Monster",
+            "race": "Warrior",
+            "level": 0,
+            "atk": 0,
+            "def": 0,
+            "attribute": "LIGHT"
+        },
+        {
+            "id": 41522092,
+            "name": "Number F0: Utopic Future Zexal",
             "type": "XYZ Monster",
             "race": "Warrior",
             "level": 0,
@@ -60271,6 +60611,16 @@
             "attribute": "WATER"
         },
         {
+            "id": 5800323,
+            "name": "Poplar of the White Forest",
+            "type": "Synchro Tuner Monster",
+            "race": "Illusion",
+            "level": 4,
+            "atk": 700,
+            "def": 2000,
+            "attribute": "LIGHT"
+        },
+        {
             "id": 60517697,
             "name": "Poseidra Abyss, the Atlantean Dragon Lord",
             "type": "XYZ Monster",
@@ -61051,6 +61401,16 @@
             "attribute": "EARTH"
         },
         {
+            "id": 26462013,
+            "name": "Primite Dragon Nether Berzelius",
+            "type": "Fusion Monster",
+            "race": "Dragon",
+            "level": 8,
+            "atk": 1600,
+            "def": 0,
+            "attribute": "EARTH"
+        },
+        {
             "id": 81418467,
             "name": "Primite Imperial Dragon",
             "type": "Effect Monster",
@@ -61381,6 +61741,26 @@
             "attribute": "DARK"
         },
         {
+            "id": 95091919,
+            "name": "Prototype Psychic Blaster",
+            "type": "Effect Monster",
+            "race": "Psychic",
+            "level": 6,
+            "atk": 2000,
+            "def": 1500,
+            "attribute": "EARTH"
+        },
+        {
+            "id": 25072579,
+            "name": "Prototype Sky Striker Ace - Amatsu",
+            "type": "Link Monster",
+            "race": "Machine",
+            "level": null,
+            "atk": 1500,
+            "def": null,
+            "attribute": "DARK"
+        },
+        {
             "id": 24154052,
             "name": "Protron",
             "type": "Normal Monster",
@@ -61579,6 +61959,16 @@
             "atk": 1000,
             "def": 0,
             "attribute": "DARK"
+        },
+        {
+            "id": 88139289,
+            "name": "Psychic Blaster Mk-II",
+            "type": "Synchro Monster",
+            "race": "Psychic",
+            "level": 9,
+            "atk": 3200,
+            "def": 2700,
+            "attribute": "EARTH"
         },
         {
             "id": 65471349,
@@ -64151,6 +64541,16 @@
             "attribute": "DARK"
         },
         {
+            "id": 1665819,
+            "name": "Replicard LAD",
+            "type": "Effect Monster",
+            "race": "Cyberse",
+            "level": 7,
+            "atk": 2500,
+            "def": 2500,
+            "attribute": "DARK"
+        },
+        {
             "id": 34989413,
             "name": "Reprodocus",
             "type": "Link Monster",
@@ -65951,6 +66351,16 @@
             "attribute": "EARTH"
         },
         {
+            "id": 89851827,
+            "name": "Sacramentum Dragoon",
+            "type": "Fusion Monster",
+            "race": "Dragon",
+            "level": 8,
+            "atk": 3000,
+            "def": 1500,
+            "attribute": "LIGHT"
+        },
+        {
             "id": 16261341,
             "name": "Sacred Arch-Airknight Parshath",
             "type": "Effect Monster",
@@ -66179,6 +66589,16 @@
             "atk": 400,
             "def": 900,
             "attribute": "LIGHT"
+        },
+        {
+            "id": 47060528,
+            "name": "Sakra Vendirage",
+            "type": "XYZ Monster",
+            "race": "Psychic",
+            "level": 4,
+            "atk": 2000,
+            "def": 2500,
+            "attribute": "DARK"
         },
         {
             "id": 37531679,
@@ -67861,6 +68281,16 @@
             "attribute": "LIGHT"
         },
         {
+            "id": 9213491,
+            "name": "Serene Psychic Girl",
+            "type": "Tuner Monster",
+            "race": "Psychic",
+            "level": 2,
+            "atk": 500,
+            "def": 300,
+            "attribute": "EARTH"
+        },
+        {
             "id": 98358303,
             "name": "Serene Psychic Witch",
             "type": "Effect Monster",
@@ -68991,6 +69421,16 @@
             "attribute": "LIGHT"
         },
         {
+            "id": 16246535,
+            "name": "Silent Psychic Magician",
+            "type": "Synchro Tuner Monster",
+            "race": "Psychic",
+            "level": 5,
+            "atk": 2400,
+            "def": 500,
+            "attribute": "EARTH"
+        },
+        {
             "id": 62950604,
             "name": "Silent Psychic Wizard",
             "type": "Effect Monster",
@@ -69801,6 +70241,16 @@
             "attribute": "DARK"
         },
         {
+            "id": 76072561,
+            "name": "Sky Striker Ace = Zero",
+            "type": "Link Monster",
+            "race": "Machine",
+            "level": null,
+            "atk": 2000,
+            "def": null,
+            "attribute": "LIGHT"
+        },
+        {
             "id": 3814632,
             "name": "Skypalace Gangaridai",
             "type": "XYZ Monster",
@@ -69981,16 +70431,6 @@
             "attribute": "FIRE"
         },
         {
-            "id": 79415624,
-            "name": "Snake-Eyes Execute Dragon",
-            "type": "Synchro Monster",
-            "race": "Dragon",
-            "level": 12,
-            "atk": 3000,
-            "def": 2500,
-            "attribute": "FIRE"
-        },
-        {
             "id": 48452496,
             "name": "Snake-Eyes Flamberge Dragon",
             "type": "Effect Monster",
@@ -70008,6 +70448,16 @@
             "level": 1,
             "atk": 700,
             "def": 200,
+            "attribute": "FIRE"
+        },
+        {
+            "id": 79415624,
+            "name": "Snake-Eyes Vengeance Dragon",
+            "type": "Synchro Monster",
+            "race": "Dragon",
+            "level": 12,
+            "atk": 3000,
+            "def": 2500,
             "attribute": "FIRE"
         },
         {
@@ -72551,6 +73001,16 @@
             "attribute": "LIGHT"
         },
         {
+            "id": 57649113,
+            "name": "Stinger the Electric Expeller",
+            "type": "Normal Tuner Monster",
+            "race": "Psychic",
+            "level": 3,
+            "atk": 800,
+            "def": 1000,
+            "attribute": "WIND"
+        },
+        {
             "id": 68167124,
             "name": "Stinging Swordsman",
             "type": "Effect Monster",
@@ -73371,6 +73831,16 @@
             "attribute": "LIGHT"
         },
         {
+            "id": 66646087,
+            "name": "Super Quantal Fairy Zetan",
+            "type": "Effect Monster",
+            "race": "Zombie",
+            "level": 1,
+            "atk": 0,
+            "def": 0,
+            "attribute": "DARK"
+        },
+        {
             "id": 11646785,
             "name": "Super Quantal Mech Beast Aeroboros",
             "type": "XYZ Monster",
@@ -73419,6 +73889,16 @@
             "atk": 3600,
             "def": 3200,
             "attribute": "LIGHT"
+        },
+        {
+            "id": 92034192,
+            "name": "Super Quantum Black Layer",
+            "type": "Effect Monster",
+            "race": "Zombie",
+            "level": 7,
+            "atk": 2400,
+            "def": 2400,
+            "attribute": "DARK"
         },
         {
             "id": 12369277,
@@ -75951,6 +76431,16 @@
             "attribute": "WATER"
         },
         {
+            "id": 67584223,
+            "name": "Tessera the Prime Squire",
+            "type": "Effect Monster",
+            "race": "Warrior",
+            "level": 1,
+            "atk": 800,
+            "def": 1000,
+            "attribute": "LIGHT"
+        },
+        {
             "id": 3030892,
             "name": "Test Ape",
             "type": "Effect Monster",
@@ -77071,6 +77561,16 @@
             "attribute": "DARK"
         },
         {
+            "id": 15123983,
+            "name": "The Star Ham",
+            "type": "Synchro Monster",
+            "race": "Beast",
+            "level": 3,
+            "atk": 1000,
+            "def": 1200,
+            "attribute": "LIGHT"
+        },
+        {
             "id": 10262698,
             "name": "The Statue of Easter Island",
             "type": "Normal Monster",
@@ -77559,6 +78059,16 @@
             "atk": 3500,
             "def": 2800,
             "attribute": "EARTH"
+        },
+        {
+            "id": 52644170,
+            "name": "Thought Cross Archfiend",
+            "type": "Synchro Monster",
+            "race": "Psychic",
+            "level": 8,
+            "atk": 2500,
+            "def": 2800,
+            "attribute": "DARK"
         },
         {
             "id": 70780151,
@@ -78759,6 +79269,16 @@
             "atk": 1000,
             "def": 600,
             "attribute": "DARK"
+        },
+        {
+            "id": 48882106,
+            "name": "Toxic Boxfish",
+            "type": "Synchro Monster",
+            "race": "Fish",
+            "level": 4,
+            "atk": 1800,
+            "def": 800,
+            "attribute": "WATER"
         },
         {
             "id": 1826676,
@@ -80541,6 +81061,16 @@
             "attribute": "LIGHT"
         },
         {
+            "id": 49451215,
+            "name": "Ukanomitsune-no-Onari",
+            "type": "Link Monster",
+            "race": "Beast",
+            "level": null,
+            "atk": 1500,
+            "def": null,
+            "attribute": "LIGHT"
+        },
+        {
             "id": 93413793,
             "name": "Ukanomitsune-no-Tamayura",
             "type": "Tuner Monster",
@@ -81591,6 +82121,16 @@
             "attribute": "EARTH"
         },
         {
+            "id": 40673853,
+            "name": "Vallon, the Psychic Skyblaster",
+            "type": "XYZ Monster",
+            "race": "Psychic",
+            "level": 5,
+            "atk": 2500,
+            "def": 2200,
+            "attribute": "DARK"
+        },
+        {
             "id": 56387350,
             "name": "Vampire Baby",
             "type": "Effect Monster",
@@ -81911,6 +82451,16 @@
             "attribute": "DARK"
         },
         {
+            "id": 93156774,
+            "name": "Vanquish Soul Holy Sue",
+            "type": "Effect Monster",
+            "race": "Psychic",
+            "level": 5,
+            "atk": 500,
+            "def": 2200,
+            "attribute": "EARTH"
+        },
+        {
             "id": 9091064,
             "name": "Vanquish Soul Jiaolong",
             "type": "Effect Monster",
@@ -81949,6 +82499,16 @@
             "atk": 1800,
             "def": 1500,
             "attribute": "FIRE"
+        },
+        {
+            "id": 77894049,
+            "name": "Vanquish Soul Rocks",
+            "type": "XYZ Monster",
+            "race": "Pyro",
+            "level": 4,
+            "atk": 2000,
+            "def": 2500,
+            "attribute": "DARK"
         },
         {
             "id": 1340142,
@@ -83299,6 +83859,16 @@
             "atk": 1300,
             "def": 1500,
             "attribute": "LIGHT"
+        },
+        {
+            "id": 91818544,
+            "name": "WAKE CUP! Mocha",
+            "type": "Flip Effect Monster",
+            "race": "Aqua",
+            "level": 3,
+            "atk": 1000,
+            "def": 100,
+            "attribute": "WIND"
         },
         {
             "id": 32828466,
@@ -86921,6 +87491,16 @@
             "attribute": "DARK"
         },
         {
+            "id": 12067160,
+            "name": "Zilofthonia Gorgon",
+            "type": "Link Monster",
+            "race": "Reptile",
+            "level": null,
+            "atk": 100,
+            "def": null,
+            "attribute": "DARK"
+        },
+        {
             "id": 24311372,
             "name": "Zoa",
             "type": "Normal Monster",
@@ -87283,6 +87863,16 @@
         {
             "id": 97896503,
             "name": "Zubaba Knight",
+            "type": "Effect Monster",
+            "race": "Warrior",
+            "level": 3,
+            "atk": 1600,
+            "def": 900,
+            "attribute": "EARTH"
+        },
+        {
+            "id": 62006866,
+            "name": "Zubababa Knight",
             "type": "Effect Monster",
             "race": "Warrior",
             "level": 3,

@@ -40,7 +40,7 @@ client = Client(command_prefix="!", intents=intents)
 
 # ===== CARD PRICE =====
 @client.tree.command(name="card_price", description="View a card's pricing from TCG Player")
-async def card_price_helper(interaction: discord.Interaction, card_name: str):
+async def card_price_helper(interaction: discord.Interaction, card_name: str, set_code: str = None):
     if update_lock.locked():
         await interaction.response.send_message("The bot is already in the process of retreiving another card's information.\nThis may have been triggered in another channel.\nPlease wait a short while until it finishes and try again", ephemeral=True)
     async with update_lock:
@@ -48,12 +48,17 @@ async def card_price_helper(interaction: discord.Interaction, card_name: str):
             await interaction.response.defer(thinking=True)
 
             message = await interaction.followup.send("Starting script...")
-            await card_price_scraper.pull_data_from_tcg_player(interaction.guild.id, message, card_name)
+            await card_price_scraper.pull_data_from_tcg_player(interaction.guild.id, message, card_name, set_code)
         except Exception as e:
             await interaction.response.send_message(f"Something went wrong in the launching of /card_price:\n```{e}```", ephemeral=True)
 @card_price_helper.autocomplete("card_name")
 async def card_price_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return formatter.card_name_autocomplete(current_input)
+
+@card_price_helper.autocomplete("set_code")
+async def card_set_code_autocomplete_handler(interaction: discord.Interaction, current_input: str):
+    card_name = interaction.namespace.card_name
+    return formatter.card_set_code_autocomplete(card_name, current_input)
 
 # ===== FEEDBACK =====
 @client.tree.command(name="feedback", description="Send the creator of Duelkit a message!")

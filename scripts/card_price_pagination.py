@@ -135,10 +135,10 @@ class CardPricePaginationView(discord.ui.View):
 
 
 # Creates a pagination view of card prices
-async def show_card_listings(message: discord.Message, guild_id_as_int: int):
+async def show_card_listings(message: discord.Message, guild_id_as_int: int, formatted_card_name: str):
     # Try and get the printing data
     try:
-        with open(f"guilds/{guild_id_as_int}/json/card_price.json", "r", encoding="utf-8") as f:
+        with open(f"guilds/{guild_id_as_int}/json/card_prices/{formatted_card_name}.json", "r", encoding="utf-8") as f:
             printing_data = json.load(f)
 
         # If there isn't any data found

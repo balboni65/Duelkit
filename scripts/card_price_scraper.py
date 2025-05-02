@@ -10,6 +10,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from webdriver_manager.chrome import ChromeDriverManager
 from scripts import card_price_pagination, formatter
 from collections import defaultdict
+import os
 
 # Scrolls the webpage to the element we want to click on
 def scroll_to_element(driver, element):
@@ -49,7 +50,7 @@ def progress_bar(iteration, total):
     return progress_bar
 
 # Gets the data from TCG Player
-async def pull_data_from_tcg_player(guild_id_as_int: int, message, card_name: str):
+async def pull_data_from_tcg_player(guild_id_as_int: int, message, card_name: str, set_code: str):
     # Check if input is correct
     if not formatter.check_valid_card_name(card_name):
         await message.edit(content=f"{card_name} is not a valid card name")
@@ -87,18 +88,25 @@ async def pull_data_from_tcg_player(guild_id_as_int: int, message, card_name: st
     num_printings = 0
 
     try:
-        # Inform the user that we are now searching for the card
-        await message.edit(content=f"Driver Launched, searching for **{formatter.smart_capitalize(card_name)}**")
+        if set_code:
+            # Inform the user that we are now searching for the specific printing
+            await message.edit(content=f"Driver Launched, searching for **{set_code}** print of **{formatter.smart_capitalize(card_name)}**")
+        else:
+            # Inform the user that we are now searching for the card
+            await message.edit(content=f"Driver Launched, searching for **{formatter.smart_capitalize(card_name)}**")
+
 
         # Searches for the card
         await search_for_card(driver, wait, card_name, message)
 
         # Gets all the links for each individual printing of the card
         printings_links = []
-        printings_links = await get_all_printings(driver, wait, card_name, message)
+        printings_links = await get_all_printings(driver, wait, card_name, message, set_code)
 
         # Used for the total value of the progress bar
         num_printings = len(printings_links)
+        
+        await message.edit(content=f"Found **{num_printings} printings** of **{formatter.smart_capitalize(card_name)}**\n\nRetrieving individual listing data...")
 
         # Visit all the urls and get the listing information
         all_listings = []
@@ -123,13 +131,18 @@ async def pull_data_from_tcg_player(guild_id_as_int: int, message, card_name: st
         # Exit the Web Driver
         driver.quit()
 
+        formatted_card_name = formatter.sanitize_card_name(card_name).replace(" ", "-").lower()
+    
+        # Creates the file path if it doesn't exist
+        os.makedirs(f"guilds/{guild_id_as_int}/json/card_prices/", exist_ok=True)   
+
         # Save the data to a JSON file
-        with open(f"guilds/{guild_id_as_int}/json/card_price.json", "w", encoding="utf-8") as f:
+        with open(f"guilds/{guild_id_as_int}/json/card_prices/{formatted_card_name}.json", "w", encoding="utf-8") as f:
             json.dump(all_listings, f, indent=2)
         
         await message.edit(content=f"Done collecting data")
 
-        await card_price_pagination.show_card_listings(message, guild_id_as_int)
+        await card_price_pagination.show_card_listings(message, guild_id_as_int, formatted_card_name)
 
     # If the home page fails to load
     except Exception as e:
@@ -149,7 +162,7 @@ async def search_for_card(driver, wait, card_name, message):
 
     # Type the card name
     input_box.clear()
-    input_box.send_keys(card_name)
+    input_box.send_keys(formatter.sanitize_card_name(card_name))
     input_box.send_keys(Keys.ENTER)
 
 # Selects the Yugioh Filter from TCG Player search
@@ -183,9 +196,10 @@ async def filter_By_YuGiOh(driver, wait, message):
         await message.edit(content="Failed to find the filter for YuGiOh")
 
 # Gets all the valid urls for each printings of the card
-async def get_all_printings(driver, wait, card_name, message):
+async def get_all_printings(driver, wait, card_name, message, set_code):
     all_links = []
-    card_name_lower = card_name.lower()
+    card_name_lower = formatter.sanitize_card_name(card_name).lower()
+    printing_counter = 0
 
     # For every page,
     while True:
@@ -201,15 +215,40 @@ async def get_all_printings(driver, wait, card_name, message):
                     # Get the name of the printing
                     title_element = result.find_element(By.CLASS_NAME, "product-card__title")
                     card_name_text = title_element.text.strip().lower()
-                    if card_name_text == "":
-                        card_name_text = formatter.smart_capitalize(card_name)
+
+                    # If it can't find the name, set a default name
+                    if card_name_text == "" or card_name_text == " ":
+                        card_name_text = formatter.smart_capitalize(f"*{card_name}*")
 
                     # Add to the list if the name is exactly the same or starts with exact name + " ("
                     if card_name_text == card_name_lower or card_name_text.startswith(card_name_lower + " ("):
+                        # Find the url
                         link_element = result.find_element(By.TAG_NAME, "a")
                         href = link_element.get_attribute("href")
+
+                        # Find the set code
+                        set_code_element = result.find_element(By.CLASS_NAME, "product-card__rarity__variant")
+                        set_code_text = set_code_element.find_element(By.XPATH, ".//span[starts-with(normalize-space(text()), '#')]")
+
+                        # If the url exists, and the url is not already in the list
                         if href and href not in all_links:
-                            all_links.append(href)
+                            # If the optional set_code was provided, and this result does not have the set code
+                            if set_code and set_code not in set_code_text.text:
+                                continue
+                            # If the optional set_code was provided, and this result has the set code, OR if no set code was provided
+                            else:
+                                # Update the number of printings found
+                                printing_counter += 1
+                                # Update the progress message
+                                
+                                if set_code:
+                                    # Update the user on the progress of the specific printing
+                                    await message.edit(content=f"Driver Launched, searching for **{set_code}** print of **{formatter.smart_capitalize(card_name)}**\n\nFound **{printing_counter} printings** so far")
+                                else:
+                                    # Update the user on the progress of the all the card printings
+                                    await message.edit(content=f"Driver Launched, searching for **{formatter.smart_capitalize(card_name)}**\n\nFound **{printing_counter} printings** so far")
+
+                                all_links.append(href)
                 
                 except Exception as e:
                     print(f"Skipping one result due to error:")

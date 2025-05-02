@@ -73,6 +73,7 @@ Returns the 5 lowest priced listings for every printing of a Yu-Gi-Oh! card
 
 ### Notes:
 - This feature depends on [https://www.tcgplayer.com](https://www.tcgplayer.com) being online
+- If a card name is *italicized*, the printing name was not properly found and it was set to the default card name
 
 </details>
 

@@ -22,6 +22,9 @@ async def update(interaction: discord.Interaction):
     await message.edit(content="Creating Names database for autocompletion...")
     format_names()
 
+    await message.edit(content="Creating Names and Set Codes database for autocompletion...")
+    format_names_and_set_codes()
+
     await message.edit(content="Beginning to update all topping decklists...")
     await decklist_scraper.pull_data_from_ygo_pro(message)
 
@@ -257,6 +260,33 @@ def format_names():
     with open('global/json/card_names_database.json', 'w', encoding="utf-8") as file:
         json.dump(all_names, file, indent=4, ensure_ascii=False)
 
+# Formats the monster_database.json file
+def format_names_and_set_codes():
+    # Get the latest database of cards
+    with open('global/json/full_database.json', 'r', encoding="utf-8") as file:
+        full_database = json.load(file)
+
+    card_data = []
+
+    # Filter to just monsters and specific fields
+    for card in full_database["data"]:
+        # Get the set codes
+        set_codes = []
+        if "card_sets" in card:
+            set_codes = [set_info["set_code"] for set_info in card["card_sets"]]
+
+        # Remove duplicates by converting the list to a set and back to a list
+        set_codes = list(set(set_codes))
+
+        card_data.append({
+            "name": card["name"],
+            "set_code": set_codes
+        })
+
+    # Store all monster data
+    with open('global/json/card_names_and_set_codes_database.json', 'w', encoding="utf-8") as file:
+        json.dump(card_data, file, indent=4, ensure_ascii=False)
+
 def card_name_autocomplete(current_input: str):
     with open('global/json/card_names_database.json', 'r', encoding="utf-8") as file:
         card_names_database = json.load(file)
@@ -265,6 +295,24 @@ def card_name_autocomplete(current_input: str):
         for name in card_names_database
         if current_input.lower() in name.lower()
     ][:25]
+
+def card_set_code_autocomplete(card_name: str, current_input: str):
+    with open('global/json/card_names_and_set_codes_database.json', 'r', encoding="utf-8") as file:
+        card_data_list = json.load(file)
+
+    set_codes = []
+    for card in card_data_list:
+        if card["name"].lower() == card_name.lower():
+            if "set_code" in card:
+                set_codes = card["set_code"]
+            break
+
+    return [
+        discord.app_commands.Choice(name=code, value=code)
+        for code in set_codes
+        if current_input.lower() in code.lower()
+    ][:25]
+
 
 def check_valid_card_name(card_name):
     # Open the list of card names
@@ -322,3 +370,8 @@ async def format_one_decklist_input(interaction: discord.Interaction,
         decklist = (await decklist_ydk_file.read()).decode("utf-8")
 
     return decklist
+
+# Replace non-alphanumeric characters (except spaces) with a space
+def sanitize_card_name(card_name: str):
+    sanitized_name = re.sub(r'[^a-zA-Z0-9\s-]', ' ', card_name)
+    return sanitized_name.lower()
