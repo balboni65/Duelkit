@@ -16,7 +16,6 @@ intents = discord.Intents.default()
 intents.guilds = True
 intents.message_content = True
 update_lock = asyncio.Lock() # Lock to prevent multiple instances of the /update command from running at the same time
-permissions_int = os.getenv("PERMISSIONS")  # Unique server permissions for slash commands to speed up build time
 
 # Create the bot
 class Client(commands.Bot):
