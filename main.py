@@ -50,7 +50,7 @@ class Client(commands.Bot):
 client = Client(command_prefix="!", intents=intents)
 
 # ===== CARD PRICE =====
-@client.tree.command(name="card_price", description="View a card's pricing from TCG Player", guild=GUILD_ID)
+@client.tree.command(name="card_price", description="View a card's pricing from TCG Player")
 async def card_price_helper(interaction: discord.Interaction, card_name: str):
     if update_lock.locked():
         await interaction.response.send_message("The bot is already in the process of retreiving another card's information.\nThis may have been triggered in another channel.\nPlease wait a short while until it finishes and try again", ephemeral=True)

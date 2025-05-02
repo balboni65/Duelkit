@@ -12,24 +12,26 @@ class PaginationView(discord.ui.View):
 
         # List of all commands and their descriptions
         self.commands_info = [
-            {"command": "/card_price", "description": "View a card's pricing from TCG Player"},
-            {"command": "/feedback", "description": "Send the creator of Duelkit a message!"},
-            {"command": "/masterpack", "description": "Posts the links to view and open Master Packs"},
-            {"command": "/metaltronus_decklist", "description": "Lists all the Metaltronus targets your deck has against another deck"},
-            {"command": "/metaltronus_single", "description": "Lists all the Metaltronus targets in the game for a specific card"},
-            {"command": "/report", "description": "Report a game's result"},
-            {"command": "/roundrobin", "description": "Creates a 3-8 player Round Robin tournament, enter names with spaces in between"},
-            {"command": "/secretpack_archetype", "description": "Search for a specific Secret Pack by its contained archetypes"},
-            {"command": "/secretpack_title", "description": "Search for a specific Secret Pack by its title"},
-            {"command": "/seventh_tachyon", "description": "Creates a list of all the current Seventh Tachyon targets in the game"},
-            {"command": "/seventh_tachyon_decklist", "description": "Lists all the Metaltronus targets your deck has against another deck"},
-            {"command": "/spin", "description": "Spin 5 random Secret Packs!"},
-            {"command": "/standings", "description": "See current season standings"},
-            {"command": "/top_archetype_breakdown", "description": "View a card-by-card breakdown of a top archetype for the current format"},
-            {"command": "/top_archetypes", "description": "View the top archetypes for the current format and their deck variants"},
-            {"command": "/top_cards", "description": "View a card's usage across all topping archetypes"},
-            {"command": "/tournamentinfo", "description": "Find out what record is needed to receive an Invite or make Top Cut"},
-            {"command": "/update", "description": "Updates all the databases found within the bot (takes a while to run)"}
+            {"command": "/card_price", "description": "View a card's pricing from TCG Player", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#card_price"},
+            {"command": "/feedback", "description": "Send the creator of Duelkit a message!", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#feedback"},
+            {"command": "/masterpack", "description": "Posts the links to view and open Master Packs", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#masterpack"},
+            {"command": "/metaltronus_decklist", "description": "Lists all the Metaltronus targets your deck has against another deck", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#metaltronus_decklist"},
+            {"command": "/metaltronus_single", "description": "Lists all the Metaltronus targets in the game for a specific card", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#metaltronus_single"},
+            {"command": "/report", "description": "Report a game's result", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#report"},
+            {"command": "/roundrobin", "description": "Creates a 3-8 player Round Robin tournament, enter names with spaces in between", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#roundrobin"},
+            {"command": "/secretpack_archetype", "description": "Search for a specific Secret Pack by its contained archetypes", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#secretpack_archetype"},
+            {"command": "/secretpack_title", "description": "Search for a specific Secret Pack by its title", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#secretpack_title"},
+            {"command": "/seventh_tachyon", "description": "Creates a list of all the current Seventh Tachyon targets in the game", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#seventh_tachyon"},
+            {"command": "/seventh_tachyon_decklist", "description": "Lists all the Metaltronus targets your deck has against another deck", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#seventh_tachyon_decklist"},
+            {"command": "/small_world", "description": "Find all the valid Small World bridges between 2 cards", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#small_world"},
+            {"command": "/small_world_decklist", "description": "Find all the valid Small World bridges within a decklist", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#small_world_decklist"},
+            {"command": "/spin", "description": "Spin 5 random Secret Packs!", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#spin"},
+            {"command": "/standings", "description": "See current season standings", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#standings"},
+            {"command": "/top_archetype_breakdown", "description": "View a card-by-card breakdown of a top archetype for the current format", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#top_archetype_breakdown"},
+            {"command": "/top_archetypes", "description": "View the top archetypes for the current format and their deck variants", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#top_archetypes"},
+            {"command": "/top_cards", "description": "View a card's usage across all topping archetypes", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#top_cards"},
+            {"command": "/tournamentinfo", "description": "Find out what record is needed to receive an Invite or make Top Cut", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#tournamentinfo"},
+            {"command": "/update", "description": "Updates all the databases found within the bot (takes a while to run)", "url": "https://github.com/balboni65/Duelkit/tree/main?tab=readme-ov-file#update"}
         ]
 
     # Starts the pagination system and sends the initial message
@@ -64,7 +66,7 @@ class PaginationView(discord.ui.View):
         if self.current_page == 1:
             embed = discord.Embed(
                 title="Welcome to Duelkit! :wave:",
-                description="I am a program written to provide a variety of commands to help with analysis, alternate game modes, tournaments, deck building and more!\n\n	Please page through this view to get an overview of my available commands.\n\nYou may also view this documentation on my github's home page, found [here](https://github.com/balboni65/Duelkit)",
+                description="I am a program written to provide a variety of commands to help with analysis, alternate game modes, tournaments, deck building and more!\n\n	Please page through this view to get an overview of my available commands.\n\nYou can learn more information about every command by visiting my GitHub page found: [here](https://github.com/balboni65/Duelkit), or by clicking the title of each page.",
                 color=discord.Color.dark_gold()
             )
             embed.set_footer(text="Note: Animations may take a moment to load.")
@@ -73,12 +75,14 @@ class PaginationView(discord.ui.View):
         command_info = self.commands_info[self.current_page - 2]
         command = command_info["command"]
         description = command_info["description"]
+        command_url = command_info["url"]
         file_name = f"duelkit-{command.replace('/', '')}.gif"
         file_path = f"global/images/help_gifs/{file_name}"
 
         # Create the embed
         embed = discord.Embed(
             title=command,
+            url=command_url,
             color=discord.Color.dark_gold()
         )
 
