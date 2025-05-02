@@ -20,7 +20,7 @@ async def send_feedback(interaction: discord.Interaction, message_text: str):
 
         if owner:
             await owner.send(
-                f"📩 New Feedback from **{interaction.user}:**\n{message_text}"
+                f"📩 New Feedback from **{interaction.user}** (Discriminator tag: *{interaction.user.discriminator}*) (ID: *{interaction.user.id}*),\nFrom the **{interaction.guild.name}** Guild. (*{interaction.guild.id}*)\nMessage:\n\t{message_text}"
             )
             await interaction.response.send_message("✅ Feedback sent to the developer!", ephemeral=True)
         else:
