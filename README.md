@@ -1,6 +1,6 @@
 # Welcome to Duelkit!
 
-<img src="./global/images/help_gifs/duelkit-logo-animated-2.gif"/>
+<img src="./global/images/help_gifs/duelkit-logo-animated-1.gif"/>
 
 **Duelkit** is a custom-built Discord bot created to assist the entire Yu-Gi-Oh! community. It offers features not found anywhere else such as:
 
