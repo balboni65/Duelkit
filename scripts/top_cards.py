@@ -26,7 +26,7 @@ class PaginationView(discord.ui.View):
         await self.message.edit(embed=self.create_embed(data), view=self)
 
     def create_embed(self, data):
-        embed = discord.Embed(title=f"{self.card_name} Usage:", color=discord.Color.dark_gold())
+        embed = discord.Embed(title=f"{self.card_name} Usage:", color=0xbbaa5e)
 
         for archetype, usage_data in data:
             sections = []

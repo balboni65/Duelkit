@@ -145,7 +145,7 @@ def graph_season_standings_line(category_name, guild_id):
     ani.save(gif_path, writer="pillow", fps=2)
 
     # Send the GIF to Discord
-    embed = discord.Embed(title="Tournament Standings", description=f"Cumulative wins over the last {num_weeks} weeks.", color=discord.Color.dark_gold())
+    embed = discord.Embed(title="Tournament Standings", description=f"Cumulative wins over the last {num_weeks} weeks.", color=0xbbaa5e)
     embed.set_image(url=f"attachment://{category_name}_standings_line.gif")
     return embed
 
@@ -245,6 +245,6 @@ def graph_season_standings_bar(category_name, guild_id):
     ani.save(gif_path, writer="pillow", fps=2)
 
     # Send graph to Discord
-    embed = discord.Embed(title="Tournament Standings", description=f"Cumulative wins over the last {num_weeks} weeks.", color=discord.Color.dark_gold())
+    embed = discord.Embed(title="Tournament Standings", description=f"Cumulative wins over the last {num_weeks} weeks.", color=0xbbaa5e)
     embed.set_image(url=f"attachment://{category_name}_standings_bar.gif")
     return embed

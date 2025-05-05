@@ -5,9 +5,10 @@ from scripts import formatter
 
 
 class CardPricePaginationView(discord.ui.View):
-    def __init__(self, printing_data, message):
-        # Prevent Timeout
+    def __init__(self, printing_data=None, message=None):
         super().__init__(timeout=None)
+        if printing_data is None or message is None:
+            return
 
         # Save the printing data
         self.printing_data = printing_data
@@ -61,8 +62,9 @@ class CardPricePaginationView(discord.ui.View):
         embed = discord.Embed(
             title=name,
             url=info.get("printing_url", ""),
-            color=discord.Color.dark_gold()
+            color=0xbbaa5e  
         )
+        #bbaa5e
 
         # Add the model code and rarity fields
         embed.add_field(name="Code", value=info.get("printing_code", "N/A"), inline=True)
@@ -109,7 +111,7 @@ class CardPricePaginationView(discord.ui.View):
             self.next_button.style = discord.ButtonStyle.primary
 
     # Previous page button
-    @discord.ui.button(label="<", style=discord.ButtonStyle.primary)
+    @discord.ui.button(label="<", style=discord.ButtonStyle.primary, custom_id="prev_page_button")
     async def prev_button(self, interaction: discord.Interaction, button: discord.ui.Button):
         # Update current page, then update message
         self.current_page -= 1
@@ -119,7 +121,7 @@ class CardPricePaginationView(discord.ui.View):
         await interaction.response.defer()
 
     # Current page button (No funcitonality)
-    @discord.ui.button(label="/", style=discord.ButtonStyle.gray)
+    @discord.ui.button(label="/", style=discord.ButtonStyle.gray, custom_id="page_number_button")
     async def page_number_button(self, interaction: discord.Interaction, button: discord.ui.Button):
         pass
 

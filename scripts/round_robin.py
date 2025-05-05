@@ -32,7 +32,7 @@ async def round_robin_bracket(interaction: discord.Interaction, players: str, gu
         bracket = json.load(file)
 
     # Define the Discord embed to notify players
-    response_embed = discord.Embed(title=f"Tournament Bracket For {str(len(player_list))} Players:", color=discord.Color.dark_gold())
+    response_embed = discord.Embed(title=f"Tournament Bracket For {str(len(player_list))} Players:", color=0xbbaa5e)
 
     # Populate the Discord embed with tournament information
     response_embed = create_tournament_embed(bracket, response_embed)
@@ -75,12 +75,12 @@ async def report(interaction: discord.Interaction, result: str):
 
     # If the match is found
     if match_name:
-        embed = discord.Embed(title=f"Please select who has won the following match:\n\n**{match_name}**", color=discord.Color.dark_gold())
+        embed = discord.Embed(title=f"Please select who has won the following match:\n\n**{match_name}**", color=0xbbaa5e)
 
         # Generate the buttons to enter a match result
         await interaction.response.send_message(embed=embed, view=generate_view(interaction, match_name), ephemeral=True)
     else:   
-        embed = discord.Embed(title="Match not Found.\n\nPlease press the copy button on the match,\nthen paste it into the /report field.", color=discord.Color.dark_gold())
+        embed = discord.Embed(title="Match not Found.\n\nPlease press the copy button on the match,\nthen paste it into the /report field.", color=0xbbaa5e)
         await interaction.response.send_message(embed=embed, ephemeral=True)
 
     return embed
@@ -266,7 +266,7 @@ class View(discord.ui.View):
         embed_title = bracket_message.embeds[0].title
 
         # Define the Discord embed to notify players
-        response_embed = discord.Embed(title=embed_title, color=discord.Color.dark_gold())
+        response_embed = discord.Embed(title=embed_title, color=0xbbaa5e)
 
         # Create an embed with updated tournament results
         response_embed = update_tournament(bracket, response_embed)

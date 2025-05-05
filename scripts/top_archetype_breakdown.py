@@ -49,7 +49,7 @@ class TopArchetypeBreakdownPaginationView(discord.ui.View):
 
     # Creates the embed
     def create_embed(self, card_data):
-        embed = discord.Embed(title=f"{formatter.smart_capitalize(self.archetype)} Card Usage - {self.total_decks} Decks", color=discord.Color.dark_gold())
+        embed = discord.Embed(title=f"{formatter.smart_capitalize(self.archetype)} Card Usage - {self.total_decks} Decks", color=0xbbaa5e)
 
         # For every card
         for card_name, usage_data in card_data:

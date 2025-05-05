@@ -26,7 +26,7 @@ async def secret_packs(interaction: discord.Interaction):
 
 # Creates the master pack embed
 def master_packs():
-    embed = discord.Embed(title="Master Pack", url="https://ygoprodeck.com/pack/Master%20Pack/MD/", color=discord.Color.dark_gold())
+    embed = discord.Embed(title="Master Pack", url="https://ygoprodeck.com/pack/Master%20Pack/MD/", color=0xbbaa5e)
     embed.add_field(name="**Included Archetypes:**", value="```Everything```", inline=True)
     embed.add_field(name="https://ygoprodeck.com/pack-sim/", value="```Master Pack```", inline=False)
     embed.set_image(url="https://images.ygoprodeck.com/images/sets/Master_Pack.jpg")
@@ -89,7 +89,7 @@ def find_matching_packs_by_title(packs, search_input):
 
 # Creates the secret pack embed from a "packs" object, see master_data.json
 def create_secret_pack_embed(secret_pack):
-    embed = discord.Embed(title=secret_pack["title"], url=secret_pack["view_url"], color=discord.Color.dark_gold())
+    embed = discord.Embed(title=secret_pack["title"], url=secret_pack["view_url"], color=0xbbaa5e)
         
     # Set archetype text
     archetypes = ""

@@ -29,7 +29,7 @@ class PaginationView(discord.ui.View):
 
     # Creates the embed of archetype information
     def create_embed(self, data):
-        embed = discord.Embed(title="Top Archetypes", color=discord.Color.dark_gold())
+        embed = discord.Embed(title="Top Archetypes", color=0xbbaa5e)
 
         # For every value in the Archetype tuple
         for name, percentage, deck_count, deck_names, deck_names_counter, win_count, deck_win_counter, average_cost in data:

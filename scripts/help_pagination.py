@@ -76,7 +76,7 @@ class HelpPaginationView(discord.ui.View):
             embed = discord.Embed(
                 title="Welcome to Duelkit! :wave:",
                 description="I am a program written to provide a variety of commands to help with analysis, alternate game modes, tournaments, deck building and more!\n\n	Please page through this view to get an overview of my available commands.\n\nYou can learn more information about every command by visiting my GitHub page found: [here](https://github.com/balboni65/Duelkit), or by clicking the title of each page.",
-                color=discord.Color.dark_gold()
+                color=0xbbaa5e  
             )
             embed.set_footer(text="Note: Animations may take a moment to load.")
             return embed, None
@@ -95,7 +95,7 @@ class HelpPaginationView(discord.ui.View):
             embed = discord.Embed(
                 title=command_name,
                 url=command_url,
-                color=discord.Color.dark_gold()
+                color=0xbbaa5e  
             )
 
             # Add the description field
