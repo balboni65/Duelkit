@@ -51,7 +51,7 @@ class HelpPaginationView(discord.ui.View):
         embed, file = self.create_embed()
 
         # Sends the embed
-        self.message = await interaction.followup.send(embed=embed, view=self)
+        self.message = await interaction.followup.send(embed=embed, view=self, file=file)
 
     # Updates the button states, and sends the message
     async def update_message(self):
@@ -73,13 +73,23 @@ class HelpPaginationView(discord.ui.View):
     def create_embed(self):
         # If on the first page, show welcome message
         if self.current_page == 1:
+            file_name = f"duelkit-logo-animated-1.gif"
+            file_path = f"global/images/help_gifs/{file_name}"
+
             embed = discord.Embed(
                 title="Welcome to Duelkit! :wave:",
                 description="I am a program written to provide a variety of commands to help with analysis, alternate game modes, tournaments, deck building and more!\n\n	Please page through this view to get an overview of my available commands.\n\nYou can learn more information about every command by visiting my GitHub page found: [here](https://github.com/balboni65/Duelkit), or by clicking the title of each page.",
                 color=0xbbaa5e  
             )
             embed.set_footer(text="Note: Animations may take a moment to load.")
-            return embed, None
+
+            # Try to attach the GIF
+            try:
+                file = discord.File(file_path, filename=file_name)
+                embed.set_image(url=f"attachment://{file_name}")
+                return embed, file
+            except FileNotFoundError:
+                return embed, None
         
         # Otherwise, show the command information
         else:
