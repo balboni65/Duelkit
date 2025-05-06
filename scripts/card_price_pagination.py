@@ -14,6 +14,7 @@ class CardPricePaginationView(discord.ui.View):
         self.printing_data = printing_data
         self.current_page = 1
         self.data = []
+        self.discount_labels = ["100%", "90%", "80%", "70%", "60%"]
 
         # Save the message
         self.message = message
@@ -71,19 +72,31 @@ class CardPricePaginationView(discord.ui.View):
         embed.add_field(name="Rarity", value=info.get("printing_rarity", "N/A"), inline=True)
         embed.set_footer(text=f"As of: {formatter.get_current_date()}")
 
+        # embed.add_field(name="Price Breakdown by Discount", value="```" + )
+
         # Add the listings section
         for edition_type in ["first_edition", "unlimited", "limited"]:
             listings = info.get(edition_type)
             if listings:
+                # Add a gap in the embed for readability
+                embed.add_field(name="\u200b", value="\u200b", inline=False)
+
+                # Adds the lowest listings
                 value = "\n".join(
-                    f"`{l['card_price']}` - `{l['condition']}` : {l['vendor']}-(*{l['rating']}%*)"
-                    for l in listings
+                    f"`{listing['card_price']}` - `{listing['condition']}`"
+                    for listing in listings
                 )
                 embed.add_field(
                     name=f"{edition_type.replace('_', ' ').title()} Listings",
                     value=value,
-                    inline=False
+                    inline=True
                 )
+
+                # Adds a table of discount prices
+                discount_title = f"{edition_type.replace('_', ' ').title()} Price Breakdown"
+                discount_array = get_price_breakdown_by_discount(listings)
+                discount_table = create_discount_table(discount_array)
+                embed.add_field(name=discount_title, value=discount_table, inline=True)
 
         return embed
 
@@ -155,3 +168,32 @@ async def show_card_listings(message: discord.Message, guild_id_as_int: int, for
     # If the file itself isn't found
     except FileNotFoundError:
         await message.edit(content="No listing data found.")
+
+# Creates an array of discount prices
+def get_price_breakdown_by_discount(listings):
+    list_of_prices = []
+    for listing in listings:
+        # Convert the price to a float and round it to 2 decimal places
+        list_of_prices.append(round(float(listing["card_price"].strip('$')), 2))
+    average_price = sum(list_of_prices) / len(list_of_prices)
+    price_breakdown = [average_price, average_price * 0.9, average_price * 0.8, average_price * 0.7, average_price * 0.6]
+    for price in price_breakdown:
+        price_breakdown[price_breakdown.index(price)] = f"${price:.2f}"
+
+    return price_breakdown
+
+# Creates a table for the discount prices
+def create_discount_table(discount_array):
+    discount_labels = ["100%", "90% ", "80% ", "70% ", "60% "]
+
+    # Calculate max width per column
+    max_price_length = max(len(price) for price in discount_array)
+
+    # Build the header and value rows with padding
+    table = ""
+    for i in range(len(discount_array)):
+        label = discount_labels[i]
+        price = discount_array[i]
+        table += f"| {label} : {price}{(max_price_length - len(price)) * ' '} |\n"
+
+    return f"```{table}```"
