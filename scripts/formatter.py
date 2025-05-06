@@ -374,7 +374,7 @@ async def format_one_decklist_input(interaction: discord.Interaction,
 
 # Replace non-alphanumeric characters (except spaces) with a space
 def sanitize_card_name(card_name: str):
-    sanitized_name = re.sub(r"[^a-zA-Z0-9\s'-]", ' ', card_name)
+    sanitized_name = re.sub(r"[^a-zA-Z0-9\s'\"-]", ' ', card_name)
     return sanitized_name.lower()
 
 def get_current_date():
