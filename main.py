@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 from scripts import (help_pagination, round_robin, formatter, metaltronus, saga, seventh_tachyon, small_world, standings, top_archetype_breakdown, tournament, top_archetypes, top_cards, card_price_scraper, feedback)
-from scripts import card_price_pagination
 from dotenv import load_dotenv
 import os
 import asyncio
@@ -28,9 +27,6 @@ class Client(commands.Bot):
         else:
             for guild in self.guilds:
                 print(f"Connected to guild: {guild.name} (ID: {guild.id})")
-
-        # Add views
-        # self.add_view(card_price_pagination.CardPricePaginationView())
 
         # Try to sync commands
         try:
