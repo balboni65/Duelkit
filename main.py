@@ -30,7 +30,7 @@ class Client(commands.Bot):
                 print(f"Connected to guild: {guild.name} (ID: {guild.id})")
 
         # Add views
-        self.add_view(card_price_pagination.CardPricePaginationView())
+        # self.add_view(card_price_pagination.CardPricePaginationView())
 
         # Try to sync commands
         try:
