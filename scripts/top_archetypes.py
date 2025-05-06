@@ -3,29 +3,43 @@ import json
 import math
 from collections import Counter
 
-class PaginationView(discord.ui.View):
-    current_page: int = 1
-    entries_per_page: int = 4
-
-    def __init__(self):
+class TopArchetypesPaginationView(discord.ui.View):
+    def __init__(self, archetype_info):
         super().__init__(timeout=None)
+        self.current_page = 1
+        self.entries_per_page = 4
+        self.archetype_info = archetype_info
+        self.max_pages = math.ceil(len(self.archetype_info) / self.entries_per_page)
+        self.message = None     # No initial message on startup
 
-    # Sends the pagination view
-    async def send(self, interaction: discord.Interaction):
-        # First sends a message, this cannot be edited
-        # Then sends a followup, which can be edited
-        await interaction.response.send_message("Here are the top Archetypes of the current format:")
 
-        self.message = await interaction.followup.send(view=self)
-        
-        # Check if the message exists, then update the message
-        if self.message:
-            await self.update_message(self.get_current_page())
+    # Starts the pagination system and sends the initial message
+    async def start(self, interaction: discord.Interaction):
+        # Set page on startup
+        self.current_page = 1
 
-    # Updates the button states, as well as changes the view
-    async def update_message(self, data):
+        # Disabled the page number button
+        self.page_number_button.disabled = True
+
+        # Set initial button states
         self.update_buttons()
-        await self.message.edit(embed=self.create_embed(data), view=self)
+
+        # Creates the first embed
+        embed = self.create_embed(self.get_current_page_entries())
+
+        # Sends the embed
+        self.message = await interaction.followup.send(embed=embed, view=self)
+
+    # Updates the button states, and sends the message
+    async def update_message(self):
+        # Updates button states
+        self.update_buttons()
+
+        # Creates a new embed
+        embed = self.create_embed(self.get_current_page_entries())
+
+        # Edit previous message, and send the new embed
+        await self.message.edit(embed=embed, view=self)
 
     # Creates the embed of archetype information
     def create_embed(self, data):
@@ -71,76 +85,72 @@ class PaginationView(discord.ui.View):
 
         return embed
 
-
-
-    # Determines the state of the buttons
+    # Updates the button states
     def update_buttons(self):
-        # Maximum number of pages
-        max_pages = math.ceil(len(self.data) / self.entries_per_page)
+        # Set current page number
+        self.page_number_button.label = f"{self.current_page}/{self.max_pages}"
 
-        # Setting the page number button values
-        self.page_number_button.disabled = True
-        self.page_number_button.label = f"{self.current_page}/{max_pages}"
-
-        # Setting button disable conditions
+        # Disable the "previous" and "first page" buttons if its the first page
         self.first_page_button.disabled = self.current_page == 1
-        self.prev_button.disabled = self.current_page == 1
-        self.next_button.disabled = self.current_page == max_pages
-        self.last_page_button.disabled = self.current_page == max_pages
-
-        # Update button UI if they are disabled
         self.first_page_button.style = discord.ButtonStyle.gray if self.first_page_button.disabled else discord.ButtonStyle.green
+        self.prev_button.disabled = self.current_page == 1
         self.prev_button.style = discord.ButtonStyle.gray if self.prev_button.disabled else discord.ButtonStyle.primary
-        self.next_button.style = discord.ButtonStyle.gray if self.next_button.disabled else discord.ButtonStyle.primary
+
+        # Disable the "next" and "last page" buttons if its the last page
+        self.last_page_button.disabled = self.current_page == self.max_pages
         self.last_page_button.style = discord.ButtonStyle.gray if self.last_page_button.disabled else discord.ButtonStyle.green
+        self.next_button.disabled = self.current_page == self.max_pages
+        self.next_button.style = discord.ButtonStyle.gray if self.next_button.disabled else discord.ButtonStyle.primary
 
-    # Gets the current page data
-    def get_current_page(self):
-        # Maximum number of pages
-        max_pages = math.ceil(len(self.data) / self.entries_per_page)
+    # Gets the current page entries from the dataset
+    def get_current_page_entries(self):
+        self.current_page = max(1, min(self.current_page, self.max_pages))
 
-        # If the data changes, this ensures proper bounds
-        self.current_page = max(1, min(self.current_page, max_pages))
-
-        # Gets the index of information we want to present per page
-        starting_index = (self.current_page - 1) * self.entries_per_page
-        ending_index = starting_index + self.entries_per_page
-
-        # Returns the index range
-        return self.data[starting_index:ending_index]
+        # Calculate the start and end indices for the current page
+        start = (self.current_page - 1) * self.entries_per_page
+        end = start + self.entries_per_page
+        return self.archetype_info[start:end]
 
     #Discord buttons, first defers a response per discords requirements, then updates the current page, then updates the message
     @discord.ui.button(label="|<", style=discord.ButtonStyle.primary)
     async def first_page_button(self, interaction: discord.Interaction, button: discord.ui.Button):
-        await interaction.response.defer()
+        # Update current page, then update message
         self.current_page = 1
-        await self.update_message(self.get_current_page())
+        await self.update_message()
+
+        # Prevent buttons from auto-clicking a second time
+        await interaction.response.defer()
 
     @discord.ui.button(label="<", style=discord.ButtonStyle.primary)
     async def prev_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        # Update current page, then update message
+        self.current_page -= 1
+        await self.update_message()
+
+        # Prevent buttons from auto-clicking a second time
         await interaction.response.defer()
-        if self.current_page > 1:
-            self.current_page -= 1
-        await self.update_message(self.get_current_page())
 
     @discord.ui.button(label="/", style=discord.ButtonStyle.grey)
     async def page_number_button(self, interaction: discord.Interaction, button: discord.ui.Button):
-        await interaction.response.defer()
-        await self.update_message(self.get_current_page())
+        pass
 
     @discord.ui.button(label=">", style=discord.ButtonStyle.primary)
     async def next_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        # Update current page, then update message
+        self.current_page += 1
+        await self.update_message()
+
+        # Prevent buttons from auto-clicking a second time
         await interaction.response.defer()
-        max_pages = math.ceil(len(self.data) / self.entries_per_page)
-        if self.current_page < max_pages:
-            self.current_page += 1
-        await self.update_message(self.get_current_page())
 
     @discord.ui.button(label=">|", style=discord.ButtonStyle.primary)
     async def last_page_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        # Update current page, then update message
+        self.current_page = self.max_pages
+        await self.update_message()
+
+        # Prevent buttons from auto-clicking a second time
         await interaction.response.defer()
-        self.current_page = math.ceil(len(self.data) / self.entries_per_page)
-        await self.update_message(self.get_current_page())
 
 # Creates a pagination view of the top archetype information
 async def get_top_archetypes(interaction: discord.Interaction):
@@ -148,13 +158,10 @@ async def get_top_archetypes(interaction: discord.Interaction):
     archetype_info = get_archetype_data()
 
     # Define the initial view
-    pagination_view = PaginationView()
-
-    # Populate the view with data
-    pagination_view.data = archetype_info
+    view = TopArchetypesPaginationView(archetype_info=archetype_info)
 
     # Send the interaction, to create the view
-    await pagination_view.send(interaction)
+    await view.start(interaction)
 
 # Returns a tuple of information about each archetype
 def get_archetype_data():

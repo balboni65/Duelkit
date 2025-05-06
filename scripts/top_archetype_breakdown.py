@@ -30,7 +30,7 @@ class TopArchetypeBreakdownPaginationView(discord.ui.View):
         # Set initial button states
         self.update_buttons()
 
-        # Creates the welcome message embed
+        # Creates the first embed
         embed = self.create_embed(self.get_current_page_entries())
 
         # Sends the embed

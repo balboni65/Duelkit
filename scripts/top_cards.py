@@ -5,25 +5,44 @@ from collections import Counter
 from scripts import formatter
 
 
-class PaginationView(discord.ui.View):
+class TopCardsPaginationView(discord.ui.View):
     current_page: int = 1
     entries_per_page: int = 5
 
-    def __init__(self, total_decks_per_archetype: dict, card_name: str):
+    def __init__(self, total_decks_per_archetype: dict, card_name: str, data):
         super().__init__(timeout=None)
         self.total_decks_per_archetype = total_decks_per_archetype
         self.card_name = card_name
+        self.data = data
+        self.max_pages = math.ceil(len(self.data) / self.entries_per_page)
 
-    async def send(self, interaction: discord.Interaction):
-        await interaction.response.send_message(f"Here is how **{self.card_name}** is used across all topping archetypes:")
-        self.message = await interaction.followup.send(view=self)
+    # Starts the pagination system and sends the initial message
+    async def start(self, interaction: discord.Interaction):
+        # Set page on startup
+        self.current_page = 1
 
-        if self.message:
-            await self.update_message(self.get_current_page())
+        # Disabled the page number button
+        self.page_number_button.disabled = True
 
-    async def update_message(self, data):
+        # Set initial button states
         self.update_buttons()
-        await self.message.edit(embed=self.create_embed(data), view=self)
+
+        # Creates the first embed
+        embed = self.create_embed(self.get_current_page_entries())
+
+        # Sends the embed
+        self.message = await interaction.followup.send(embed=embed, view=self)
+
+    # Updates the button states, and sends the message
+    async def update_message(self):
+        # Updates button states
+        self.update_buttons()
+
+        # Creates a new embed
+        embed = self.create_embed(self.get_current_page_entries())
+
+        # Edit previous message, and send the new embed
+        await self.message.edit(embed=embed, view=self)
 
     def create_embed(self, data):
         embed = discord.Embed(title=f"{self.card_name} Usage:", color=0xbbaa5e)
@@ -49,45 +68,59 @@ class PaginationView(discord.ui.View):
 
         return embed
 
+    # Update the button states
     def update_buttons(self):
-        max_pages = math.ceil(len(self.data) / self.entries_per_page)
+        # Set current page number
+        self.page_number_button.label = f"{self.current_page}/{self.max_pages}"
 
-        self.page_number_button.disabled = True
-        self.page_number_button.label = f"{self.current_page}/{max_pages}"
-
+        # Disable the "previous" button if its the first page
         self.prev_button.disabled = self.current_page == 1
-        self.next_button.disabled = self.current_page == max_pages
 
-        self.prev_button.style = discord.ButtonStyle.gray if self.prev_button.disabled else discord.ButtonStyle.primary
-        self.next_button.style = discord.ButtonStyle.gray if self.next_button.disabled else discord.ButtonStyle.primary
+        # Disabled the "next" button if its the last page
+        self.next_button.disabled = self.current_page == self.max_pages
 
-    def get_current_page(self):
-        max_pages = math.ceil(len(self.data) / self.entries_per_page)
-        self.current_page = max(1, min(self.current_page, max_pages))
+        # Set the "previous" button color
+        if self.prev_button.disabled:
+            self.prev_button.style = discord.ButtonStyle.gray
+        else:
+            self.prev_button.style = discord.ButtonStyle.primary
+        
+        # Set the "next" button color
+        if self.next_button.disabled:
+            self.next_button.style = discord.ButtonStyle.gray
+        else:
+            self.next_button.style = discord.ButtonStyle.primary
 
+    # Gets the current page entries from the dataset
+    def get_current_page_entries(self):
+        self.current_page = max(1, min(self.current_page, self.max_pages))
+
+        # Calculate the start and end indices for the current page
         start = (self.current_page - 1) * self.entries_per_page
         end = start + self.entries_per_page
         return self.data[start:end]
 
     @discord.ui.button(label="<", style=discord.ButtonStyle.primary)
     async def prev_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        # Update current page, then update message
+        self.current_page -= 1
+        await self.update_message()
+
+        # Prevent buttons from auto-clicking a second time
         await interaction.response.defer()
-        if self.current_page > 1:
-            self.current_page -= 1
-        await self.update_message(self.get_current_page())
 
     @discord.ui.button(label="/", style=discord.ButtonStyle.grey)
     async def page_number_button(self, interaction: discord.Interaction, button: discord.ui.Button):
-        await interaction.response.defer()
-        await self.update_message(self.get_current_page())
+        pass
 
     @discord.ui.button(label=">", style=discord.ButtonStyle.primary)
     async def next_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        # Update current page, then update message
+        self.current_page += 1
+        await self.update_message()
+
+        # Prevent buttons from auto-clicking a second time
         await interaction.response.defer()
-        max_pages = math.ceil(len(self.data) / self.entries_per_page)
-        if self.current_page < max_pages:
-            self.current_page += 1
-        await self.update_message(self.get_current_page())
 
 
 async def create_card_usage_pagination(interaction: discord.Interaction, card_name: str):
@@ -96,10 +129,13 @@ async def create_card_usage_pagination(interaction: discord.Interaction, card_na
         await interaction.response.send_message(f"No topping decks include `{formatter.smart_capitalize(card_name)}` in the current format.")
         return
 
-    pagination_view = PaginationView(total_decks_per_archetype, card_name)
-    pagination_view.data = sorted(card_usage_data.items(), key=lambda x: x[0])
+    # Sort alphabetically
+    sorted_data = sorted(card_usage_data.items(), key=lambda x: x[0])
 
-    await pagination_view.send(interaction)
+    # Define the inital view
+    view = TopCardsPaginationView(total_decks_per_archetype, card_name, data=sorted_data)
+
+    await view.start(interaction)
 
 
 def count_card_usage_in_all_archetypes(target_card_name: str):
