@@ -2,7 +2,7 @@
 import discord
 from discord import app_commands
 from discord.ext import commands
-from scripts import (help_pagination, round_robin, formatter, metaltronus, saga, seventh_tachyon, small_world, standings, top_archetype_breakdown, tournament, top_archetypes, top_cards, card_price_scraper, feedback)
+from scripts import (help_pagination, round_robin, formatter, metaltronus, saga, seventh_tachyon, small_world, standings, tiebreakers, top_archetype_breakdown, tournament, top_archetypes, top_cards, card_price_scraper, feedback)
 from dotenv import load_dotenv
 import os
 import asyncio
@@ -66,6 +66,21 @@ async def card_price_autocomplete_handler(interaction: discord.Interaction, curr
 async def card_set_code_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     card_name = interaction.namespace.card_name
     return formatter.card_set_code_autocomplete(card_name, current_input)
+
+
+
+# MARK: EXPLAIN MY TIEBREAKERS
+@client.tree.command(name="explain_my_tiebreakers", description="Find out what your tiebreakers mean after a tournament")
+@app_commands.describe(tiebreaker_id="(Required): The 10-11 digit code found after your name on the tournament standings")
+async def explain_my_tiebreakers_helper(interaction: discord.Interaction, tiebreaker_id: app_commands.Range[int, 100000000, 99999999999]):
+    # Defer the response so multiple processes can use its webhook
+    await interaction.response.defer(thinking=True)
+
+    # Change the tiebreaker from an int (for automatic input validation) to a string
+    tiebreaker_id = str(tiebreaker_id)
+
+    # Create the pagination view
+    await tiebreakers.explain_my_tiebreakers(interaction, tiebreaker_id)
 
 
 
