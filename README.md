@@ -49,6 +49,8 @@ Click on any command to preview of its functionality, you will also find more in
 | [/tournamentinfo](#tournamentinfo)                     | Find out what record is needed to receive an Invite or make Top Cut             |
 | [/update](#update)                                     | Updates all the databases found within the bot (takes a while to run)           |
 
+<!-- MARK: CARD PRICE -->
+
 ## /card_price
 
 <img src="./global/images/help_gifs/duelkit-card_price.gif"/>
@@ -57,21 +59,24 @@ Click on any command to preview of its functionality, you will also find more in
 
 ### Function:
 
-Returns the 5 lowest priced listings for every printing of a Yu-Gi-Oh! card
+Returns the 5 lowest priced listings for every printing of a Yu-Gi-Oh! card as well as the "% of TCG Player Low" values for easier trading/selling
 
 - Returns multiple lists if there are multiple editions of that printing (_1st Edition, Unlimited, Limited_)
 - Filters out OCG listings (_Korean, Japanese, Chinese, OCG, etc._)
 - Uses only verified sellers
 - Filters out closely named cards (_Dark Hole -> ❌Dark Hole Dragon_)
 - Checks for rarities in the card name. (_✅Dark Hole (UR)_)
+- Gives you % of TCG player low to use in trades or sales
+- Optional `set_code` field to get specific printings of a card and speed up the command
 
 ### Usage: `/card_price <card_name>`
 
 - `card_name` (**Required**): Any Yu-Gi-Oh! card name. (_Partial names work as well_)
+- `set_code` (_Optional_): The set code of the card's printing.
 
 ### Examples:
 
-- `/card_price <Dark Hole>`
+- `/card_price <Dark Hole><LOB-052>`
 - `/card_price <ash blossom>`
 - `/card_price <infinite imperm>`
 
@@ -85,6 +90,8 @@ Returns the 5 lowest priced listings for every printing of a Yu-Gi-Oh! card
 - If a card name is _italicized_, the printing name was not properly found and it was set to the default card name
 
 </details>
+
+<!-- MARK: FEEDBACK -->
 
 ## /feedback
 
@@ -139,6 +146,8 @@ Shows a pagination view of all available commands with basic descriptions and pr
 
 </details>
 
+<!-- MARK: masterpack -->
+
 ## /masterpack
 
 <img src="./global/images/help_gifs/duelkit-masterpack.gif">
@@ -165,6 +174,8 @@ Posts the link to open Master Packs on [https://ygoprodeck.com/](https://ygoprod
 - Remember to swap the `Product` to `Master Duel` within YGOPRODeck's pack simulator
 
 </details>
+
+<!-- MARK: METALTRONUS DECKLIST -->
 
 ## /metaltronus_decklist
 
@@ -212,6 +223,8 @@ followed by the list of monsters from your deck that can be summoned off that ta
 
 </details>
 
+<!-- MARK: METALTRONUS SINGLE -->
+
 ## /metaltronus_single
 
 <img src="./global/images/help_gifs/duelkit-metaltronus_single.gif"/>
@@ -246,6 +259,8 @@ Returns every monster in in the game that is a valid Metaltronus target for the 
 - The searched monster is excluded from the list of results
 
 </details>
+
+<!-- MARK: REPORT -->
 
 ## /report
 
@@ -289,6 +304,8 @@ Reports a game's result in **the same channel** a tournament has been created in
 
 </details>
 
+<!-- MARK: ROUNDROBIN -->
+
 ## /roundrobin
 
 <img src="./global/images/help_gifs/duelkit-roundrobin.gif"/>
@@ -330,6 +347,8 @@ Creates a 3-8 person round robin tournament
 
 </details>
 
+<!-- MARK: SECRETPACK ARCHETYPE -->
+
 ## /secretpack_archetype
 
 <img src="./global/images/help_gifs/duelkit-secretpack_archetype.gif"/>
@@ -364,6 +383,8 @@ Returns a list of Master Duel Secret Packs that contain the searched archetype
 - Remember to swap the `Product` to `Master Duel` within YGOPRODeck's pack simulator
 
 </details>
+
+<!-- MARK: SECRETPACK TITLE -->
 
 ## /secretpack_title
 
@@ -400,6 +421,8 @@ Returns a list of Master Duel Secret Packs that contain the searched title
 
 </details>
 
+<!-- MARK: SEVENTH TACHYON -->
+
 ## /seventh_tachyon
 
 <img src="./global/images/help_gifs/duelkit-seventh_tachyon.gif"/>
@@ -422,6 +445,8 @@ Returns every main deck monster in in the game that is a valid Seventh Tachyon t
 - `2s`
 
 </details>
+
+<!-- MARK: SEVENTH TACHYON DECKLIST -->
 
 ## /seventh_tachyon_decklist
 
@@ -465,6 +490,8 @@ Returns every monster in your deck that is a valid Seventh Tachyon target for an
 
 </details>
 
+<!-- MARK: SMALL WORLD -->
+
 ## /small_world
 
 <img src="./global/images/help_gifs/duelkit-small_world.gif"/>
@@ -495,6 +522,8 @@ Returns a list of all the monsters that are a valid bridge between 2 entered mon
 - `2s`
 
 </details>
+
+<!-- MARK: SMALL WORLD DECKLIST -->
 
 ## /small_world_decklist
 
@@ -539,6 +568,8 @@ Returns every monster in your deck that is a valid bridge between any other 2 mo
 
 </details>
 
+<!-- MARK: SPIN -->
+
 ## /spin
 
 <img src="./global/images/help_gifs/duelkit-spin.gif"/>
@@ -567,6 +598,8 @@ Returns 5 random Master Duel Secret Packs with a preview of each
 
 </details>
 
+<!-- MARK: STANDINGS -->
+
 ## /standings
 
 <img src="./global/images/help_gifs/duelkit-standings.gif"/>
@@ -594,6 +627,8 @@ Creates 2 gifs (_1 line graph, 1 bar graph_) representing the accumulated scores
 - This command is used along side the `/report` command and various other tournament creation commands to administer season-long tournaments
 
 </details>
+
+<!-- MARK: TOP ARCHETYPE BREAKDOWN -->
 
 ## /top_archetype_breakdown
 
@@ -638,6 +673,8 @@ Creates a pagination view for the selected archetype, displaying every card that
 
 </details>
 
+<!-- MARK: TOP ARCHETYPES -->
+
 ## /top_archetypes
 
 <img src="./global/images/help_gifs/duelkit-top_archetypes.gif"/>
@@ -672,6 +709,8 @@ Creates a pagination view of all the topping archetypes in the current format, d
 - Data is updated automatically every 24 hours
 
 </details>
+
+<!-- MARK: TOP CARDS -->
 
 ## /top_cards
 
@@ -716,6 +755,8 @@ Creates a pagination view for the selected card, displaying every location (_Mai
 
 </details>
 
+<!-- MARK: TOURNAMENT INFO -->
+
 ## /tournamentinfo
 
 <img src="./global/images/help_gifs/duelkit-tournamentinfo.gif"/>
@@ -741,7 +782,7 @@ Outputs information on what record you need to make a certain top cut breakpoint
 
 ### Usage: `/tournamentinfo <number_of_players>`
 
-- `number_of_players` (**Required**): Number of players in the tournament. (_Must be a whole number 16,100..._)
+- `number_of_players` (**Required**): Number of players in the tournament. (_Must be a whole number 32, 150..._)
 
 ### Examples:
 
@@ -767,6 +808,8 @@ Example: 64 person tournament with 6 rounds
 - and so on...
 
 </details>
+
+<!-- MARK: UPDATE -->
 
 ## /update
 

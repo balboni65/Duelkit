@@ -1,4 +1,6 @@
+# MARK: IMPORTS AND VARIABLES
 import discord
+from discord import app_commands
 from discord.ext import commands
 from scripts import (help_pagination, round_robin, formatter, metaltronus, saga, seventh_tachyon, small_world, standings, top_archetype_breakdown, tournament, top_archetypes, top_cards, card_price_scraper, feedback)
 from dotenv import load_dotenv
@@ -14,7 +16,7 @@ intents.guilds = True
 intents.message_content = True
 update_lock = asyncio.Lock() # Lock to prevent multiple instances of the /update command from running at the same time
 
-# Create the bot
+# MARK: BOT CREATION
 class Client(commands.Bot):
     async def on_ready(self):
         # Print bot name and ID
@@ -38,8 +40,13 @@ class Client(commands.Bot):
 # Create the client
 client = Client(command_prefix="!", intents=intents)
 
-# ===== CARD PRICE =====
+
+
+# MARK: CARD PRICE 
 @client.tree.command(name="card_price", description="View a card's pricing from TCG Player")
+@app_commands.describe(
+    card_name="(Required): Any Yu-Gi-Oh! card name (Partial names work as well)", 
+    set_code="(Optional): The set code of the card's printing")
 async def card_price_helper(interaction: discord.Interaction, card_name: str, set_code: str = None):
     if update_lock.locked():
         await interaction.response.send_message("The bot is already in the process of retreiving another card's information.\nThis may have been triggered in another channel.\nPlease wait a short while until it finishes and try again", ephemeral=True)
@@ -60,13 +67,18 @@ async def card_set_code_autocomplete_handler(interaction: discord.Interaction, c
     card_name = interaction.namespace.card_name
     return formatter.card_set_code_autocomplete(card_name, current_input)
 
-# ===== FEEDBACK =====
+
+
+# MARK: FEEDBACK 
 @client.tree.command(name="feedback", description="Send the creator of Duelkit a message!")
+@app_commands.describe(input="(Required): Enter your feedback here")
 async def feedback_helper(interaction: discord.Interaction, input: str):
     if not await feedback.is_on_feedback_cooldown(interaction):
         await feedback.send_feedback(interaction, input)
 
-# ===== HELP =====
+
+
+# MARK: HELP 
 @client.tree.command(name="help", description="Learn more about the list of available commands, with previews!")
 async def help_helper(interaction: discord.Interaction):
     # Defer the response so multiple processes can use its webhook
@@ -75,14 +87,23 @@ async def help_helper(interaction: discord.Interaction):
     # Create the pagination view
     await help_pagination.show_help_pagination(interaction)
 
-# ===== MASTER PACK INFO =====
+
+
+#MARK: MASTER PACK
 @client.tree.command(name="masterpack", description="Posts the links to view and open Master Packs")
-async def master_packs(interaction: discord.Interaction):
+async def master_packs_helper(interaction: discord.Interaction):
     await interaction.response.send_message(embed=saga.master_packs())
 
-# ===== METALTRONUS DECKLISTS =====
+
+
+#MARK: METALTRONUS DECKLISTS
 @client.tree.command(name="metaltronus_decklist", description="Lists all the Metaltronus targets your deck has against another deck")
-async def metaltronus_decklist(
+@app_commands.describe(
+    opponents_clipboard_ydk="(Use 1 Method Per Player): Paste the copied \"Clipboard YDK\"", 
+    your_clipboard_ydk="(Use 1 Method Per Player): Paste the copied \"Clipboard YDK\"", 
+    opponents_ydk_file="(Use 1 Method Per Player): Upload a .ydk file", 
+    your_ydk_file="(Use 1 Method Per Player): Upload a .ydk file")
+async def metaltronus_decklist_helper(
     interaction: discord.Interaction,
     opponents_clipboard_ydk: str = None,
     your_clipboard_ydk: str = None,
@@ -105,9 +126,12 @@ async def metaltronus_decklist(
     with open(file_path, "rb") as file:
         await interaction.followup.send(response, file=discord.File(file_path))
 
-# ===== METALTRONUS SINGLE =====
+
+
+#MARK: METALTRONUS SINGLE
 @client.tree.command(name="metaltronus_single", description="Lists all the Metaltronus targets in the game for a specific card")
-async def metaltronus_single(interaction: discord.Interaction, monster_name: str):
+@app_commands.describe(monster_name="(Required): Any Yu-Gi-Oh! monster card name (Partial names work as well)")
+async def metaltronus_single_helper(interaction: discord.Interaction, monster_name: str):
     # Defer the response and show the user that the bot is working on it
     await interaction.response.defer(thinking=True)
 
@@ -117,46 +141,60 @@ async def metaltronus_single(interaction: discord.Interaction, monster_name: str
     with open(file_path, "rb") as file:
         await interaction.followup.send(response, file=discord.File(file_path))
 # Adds autocomplete functionality to metaltronus function above
-@metaltronus_single.autocomplete("monster_name")
+@metaltronus_single_helper.autocomplete("monster_name")
 async def metaltronus_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return metaltronus.metaltronus_autocomplete(current_input)
 
-# ===== REPORT TOURNAMENT =====
+
+
+# MARK: REPORT TOURNAMENT 
 @client.tree.command(name="report", description="Report a game's result")
-async def report(interaction: discord.Interaction, pairing: str, ):
+@app_commands.describe(pairing="(Required): The text of the game you are reporting")
+async def report_helper(interaction: discord.Interaction, pairing: str, ):
     await round_robin.report(interaction, pairing)
-@report.autocomplete("pairing")
+@report_helper.autocomplete("pairing")
 async def report_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return await round_robin.report_autocomplete(interaction, current_input)
 
-# ===== ROUND ROBIN TOURNAMENT =====
+
+
+# MARK: ROUND ROBIN TOURNAMENT 
 @client.tree.command(name="roundrobin", description="Creates a 3-8 player Round Robin tournament, enter names with spaces in between")
-async def round_robin_bracket(interaction: discord.Interaction, players: str):
+@app_commands.describe(players="(Required): A sequence of player names seperated by spaces (Mike Evan Ben...)")
+async def round_robin_bracket_helper(interaction: discord.Interaction, players: str):
     # Defer the response and show the user that the bot is working on it
     await interaction.response.defer(thinking=True)
 
     # Create the bracket and notify the players
     await round_robin.round_robin_bracket(interaction, players, interaction.guild.id)
 
-# ===== EARCH PACK BY ARCHETYPE =====
+
+
+# MARK: SEARCH PACK BY ARCHETYPE 
 @client.tree.command(name="secretpack_archetype", description="Search for a specific Secret Pack by its contained archetypes")
-async def search_by_archetype(interaction: discord.Interaction, archetype_name: str):
+@app_commands.describe(archetype_name="(Required): Any Yu-Gi-Oh! archetype name (Partial names work as well)")
+async def search_by_archetype_helper(interaction: discord.Interaction, archetype_name: str):
     await saga.search_by_archetype(interaction, archetype_name)
-@search_by_archetype.autocomplete("archetype_name")
+@search_by_archetype_helper.autocomplete("archetype_name")
 async def search_by_archetype_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return saga.search_by_archetype_autocomplete(current_input)
 
-# ===== SEARCH PACK BY TITLE =====
+
+
+# MARK: SEARCH PACK BY TITLE 
 @client.tree.command(name="secretpack_title", description="Search for a specific Secret Pack by its title")
-async def search_by_title(interaction: discord.Interaction, title: str):
+@app_commands.describe(title="(Required): Any Master Duel Secret Pack title (Partial names work as well)")
+async def search_by_title_helper(interaction: discord.Interaction, title: str):
     await saga.search_by_title(interaction, title)
-@search_by_title.autocomplete("title")
+@search_by_title_helper.autocomplete("title")
 async def search_by_title_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return saga.search_by_title_autocomplete(current_input)
 
-# ===== SEVENTH TACHYON =====
+
+
+# MARK: SEVENTH TACHYON 
 @client.tree.command(name="seventh_tachyon", description="Creates a list of all the current Seventh Tachyon targets in the game")
-async def seventh_tachyon_list(interaction: discord.Interaction):
+async def seventh_tachyon_list_helper(interaction: discord.Interaction):
     # Defer the response and show the user that the bot is working on it
     await interaction.response.defer(thinking=True)
 
@@ -166,9 +204,14 @@ async def seventh_tachyon_list(interaction: discord.Interaction):
     with open(file_path, "rb") as file:
         await interaction.followup.send(response, file=discord.File(file_path))
 
-# ===== SEVENTH TACHYON DECKLIST =====
+
+
+# MARK: SEVENTH TACHYON DECKLIST 
 @client.tree.command(name="seventh_tachyon_decklist", description="Lists all the Seventh Tachyon targets in your decklist")
-async def seventh_tachyon_decklist(interaction: discord.Interaction, clipboard_ydk: str = None, ydk_file: discord.Attachment = None,):
+@app_commands.describe(
+    clipboard_ydk="(Use only 1 Method): Paste the copied \"Clipboard YDK\"", 
+    ydk_file="(Use only 1 Method): Upload a .ydk file")
+async def seventh_tachyon_decklist_helper(interaction: discord.Interaction, clipboard_ydk: str = None, ydk_file: discord.Attachment = None,):
     # Defer the response and show the user that the bot is working on it
     await interaction.response.defer(thinking=True)
 
@@ -185,9 +228,14 @@ async def seventh_tachyon_decklist(interaction: discord.Interaction, clipboard_y
     with open(file_path, "rb") as file:
         await interaction.followup.send(response, file=discord.File(file_path))
 
-# ===== SMALL WORLD =====
+
+
+# MARK: SMALL WORLD 
 @client.tree.command(name="small_world", description="Find all the valid Small World bridges between 2 cards")
-async def small_world_pair(interaction: discord.Interaction, first_card: str, second_card: str):
+@app_commands.describe(
+    first_card="(Required): Any Yu-Gi-Oh! Main Deck monster name (Partial names work as well)", 
+    second_card="(Required): Any Yu-Gi-Oh! Main Deck monster name (Partial names work as well)")
+async def small_world_pair_helper(interaction: discord.Interaction, first_card: str, second_card: str):
     # Defer the response and show the user that the bot is working on it
     await interaction.response.defer(thinking=True)
 
@@ -196,14 +244,19 @@ async def small_world_pair(interaction: discord.Interaction, first_card: str, se
     file_path = f"guilds/{interaction.guild.id}/docs/small_world.txt"
     with open(file_path, "rb") as file:
         await interaction.followup.send(response, file=discord.File(file_path))
-@small_world_pair.autocomplete("first_card")
-@small_world_pair.autocomplete("second_card")
+@small_world_pair_helper.autocomplete("first_card")
+@small_world_pair_helper.autocomplete("second_card")
 async def small_world_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return small_world.small_world_autocomplete(current_input)
 
-# ===== SMALL WORLD DECKLIST =====
+
+
+# MARK: SMALL WORLD DECKLIST 
 @client.tree.command(name="small_world_decklist", description="Find all the valid Small World bridges within a decklist")
-async def small_world_decklist(interaction: discord.Interaction, clipboard_ydk: str = None, ydk_file: discord.Attachment = None,):
+@app_commands.describe(
+    clipboard_ydk="(Use only 1 Method): Paste the copied \"Clipboard YDK\"", 
+    ydk_file="(Use only 1 Method): Upload a .ydk file")
+async def small_world_decklist_helper(interaction: discord.Interaction, clipboard_ydk: str = None, ydk_file: discord.Attachment = None,):
     # Defer the response and show the user that the bot is working on it
     await interaction.response.defer(thinking=True)
 
@@ -220,19 +273,25 @@ async def small_world_decklist(interaction: discord.Interaction, clipboard_ydk: 
     with open(file_path, "rb") as file:
         await interaction.followup.send(response, file=discord.File(file_path))
 
-# ===== SPIN SECRET PACKS =====
+
+
+# MARK: SPIN SECRET PACKS 
 @client.tree.command(name="spin", description="Spin 5 random Secret Packs!")
-async def secret_packs(interaction: discord.Interaction):
+async def secret_packs_helper(interaction: discord.Interaction):
     await saga.secret_packs(interaction)
 
-# ===== SEASON STANDINGS =====
+
+
+# MARK: SEASON STANDINGS 
 @client.tree.command(name="standings", description="See current season standings")
 async def season_standings(interaction: discord.Interaction):
     await standings.graph_season_standings(interaction)
 
 
-# ===== TOP ARCHETYPE BREAKDOWN =====
+
+# MARK: TOP ARCHETYPE BREAKDOWN 
 @client.tree.command(name="top_archetype_breakdown", description="View a card-by-card breakdown of a top archetype for the current format")
+@app_commands.describe(archetype="(Required): Any Yu-Gi-Oh! archetype name (Partial names work as well)")
 async def top_archetype_breakdown_helper(interaction: discord.Interaction, archetype: str):
     # Defer the response so multiple processes can use its webhook
     await interaction.response.defer(thinking=True)
@@ -241,15 +300,20 @@ async def top_archetype_breakdown_helper(interaction: discord.Interaction, arche
 async def archetype_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return await top_archetype_breakdown.archetype_autocomplete(current_input)
 
-# ===== TOP ARCHETYPES =====
+
+
+# MARK: TOP ARCHETYPES 
 @client.tree.command(name="top_archetypes", description="View the top archetypes for the current format and their deck variants")
 async def archetypes(interaction: discord.Interaction):
     # Defer the response so multiple processes can use its webhook
     await interaction.response.defer(thinking=True)
     await top_archetypes.get_top_archetypes(interaction)
 
-# ===== TOP CARDS =====
+
+
+# MARK: TOP CARDS 
 @client.tree.command(name="top_cards", description="View a card's usage across all topping archetypes")
+@app_commands.describe(card_name="(Required): Any Yu-Gi-Oh! card name (Partial names work as well)")
 async def top_cards_helper(interaction: discord.Interaction, card_name: str):
     # Defer the response so multiple processes can use its webhook
     await interaction.response.defer(thinking=True)
@@ -258,12 +322,17 @@ async def top_cards_helper(interaction: discord.Interaction, card_name: str):
 async def top_cards_autocomplete_handler(interaction: discord.Interaction, current_input: str):
     return await top_cards.card_autocomplete(current_input)
 
-# ===== TOURNAMENT INFO =====
+
+
+# MARK: TOURNAMENT INFO 
 @client.tree.command(name="tournamentinfo", description="Find out what record is needed to receive an Invite or make Top Cut")
+@app_commands.describe(number_of_players="(Required): Number of players in the tournament (Must be a whole number 32, 150...)")
 async def tournament_info(interaction: discord.Interaction, number_of_players: int):
     await tournament.tournament_info(interaction, number_of_players)
 
-# ===== UPDATE DATABASES =====
+
+
+# MARK: UPDATE DATABASES 
 @client.tree.command(name="update", description="Updates all the databases found within the bot (takes a while to run)")
 async def update_database(interaction: discord.Interaction):
     if update_lock.locked():
