@@ -1,4 +1,4 @@
-# MARK: IMPORTS AND VARIABLES
+# MARK: IMPORTS
 import discord
 from discord import app_commands
 from discord.ext import commands
@@ -10,7 +10,7 @@ import asyncio
 # Load the environment variables
 load_dotenv()
 
-# Variables
+# MARK: VARIABLES
 intents = discord.Intents.default()
 intents.guilds = True
 intents.message_content = True
@@ -147,7 +147,7 @@ async def metaltronus_autocomplete_handler(interaction: discord.Interaction, cur
 
 
 
-# MARK: REPORT TOURNAMENT 
+# MARK: REPORT
 @client.tree.command(name="report", description="Report a game's result")
 @app_commands.describe(pairing="(Required): The text of the game you are reporting")
 async def report_helper(interaction: discord.Interaction, pairing: str, ):
@@ -158,7 +158,7 @@ async def report_autocomplete_handler(interaction: discord.Interaction, current_
 
 
 
-# MARK: ROUND ROBIN TOURNAMENT 
+# MARK: ROUND ROBIN
 @client.tree.command(name="roundrobin", description="Creates a 3-8 player Round Robin tournament, enter names with spaces in between")
 @app_commands.describe(players="(Required): A sequence of player names seperated by spaces (Mike Evan Ben...)")
 async def round_robin_bracket_helper(interaction: discord.Interaction, players: str):
@@ -275,14 +275,14 @@ async def small_world_decklist_helper(interaction: discord.Interaction, clipboar
 
 
 
-# MARK: SPIN SECRET PACKS 
+# MARK: SPIN
 @client.tree.command(name="spin", description="Spin 5 random Secret Packs!")
 async def secret_packs_helper(interaction: discord.Interaction):
     await saga.secret_packs(interaction)
 
 
 
-# MARK: SEASON STANDINGS 
+# MARK: STANDINGS 
 @client.tree.command(name="standings", description="See current season standings")
 async def season_standings(interaction: discord.Interaction):
     await standings.graph_season_standings(interaction)
@@ -332,7 +332,7 @@ async def tournament_info(interaction: discord.Interaction, number_of_players: i
 
 
 
-# MARK: UPDATE DATABASES 
+# MARK: UPDATE
 @client.tree.command(name="update", description="Updates all the databases found within the bot (takes a while to run)")
 async def update_database(interaction: discord.Interaction):
     if update_lock.locked():
