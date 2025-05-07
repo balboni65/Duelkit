@@ -70,17 +70,17 @@ async def card_set_code_autocomplete_handler(interaction: discord.Interaction, c
 
 
 # MARK: EXPLAIN MY TIEBREAKERS
-@client.tree.command(name="explain_my_tiebreakers", description="Find out what your tiebreakers mean after a tournament")
-@app_commands.describe(tiebreaker_id="(Required): The 10-11 digit code found after your name on the tournament standings")
-async def explain_my_tiebreakers_helper(interaction: discord.Interaction, tiebreaker_id: app_commands.Range[int, 100000000, 99999999999]):
-    # Defer the response so multiple processes can use its webhook
-    await interaction.response.defer(thinking=True)
+# @client.tree.command(name="explain_my_tiebreakers", description="Find out what your tiebreakers mean after a tournament")
+# @app_commands.describe(tiebreaker_id="(Required): The 10-11 digit code found after your name on the tournament standings")
+# async def explain_my_tiebreakers_helper(interaction: discord.Interaction, tiebreaker_id: app_commands.Range[int, 100000000, 99999999999]):
+#     # Defer the response so multiple processes can use its webhook
+#     await interaction.response.defer(thinking=True)
 
-    # Change the tiebreaker from an int (for automatic input validation) to a string
-    tiebreaker_id = str(tiebreaker_id)
+#     # Change the tiebreaker from an int (for automatic input validation) to a string
+#     tiebreaker_id = str(tiebreaker_id)
 
-    # Create the pagination view
-    await tiebreakers.explain_my_tiebreakers(interaction, tiebreaker_id)
+#     # Create the pagination view
+#     await tiebreakers.explain_my_tiebreakers(interaction, tiebreaker_id)
 
 
 
