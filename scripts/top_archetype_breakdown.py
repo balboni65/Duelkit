@@ -51,6 +51,11 @@ class TopArchetypeBreakdownPaginationView(discord.ui.View):
     def create_embed(self, card_data):
         embed = discord.Embed(title=f"{formatter.smart_capitalize(self.archetype)} Card Usage - {self.total_decks} Decks", color=0xbbaa5e)
 
+        # Get the date of the last update
+        with open('global/json/last_update.json', 'r', encoding="utf-8") as file:
+            last_update = json.load(file)["last_update"]
+        embed.set_footer(text=f"Last updated: {last_update}")
+
         # For every card
         for card_name, usage_data in card_data:
             sections = []

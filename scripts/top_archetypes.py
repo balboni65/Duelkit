@@ -45,6 +45,11 @@ class TopArchetypesPaginationView(discord.ui.View):
     def create_embed(self, data):
         embed = discord.Embed(title="Top Archetypes", color=0xbbaa5e)
 
+        # Get the date of the last update
+        with open('global/json/last_update.json', 'r', encoding="utf-8") as file:
+            last_update = json.load(file)["last_update"]
+        embed.set_footer(text=f"Last updated: {last_update}")
+
         # For every value in the Archetype tuple
         for name, percentage, deck_count, deck_names, deck_names_counter, win_count, deck_win_counter, average_cost in data:
             # Determine sentence structure for deck list(s)

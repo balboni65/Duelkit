@@ -26,6 +26,10 @@ async def update(interaction: discord.Interaction):
     await message.edit(content="Creating Names and Set Codes database for autocompletion...")
     format_names_and_set_codes()
 
+    # Save the date of the last update
+    with open("global/json/last_update.json", "w") as f:
+        json.dump({"last_update": get_current_date()}, f)
+
     await message.edit(content="Beginning to update all topping decklists...")
     await decklist_scraper.pull_data_from_ygo_pro(message)
 

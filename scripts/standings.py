@@ -10,7 +10,9 @@ async def graph_season_standings(interaction: discord.Interaction):
     guild_id = interaction.guild.id
 
     # Creates the file path if it doesn't exist
-    os.makedirs(f"guilds/{guild_id}/images", exist_ok=True)   
+    os.makedirs(f"guilds/{guild_id}/images", exist_ok=True)
+    os.makedirs(f"guilds/{guild_id}/json/tournaments", exist_ok=True)   
+   
 
     # Files take too long to generate, so it needs to wait longer than 3 seconds before proceeding
     await interaction.response.defer(thinking=True)
@@ -108,7 +110,10 @@ def graph_season_standings_line(category_name, guild_id):
     ax.set_ylabel("Total Wins", color="white")
     ax.tick_params(axis="x", colors="white")
     ax.tick_params(axis="y", colors="white")
-    ax.set_title(f"Cumulative Wins Over {num_weeks} Weeks", color="white")
+    if num_weeks == 1:
+        ax.set_title(f"Cumulative Wins Over {num_weeks} Week", color="white")
+    else:
+        ax.set_title(f"Cumulative Wins Over {num_weeks} Weeks", color="white")
     ax.grid(True, color="#2C2F33", zorder=0)
 
     # Set background color

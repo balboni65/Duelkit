@@ -2281,6 +2281,16 @@
             "attribute": "EARTH"
         },
         {
+            "id": 13332685,
+            "name": "Ame no Habakiri no Mitsurugi",
+            "type": "Ritual Effect Monster",
+            "race": "Reptile",
+            "level": 8,
+            "atk": 2400,
+            "def": 1800,
+            "attribute": "DARK"
+        },
+        {
             "id": 19899073,
             "name": "Ame no Murakumo no Mitsurugi",
             "type": "Ritual Effect Monster",
@@ -51721,6 +51731,26 @@
             "attribute": "WATER"
         },
         {
+            "id": 76948970,
+            "name": "Mitsurugi no Miko, Wousu",
+            "type": "Effect Monster",
+            "race": "Reptile",
+            "level": 8,
+            "atk": 2000,
+            "def": 2000,
+            "attribute": "DARK"
+        },
+        {
+            "id": 40543231,
+            "name": "Mitsurugi no Mikoto, Aramasa",
+            "type": "Effect Monster",
+            "race": "Reptile",
+            "level": 4,
+            "atk": 1200,
+            "def": 900,
+            "attribute": "DARK"
+        },
+        {
             "id": 82782870,
             "name": "Mitsurugi no Mikoto, Kusanagi",
             "type": "Effect Monster",
@@ -66559,6 +66589,16 @@
             "atk": 1200,
             "def": 2400,
             "attribute": "WIND"
+        },
+        {
+            "id": 36608728,
+            "name": "Saiba the Fighting Swordsmith",
+            "type": "Synchro Monster",
+            "race": "Warrior",
+            "level": 7,
+            "atk": 2000,
+            "def": 1500,
+            "attribute": "EARTH"
         },
         {
             "id": 85065943,
