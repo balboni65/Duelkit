@@ -27,6 +27,7 @@ Click on any command to preview of its functionality, you will also find more in
 | :----------------------------------------------------- | :------------------------------------------------------------------------------ |
 | [/card_price](#card_price)                             | View a card's pricing from TCG Player                                           |
 | [/feedback](#feedback)                                 | Send the creator of Duelkit a message!                                          |
+| [/explain_my_tiebreakers](#explain_my_tiebreakers)     | Learn how your tiebreakers at the end of a tournsament are calculated!          |
 | [/help](#help)                                         | Learn more about the list of available commands, with previews!                 |
 | [/masterpack](#masterpack)                             | Posts the links to view and open Master Packs                                   |
 | [/metaltronus_decklist](#metaltronus_decklist)         | Lists all the Metaltronus targets your deck has against another deck            |
@@ -86,6 +87,38 @@ Returns the 5 lowest priced listings for every printing of a Yu-Gi-Oh! card as w
 
 - This feature depends on [https://www.tcgplayer.com](https://www.tcgplayer.com) being online
 - If a card name is _italicized_, the printing name was not properly found and it was set to the default card name
+
+</details>
+
+<!-- MARK: EXPLAIN MY TIEBREAKERS -->
+
+## /explain_my_tiebreakers
+
+<details>
+<summary><h3> 📌 Click for more info on this command</h3></summary>
+
+### Function:
+
+Displays a view to teach you what your tiebreaker code means, and how it was calculated
+
+- If you are looking up an old tournament and receive an error for not enough digits, add 3 trailing zeros
+- Konami recently added a fourth tiebreaker segment to help distinguish players, making the code longer
+- You can click the green button at the bottom to see more examples to learn
+- Clicking the blue button afterwards will take you back to the original screen
+
+### Usage: `/explain_my_tiebreakers <tiebreaker_id>`
+
+- `tiebreaker_id` (**Required**): The 10-11 digit code found after your name on the tournament standings
+
+### Examples:
+
+- `/tiebreaker_id <21672640146>`
+
+### Run time:
+
+- `instant`
+
+### Notes:
 
 </details>
 

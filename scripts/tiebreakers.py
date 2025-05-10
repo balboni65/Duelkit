@@ -20,10 +20,7 @@ class TiebreakerPaginationView(discord.ui.View):
         # Set initial button states
         self.update_buttons()
 
-        if self.current_page == 1:
-            embed = create_result_embed(self.tiebreaker_id)
-        else:
-            embed = create_example_embed(self.tiebreaker_id)
+        embed = create_result_embed(self.tiebreaker_id)
 
         # Sends the first embed
         self.message = await interaction.followup.send(embed=embed, view=self)
@@ -35,8 +32,10 @@ class TiebreakerPaginationView(discord.ui.View):
 
         if self.current_page == 1:
             embed = create_result_embed(self.tiebreaker_id)
-        else:
-            embed = create_example_embed(self.tiebreaker_id)
+        elif self.current_page == 2:
+            embed = create_learn_more_embed(self.tiebreaker_id)
+        elif self.current_page == 3:
+            embed = create_quiz_embed(self.tiebreaker_id)
        
         await self.message.edit(embed=embed, view=self)
 
@@ -45,9 +44,12 @@ class TiebreakerPaginationView(discord.ui.View):
         # Disable the "tiebreaker" button if its the first page
         self.tiebreaker_button.disabled = self.current_page == 1
         self.tiebreaker_button.style = (discord.ButtonStyle.gray if self.tiebreaker_button.disabled else discord.ButtonStyle.primary)
-        # Disable the "example" button if its the second page
-        self.example_button.disabled = self.current_page == 2
-        self.example_button.style = (discord.ButtonStyle.gray if self.example_button.disabled else discord.ButtonStyle.green)
+        # Disable the "learn_more" button if its the second page
+        self.learn_more_button.disabled = self.current_page == 2
+        self.learn_more_button.style = (discord.ButtonStyle.gray if self.learn_more_button.disabled else discord.ButtonStyle.primary)
+        # Disable the "Quiz" button if its the third page
+        self.quiz_button.disabled = self.current_page == 3
+        self.quiz_button.style = (discord.ButtonStyle.gray if self.quiz_button.disabled else discord.ButtonStyle.green)
 
     # Previous page button
     @discord.ui.button(label="Your Tiebreakers", style=discord.ButtonStyle.primary, custom_id="tiebreaker_button")
@@ -60,8 +62,8 @@ class TiebreakerPaginationView(discord.ui.View):
         await interaction.response.defer()
 
     # Current page button (No funcitonality)
-    @discord.ui.button(label="See More Examples", style=discord.ButtonStyle.gray, custom_id="example_button")
-    async def example_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+    @discord.ui.button(label="Learn More 👆", style=discord.ButtonStyle.gray, custom_id="learn_more_button")
+    async def learn_more_button(self, interaction: discord.Interaction, button: discord.ui.Button):
         # Update current page, then update message
         self.current_page = 2
         await self.update_message()
@@ -70,20 +72,30 @@ class TiebreakerPaginationView(discord.ui.View):
         await interaction.response.defer()
         pass
 
+    # Current page button (No funcitonality)
+    @discord.ui.button(label="Quiz Yourself!", style=discord.ButtonStyle.gray, custom_id="quiz_button")
+    async def quiz_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+        # Update current page, then update message
+        self.current_page = 3
+        await self.update_message()
+
+        # Prevent buttons from auto-clicking a second time
+        await interaction.response.defer()
+        pass
+
 async def explain_my_tiebreakers(interaction: discord.Interaction, tiebreaker_id: str):
-    view = TiebreakerPaginationView(tiebreaker_id)
-    await view.start(interaction)
-    # "12 345 678 900"
-    # "└┬┘└┬┘└┬┘└┬┘"
-    # ""
+    # view = TiebreakerPaginationView(tiebreaker_id)
+    # await view.start(interaction)
+    await interaction.followup.send(embed=create_result_embed(tiebreaker_id))
     return
 
+# Creates the view explaining your tiebreakers
 def create_result_embed(tiebreaker_id: str):
     aa, bbb, ccc, ddd = get_tiebreaker_sections(tiebreaker_id)
     if len(aa) == 1:
-        description_message = f"Your tiebreaker code is ```{tiebreaker_id}```\nThis is then broken into 4 parts: ``` A  |  B  |  C  |  D \n {aa} | {bbb} | {ccc} | {ddd}```\nEach section represents a different aspect of your performance, and\n**higher values** are better.\n\nPlacement is determined by comparing **Section A** first.\nIf there's still a tie, it proceeds in order to **Sections B**, **C**, and finally **D**."
-    else:
         description_message = f"Your tiebreaker code is ```{tiebreaker_id}```\nThis is then broken into 4 parts: ``` A |  B  |  C  |  D \n {aa} | {bbb} | {ccc} | {ddd}```\nEach section represents a different aspect of your performance, and\n**higher values** are better.\n\nPlacement is determined by comparing **Section A** first.\nIf there's still a tie, it proceeds in order to **Sections B**, **C**, and finally **D**."
+    else:
+        description_message = f"Your tiebreaker code is ```{tiebreaker_id}```\nThis is then broken into 4 parts: ``` A  |  B  |  C  |  D \n {aa} | {bbb} | {ccc} | {ddd}```\nEach section represents a different aspect of your performance, and\n**higher values** are better.\n\nPlacement is determined by comparing **Section A** first.\nIf there's still a tie, it proceeds in order to **Sections B**, **C**, and finally **D**."
 
     embed = discord.Embed( 
                 title="Here's a breakdown of your tiebreakers:",
@@ -150,9 +162,34 @@ def create_result_embed(tiebreaker_id: str):
 
     return embed
 
-def create_example_embed(tiebreaker_id: str):
+# Creates the view with more examples to learn from
+def create_learn_more_embed(tiebreaker_id: str):
     embed = discord.Embed(
                 title="Here's more examples to understand tiebreakers better:",
+                description="wip",
+                color=0xbbaa5e  
+            )
+    
+    # a tournament with all draws
+    # going undefeated
+    # going completely defeated
+    # 
+    edge_cases_message = ""
+    embed.add_field(name="Edge cases", value=edge_cases_message)
+    
+    edge_cases_message = ""
+    embed.add_field(name="Edge cases", value=edge_cases_message)
+    
+    tips_and_tricks_message = ""
+    embed.add_field(name="Tips and Tricks", value=tips_and_tricks_message)
+
+    return embed
+
+# Creates a followup quiz to practice on
+def create_quiz_embed(tiebreaker_id: str):
+    embed = discord.Embed(
+                title="Here's a quiz to test your knowledge:",
+                description="wip",
                 color=0xbbaa5e  
             )
     return embed
@@ -193,6 +230,7 @@ def predict_first_sum_of_squares(ddd: str):
                 return combination
     return None
 
+# Converts the 3 digit string portion for opponents winrate to a percentage
 def get_bbb_percentage(tiebreaker_id: str):
     # These variables are abreviated as codes, as they would otherwise be very long and cumbersome
 
@@ -204,6 +242,7 @@ def get_bbb_percentage(tiebreaker_id: str):
 
     return bbb
 
+# Converts the 3 digit string portion for opponents' opponents winrate to a percentage
 def get_ccc_percentage(tiebreaker_id: str):
     # These variables are abreviated as codes, as they would otherwise be very long and cumbersome
 

@@ -18,6 +18,7 @@ update_lock = asyncio.Lock() # Lock to prevent multiple instances of the /update
 
 # MARK: BOT CREATION
 class Client(commands.Bot):
+    # When the bot first starts up
     async def on_ready(self):
         # Print bot name and ID
         print(f'Logged on as {self.user} (ID: {self.user.id})')
@@ -36,6 +37,16 @@ class Client(commands.Bot):
             print(f'Globally synced {len(synced)} commands')
         except Exception as e:
             print(f'Error syncing commands: {e}')
+
+    # When the bot joins a guild for the first time
+    async def on_guild_join(self, guild):
+        # Manually sync commands
+        try:
+            await self.tree.sync(guild=guild)
+            print(f"Commands synced instantly to new guild: {guild.name} (ID: {guild.id})")
+        except Exception as e:
+            print(f"Error syncing to new guild {guild.name}: {e}")
+        # TODO: run /help on join
 
 # Create the client
 client = Client(command_prefix="!", intents=intents)
@@ -70,17 +81,17 @@ async def card_set_code_autocomplete_handler(interaction: discord.Interaction, c
 
 
 # MARK: EXPLAIN MY TIEBREAKERS
-# @client.tree.command(name="explain_my_tiebreakers", description="Find out what your tiebreakers mean after a tournament")
-# @app_commands.describe(tiebreaker_id="(Required): The 10-11 digit code found after your name on the tournament standings")
-# async def explain_my_tiebreakers_helper(interaction: discord.Interaction, tiebreaker_id: app_commands.Range[int, 100000000, 99999999999]):
-#     # Defer the response so multiple processes can use its webhook
-#     await interaction.response.defer(thinking=True)
+@client.tree.command(name="explain_my_tiebreakers", description="Find out what your tiebreakers mean after a tournament")
+@app_commands.describe(tiebreaker_id="(Required): The 10-11 digit code found after your name on the tournament standings")
+async def explain_my_tiebreakers_helper(interaction: discord.Interaction, tiebreaker_id: app_commands.Range[int, 100000000, 99999999999]):
+    # Defer the response so multiple processes can use its webhook
+    await interaction.response.defer(thinking=True)
 
-#     # Change the tiebreaker from an int (for automatic input validation) to a string
-#     tiebreaker_id = str(tiebreaker_id)
+    # Change the tiebreaker from an int (for automatic input validation) to a string
+    tiebreaker_id = str(tiebreaker_id)
 
-#     # Create the pagination view
-#     await tiebreakers.explain_my_tiebreakers(interaction, tiebreaker_id)
+    # Create the pagination view
+    await tiebreakers.explain_my_tiebreakers(interaction, tiebreaker_id)
 
 
 
