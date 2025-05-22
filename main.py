@@ -303,8 +303,9 @@ async def small_world_decklist_helper(interaction: discord.Interaction, clipboar
 
 # MARK: SPIN
 @client.tree.command(name="spin", description="Spin 5 random Secret Packs!")
-async def secret_packs_helper(interaction: discord.Interaction):
-    await saga.secret_packs(interaction)
+@app_commands.describe(number_of_spins="(Optional): Enter a specific number of packs to be spun (1-10)")
+async def secret_packs_helper(interaction: discord.Interaction, number_of_spins: app_commands.Range[int, 1, 10] = None):
+    await saga.secret_packs(interaction, number_of_spins)
 
 
 

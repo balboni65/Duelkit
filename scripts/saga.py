@@ -3,26 +3,31 @@ import json
 import random
 
 # Creates the random secret packs
-async def secret_packs(interaction: discord.Interaction):
+async def secret_packs(interaction: discord.Interaction, number_of_spins: int = None):
     # Read the master_data JSON
     with open('global/json/master_data.json', 'r', encoding="utf-8") as file:
         master_data = json.load(file)
-
-    embeds_list = []
+        
+    # Set Default
     num_spins = 5
 
-    # For every spin, populate the embed data
-    for spin in range(num_spins):
-        # Select a random secret pack
-        secret_pack = random.choice(master_data["packs"])
+    # Check if Default is changed
+    if number_of_spins:
+        # Enforce Discord's limit of 10 spins per interaction
+        if number_of_spins > 10:
+            num_spins = 10
+        else :
+            num_spins = number_of_spins
 
-        # Create the secret pack embed
-        embeds_list.append(create_secret_pack_embed(secret_pack))
+    # Get all packs
+    all_packs = master_data["packs"]
 
-        # If all the secret pack embeds have been generated
-        if (len(embeds_list) == num_spins):
-            await interaction.response.send_message(embeds=embeds_list)
-    return
+    # "random.sample" does not return duplicates
+    selected_packs = random.sample(all_packs, num_spins)
+
+    # Send out embeds
+    embeds_list = [create_secret_pack_embed(pack) for pack in selected_packs]
+    await interaction.response.send_message(embeds=embeds_list)
 
 # Creates the master pack embed
 def master_packs():
