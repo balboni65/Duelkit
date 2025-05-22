@@ -11,121 +11,139 @@
   "packs": [
     {
       "title": "A Dance Dedicated to the Heavens",
-      "image_url": "https://images.ygoprodeck.com/images/sets/A_Dance_Dedicated_to_the_Heavens.jpg",
+      "image_url": "https://ms.yugipedia.com//d/d0/A_Dance_Dedicated_to_the_Heavens-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/A%20Dance%20Dedicated%20to%20the%20Heavens/MD/",
       "archetypes": ["Mikanko", "Bamboo Sword", "Guardian"]
     },
     {
       "title": "A Full Course of Magic",
-      "image_url": "https://images.ygoprodeck.com/images/sets/A_Full_Course_of_Magic.jpg",
+      "image_url": "https://ms.yugipedia.com//1/15/A_Full_Course_of_Magic-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/A%20Full%20Course%20of%20Magic/MD/",
       "archetypes": ["Nouvelles", "Gunkan"]
     },
     {
       "title": "A Song of Zephyr and Petals",
-      "image_url": "https://images.ygoprodeck.com/images/sets/A_Song_of_Zephyr_and_Petals.jpg",
+      "image_url": "https://ms.yugipedia.com//2/2b/A_Song_of_Zephyr_and_Petals-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/A%20Song%20of%20Zephyr%20and%20Petals/MD/",
       "archetypes": ["Melodious", "Windwitch"]
     },
     {
       "title": "A Warrior of Seething Anger",
-      "image_url": "https://images.ygoprodeck.com/images/sets/A_Warrior_of_Seething_Anger.jpg",
+      "image_url": "https://ms.yugipedia.com//f/f0/A_Warrior_of_Seething_Anger-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/A%20Warrior%20of%20Seething%20Anger/MD/",
       "archetypes": ["Kashtira", "Gate Guardian"]
     },
     {
+      "title": "Agathokakologically Whispered Fates",
+      "image_url": "https://ms.yugipedia.com//e/ea/Agathokakologically_Whispered_Fates-Pack-Master_Duel.png",
+      "view_url": "https://ygoprodeck.com/pack/Agathokakologically%20Whispered%20Fates/MD/",
+      "archetypes": ["Vaalmonica", "Majespecter", "Dracoslayer"]
+    },
+    {
       "title": "AI Omniscience",
-      "image_url": "https://images.ygoprodeck.com/images/sets/AI_Omniscience.jpg",
+      "image_url": "https://ms.yugipedia.com//3/32/AI_Omniscience-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/AI%20Omniscience/MD/",
       "archetypes": ["@Ignister"]
     },
     {
       "title": "Abyssal Underworld",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Abyssal_Underworld.jpg",
+      "image_url": "https://ms.yugipedia.com//c/c4/Abyssal_Underworld-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Abyssal%20Underworld/MD/",
       "archetypes": ["Zombie World", "Vendread", "Wight"]
     },
     {
       "title": "Advanced Warriors",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Advanced_Warriors.jpg",
+      "image_url": "https://ms.yugipedia.com//9/91/Advanced_Warriors-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Advanced%20Warriors/MD/",
-      "archetypes": ["Dracoslayer", "Igknight", "Majespecter", "Dinomist", "Amorphage"]
+      "archetypes": [
+        "Dracoslayer",
+        "Igknight",
+        "Majespecter",
+        "Dinomist",
+        "Amorphage"
+      ]
     },
     {
       "title": "Adventure of Mystical Etchings",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Adventure_of_Mystical_Etchings.jpg",
+      "image_url": "https://ms.yugipedia.com//e/eb/Adventure_of_Mystical_Etchings-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Adventure%20of%20Mystical%20Etchings/MD/",
       "archetypes": ["Generaider", "Runick"]
     },
     {
       "title": "Alba Abyss",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Alba_Abyss.jpg",
+      "image_url": "https://ms.yugipedia.com//0/07/Alba_Abyss-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Alba%20Abyss/MD/",
-      "archetypes": ["Albaz Dragon", "Branded", "Dogmatika", "Springans", "Tri-Brigade"]
+      "archetypes": [
+        "Albaz Dragon",
+        "Branded",
+        "Dogmatika",
+        "Springans",
+        "Tri-Brigade"
+      ]
     },
     {
       "title": "Altered Heraldry",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Altered_Heraldry.jpg",
+      "image_url": "https://ms.yugipedia.com//a/a3/Altered_Heraldry-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Altered%20Heraldry/MD/",
       "archetypes": ["Heraldic Beast", "CXyz"]
     },
     {
       "title": "Artistic Angel",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Artistic_Angel.jpg",
+      "image_url": "https://ms.yugipedia.com//a/a4/Artistic_Angel-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Artistic%20Angel/MD/",
       "archetypes": ["The Weather", "Solfachord"]
     },
     {
       "title": "Astral Trinity of Gods",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Astral_Trinity_of_Gods.jpg",
+      "image_url": "https://ms.yugipedia.com//9/91/Astral_Trinity_of_Gods-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Astral%20Trinity%20of%20Gods/MD/",
       "archetypes": ["Nordic"]
     },
     {
       "title": "Awakening of the Ancients",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Awakening_of_the_Ancients.jpg",
+      "image_url": "https://ms.yugipedia.com//c/c8/Awakening_of_the_Ancients-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Awakening%20of%20the%20Ancients/MD/",
       "archetypes": ["Artifact", "Guardian"]
     },
     {
       "title": "Beastly Claws of Terror",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Beastly_Claws_of_Terror.jpg",
+      "image_url": "https://ms.yugipedia.com//3/3a/Beastly_Claws_of_Terror-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Beastly%20Claws%20of%20Terror/MD/",
       "archetypes": ["Scareclaw", "X-Saber"]
     },
     {
       "title": "Beasts of the Inferno",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Beasts_of_the_Inferno.jpg",
+      "image_url": "https://ms.yugipedia.com//a/a4/Beasts_of_the_Inferno-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Beasts%20of%20the%20Inferno/MD/",
       "archetypes": ["Volcanic", "Hazy Flame"]
     },
     {
       "title": "Beetle Troops Roll Out",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Beetle_Troops_Roll_Out.jpg",
+      "image_url": "https://ms.yugipedia.com//9/9c/Beetle_Troops_Roll_Out-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Beetle%20Troops%20Roll%20Out/MD/",
       "archetypes": ["Beetrooper", "Inzektor"]
     },
     {
       "title": "Beloved Dolls",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Beloved_Dolls.jpg",
+      "image_url": "https://ms.yugipedia.com//f/fa/Beloved_Dolls-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Beloved%20Dolls/MD/",
       "archetypes": ["Madolche", "Doll Monster"]
     },
     {
       "title": "Blazing Fortitude",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Blazing_Fortitude.jpg",
+      "image_url": "https://ms.yugipedia.com//9/90/Blazing_Fortitude-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Blazing%20Fortitude/MD/",
       "archetypes": ["Salamangreat"]
     },
     {
       "title": "Blazing Warriors",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Blazing_Warriors.jpg",
+      "image_url": "https://ms.yugipedia.com//7/78/Blazing_Warriors-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Blazing%20Warriors/MD/",
       "archetypes": ["Battlin' Boxer", "Heroic"]
     },
     {
       "title": "Blooming in Adversity",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Blooming_in_Adversity.jpg",
+      "image_url": "https://ms.yugipedia.com//d/de/Blooming_in_Adversity-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Blooming%20in%20Adversity/MD/",
       "archetypes": ["Aroma", "Rikka"]
     },
@@ -143,13 +161,13 @@
     },
     {
       "title": "Captivating Curtain Call",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Captivating_Curtain_Call.jpg",
+      "image_url": "https://ms.yugipedia.com//9/98/Captivating_Curtain_Call-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Captivating%20Curtain%20Call/MD/",
       "archetypes": ["Performapal"]
     },
     {
       "title": "Celestial Dragon and Bear",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Celestial_Dragon_and_Bear.jpg",
+      "image_url": "https://ms.yugipedia.com//e/e7/Celestial_Dragon_and_Bear-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Celestial%20Dragon%20and%20Bear/MD/",
       "archetypes": ["Drytron", "Ursarctic"]
     },
@@ -161,37 +179,37 @@
     },
     {
       "title": "Champions of Hope",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Champions_of_Hope.jpg",
+      "image_url": "https://ms.yugipedia.com//2/20/Champions_of_Hope-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Champions%20of%20Hope/MD/",
       "archetypes": ["Utopia", "ZW -"]
     },
     {
       "title": "Champions of Salvation",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Champions_of_Salvation.jpg",
+      "image_url": "https://ms.yugipedia.com//a/a6/Champions_of_Salvation-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Champions%20of%20Salvation/MD/",
       "archetypes": ["Tellarknight", "Constellar"]
     },
     {
       "title": "Colossal Mech",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Colossal_Mech.jpg",
+      "image_url": "https://ms.yugipedia.com//b/b0/Colossal_Mech-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Colossal%20Mech/MD/",
       "archetypes": ["Gimmick Puppet", "Number 9: Dyson Sphere"]
     },
     {
       "title": "Combatants of Flame",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Combatants_of_Flame.jpg",
+      "image_url": "https://ms.yugipedia.com//5/58/Combatants_of_Flame-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Combatants%20of%20Flame/MD/",
       "archetypes": ["Laval"]
     },
     {
       "title": "Cosmic Mechanical Entities",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Cosmic_Mechanical_Entities.jpg",
+      "image_url": "https://ms.yugipedia.com//c/c5/Cosmic_Mechanical_Entities-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Cosmic%20Mechanical%20Entities/MD/",
       "archetypes": ["Krawler", "Mekk-Knight", "Knightmare", "World Legacy"]
     },
     {
       "title": "Counterswing Mages",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Counterswing_Mages.jpg",
+      "image_url": "https://ms.yugipedia.com//7/73/Counterswing_Mages-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Counterswing%20Mages/MD/",
       "archetypes": ["Magician"]
     },
@@ -202,116 +220,122 @@
       "archetypes": ["D/D"]
     },
     {
+      "title": "Crystal Realm Defier",
+      "image_url": "https://ms.yugipedia.com//8/8c/Crystal_Realm_Defier-Pack-Master_Duel.png",
+      "view_url": "https://ygoprodeck.com/pack/Crystal%20Realm%20Defier/MD/",
+      "archetypes": ["Tistina", "Eldlich"]
+    },
+    {
       "title": "Crystal Septenary",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Crystal_Septenary.jpg",
+      "image_url": "https://ms.yugipedia.com//b/ba/Crystal_Septenary-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Crystal%20Septenary/MD/",
       "archetypes": ["Crystal Beast", "Ultimate Crystal"]
     },
     {
       "title": "Curse of the Serpent",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Curse_of_the_Serpent.jpg",
+      "image_url": "https://ms.yugipedia.com//b/b6/Curse_of_the_Serpent-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Curse%20of%20the%20Serpent/MD/",
       "archetypes": ["Venom", "Reptilianne"]
     },
     {
       "title": "Cyber City Guardians",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Cyber_City_Guardians.jpg",
+      "image_url": "https://ms.yugipedia.com//7/71/Cyber_City_Guardians-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Cyber%20City%20Guardians/MD/",
       "archetypes": ["Virtual World", "Tindangle"]
     },
     {
       "title": "Darkest Magics",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Darkest_Magics.jpg",
+      "image_url": "https://ms.yugipedia.com//6/67/Darkest_Magics-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Darkest%20Magics/MD/",
       "archetypes": ["Dark Magician"]
     },
     {
       "title": "Deceitful Wings of Darkness",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Deceitful_Wings_of_Darkness.jpg",
+      "image_url": "https://ms.yugipedia.com//e/eb/Deceitful_Wings_of_Darkness-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Deceitful%20Wings%20of%20Darkness/MD/",
       "archetypes": ["Darklord", "Forbidden"]
     },
     {
       "title": "Denizens of Sacred Tree Grove",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Denizens_of_Sacred_Tree_Grove.jpg",
+      "image_url": "https://ms.yugipedia.com//b/bd/Denizens_of_Sacred_Tree_Grove-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Denizens%20of%20Sacred%20Tree%20Grove/MD/",
       "archetypes": ["Naturia"]
     },
     {
       "title": "Destiny's Sorceress",
-      "image_url": "https://ms.yugipedia.com//thumb/d/df/Destiny%27s_Sorceress-Pack-Master_Duel.png/257px-Destiny%27s_Sorceress-Pack-Master_Duel.png",
+      "image_url": "https://ms.yugipedia.com//d/df/Destiny%27s_Sorceress-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Destiny's%20Sorceress/MD/",
       "archetypes": ["Fortune Fairy", "Fortune Lady", "Prediction Princess"]
     },
     {
       "title": "Devastation Regenerated",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Devastation_Regenerated.jpg",
+      "image_url": "https://ms.yugipedia.com//e/e5/Devastation_Regenerated-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Devastation%20Regenerated/MD/",
       "archetypes": ["Scrap"]
     },
     {
       "title": "Draconic Resplendence",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Draconic_Resplendence.jpg",
+      "image_url": "https://ms.yugipedia.com//8/86/Draconic_Resplendence-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Draconic%20Resplendence/MD/",
       "archetypes": ["Odd-Eyes", "Performapal"]
     },
     {
       "title": "Dragon Kings from the Abyss",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Dragon_Kings_from_the_Abyss.jpg",
+      "image_url": "https://ms.yugipedia.com//2/2f/Dragon_Kings_from_the_Abyss-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Dragon%20Kings%20from%20the%20Abyss/MD/",
       "archetypes": ["Bystial", "Hieratic"]
     },
     {
       "title": "Dragon Knight Gorge",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Dragon_Knight_Gorge.jpg",
+      "image_url": "https://ms.yugipedia.com//b/b2/Dragon_Knight_Gorge-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Dragon%20Knight%20Gorge/MD/",
       "archetypes": ["Dragunity"]
     },
     {
       "title": "Dragon Luster",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Dragon_Luster.jpg",
+      "image_url": "https://ms.yugipedia.com//6/61/Dragon_Luster-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Dragon%20Luster/MD/",
       "archetypes": ["Starry Knight", "Dragonmaid", "Felgrand"]
     },
     {
       "title": "Dragon Spirit",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Dragon_Spirit.jpg",
+      "image_url": "https://ms.yugipedia.com//1/10/Dragon_Spirit-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Dragon%20Spirit/MD/",
       "archetypes": ["Yang Zing", "Tenyi"]
     },
     {
       "title": "Dreadnought Advance",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Dreadnought_Advance.jpg",
+      "image_url": "https://ms.yugipedia.com//0/00/Dreadnought_Advance-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Dreadnought%20Advance/MD/",
       "archetypes": ["Infinitrack", "Train"]
     },
     {
       "title": "Echo Chamber Nation",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Echo_Chamber_Nation.jpg",
+      "image_url": "https://ms.yugipedia.com//3/3c/Echo_Chamber_Nation-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Echo%20Chamber%20Nation/MD/",
       "archetypes": ["Dogmatika", "Tri-Brigade", "Springans"]
     },
     {
       "title": "Electrilyrical",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Electrilyrical.jpg",
+      "image_url": "https://ms.yugipedia.com//d/d4/Electrilyrical-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Electrilyrical/MD/",
       "archetypes": ["Appliancer", "Batteryman"]
     },
     {
       "title": "Electron Illusions",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Electron_Illusions.jpg",
+      "image_url": "https://ms.yugipedia.com//9/92/Electron_Illusions-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Electron%20Illusions/MD/",
       "archetypes": ["Altergeist", "Evil Twin"]
     },
     {
       "title": "Elemental Exchanges",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Elemental_Exchanges.jpg",
+      "image_url": "https://ms.yugipedia.com//5/51/Elemental_Exchanges-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Elemental%20Exchanges/MD/",
       "archetypes": ["Genex"]
     },
     {
       "title": "Emblazoned Armor",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Emblazoned_Armor.jpg",
+      "image_url": "https://ms.yugipedia.com//7/7b/Emblazoned_Armor-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Emblazoned%20Armor/MD/",
       "archetypes": ["Vylon", "Union monsters"]
     },
@@ -323,19 +347,19 @@
     },
     {
       "title": "Enchanted Threads of Shade",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Enchanted_Threads_of_Shade.jpg",
+      "image_url": "https://ms.yugipedia.com//8/89/Enchanted_Threads_of_Shade-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Enchanted%20Threads%20of%20Shade/MD/",
       "archetypes": ["Shaddoll", "Zefra"]
     },
     {
       "title": "Essence of Flora and Ocean",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Essence_of_Flora_and_Ocean.jpg",
+      "image_url": "https://ms.yugipedia.com//f/f4/Essence_of_Flora_and_Ocean-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Essence%20of%20Flora%20and%20Ocean/MD/",
       "archetypes": ["Trickstar", "Marincess"]
     },
     {
       "title": "Evoked Dragon of Miracles",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Evoked_Dragon_of_Miracles.jpg",
+      "image_url": "https://ms.yugipedia.com//b/bd/Evoked_Dragon_of_Miracles-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Evoked%20Dragon%20of%20Miracles/MD/",
       "archetypes": ["Stardust", "Synchron", "Majestic"]
     },
@@ -347,85 +371,91 @@
     },
     {
       "title": "Fabled Gods",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Fabled_Gods.jpg",
+      "image_url": "https://ms.yugipedia.com//4/40/Fabled_Gods-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Fabled%20Gods/MD/",
       "archetypes": ["Fabled"]
     },
     {
       "title": "Fiendish Encounter",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Fiendish_Encounter.jpg",
+      "image_url": "https://ms.yugipedia.com//c/c7/Fiendish_Encounter-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Fiendish%20Encounter/MD/",
       "archetypes": ["Magical Musket", "Burning Abyss"]
     },
     {
       "title": "Fiendish Playthings",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Fiendish_Playthings.jpg",
+      "image_url": "https://ms.yugipedia.com//f/f2/Fiendish_Playthings-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Fiendish%20Playthings/MD/",
       "archetypes": ["Fluffal"]
     },
     {
       "title": "Fighting Spirit of Sparking Iron",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Fighting_Spirit_of_Sparking_Iron.jpg",
+      "image_url": "https://ms.yugipedia.com//0/0e/Fighting_Spirit_of_Sparking_Iron-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Fighting%20Spirit%20of%20Sparking%20Iron/MD/",
       "archetypes": ["Therion", "Springans"]
     },
     {
       "title": "Fires of Scorching Bonds",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Fires_of_Scorching_Bonds.jpg",
+      "image_url": "https://ms.yugipedia.com//0/09/Fires_of_Scorching_Bonds-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Fires%20of%20Scorching%20Bonds/MD/",
       "archetypes": ["Libromancer", "Cyberse"]
     },
     {
       "title": "Fires of This World and The Next",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Fires_of_This_World_and_The_Next.jpg",
+      "image_url": "https://ms.yugipedia.com//6/6f/Fires_of_This_World_and_The_Next-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Fires%20of%20This%20World%20and%20The%20Next/MD/",
       "archetypes": ["Mayakashi", "Shiranui"]
     },
     {
       "title": "Forest Friends",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Forest_Friends.jpg",
+      "image_url": "https://ms.yugipedia.com//b/b8/Forest_Friends-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Forest%20Friends/MD/",
       "archetypes": ["Melffy", "Mystical Beast of the Forest"]
     },
     {
       "title": "Forgotten City Dwellers",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Forgotten_City_Dwellers.jpg",
+      "image_url": "https://ms.yugipedia.com//d/dd/Forgotten_City_Dwellers-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Forgotten%20City%20Dwellers/MD/",
       "archetypes": ["Atlantean", "Mermail"]
     },
     {
+      "title": "Forgotten Underworld",
+      "image_url": "https://ms.yugipedia.com//3/37/Forgotten_Underworld-Pack-Master_Duel.png",
+      "view_url": "https://ygoprodeck.com/pack/Forgotten%20Underworld/MD/",
+      "archetypes": ["Thunder Dragon", "Memento"]
+    },
+    {
       "title": "Futuristic Creatures",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Futuristic_Creatures.jpg",
+      "image_url": "https://ms.yugipedia.com//7/7c/Futuristic_Creatures-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Futuristic%20Creatures/MD/",
       "archetypes": ["T.G."]
     },
     {
       "title": "Galaxy War",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Galaxy_War.jpg",
+      "image_url": "https://ms.yugipedia.com//6/68/Galaxy_War-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Galaxy%20War/MD/",
       "archetypes": ["B.E.S.", "Kozmo"]
     },
     {
       "title": "Gargantuan Gears",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Gargantuan_Gears.jpg",
+      "image_url": "https://ms.yugipedia.com//7/7f/Gargantuan_Gears-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Gargantuan%20Gears/MD/",
       "archetypes": ["Ancient Gear"]
     },
     {
       "title": "Glacial Seal",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Glacial_Seal.jpg",
+      "image_url": "https://ms.yugipedia.com//d/d6/Glacial_Seal-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Glacial%20Seal/MD/",
       "archetypes": ["Ice Barrier"]
     },
     {
       "title": "Glory on Wings",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Glory_on_Wings.jpg",
+      "image_url": "https://ms.yugipedia.com//9/9f/Glory_on_Wings-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Glory%20on%20Wings/MD/",
       "archetypes": ["Harpie"]
     },
     {
       "title": "Gods of Abyss and Arcadia",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Gods_of_Abyss_and_Arcadia.jpg",
+      "image_url": "https://ms.yugipedia.com//d/d7/Gods_of_Abyss_and_Arcadia-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Gods%20of%20Abyss%20and%20Arcadia/MD/",
       "archetypes": ["Hieratic", "Ogdoadic"]
     },
@@ -437,181 +467,192 @@
     },
     {
       "title": "Guardian of Kings",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Guardian_of_Kings.jpg",
+      "image_url": "https://ms.yugipedia.com//6/60/Guardian_of_Kings-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Guardian%20of%20Kings/MD/",
       "archetypes": ["Gravekeeper's"]
     },
     {
       "title": "Guardian of the Sacred Summit",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Guardian_of_the_Sacred_Summit.jpg",
+      "image_url": "https://ms.yugipedia.com//3/3a/Guardian_of_the_Sacred_Summit-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Guardian%20of%20the%20Sacred%20Summit/MD/",
       "archetypes": ["Swordsoul", "Yang Zing"]
     },
     {
       "title": "Guardians of Fire",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Guardians_of_Fire.jpg",
+      "image_url": "https://ms.yugipedia.com//3/3b/Guardians_of_Fire-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Guardians%20of%20Fire/MD/",
       "archetypes": ["Fire Fist"]
     },
     {
       "title": "Guardians of the Sacred Sky",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Guardians_of_the_Sacred_Sky.jpg",
+      "image_url": "https://ms.yugipedia.com//3/32/Guardians_of_the_Sacred_Sky-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Guardians%20of%20the%20Sacred%20Sky/MD/",
-      "archetypes": ["The Agent", "The Sanctuary in the Sky", "Parshath", "Solemn"]
+      "archetypes": [
+        "The Agent",
+        "The Sanctuary in the Sky",
+        "Parshath",
+        "Solemn"
+      ]
     },
     {
       "title": "Guided by Fate",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Guided_by_Fate.jpg",
+      "image_url": "https://ms.yugipedia.com//4/41/Guided_by_Fate-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Guided%20by%20Fate/MD/",
       "archetypes": ["Adventurer", "Magikey"]
     },
     {
       "title": "Guided by the Noble Blade",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Guided_by_the_Noble_Blade.jpg",
+      "image_url": "https://ms.yugipedia.com//2/25/Guided_by_the_Noble_Blade-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Guided%20by%20the%20Noble%20Blade/MD/",
       "archetypes": ["Noble Knight", "Infernoble Knight", "Noble Arms"]
     },
     {
       "title": "Hand of Fate",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Hand_of_Fate.jpg",
+      "image_url": "https://ms.yugipedia.com//9/9a/Hand_of_Fate-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Hand%20of%20Fate/MD/",
       "archetypes": ["Arcana Force", "Flower Cardian"]
     },
     {
       "title": "Hope Sprouting in the Spring Breeze",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Hope_Sprouting_in_the_Spring_Breeze.jpg",
+      "image_url": "https://ms.yugipedia.com//e/e1/Hope_Sprouting_in_the_Spring_Breeze-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Hope%20Sprouting%20in%20the%20Spring%20Breeze/MD/",
       "archetypes": ["Vernusylph", "G Golem"]
     },
     {
+      "title": "Illusion Beast's Roar",
+      "image_url": "https://ms.yugipedia.com//4/43/Illusion_Beast%27s_Roar-Pack-Master_Duel.png",
+      "view_url": "https://ygoprodeck.com/pack/Illusion%20Beast's%20Roar/MD/",
+      "archetypes": ["Chimera", "Illusion", "Virus"]
+    },
+    {
       "title": "Immortal Royalty",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Immortal_Royalty.jpg",
+      "image_url": "https://ms.yugipedia.com//8/89/Immortal_Royalty-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Immortal%20Royalty/MD/",
       "archetypes": ["Vampire", "Eldlich"]
     },
     {
       "title": "Immovable Samurai",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Immovable_Samurai.jpg",
+      "image_url": "https://ms.yugipedia.com//0/06/Immovable_Samurai-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Immovable%20Samurai/MD/",
       "archetypes": ["Superheavy Samurai"]
     },
     {
       "title": "Impending Assassination",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Impending_Assassination.jpg",
+      "image_url": "https://ms.yugipedia.com//a/af/Impending_Assassination-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Impending%20Assassination/MD/",
       "archetypes": ["Timelord", "Meklord"]
     },
     {
       "title": "Indomitable Knights",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Indomitable_Knights.jpg",
+      "image_url": "https://ms.yugipedia.com//8/84/Indomitable_Knights-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Indomitable%20Knights/MD/",
       "archetypes": ["The Phantom Knights", "Supreme King"]
     },
     {
       "title": "Inevitability of Chaos",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Inevitability_of_Chaos.jpg",
+      "image_url": "https://ms.yugipedia.com//8/84/Inevitability_of_Chaos-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Inevitability%20of%20Chaos/MD/",
       "archetypes": ["Black Luster Soldier", "Chaos"]
     },
     {
       "title": "Insect Metamorphosis",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Insect_Metamorphosis.jpg",
+      "image_url": "https://ms.yugipedia.com//b/be/Insect_Metamorphosis-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Insect%20Metamorphosis/MD/",
       "archetypes": ["Inzektor", "Battlewasp"]
     },
     {
       "title": "Interdimensional Interlopers",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Interdimensional_Interlopers.jpg",
+      "image_url": "https://ms.yugipedia.com//b/bd/Interdimensional_Interlopers-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Interdimensional%20Interlopers/MD/",
       "archetypes": ["Dream Mirror", "Nemeses", "Metaphys"]
     },
     {
       "title": "Invaders from Outer Space",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Invaders_from_Outer_Space.jpg",
+      "image_url": "https://ms.yugipedia.com//1/13/Invaders_from_Outer_Space-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Invaders%20from%20Outer%20Space/MD/",
       "archetypes": ["Worm", "Graydle"]
     },
     {
       "title": "Invulnerable Iron Wings",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Invulnerable_Iron_Wings.jpg",
+      "image_url": "https://ms.yugipedia.com//6/60/Invulnerable_Iron_Wings-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Invulnerable%20Iron%20Wings/MD/",
       "archetypes": ["Raidraptor"]
     },
     {
       "title": "Iron Core Synthetics",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Iron_Core_Synthetics.jpg",
+      "image_url": "https://ms.yugipedia.com//5/5c/Iron_Core_Synthetics-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Iron%20Core%20Synthetics/MD/",
       "archetypes": ["Koa'ki Meiru"]
     },
     {
       "title": "Justice Before Attribute",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Justice_Before_Attribute.jpg",
+      "image_url": "https://ms.yugipedia.com//c/c3/Justice_Before_Attribute-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Justice%20Before%20Attribute/MD/",
       "archetypes": ["Ally of Justice", "Flamvell"]
     },
     {
       "title": "Justice from Light",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Justice_from_Light.jpg",
+      "image_url": "https://ms.yugipedia.com//4/4e/Justice_from_Light-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Justice%20from%20Light/MD/",
       "archetypes": ["Lightsworn"]
     },
     {
       "title": "Knowledge of the Mythlords",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Knowledge_of_the_Mythlords.jpg",
+      "image_url": "https://ms.yugipedia.com//7/72/Knowledge_of_the_Mythlords-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Knowledge%20of%20the%20Mythlords/MD/",
       "archetypes": ["Endymion", "Mythical Beast"]
     },
     {
       "title": "Legends of Old",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Legends_of_Old.jpg",
+      "image_url": "https://ms.yugipedia.com//9/90/Legends_of_Old-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Legends%20of%20Old/MD/",
       "archetypes": ["Ancient Warriors", "Fairy Tale", "Fairy Tail"]
     },
     {
       "title": "Life Finds a Way",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Life_Finds_a_Way.jpg",
+      "image_url": "https://ms.yugipedia.com//4/4b/Life_Finds_a_Way-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Life%20Finds%20a%20Way/MD/",
       "archetypes": ["Evol", "Myutant"]
     },
     {
       "title": "Life Force Control System",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Life_Force_Control_System.jpg",
+      "image_url": "https://ms.yugipedia.com//d/dc/Life_Force_Control_System-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Life%20Force%20Control%20System/MD/",
       "archetypes": ["Qli", "Infernoid"]
     },
     {
       "title": "Magnificence of Angels",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Magnificence_of_Angels.jpg",
+      "image_url": "https://ms.yugipedia.com//3/34/Magnificence_of_Angels-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Magnificence%20of%20Angels/MD/",
       "archetypes": ["Valkyrie"]
     },
     {
       "title": "Mastery of the Grimoire",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Mastery_of_the_Grimoire.jpg",
+      "image_url": "https://ms.yugipedia.com//1/17/Mastery_of_the_Grimoire-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Mastery%20of%20the%20Grimoire/MD/",
       "archetypes": ["Prophecy"]
     },
     {
       "title": "Miraculous Advent",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Miraculous_Advent.jpg",
+      "image_url": "https://ms.yugipedia.com//c/c7/Miraculous_Advent-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Miraculous%20Advent/MD/",
       "archetypes": ["Megalith", "Herald", "Impcantation", "Ritual Monsters"]
     },
     {
       "title": "Mischievous Specters",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Mischievous_Specters.jpg",
+      "image_url": "https://ms.yugipedia.com//e/e9/Mischievous_Specters-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Mischievous%20Specters/MD/",
       "archetypes": ["Ghostrick"]
     },
     {
       "title": "Monster Overdrive",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Monster_Overdrive.jpg",
+      "image_url": "https://ms.yugipedia.com//8/85/Monster_Overdrive-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Monster%20Overdrive/MD/",
       "archetypes": ["Armed Dragon", "LV"]
     },
     {
       "title": "Moonlit Avian Dance",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Moonlit_Avian_Dance.jpg",
+      "image_url": "https://ms.yugipedia.com//d/d9/Moonlit_Avian_Dance-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Moonlit%20Avian%20Dance/MD/",
       "archetypes": ["Lunalight", "Lyrilusc"]
     },
@@ -623,61 +664,67 @@
     },
     {
       "title": "My Cute Lovely Friends",
-      "image_url": "https://images.ygoprodeck.com/images/sets/My_Cute_Lovely_Friends.jpg",
+      "image_url": "https://ms.yugipedia.com//b/b9/My_Cute_Lovely_Friends-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/My%20Cute%20Lovely%20Friends/MD/",
       "archetypes": ["Purrely", "Melffy"]
     },
     {
       "title": "Natural Selection",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Natural_Selection.jpg",
+      "image_url": "https://ms.yugipedia.com//f/f1/Natural_Selection-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Natural%20Selection/MD/",
       "archetypes": ["Cubic", "Predaplant"]
     },
     {
       "title": "Nebula Cyclone",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Nebula_Cyclone.jpg",
+      "image_url": "https://ms.yugipedia.com//c/c7/Nebula_Cyclone-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Nebula%20Cyclone/MD/",
       "archetypes": ["Photon", "Galaxy"]
     },
     {
       "title": "Neo Space Comrades",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Neo_Space_Comrades.jpg",
+      "image_url": "https://ms.yugipedia.com//6/62/Neo_Space_Comrades-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Neo%20Space%20Comrades/MD/",
       "archetypes": ["Neo-Spacian", "Elemental HERO"]
     },
     {
       "title": "New World Replete With Joy",
-      "image_url": "https://images.ygoprodeck.com/images/sets/New_World_Replete_With_Joy.jpg",
+      "image_url": "https://ms.yugipedia.com//1/1b/New_World_Replete_With_Joy-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/New%20World%20Replete%20With%20Joy/MD/",
       "archetypes": ["Mannadium", "Veda", "Visas", "Cupid"]
     },
     {
       "title": "Number Recall",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Number_Recall.jpg",
+      "image_url": "https://ms.yugipedia.com//6/6a/Number_Recall-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Number%20Recall/MD/",
       "archetypes": ["Number", "Numeron"]
     },
     {
       "title": "Onomatopair-Up",
-      "image_url": "https://ms.yugipedia.com//thumb/6/67/Onomatopair-Up-Pack-Master_Duel.png/257px-Onomatopair-Up-Pack-Master_Duel.png",
+      "image_url": "https://ms.yugipedia.com//6/67/Onomatopair-Up-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Onomatopair-Up/MD/",
       "archetypes": ["Zubaba", "Gagaga", "Gogogo", "Dododo"]
     },
     {
+      "title": "Overlay of Obsidian Armor",
+      "image_url": "https://ms.yugipedia.com//4/45/Overlay_of_Obsidian_Armor-Pack-Master_Duel.png",
+      "view_url": "https://ygoprodeck.com/pack/Overlay%20of%20Obsidian%20Armor/MD/",
+      "archetypes": ["Shark", "Armored Xyz"]
+    },
+    {
       "title": "Pearlescent Cyber Dragons",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Pearlescent_Cyber_Dragons.jpg",
+      "image_url": "https://ms.yugipedia.com//1/12/Pearlescent_Cyber_Dragons-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Pearlescent%20Cyber%20Dragons/MD/",
       "archetypes": ["Cyber Dragon", "Cyberdark"]
     },
     {
       "title": "Piercing Winds",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Piercing_Winds.jpg",
+      "image_url": "https://ms.yugipedia.com//1/1b/Piercing_Winds-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Piercing%20Winds/MD/",
       "archetypes": ["Simorgh", "Mist Valley", "Yosenju"]
     },
     {
       "title": "Pledge of Sword",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Pledge_of_Sword.jpg",
+      "image_url": "https://ms.yugipedia.com//7/70/Pledge_of_Sword-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Pledge%20of%20Sword/MD/",
       "archetypes": ["X-Saber", "Poker Knights"]
     },
@@ -689,31 +736,31 @@
     },
     {
       "title": "Prehistoric Beast Advance",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Prehistoric_Beast_Advance.jpg",
+      "image_url": "https://ms.yugipedia.com//e/e3/Prehistoric_Beast_Advance-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Prehistoric%20Beast%20Advance/MD/",
       "archetypes": ["Dinosaur", "Jurrac"]
     },
     {
       "title": "Primordial Rising",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Primordial_Rising.jpg",
+      "image_url": "https://ms.yugipedia.com//5/5a/Primordial_Rising-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Primordial%20Rising/MD/",
       "archetypes": ["Fossil", "Paleozoic", "Triamid"]
     },
     {
       "title": "Pyroxene Relinquished",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Pyroxene_Relinquished.jpg",
+      "image_url": "https://ms.yugipedia.com//a/a5/Pyroxene_Relinquished-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Pyroxene%20Relinquished/MD/",
       "archetypes": ["Gem-Knight", "Adamancipator"]
     },
     {
       "title": "Raging God of the Sea",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Raging_God_of_the_Sea.jpg",
+      "image_url": "https://ms.yugipedia.com//7/72/Raging_God_of_the_Sea-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Raging%20God%20of%20the%20Sea/MD/",
       "archetypes": ["Shark", "Kairyu-Shin", "Umi"]
     },
     {
       "title": "Rapid Aircraft Advancement",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Rapid_Aircraft_Advancement.jpg",
+      "image_url": "https://ms.yugipedia.com//1/18/Rapid_Aircraft_Advancement-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Rapid%20Aircraft%20Advancement/MD/",
       "archetypes": ["Mecha Phantom Beast", "Machina"]
     },
@@ -725,73 +772,79 @@
     },
     {
       "title": "Rites of the Mirrorworld",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Rites_of_the_Mirrorworld.jpg",
+      "image_url": "https://ms.yugipedia.com//b/b8/Rites_of_the_Mirrorworld-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Rites%20of%20the%20Mirrorworld/MD/",
       "archetypes": ["Gishki", "Nekroz"]
     },
     {
       "title": "Roaring Thunder",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Roaring_Thunder.jpg",
+      "image_url": "https://ms.yugipedia.com//5/57/Roaring_Thunder-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Roaring%20Thunder/MD/",
       "archetypes": ["Thunder Dragon", "Watt"]
     },
     {
       "title": "Roid Nexus",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Roid_Nexus.jpg",
+      "image_url": "https://ms.yugipedia.com//7/79/Roid_Nexus-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Roid%20Nexus/MD/",
       "archetypes": ["Roid"]
     },
     {
       "title": "Roused from Destruction",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Roused_from_Destruction.jpg",
+      "image_url": "https://ms.yugipedia.com//b/b8/Roused_from_Destruction-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Roused%20from%20Destruction/MD/",
       "archetypes": ["Nephthys", "Fire King", "Unchained"]
     },
     {
       "title": "Rulers of Darkness",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Rulers_of_Darkness.jpg",
+      "image_url": "https://ms.yugipedia.com//a/ac/Rulers_of_Darkness-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Rulers%20of%20Darkness/MD/",
       "archetypes": ["Dark World", "Lair of Darkness", "Virus"]
     },
     {
       "title": "Rulers of the Deep",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Rulers_of_the_Deep.jpg",
+      "image_url": "https://ms.yugipedia.com//3/34/Rulers_of_the_Deep-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Rulers%20of%20the%20Deep/MD/",
       "archetypes": ["Umi", "Phantasm Spiral"]
     },
     {
       "title": "Savage Crimson Dragon",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Savage_Crimson_Dragon.jpg",
+      "image_url": "https://ms.yugipedia.com//a/a2/Savage_Crimson_Dragon-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Savage%20Crimson%20Dragon/MD/",
       "archetypes": ["Resonator", "Red Dragon Archfiend"]
     },
     {
       "title": "Scientific Analysis",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Scientific_Analysis.jpg",
+      "image_url": "https://ms.yugipedia.com//d/d5/Scientific_Analysis-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Scientific%20Analysis/MD/",
       "archetypes": ["Magnet Warrior", "Bonding", "Chemicritter"]
     },
     {
       "title": "Scrap Iron Soldiers",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Scrap_Iron_Soldiers.jpg",
+      "image_url": "https://ms.yugipedia.com//2/2a/Scrap_Iron_Soldiers-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Scrap%20Iron%20Soldiers/MD/",
       "archetypes": ["Junk", "Warrior", "Synchron"]
     },
     {
       "title": "Secret Fighters",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Secret_Fighters.jpg",
+      "image_url": "https://ms.yugipedia.com//0/04/Secret_Fighters-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Secret%20Fighters/MD/",
       "archetypes": ["SPYRAL", "Super Quant"]
     },
     {
+      "title": "Sacred Imperial Tomb",
+      "image_url": "https://ms.yugipedia.com//c/cd/Sacred_Imperial_Tomb-Pack-Master_Duel.png",
+      "view_url": "https://ygoprodeck.com/pack/Sacred%20Imperial%20Tomb/MD/",
+      "archetypes": ["Ogdoadic", "Horus"]
+    },
+    {
       "title": "Seedling Soul Fey",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Seedling_Soul_Fey.jpg",
+      "image_url": "https://ms.yugipedia.com//b/b4/Seedling_Soul_Fey-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Seedling%20Soul%20Fey/MD/",
       "archetypes": ["Sylvan", "Sunavalon"]
     },
     {
       "title": "Seekers of Witchcraft",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Seekers_of_Witchcraft.jpg",
+      "image_url": "https://ms.yugipedia.com//9/92/Seekers_of_Witchcraft-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Seekers%20of%20Witchcraft/MD/",
       "archetypes": ["Magistus", "Invoked", "Witchcrafter"]
     },
@@ -803,61 +856,78 @@
     },
     {
       "title": "Shifting Gears",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Shifting_Gears.jpg",
+      "image_url": "https://ms.yugipedia.com//b/b8/Shifting_Gears-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Shifting%20Gears/MD/",
       "archetypes": ["Geargia", "Gadget", "Symphonic Warrior"]
     },
     {
+      "title": "Shining Sarcophagus of Destiny",
+      "image_url": "https://ms.yugipedia.com//a/a0/Shining_Sarcophagus_of_Destiny-Pack-Master_Duel.png",
+      "view_url": "https://ygoprodeck.com/pack/Shining%20Sarcophagus%20of%20Destiny/MD/",
+      "archetypes": [
+        "Shining Sarcophagus",
+        "Gandora",
+        "Magician Girl",
+        "Silent Magician"
+      ]
+    },
+    {
       "title": "Shot Through Fiction",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Shot_Through_Fiction.jpg",
+      "image_url": "https://ms.yugipedia.com//e/e8/Shot_Through_Fiction-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Shot%20Through%20Fiction/MD/",
       "archetypes": ["Rokket"]
     },
     {
       "title": "Shrouded Heroes",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Shrouded_Heroes.jpg",
+      "image_url": "https://ms.yugipedia.com//7/79/Shrouded_Heroes-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Shrouded%20Heroes/MD/",
       "archetypes": ["Destiny HERO", "Vision HERO"]
     },
     {
+      "title": "Sinful Serpent's Stare",
+      "image_url": "https://ms.yugipedia.com//0/03/Sinful_Serpent%27s_Stare-Pack-Master_Duel.png",
+      "view_url": "https://ygoprodeck.com/pack/Sinful%20Serpent's%20Stare/MD/",
+      "archetypes": ["Evolzar", "Sinful Spoils", "Snake-Eye", "Diabellstar"]
+    },
+    {
       "title": "Singular Strike Overthrow",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Singular_Strike_Overthrow.jpg",
+      "image_url": "https://ms.yugipedia.com//9/90/Singular_Strike_Overthrow-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Singular%20Strike%20Overthrow/MD/",
       "archetypes": ["Sky Striker", "Mathmech"]
     },
     {
       "title": "Sisters of the Light",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Sisters_of_the_Light.jpg",
+      "image_url": "https://ms.yugipedia.com//c/c0/Sisters_of_the_Light-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Sisters%20of%20the%20Light/MD/",
       "archetypes": ["Exosister", "Artifact"]
     },
     {
       "title": "Sky Striker Awakening",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Sky_Striker_Awakening.jpg",
+      "image_url": "https://ms.yugipedia.com//c/c6/Sky_Striker_Awakening-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Sky%20Striker%20Awakening/MD/",
       "archetypes": ["Sky Striker"]
     },
     {
       "title": "Soaring on Darkest Wings",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Soaring_on_Darkest_Wings.jpg",
+      "image_url": "https://ms.yugipedia.com//4/4c/Soaring_on_Darkest_Wings-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Soaring%20on%20Darkest%20Wings/MD/",
       "archetypes": ["Blackwing"]
     },
     {
       "title": "Soldiers from the Storm",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Soldiers_from_the_Storm.jpg",
+      "image_url": "https://ms.yugipedia.com//0/08/Soldiers_from_the_Storm-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Soldiers%20from%20the%20Storm/MD/",
       "archetypes": ["Code Talker", "Cyberse", "Cynet"]
     },
     {
       "title": "Songstress of Sorrow Song",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Songstress_of_Sorrow_Song.jpg",
+      "image_url": "https://ms.yugipedia.com//5/5e/Songstress_of_Sorrow_Song-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Songstress%20of%20Sorrow%20Song/MD/",
       "archetypes": ["Tearlaments", "Mermail", "Abyss-"]
     },
     {
       "title": "Souls of Sublime Gods",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Souls_of_Sublime_Gods.jpg",
+      "image_url": "https://ms.yugipedia.com//a/a7/Souls_of_Sublime_Gods-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Souls%20of%20Sublime%20Gods/MD/",
       "archetypes": ["Cyber Angel", "Shinobird", "Dual Avatar"]
     },
@@ -869,7 +939,7 @@
     },
     {
       "title": "Spiritual Mastery",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Spiritual_Mastery.jpg",
+      "image_url": "https://ms.yugipedia.com//1/18/Spiritual_Mastery-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Spiritual%20Mastery/MD/",
       "archetypes": ["Charmer"]
     },
@@ -881,7 +951,7 @@
     },
     {
       "title": "Stardust Ties",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Stardust_Ties.jpg",
+      "image_url": "https://ms.yugipedia.com//e/e6/Stardust_Ties-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Stardust%20Ties/MD/",
       "archetypes": ["Synchron", "Stardust"]
     },
@@ -893,79 +963,82 @@
     },
     {
       "title": "Supernatural Elements",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Supernatural_Elements.jpg",
+      "image_url": "https://ms.yugipedia.com//e/e2/Supernatural_Elements-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Supernatural%20Elements/MD/",
       "archetypes": ["Monarch", "Elementsaber"]
     },
     {
       "title": "Sword of the Seventh One",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Sword_of_the_Seventh_One.jpg",
+      "image_url": "https://ms.yugipedia.com//4/42/Sword_of_the_Seventh_One-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Sword%20of%20the%20Seventh%20One/MD/",
       "archetypes": ["Number 10X", "Star Seraph", "Umbral Horror", "Hand"]
     },
     {
       "title": "Synchro Mode Change",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Synchro_Mode_Change.jpg",
+      "image_url": "https://ms.yugipedia.com//5/5e/Synchro_Mode_Change-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Synchro%20Mode%20Change/MD/",
-      "archetypes": ["/Assault Mode", "Fusion Monsters that list Synchro Monsters as material"]
+      "archetypes": [
+        "/Assault Mode",
+        "Fusion Monsters that list Synchro Monsters as material"
+      ]
     },
     {
       "title": "Terra Firma Transcendents",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Terra_Firma_Transcendents.jpg",
+      "image_url": "https://ms.yugipedia.com//d/dd/Terra_Firma_Transcendents-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Terra%20Firma%20Transcendents/MD/",
       "archetypes": ["Earthbound Immortal", "Malefic"]
     },
     {
       "title": "The Azure in the Ivory",
-      "image_url": "https://images.ygoprodeck.com/images/sets/The_Azure_in_the_Ivory.jpg",
+      "image_url": "https://ms.yugipedia.com//e/ec/The_Azure_in_the_Ivory-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/The%20Azure%20in%20the%20Ivory/MD/",
       "archetypes": ["Blue-Eyes"]
     },
     {
       "title": "The Bizarre Playing Board",
-      "image_url": "https://images.ygoprodeck.com/images/sets/The_Bizarre_Playing_Board.jpg",
+      "image_url": "https://ms.yugipedia.com//5/50/The_Bizarre_Playing_Board-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/The%20Bizarre%20Playing%20Board/MD/",
       "archetypes": ["Vaylantz", "Performapal"]
     },
     {
       "title": "The Cerise in the Ebony",
-      "image_url": "https://images.ygoprodeck.com/images/sets/The_Cerise_in_the_Ebony.jpg",
+      "image_url": "https://ms.yugipedia.com//d/db/The_Cerise_in_the_Ebony-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/The%20Cerise%20in%20the%20Ebony/MD/",
       "archetypes": ["Red-Eyes"]
     },
     {
       "title": "The Cost of Dark Powers",
-      "image_url": "https://images.ygoprodeck.com/images/sets/The_Cost_of_Dark_Powers.jpg",
+      "image_url": "https://ms.yugipedia.com//6/69/The_Cost_of_Dark_Powers-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/The%20Cost%20of%20Dark%20Powers/MD/",
       "archetypes": ["Evil Eye", "Archfiend"]
     },
     {
       "title": "The Darkness Amuses",
-      "image_url": "https://images.ygoprodeck.com/images/sets/The_Darkness_Amuses.jpg",
+      "image_url": "https://ms.yugipedia.com//7/76/The_Darkness_Amuses-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/The%20Darkness%20Amuses/MD/",
       "archetypes": ["Amazement", "Abyss Actor"]
     },
     {
       "title": "The First Heroes",
-      "image_url": "https://images.ygoprodeck.com/images/sets/The_First_Heroes.jpg",
+      "image_url": "https://ms.yugipedia.com//7/7b/The_First_Heroes-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/The%20First%20Heroes/MD/",
       "archetypes": ["Elemental HERO"]
     },
     {
       "title": "The Great Olds",
-      "image_url": "https://images.ygoprodeck.com/images/sets/The_Great_Olds.jpg",
+      "image_url": "https://ms.yugipedia.com//9/9a/The_Great_Olds-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/The%20Great%20Olds/MD/",
       "archetypes": ["Egyptian God", "Exodia"]
     },
     {
       "title": "The Hidden Arts",
-      "image_url": "https://images.ygoprodeck.com/images/sets/The_Hidden_Arts.jpg",
+      "image_url": "https://ms.yugipedia.com//f/f8/The_Hidden_Arts-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/The%20Hidden%20Arts/MD/",
       "archetypes": ["Ninja"]
     },
     {
       "title": "The Infinite Void",
-      "image_url": "https://images.ygoprodeck.com/images/sets/The_Infinite_Void.jpg",
+      "image_url": "https://ms.yugipedia.com//6/68/The_Infinite_Void-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/The%20Infinite%20Void/MD/",
       "archetypes": ["Infernity"]
     },
@@ -977,99 +1050,111 @@
     },
     {
       "title": "The Noble Knights of Crimson Flowers",
-      "image_url": "https://images.ygoprodeck.com/images/sets/The_Noble_Knights_of_Crimson_Flowers.jpg",
+      "image_url": "https://ms.yugipedia.com//d/d2/The_Noble_Knights_of_Crimson_Flowers-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/The%20Noble%20Knights%20of%20Crimson%20Flowers/MD/",
       "archetypes": ["Fleur", "Infernoble Knight"]
     },
     {
       "title": "The Ones Who Serve Ra",
-      "image_url": "https://images.ygoprodeck.com/images/sets/The_Ones_Who_Serve_Ra.jpg",
+      "image_url": "https://ms.yugipedia.com//3/36/The_Ones_Who_Serve_Ra-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/The%20Ones%20Who%20Serve%20Ra/MD/",
       "archetypes": ["The Winged Dragon of Ra", "Exchange of the Spirit"]
     },
     {
       "title": "The Opening Act of an Apocalypse",
-      "image_url": "https://images.ygoprodeck.com/images/sets/The_Opening_Act_of_an_Apocalypse.jpg",
+      "image_url": "https://ms.yugipedia.com//1/16/The_Opening_Act_of_an_Apocalypse-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/The%20Opening%20Act%20of%20an%20Apocalypse/MD/",
       "archetypes": ["Despia", "Branded", "Darklord"]
     },
     {
       "title": "The Trap in the Wicked Castle",
-      "image_url": "https://images.ygoprodeck.com/images/sets/The_Trap_in_the_Wicked_Castle.jpg",
+      "image_url": "https://ms.yugipedia.com//6/6c/The_Trap_in_the_Wicked_Castle-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/The%20Trap%20in%20the%20Wicked%20Castle/MD/",
       "archetypes": ["Labrynth", "Spirit Message"]
     },
     {
       "title": "The Ultimate Traditional Art",
-      "image_url": "https://images.ygoprodeck.com/images/sets/The_Ultimate_Traditional_Art.jpg",
+      "image_url": "https://ms.yugipedia.com//2/26/The_Ultimate_Traditional_Art-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/The%20Ultimate%20Traditional%20Art/MD/",
       "archetypes": ["P.U.N.K.", "Karakuri"]
     },
     {
       "title": "Those who Stand Against Kings",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Those_who_Stand_Against_Kings.jpg",
+      "image_url": "https://ms.yugipedia.com//d/df/Those_who_Stand_Against_Kings-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Those%20who%20Stand%20Against%20Kings/MD/",
       "archetypes": ["Metalfoes", "Crystron", "Zoodiac"]
     },
     {
       "title": "Three-Strike Success",
-      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwc2RkO15anxB-WSoOaYi3ew5MY-6eZNiVEg&s",
+      "image_url": "https://ms.yugipedia.com//d/da/Three-Strike_Success-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Three-Strike%20Success/MD/",
       "archetypes": ["Gouki", "Dinowrestler"]
     },
     {
       "title": "Ties to Mother Nature",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Ties_to_Mother_Nature.jpg",
+      "image_url": "https://ms.yugipedia.com//9/96/Ties_to_Mother_Nature-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Ties%20to%20Mother%20Nature/MD/",
       "archetypes": ["Gusto", "Ritual Beast"]
     },
     {
       "title": "Timeworn Legacies",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Timeworn_Legacies.jpg",
+      "image_url": "https://ms.yugipedia.com//f/fa/Timeworn_Legacies-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Timeworn%20Legacies/MD/",
       "archetypes": ["Chronomaly"]
     },
     {
       "title": "Toontastic",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Toontastic.jpg",
+      "image_url": "https://ms.yugipedia.com//4/48/Toontastic-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Toontastic/MD/",
       "archetypes": ["Toon", "Relinquished"]
     },
     {
       "title": "Tournament Athletes",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Tournament_Athletes.jpg",
+      "image_url": "https://ms.yugipedia.com//3/32/Tournament_Athletes-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Tournament%20Athletes/MD/",
       "archetypes": ["U.A.", "F.A."]
     },
     {
       "title": "Traditions of Trickery",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Traditions_of_Trickery.jpg",
+      "image_url": "https://ms.yugipedia.com//7/71/Traditions_of_Trickery-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Traditions%20of%20Trickery/MD/",
       "archetypes": ["Karakuri", "Gizmek"]
     },
     {
+      "title": "Tranquil Benediction",
+      "image_url": "https://ms.yugipedia.com//e/eb/Tranquil_Benediction-Pack-Master_Duel.png",
+      "view_url": "https://ygoprodeck.com/pack/Tranquil%20Benediction/MD/",
+      "archetypes": ["Voiceless Voice", "Nephthys"]
+    },
+    {
       "title": "Transcendentalism",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Transcendentalism.jpg",
+      "image_url": "https://ms.yugipedia.com//4/46/Transcendentalism-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Transcendentalism/MD/",
       "archetypes": ["Transcendosaurus", "Dinomorphia"]
     },
     {
       "title": "Transfigured Heroes",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Transfigured_Heroes.jpg",
+      "image_url": "https://ms.yugipedia.com//d/da/Transfigured_Heroes-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Transfigured%20Heroes/MD/",
       "archetypes": ["Evil HERO", "Masked HERO", "Xtra HERO"]
     },
     {
       "title": "Transforming Tech",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Transforming_Tech.jpg",
+      "image_url": "https://ms.yugipedia.com//d/d8/Transforming_Tech-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Transforming%20Tech/MD/",
       "archetypes": ["Morphtronic"]
     },
     {
       "title": "Treasures of the Cosmic Ocean",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Treasures_of_the_Cosmic_Ocean.jpg",
+      "image_url": "https://ms.yugipedia.com//3/3c/Treasures_of_the_Cosmic_Ocean-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Treasures%20of%20the%20Cosmic%20Ocean/MD/",
       "archetypes": ["Icejade", "Ghoti", "White"]
+    },
+    {
+      "title": "True Awakening of the Oathbound Knights",
+      "image_url": "https://ms.yugipedia.com//1/1a/True_Awakening_of_the_Oathbound_Knights-Pack-Master_Duel.png",
+      "view_url": "https://ygoprodeck.com/pack/True%20Awakening%20of%20the%20Oathbound%20Knights/MD/",
+      "archetypes": ["Adamancipator", "Centur-Ion"]
     },
     {
       "title": "True Dracos' Forging",
@@ -1079,13 +1164,13 @@
     },
     {
       "title": "Valiant Gladiator Beasts",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Valiant_Gladiator_Beasts.jpg",
+      "image_url": "https://ms.yugipedia.com//2/22/Valiant_Gladiator_Beasts-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Valiant%20Gladiator%20Beasts/MD/",
       "archetypes": ["Gladiator Beast"]
     },
     {
       "title": "Vessels of Freedom",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Vessels_of_Freedom.jpg",
+      "image_url": "https://ms.yugipedia.com//d/d5/Vessels_of_Freedom-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Vessels%20of%20Freedom/MD/",
       "archetypes": ["Fur Hire", "Plunder Patroll"]
     },
@@ -1109,7 +1194,7 @@
     },
     {
       "title": "Warriors of Legend",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Warriors_of_Legend.jpg",
+      "image_url": "https://ms.yugipedia.com//8/87/Warriors_of_Legend-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Warriors%20of%20Legend/MD/",
       "archetypes": ["Gaia the Fierce Knight", "Buster Blader"]
     },
@@ -1121,25 +1206,25 @@
     },
     {
       "title": "Wings That Span the Sky",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Wings_That_Span_the_Sky.jpg",
+      "image_url": "https://ms.yugipedia.com//2/24/Wings_That_Span_the_Sky-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Wings%20That%20Span%20the%20Sky/MD/",
       "archetypes": ["Floowandereeze", "Simorgh"]
     },
     {
       "title": "World Cloaked in Magical Power",
-      "image_url": "https://images.ygoprodeck.com/images/sets/World_Cloaked_in_Magical_Power.jpg",
+      "image_url": "https://ms.yugipedia.com//7/70/World_Cloaked_in_Magical_Power-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/World%20Cloaked%20in%20Magical%20Power/MD/",
       "archetypes": ["Sacred Beast", "Wicked God", "Entity", "Yubel"]
     },
     {
       "title": "Worthy Adversaries",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Worthy_Adversaries.jpg",
+      "image_url": "https://ms.yugipedia.com//f/ff/Worthy_Adversaries-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Worthy%20Adversaries/MD/",
       "archetypes": ["Subterror", "Generaider"]
     },
     {
       "title": "Yearning Evil Body",
-      "image_url": "https://images.ygoprodeck.com/images/sets/Yearning_Evil_Body.jpg",
+      "image_url": "https://ms.yugipedia.com//1/13/Yearning_Evil_Body-Pack-Master_Duel.png",
       "view_url": "https://ygoprodeck.com/pack/Yearning%20Evil%20Body/MD/",
       "archetypes": ["lswarm"]
     }
