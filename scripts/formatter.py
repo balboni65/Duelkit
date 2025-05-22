@@ -5,6 +5,7 @@ import aiohttp
 import os
 from scripts import decklist_scraper
 from datetime import datetime, timezone
+import asyncio
 
 # Calls all functions in the file to update all json files
 async def update(interaction: discord.Interaction):
@@ -31,7 +32,12 @@ async def update(interaction: discord.Interaction):
         json.dump({"last_update": get_current_date()}, f)
 
     await message.edit(content="Beginning to update all topping decklists...")
-    await decklist_scraper.pull_data_from_ygo_pro(message)
+    
+    asyncio.create_task(decklist_scraper.pull_data_from_ygo_pro(message))
+    await message.edit(content="Initial updates complete. Decklist scraping is now running in the background.")
+
+
+    # await decklist_scraper.pull_data_from_ygo_pro(message)
 
 # retrieves the full card database from Konami's API
 async def retrieve_full_database(message):
@@ -382,5 +388,5 @@ def sanitize_card_name(card_name: str):
     return sanitized_name.lower()
 
 def get_current_date():
-    current_date_str = datetime.now(datetime.timezone.utc).strftime("%B %d, %Y")
+    current_date_str = datetime.now(timezone.utc).strftime("%B %d, %Y")
     return current_date_str

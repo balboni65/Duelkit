@@ -3232,7 +3232,7 @@
         },
         {
             "id": 10949074,
-            "name": "Anotherverse Stradios",
+            "name": "Anotherverse Stratios",
             "type": "Normal Monster",
             "race": "Warrior",
             "level": 8,
@@ -5589,6 +5589,16 @@
             "atk": 1600,
             "def": 1800,
             "attribute": "EARTH"
+        },
+        {
+            "id": 17749468,
+            "name": "Azamina",
+            "type": "Fusion Monster",
+            "race": "Illusion",
+            "level": 12,
+            "atk": 4000,
+            "def": 4000,
+            "attribute": "LIGHT"
         },
         {
             "id": 46396218,
