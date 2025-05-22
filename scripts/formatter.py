@@ -4,7 +4,7 @@ import discord
 import aiohttp
 import os
 from scripts import decklist_scraper
-from datetime import datetime
+from datetime import datetime, timezone
 
 # Calls all functions in the file to update all json files
 async def update(interaction: discord.Interaction):
@@ -382,5 +382,5 @@ def sanitize_card_name(card_name: str):
     return sanitized_name.lower()
 
 def get_current_date():
-    current_date_str = datetime.now().strftime("%B %d, %Y")
+    current_date_str = datetime.now(datetime.timezone.utc).strftime("%B %d, %Y")
     return current_date_str

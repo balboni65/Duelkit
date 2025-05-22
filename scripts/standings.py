@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from collections import Counter
 from matplotlib import animation
+from datetime import datetime
 import discord
 
 async def graph_season_standings(interaction: discord.Interaction):
@@ -53,36 +54,56 @@ async def graph_season_standings(interaction: discord.Interaction):
 def graph_season_standings_line(category_name, guild_id):
     weekly_wins = {}
     num_weeks = 0
+    all_tournaments = []
 
-    # Process each tournament file
+    # Get each tournament file
     for filename in os.listdir(f"guilds/{guild_id}/json/tournaments"):
         if category_name in filename:
             with open(f"guilds/{guild_id}/json/tournaments/{filename}", "r") as f:
                 data = json.load(f)
 
-            # Count wins for each player
-            weekly_results = Counter()
-            for round_data in data["pairings"]:
-                for matches in round_data.values():
-                    for match in matches:
-                        weekly_results[match["result"]] += 1
+                # Get the Date of the Tournament
+                date_str = data.get("date")
+                if date_str:
+                    try:
+                        date = datetime.fromisoformat(date_str)
+                        all_tournaments.append((date, data))
+                    except ValueError:
+                        print(f"Invalid date format in {filename}")
+                        
+                        all_tournaments.append((datetime.max, data))
+                else:
+                    print(f"No date in {filename}.")
+                    all_tournaments.append((datetime.max, data))
 
-            # Ensure all players are included, even if they have 0 wins in this tournament
-            all_players = set(weekly_results.keys())
-            for round_data in data["pairings"]:
-                for matches in round_data.values():
-                    for match in matches:
-                        for key, value in match.items():
-                            if "match" in key:
-                                player1, player2 = value.split(" vs ")
-                                all_players.update([player1, player2])
+    # Sort by Date
+    all_tournaments.sort(key=lambda x: x[0])
 
-            # Update weekly wins for each player
-            for player in all_players:
-                weekly_wins.setdefault(player, []).append(weekly_results.get(player, 0))
+    # Populate Graph
+    for date, tournament in all_tournaments:
+        # Count wins for each player
+        weekly_results = Counter()
+        for round_data in tournament["pairings"]:
+            for matches in round_data.values():
+                for match in matches:
+                    weekly_results[match["result"]] += 1
 
-            # Increment the number of weeks played
-            num_weeks += 1
+        # Ensure all players are included, even if they have 0 wins in this tournament
+        all_players = set(weekly_results.keys())
+        for round_data in tournament["pairings"]:
+            for matches in round_data.values():
+                for match in matches:
+                    for key, value in match.items():
+                        if "match" in key:
+                            player1, player2 = value.split(" vs ")
+                            all_players.update([player1, player2])
+
+        # Update weekly wins for each player
+        for player in all_players:
+            weekly_wins.setdefault(player, []).append(weekly_results.get(player, 0))
+
+        # Increment the number of weeks played
+        num_weeks += 1
 
     # Ensure all players have a complete history of weeks
     for player in weekly_wins:
@@ -158,39 +179,56 @@ def graph_season_standings_line(category_name, guild_id):
 def graph_season_standings_bar(category_name, guild_id):
     weekly_wins = {}
     num_weeks = 0
+    all_tournaments = []
 
-    # For every file within the tournaments folder
+    # Get each tournament file
     for filename in os.listdir(f"guilds/{guild_id}/json/tournaments"):
-        # If the category name is in the file name, open the file
         if category_name in filename:
             with open(f"guilds/{guild_id}/json/tournaments/{filename}", "r") as f:
                 data = json.load(f)
 
-            # Count wins for each player
-            weekly_results = Counter()
+                # Get the Date of the Tournament
+                date_str = data.get("date")
+                if date_str:
+                    try:
+                        date = datetime.fromisoformat(date_str)
+                        all_tournaments.append((date, data))
+                    except ValueError:
+                        print(f"Invalid date format in {filename}")
+                        
+                        all_tournaments.append((datetime.max, data))
+                else:
+                    print(f"No date in {filename}.")
+                    all_tournaments.append((datetime.max, data))
 
-            # Count wins for each match
-            for round_data in data["pairings"]:
-                for matches in round_data.values():
-                    for match in matches:
-                        weekly_results[match["result"]] += 1
+    # Sort by Date
+    all_tournaments.sort(key=lambda x: x[0])
 
-            # Ensure all players are included, even with 0 wins
-            all_players = set(weekly_results.keys())
-            for round_data in data["pairings"]:
-                for matches in round_data.values():
-                    for match in matches:
-                        for key, value in match.items():
-                            if "match" in key:
-                                player1, player2 = value.split(" vs ")
-                                all_players.update([player1, player2])
+    # Populate Graph
+    for date, tournament in all_tournaments:
+        # Count wins for each player
+        weekly_results = Counter()
+        for round_data in tournament["pairings"]:
+            for matches in round_data.values():
+                for match in matches:
+                    weekly_results[match["result"]] += 1
 
-            # Append weekly results
-            for player in all_players:
-                weekly_wins.setdefault(player, []).append(weekly_results.get(player, 0))
+        # Ensure all players are included, even if they have 0 wins in this tournament
+        all_players = set(weekly_results.keys())
+        for round_data in tournament["pairings"]:
+            for matches in round_data.values():
+                for match in matches:
+                    for key, value in match.items():
+                        if "match" in key:
+                            player1, player2 = value.split(" vs ")
+                            all_players.update([player1, player2])
 
-            # After a tournament is scored, increment the number of weeks played
-            num_weeks += 1
+        # Update weekly wins for each player
+        for player in all_players:
+            weekly_wins.setdefault(player, []).append(weekly_results.get(player, 0))
+
+        # Increment the number of weeks played
+        num_weeks += 1
 
     # Ensure every player has a full history of weeks (fill missing weeks with 0)
     for player in weekly_wins:

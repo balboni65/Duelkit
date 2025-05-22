@@ -2,15 +2,17 @@ import json
 import os
 import discord
 from scripts import formatter
+from datetime import datetime
 
 # Creates a tournament bracket for a given list of players
 def bracket_builder(tournamentName, playerList, guild_id):
     # Define the base of the bracket json object
     bracket = {
         "title": "Tournament Bracket:",
-        "pairings": []
+        "pairings": [],
+        "date": datetime.now(datetime.timezone.utc).isoformat()
         }
-    
+
     # Number of rounds per tournament
     rounds_per_bracket = roundsPerBracket(playerList)
     # Number of matches per round
